@@ -221,7 +221,7 @@
   },
   {
     "trader": "Celeste",
-    "itemId": "magnets",
+    "itemId": "magnet",
     "quantity": 1,
     "cost": {
       "itemId": "assorted_seeds",
