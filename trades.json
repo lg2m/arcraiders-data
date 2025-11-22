@@ -342,10 +342,10 @@
   {
     "trader": "Tian Wen",
     "itemId": "launcher_ammo",
-    "quantity": 1,
+    "quantity": 6,
     "cost": {
       "itemId": "coins",
-      "quantity": 3000
+      "quantity": 4500
     },
     "dailyLimit": null
   },
