@@ -1,6 +1,8 @@
 {
   "id": "ss10x18",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": ["buried_city"],
   "name": {
     "en": "Building a Library",
     "de": "Eine Bibliothek aufbauen",
@@ -144,6 +146,9 @@
       "hr": "Dostavi 3 knjige Apolonu"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "explosive_mine",

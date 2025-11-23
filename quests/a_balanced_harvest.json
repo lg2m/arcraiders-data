@@ -1,6 +1,10 @@
 {
   "id": "ss10x",
   "updatedAt": "11/06/2025",
+  "videoUrl": "https://youtu.be/VYI9tJsScmg",
+  "mapIds": [
+    "dam_battlegrounds"
+  ],
   "name": {
     "en": "A Balanced Harvest",
     "de": "Eine ausgewogene Ernte",
@@ -22,7 +26,6 @@
     "hr": "Uravnotežena žetva"
   },
   "trader": "Celeste",
-  "videoUrl": "https://youtu.be/VYI9tJsScmg",
   "description": {
     "en": "Our food production is finally enough to meet our basic needs, but what we really need now is variety. I have a lead on some agricultural research from before the First Wave. Are you in?",
     "de": "Unsere Nahrungsmittelproduktion reicht endlich aus, um unsere Grundbedürfnisse zu decken, aber was wir jetzt wirklich brauchen, ist Vielfalt. Ich habe einen Hinweis auf landwirtschaftliche Forschung von vor der Ersten Welle. Bist du dabei?",
@@ -85,7 +88,7 @@
       "hr": "Pronađi Laboratorij 1 na gornjem katu iznad recepcije"
     },
     {
-      "en": "Search for any traces of the agricultural project",
+      "en": "Search for any traces of the agricultural research project",
       "de": "Suche nach Spuren des landwirtschaftlichen Projekts",
       "fr": "Cherchez des traces du projet agricole",
       "es": "Busca cualquier rastro del proyecto agrícola",
@@ -105,6 +108,9 @@
       "hr": "Potraži bilo kakve tragove poljoprivrednog projekta"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "advanced_mechanical_components",

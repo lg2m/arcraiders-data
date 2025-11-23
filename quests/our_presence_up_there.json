@@ -1,6 +1,10 @@
 {
   "id": "ss10z",
   "updatedAt": "11/06/2025",
+  "videoUrl": "https://youtu.be/FNe2C3gde68",
+  "mapIds": [
+    "dam_battlegrounds"
+  ],
   "name": {
     "en": "Our Presence Up There",
     "de": "Unsere Präsenz dort oben",
@@ -22,7 +26,6 @@
     "hr": "Naša Prisutnost Tamo Gore"
   },
   "trader": "Shani",
-  "videoUrl": "https://youtu.be/FNe2C3gde68",
   "description": {
     "en": "ARC may be changing, but we're finally changing with it. Let's finish up those outposts and revolutionize the way we track them, flank them, and smash them to bits.",
     "de": "ARC mag sich verändern, aber wir verändern uns endlich mit. Lass uns diese Außenposten fertigstellen und die Art und Weise revolutionieren, wie wir sie aufspüren, flankieren und in Stücke schlagen.",
@@ -105,6 +108,10 @@
       "hr": "Završi instalaciju antene na krovu"
     }
   ],
+  "tips": [],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "buried_city_town_hall_key",

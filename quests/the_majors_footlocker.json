@@ -1,6 +1,10 @@
 {
   "id": "ss10u",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "dam_battlegrounds"
+  ],
   "name": {
     "en": "The Major's Footlocker",
     "de": "Die Truhe des Majors",
@@ -84,12 +88,14 @@
       "hr": "Dostavi uspomene Major Aive Tian Wenu"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "major_aiva_mementos",
       "quantity": 1
     }
   ],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "hullcracker_blueprint",

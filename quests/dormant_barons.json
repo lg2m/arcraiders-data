@@ -1,6 +1,12 @@
 {
   "id": "ss10b",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "dam_battlegrounds",
+    "spaceport",
+    "the_blue_gate"
+  ],
   "name": {
     "en": "Dormant Barons",
     "de": "Schlafende Barone",
@@ -64,6 +70,9 @@
       "hr": "Opljačkaj ljušturu Barona"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "door_blocker",
@@ -76,8 +85,7 @@
   ],
   "xp": 0,
   "previousQuestIds": [
-    "ss10a",
-    "ss9"
+    "ss10a"
   ],
   "nextQuestIds": [
     "ss10d",

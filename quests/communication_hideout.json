@@ -1,6 +1,10 @@
 {
   "id": "ss11b2",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
   "name": {
     "en": "Communication Hideout",
     "de": "Kommunikationsversteck",
@@ -21,7 +25,6 @@
     "sr": "Komunikaciono skrovište",
     "hr": "Komunikacijsko skrovište"
   },
-  "map": "buried_city",
   "trader": "Shani",
   "description": {
     "en": "We've been losing signals in some areas of Buried City—my guess is that our equipment is acting up. You're quite skilled with repairs, aren't you? Could you check it out?",
@@ -145,9 +148,9 @@
       "hr": "Pokreni antenski terminal blizu Crvenog tornja"
     }
   ],
-  "tips": [
-    "The Battery is on the ground near a steel building"
-  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "crimson_racer_aviator",
@@ -164,8 +167,9 @@
   ],
   "xp": 0,
   "previousQuestIds": [
-    "ss10y",
     "ss11b"
   ],
-  "nextQuestIds": []
+  "nextQuestIds": [
+    "ss10x5"
+  ]
 }

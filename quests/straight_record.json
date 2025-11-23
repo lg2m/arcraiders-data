@@ -1,6 +1,10 @@
 {
   "id": "ss10j",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "dam_battlegrounds"
+  ],
   "name": {
     "en": "Straight Record",
     "de": "Gute Aufnahme",
@@ -164,6 +168,8 @@
       "hr": "Isključi EMP zamku"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
   "grantedItemIds": [
     {
       "itemId": "binoculars",

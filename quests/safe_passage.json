@@ -1,6 +1,8 @@
 {
   "id": "ss8",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "Safe Passage",
     "de": "Sicherer Durchgang",
@@ -23,8 +25,9 @@
   },
   "trader": "Apollo",
   "description": {
-	"de": "Ich hab Gerüchte über ein Singal gehört, das Shani aufgefangen hat. Die ARC passen sich ständig an, und ich bin mir sicher, dass das nicht ihr letztes Warnsignal sein wird. Na ja, wenn sie ein Wettrüsten wollen, dann kriegen sie eins."
-  },  
+    "en": "I heard rumors about some signal Shani picked up. ARC is constantly adapting, and I'm sure this won't be their last warning sign. Well, if it's an arms race they want, they can get one.",
+    "de": "Ich hab Gerüchte über ein Singal gehört, das Shani aufgefangen hat. Die ARC passen sich ständig an, und ich bin mir sicher, dass das nicht ihr letztes Warnsignal sein wird. Na ja, wenn sie ein Wettrüsten wollen, dann kriegen sie eins."
+  },
   "objectives": [
     {
       "en": "Destroy 2 ARC enemies using any explosive grenade",
@@ -47,6 +50,8 @@
       "hr": "Uništite 2 ARC neprijatelja koristeći bilo koju eksplozivnu granatu"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
   "grantedItemIds": [
     {
       "itemId": "light_impact_grenade",

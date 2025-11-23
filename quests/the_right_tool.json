@@ -1,6 +1,8 @@
 {
   "id": "ss7",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "The Right Tool",
     "de": "Das richtige Werkzeug",
@@ -23,8 +25,9 @@
   },
   "trader": "Tian Wen",
   "description": {
+    "en": "You're one of the new arrivals, right? I need a volunteer to test out this upgraded Ferro; should cut through ARC plating like butter. Go put holes in some machines, and report back to me.",
     "de": "Du gehörst zu den Neuankömmlingen, oder? Ich brauche einen Freiwilligen, der dieses verbesserte Ferro ausprobiert - es sollte ARC-Panzerungen durchschneiden wie Butter. Baller Löcher in ein paar Maschinen und erstatte mir dann Bericht."
-  },  
+  },
   "objectives": [
     {
       "en": "Destroy a Fireball",
@@ -87,6 +90,8 @@
       "hr": "Uništite Kupolu"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
   "grantedItemIds": [
     {
       "itemId": "ferro_iv",
@@ -112,6 +117,10 @@
     }
   ],
   "xp": 0,
-  "previousQuestIds": ["ss5"],
-  "nextQuestIds": ["ss10"]
+  "previousQuestIds": [
+    "ss5"
+  ],
+  "nextQuestIds": [
+    "ss10"
+  ]
 }

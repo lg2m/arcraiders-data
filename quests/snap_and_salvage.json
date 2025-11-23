@@ -1,6 +1,10 @@
 {
   "id": "12_snap_and_salvage",
   "updatedAt": "11/14/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "stella_montis"
+  ],
   "name": {
     "en": "Snap and Salvage",
     "de": "Schnappschuss und Bergung",
@@ -124,6 +128,17 @@
       "hr": "Dostavi jedan Flow Controller Tian Wenu"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [
+    {
+      "itemId": "flow_controller",
+      "quantity": 1
+    },
+    {
+      "itemId": "magnetron",
+      "quantity": 1
+    }
+  ],
   "grantedItemIds": [],
   "rewardItemIds": [
     {
@@ -144,16 +159,6 @@
     }
   ],
   "xp": 0,
-  "requiredItemIds": [
-    {
-      "itemId": "flow_controller",
-      "quantity": 1
-    },
-    {
-      "itemId": "magnetron",
-      "quantity": 1
-    }
-  ],
   "previousQuestIds": [
     "12_cold_storage"
   ],

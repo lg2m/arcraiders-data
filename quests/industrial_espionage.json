@@ -1,6 +1,10 @@
 {
   "id": "ss10n",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
   "name": {
     "en": "Industrial Espionage",
     "de": "Industriespionage",
@@ -104,6 +108,8 @@
       "hr": "Postavi prisluškivač na ostavu oružja"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
   "grantedItemIds": [
     {
       "itemId": "burletta_i",
@@ -128,5 +134,7 @@
   "previousQuestIds": [
     "ss10m"
   ],
-  "nextQuestIds": []
+  "nextQuestIds": [
+    "ss10q"
+  ]
 }

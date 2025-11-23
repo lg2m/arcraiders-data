@@ -1,6 +1,8 @@
 {
   "id": "ss1",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "Picking Up The Pieces",
     "de": "Die Scherben aufsammeln",
@@ -84,9 +86,12 @@
       "hr": "Opljačkajte 3 kontejnera"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
-      "itemId": "ferro_iii",
+      "itemId": "rattler_iii",
       "quantity": 1
     },
     {

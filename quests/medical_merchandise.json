@@ -1,6 +1,12 @@
 {
   "id": "ss10f",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "spaceport",
+    "buried_city",
+    "dam_battlegrounds"
+  ],
   "name": {
     "en": "Medical Merchandise",
     "de": "Medizinisches Merchandise",
@@ -104,6 +110,9 @@
       "hr": "Na Bojnom Polju Brane, pretraži 2 kontejnera u medicinskoj sobi zgrade za Istraživanje i Administraciju"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "banana",
@@ -119,6 +128,10 @@
     }
   ],
   "xp": 0,
-  "previousQuestIds": ["ss10c"],
-  "nextQuestIds": ["ss10g"]
+  "previousQuestIds": [
+    "ss10c"
+  ],
+  "nextQuestIds": [
+    "ss10g"
+  ]
 }

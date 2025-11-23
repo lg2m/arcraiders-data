@@ -1,6 +1,8 @@
 {
   "id": "ss8a",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "What Goes Around",
     "de": "Alles rächt sich",
@@ -64,6 +66,8 @@
       "hr": "Uništi bilo kojeg ARC neprijatelja koristeći Fireball Burner"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
   "grantedItemIds": [
     {
       "itemId": "red_light_stick",

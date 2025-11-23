@@ -1,6 +1,10 @@
 {
   "id": "ss10x9",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "spaceport"
+  ],
   "name": {
     "en": "Prescriptions of the Past",
     "de": "Rezepte der Vergangenheit",
@@ -104,6 +108,9 @@
       "hr": "Traži zapise"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "heavy_shield",
@@ -112,6 +119,10 @@
     {
       "itemId": "tactical_mk3_healing",
       "quantity": 1
+    },
+    {
+      "itemId": "adrenaline_shot",
+      "quantity": 3
     }
   ],
   "xp": 0,

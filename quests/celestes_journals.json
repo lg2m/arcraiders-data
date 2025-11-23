@@ -1,6 +1,8 @@
 {
   "id": "ss10t",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": ["dam_battlegrounds"],
   "name": {
     "en": "Celeste's Journals",
     "de": "Celestes Tagebücher",
@@ -104,12 +106,14 @@
       "hr": "Dostavi 2 Dnevnika Celeste"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "celeste_journal",
       "quantity": 2
     }
   ],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "magnetic_accelerator",

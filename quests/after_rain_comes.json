@@ -1,6 +1,10 @@
 {
   "id": "ss10y",
   "updatedAt": "11/06/2025",
+  "videoUrl": "https://youtu.be/jP__SkIV-9E",
+  "mapIds": [
+    "buried_city"
+  ],
   "name": {
     "en": "After Rain Comes",
     "de": "Nach dem Regen kommt",
@@ -22,7 +26,6 @@
     "hr": "Nakon kiše dolazi"
   },
   "trader": "Celeste",
-  "videoUrl": "https://youtu.be/jP__SkIV-9E",
   "description": {
     "en": "I know, I know! The power's down in sector— Oh, hey. A flash flood took out some of our solar panels in Buried City, and the generators only hold on for so long. Do us all a solid when you're up there, OK?",
     "de": "Ich weiß, ich weiß! Der Strom ist ausgefallen im Sektor— Oh, hey. Eine Sturzflut hat einige unserer Solarpaneele in der Begrabenen Stadt zerstört, und die Generatoren halten nur so lange durch. Tu uns allen einen Gefallen, wenn du dort oben bist, okay?",
@@ -85,6 +88,7 @@
       "hr": "Popravi solarne panele koristeći 5 Žica i 2 Baterije"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "wires",
@@ -119,5 +123,5 @@
   "previousQuestIds": [
     "ss10s"
   ],
-  "nextQuestIds": []
+  "nextQuestIds": ["ss10x4"]
 }

@@ -1,6 +1,10 @@
 {
   "id": "ss10l",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
   "name": {
     "en": "Market Correction",
     "de": "Marktkorrektur",
@@ -84,6 +88,9 @@
       "hr": "Sabotiraj ostavu"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "silencer_ii",

@@ -1,6 +1,10 @@
 {
   "id": "ss10r",
   "updatedAt": "11/06/2025",
+  "videoUrl": "https://www.youtube.com/watch?v=6Cb6aQWBt8U",
+  "mapIds": [
+    "dam_battlegrounds"
+  ],
   "name": {
     "en": "A Symbol of Unification",
     "de": "Ein Symbol der Einheit",
@@ -104,6 +108,9 @@
       "hr": "Podigni zastavu na maloj platformi s pogledom na Crveno jezero"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "aviator",
@@ -118,7 +125,6 @@
       "quantity": 5
     }
   ],
-  "videoUrl": "https://www.youtube.com/watch?v=6Cb6aQWBt8U",
   "xp": 0,
   "previousQuestIds": [
     "ss10q"

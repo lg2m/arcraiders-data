@@ -1,6 +1,12 @@
 {
   "id": "ss10e",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city",
+    "dam_battlegrounds",
+    "spaceport"
+  ],
   "name": {
     "en": "What We Left Behind",
     "de": "Was wir zurückließen",
@@ -104,6 +110,9 @@
       "hr": "Na Svemirskoj Luci, traži bilo što značajno u Bilguunovom Skrovištu, pored Skladišta Kontejnera"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "muzzle_brake_ii",

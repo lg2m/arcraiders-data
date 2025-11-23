@@ -1,6 +1,12 @@
 {
   "id": "ss10a",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "spaceport",
+    "dam_battlegrounds",
+    "buried_city"
+  ],
   "name": {
     "en": "Greasing Her Palms",
     "de": "Hände gerieben",
@@ -104,6 +110,8 @@
       "hr": "U Zakopanom Gradu, posjeti barikadiranu oblast na katu 6 zgrade Svemirskih Putovanja"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
   "grantedItemIds": [
     {
       "itemId": "dam_surveillance_key",
@@ -125,6 +133,11 @@
     }
   ],
   "xp": 0,
-  "previousQuestIds": ["ss10"],
-  "nextQuestIds": ["ss10b", "ss10c"]
+  "previousQuestIds": [
+    "ss10"
+  ],
+  "nextQuestIds": [
+    "ss10b",
+    "ss10c"
+  ]
 }

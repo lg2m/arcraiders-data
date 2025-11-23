@@ -1,6 +1,8 @@
 {
   "id": "ss10o",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": ["dam_battlegrounds"],
   "name": {
     "en": "Keeping the Memory",
     "de": "Die Erinnerung bewahren",
@@ -104,6 +106,9 @@
       "hr": "Vrati kacigu na spomenik"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "simple_gun_parts",

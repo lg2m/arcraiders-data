@@ -24,9 +24,9 @@
         "image": "https://cdn.arctracker.io/maps/dam_battlegrounds.png"
     },
     {
-        "id": "the_spaceport",
+        "id": "spaceport",
         "name": {
-            "en": "The Spaceport",
+            "en": "Spaceport",
             "de": "Der Raumnhafen",
             "fr": "le_spatioport",
             "es": "el_puerto_espacial",
@@ -47,7 +47,7 @@
         },
         "image": "https://cdn.arctracker.io/maps/the_spaceport.png"
     },
-        {
+    {
         "id": "buried_city",
         "name": {
             "en": "Buried City",
@@ -71,7 +71,7 @@
         },
         "image": "https://cdn.arctracker.io/maps/buried_city.png"
     },
-        {
+    {
         "id": "the_blue_gate",
         "name": {
             "en": "The Blue Gate",
@@ -95,7 +95,7 @@
         },
         "image": "https://cdn.arctracker.io/maps/the_blue_gate.png"
     },
-        {
+    {
         "id": "stella_montis_upper",
         "name": {
             "en": "Stella Montis",
@@ -119,7 +119,7 @@
         },
         "image": "https://cdn.arctracker.io/maps/stella_montis_upper.png"
     },
-            {
+    {
         "id": "stella_montis_lower",
         "name": {
             "en": "Stella Montis",

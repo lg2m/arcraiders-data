@@ -1,6 +1,10 @@
 {
   "id": "ss10i",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
   "name": {
     "en": "Marked for Death",
     "de": "Zum Tode verurteilt",
@@ -104,6 +108,9 @@
       "hr": "Prati tragove"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "shotgun_choke_ii",

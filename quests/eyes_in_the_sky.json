@@ -1,6 +1,12 @@
 {
   "id": "ss10s",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "dam_battlegrounds",
+    "buried_city",
+    "spaceport"
+  ],
   "name": {
     "en": "Eyes in the Sky",
     "de": "Augen am Himmel",
@@ -104,6 +110,8 @@
       "hr": "U Zakopanom gradu, instalirajte LiDAR skener na vrhu natpisa Galleria"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
   "grantedItemIds": [
     {
       "itemId": "zipline",
@@ -130,6 +138,7 @@
   ],
   "nextQuestIds": [
     "ss10x",
-    "ss10y"
+    "ss10y",
+    "ss10w"
   ]
 }

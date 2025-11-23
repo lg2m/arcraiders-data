@@ -1,6 +1,8 @@
 {
   "id": "ss9",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "The Trifecta",
     "de": "Die Triade",
@@ -164,6 +166,7 @@
       "hr": "Nabavi 2 Hornet Drivera za Shani"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "snitch_scanner",
@@ -199,6 +202,8 @@
     }
   ],
   "xp": 0,
-  "previousQuestIds": ["ss6"],
-  "nextQuestIds": ["ss10b"]
+  "previousQuestIds": [
+    "ss6"
+  ],
+  "nextQuestIds": []
 }

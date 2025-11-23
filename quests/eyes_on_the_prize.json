@@ -1,6 +1,10 @@
 {
   "id": "ss10m",
   "updatedAt": "11/12/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
   "name": {
     "en": "Eyes on the Prize",
     "de": "Die Augen auf den Preis",
@@ -84,12 +88,14 @@
       "hr": "Ponovo poveži solarni panel koristeći 3 Žice"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "wire",
       "quantity": 3
     }
   ],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "extended_shotgun_mag_ii",

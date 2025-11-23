@@ -1,6 +1,8 @@
 {
   "id": "ss3",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "Trash Into Treasure",
     "de": "Des einen Müll ist des anderen Schatz",
@@ -22,9 +24,10 @@
     "hr": "Od Smeća do Blaga"
   },
   "trader": "Shani",
-"description": {
+  "description": {
+    "en": "There's no such thing as junk, to a Raider; just valuable materials waiting to be recycled. If you're going to amount to anything around here, you can't just wait for things to be served on a silver platter.",
     "de": "Für einen Raider gibt es keinen Schrott, das sind alles Wertstoffe, die recycelt werden wollen. Wenn du hier etwas erreichen willst, kannst du nicht darauf warten, dass dir alles auf dem Silbertablett serviert wird."
-  },  
+  },
   "objectives": [
     {
       "en": "Obtain 6 Wires",
@@ -67,6 +70,7 @@
       "hr": "Nabavite 1 bateriju"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "wires",
@@ -77,6 +81,7 @@
       "quantity": 1
     }
   ],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "tactical_mk1",

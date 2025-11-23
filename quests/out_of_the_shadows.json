@@ -1,6 +1,8 @@
 {
   "id": "ss10v",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "Out of the Shadows",
     "de": "Aus den Schatten",
@@ -84,6 +86,7 @@
       "hr": "Pribavi Rocketeer Driver"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "rocketeer_driver",

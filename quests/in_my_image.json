@@ -1,6 +1,10 @@
 {
   "id": "12_in_my_image",
   "updatedAt": "11/14/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "stella_montis"
+  ],
   "name": {
     "en": "In My Image",
     "de": "Mein Ebenbild",
@@ -84,6 +88,8 @@
       "hr": "Pronađi i pretresi 3 Androida"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
   "grantedItemIds": [
     {
       "itemId": "defibrillator",
@@ -102,5 +108,7 @@
   ],
   "xp": 0,
   "previousQuestIds": [],
-  "nextQuestIds": []
+  "nextQuestIds": [
+    "12_cold_storage"
+  ]
 }

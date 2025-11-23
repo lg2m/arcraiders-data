@@ -1,6 +1,8 @@
 {
   "id": "ss2",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "Clearer Skies",
     "de": "Klarer Himmel",
@@ -22,9 +24,10 @@
     "hr": "Vedro Nebo"
   },
   "trader": "Shani",
-"description": {
+  "description": {
+    "en": "A swarm of disoriented Wasps crashed near one of our skylights. I need you to help thin ARC's ranks before any more accidents happen, and gather some extra sturdy materials to fix the damage.",
     "de": "Ein Schwarm orientierungsloser Wespen ist in der Nähe eines unserer Oberlichter abgestürzt. Du musst die Reihen der ARC lichten, bevor noch mehr Unfälle passieren. Und kannst du ein paar besonders robuste Materialien sammeln, um den Schaden zu beheben?"
-  },  
+  },
   "objectives": [
     {
       "en": "Destroy 3 ARC enemies",
@@ -67,12 +70,14 @@
       "hr": "Nabavite 3 ARC legure za Shani"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "arc_alloy",
       "quantity": 3
     }
   ],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "backpack_black_hiker_color",

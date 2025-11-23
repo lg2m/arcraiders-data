@@ -1,6 +1,8 @@
 {
   "id": "ss5a",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "Hatch Repairs",
     "de": "Lukenreparatur",
@@ -64,6 +66,9 @@
       "hr": "Popravite cijevi hidraulike koje cure blizu Raider Otvora"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "raider_hatch_key",
@@ -78,5 +83,7 @@
   "previousQuestIds": [
     "ss5"
   ],
-  "nextQuestIds": []
+  "nextQuestIds": [
+    "ss6"
+  ]
 }

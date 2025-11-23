@@ -1,6 +1,8 @@
 {
   "id": "ss10p",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": ["dam_battlegrounds"],
   "name": {
     "en": "Echoes of Victory Ridge",
     "de": "Echos vom Siegeskamm",
@@ -104,6 +106,9 @@
       "hr": "Dostavi zakrpu Majora Alve Celeste"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "crude_explosives",

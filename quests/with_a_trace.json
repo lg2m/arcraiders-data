@@ -1,6 +1,10 @@
 {
   "id": "ss11bx",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "the_blue_gate"
+  ],
   "name": {
     "en": "With a Trace",
     "de": "Mit einer Spur",
@@ -124,6 +128,9 @@
       "hr": "Preglédaj komunikacijski uređaj"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "looting_mk2",
@@ -138,5 +145,7 @@
   "previousQuestIds": [
     "ss11a"
   ],
-  "nextQuestIds": []
+  "nextQuestIds": [
+    "ss10x20"
+  ]
 }

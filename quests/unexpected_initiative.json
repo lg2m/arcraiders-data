@@ -1,6 +1,10 @@
 {
   "id": "ss10q",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
   "name": {
     "en": "Unexpected Initiative",
     "de": "Unerwartete Initiative",
@@ -164,6 +168,7 @@
       "hr": "Dostavi gnojivo Tian Wenu"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "water_pump",
@@ -174,6 +179,7 @@
       "quantity": 1
     }
   ],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "il_toro_i",

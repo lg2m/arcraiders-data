@@ -1,6 +1,10 @@
 {
   "id": "ss11b",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "spaceport"
+  ],
   "name": {
     "en": "Lost in Transmission",
     "de": "Übertragung unterbrochen",
@@ -104,6 +108,8 @@
       "hr": "Uspostavi vezu s terminala"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
   "grantedItemIds": [
     {
       "itemId": "spaceport_control_tower_key",

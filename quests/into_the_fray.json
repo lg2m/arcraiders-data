@@ -1,6 +1,8 @@
 {
   "id": "ss10x5",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "Into the Fray",
     "de": "Mitten ins Gefecht",
@@ -84,12 +86,14 @@
       "hr": "Pribavi Pulsnu Jedinicu Skakača"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "leaper_pulse_unit",
       "quantity": 1
     }
   ],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "radio_renegade",
@@ -110,7 +114,6 @@
   ],
   "xp": 0,
   "previousQuestIds": [
-    "ss10x4",
     "ss11b2"
   ],
   "nextQuestIds": []

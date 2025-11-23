@@ -1,6 +1,8 @@
 {
   "id": "ss10d",
   "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
   "name": {
     "en": "Mixed Signals",
     "de": "Gemischte Signale",
@@ -21,7 +23,7 @@
     "sr": "Mešoviti Signali",
     "hr": "Miješani Signali"
   },
-  "trader": "Tian Wen",
+  "trader": "Shani",
   "description": {
     "en": "Have you spotted any Surveyors; the big round ones? They seem to be transmitting data back into orbit, and I can't help but think it's tied to that signal we picked up. Will you break one open, so we can try to decipher the data?",
     "de": "Hast du irgendwelche Beobachter gesehen; die großen runden? Sie scheinen Daten zurück in den Orbit zu übertragen, und ich kann nicht anders, als zu denken, dass es mit dem Signal zusammenhängt, das wir aufgefangen haben. Würdest du einen aufbrechen, damit wir versuchen können, die Daten zu entschlüsseln?",
@@ -84,6 +86,7 @@
       "hr": "Pribavi 1 Trezor Istraživača"
     }
   ],
+  "otherRequirements": [],
   "requiredItemIds": [
     {
       "itemId": "surveyor_vault",

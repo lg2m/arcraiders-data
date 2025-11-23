@@ -1,6 +1,10 @@
 {
   "id": "ss10k",
   "updatedAt": "11/06/2025",
+  "videoUrl": "https://youtu.be/pWXjplDChHc",
+  "mapIds": [
+    "spaceport"
+  ],
   "name": {
     "en": "A Lay of the Land",
     "de": "Eine Lagebeschreibung",
@@ -22,7 +26,6 @@
     "hr": "Pregled terena"
   },
   "trader": "Shani",
-  "videoUrl": "https://youtu.be/pWXjplDChHc",
   "description": {
     "en": "Those distant rumbles are getting less distant with each passing day. I have a lead on some LiDAR scanners that may help us monitor the tremors. You do want to keep a roof over your head, don't you?",
     "de": "Diese fernen Grollen werden mit jedem Tag weniger fern. Ich habe einen Hinweis auf einige LiDAR-Scanner, die uns helfen könnten, die Erschütterungen zu überwachen. Du willst doch ein Dach über dem Kopf behalten, oder?",
@@ -125,6 +128,9 @@
       "hr": "Dostavite 1 LiDAR skener Shani"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
   "rewardItemIds": [
     {
       "itemId": "dam_testing_annex_key",

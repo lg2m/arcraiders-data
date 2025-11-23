@@ -1,6 +1,10 @@
 {
   "id": "12_cold_storage",
   "updatedAt": "11/14/2025",
+  "videoUrl": "https://youtu.be/tc7nK7AmixQ",
+  "mapIds": [
+    "stella_montis"
+  ],
   "name": {
     "en": "Cold Storage",
     "de": "Tiefkühllagerung",
@@ -21,8 +25,7 @@
     "sr": "Hladnjača",
     "hr": "Hladnjača"
   },
-  "trader": "Celeste",
-  "videoUrl": "https://youtu.be/tc7nK7AmixQ",
+  "trader": "Shani",
   "description": {
     "en": "Reports about Stella Montis keep coming in, and it's unlike anything we've seen before. There may be records or relics from the past in there, and if so, I want them.",
     "de": "Berichte über Stella Montis reißen nicht ab, und es ist anders als alles, was wir zuvor gesehen haben. Dort könnten Aufzeichnungen oder Relikte aus der Vergangenheit liegen, und wenn ja, will ich sie.",
@@ -85,6 +88,8 @@
       "hr": "U jednoj rundi, isporuči Rijetke Knjige Shani"
     }
   ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
   "grantedItemIds": [],
   "rewardItemIds": [
     {
