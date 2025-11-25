@@ -1,0 +1,53 @@
+{
+  "id": "ss10q",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
+  "name": "Unexpected Initiative",
+  "description": "I'm setting up a greenhouse, to help boost our food production. I'm doing Celeste a solid, alright? That's all. But enough about that. I've got all the details worked out, but I'll need supplies, and I'm not hauling them alone.",
+  "objectives": [
+    "Reach the Grandioso Apartments in Buried City",
+    "Search for Fertilizer on the rooftop of the Grandioso Apartments",
+    "Reach Piazza Roma in Buried City",
+    "Search for a Water Pump in the broken rooftop gardens at Piazza Roma",
+    "Deliver a Water Pump to Tian Wen",
+    "Deliver Fertilizer to Tian Wen"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [
+    {
+      "itemId": "water_pump",
+      "quantity": 1
+    },
+    {
+      "itemId": "fertilizer",
+      "quantity": 1
+    }
+  ],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "il_toro_i",
+      "quantity": 1
+    },
+    {
+      "itemId": "shotgun_ammo",
+      "quantity": 40
+    },
+    {
+      "itemId": "shotgun_choke_ii",
+      "quantity": 1
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10p",
+    "ss10n"
+  ],
+  "nextQuestIds": [
+    "ss10r"
+  ],
+  "traderId": "tian_wen"
+}

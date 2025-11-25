@@ -1,0 +1,40 @@
+{
+  "id": "ss10p",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "dam_battlegrounds"
+  ],
+  "name": "Echoes of Victory Ridge",
+  "description": "Did you feel any tremors last night? Me neither. But apparently the ground shifted at some point, and in the process it unearthed an old First Wave outpost that'd been blocked by debris. I'd like you to get in there quick, before anyone else does.",
+  "objectives": [
+    "Reach Victory Ridge",
+    "Retrieve the battle plans from the hideout under the broken highway",
+    "Deliver Major Alva's Patch to Celeste"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "crude_explosives",
+      "quantity": 6
+    },
+    {
+      "itemId": "processor",
+      "quantity": 2
+    },
+    {
+      "itemId": "music_box",
+      "quantity": 1
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10o"
+  ],
+  "nextQuestIds": [
+    "ss10q"
+  ],
+  "traderId": "celeste"
+}

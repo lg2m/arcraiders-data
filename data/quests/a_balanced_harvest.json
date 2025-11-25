@@ -1,0 +1,40 @@
+{
+  "id": "ss10x",
+  "updatedAt": "11/06/2025",
+  "videoUrl": "https://youtu.be/VYI9tJsScmg",
+  "mapIds": [
+    "dam_battlegrounds"
+  ],
+  "name": "A Balanced Harvest",
+  "description": "Our food production is finally enough to meet our basic needs, but what we really need now is variety. I have a lead on some agricultural research from before the First Wave. Are you in?",
+  "objectives": [
+    "Go to the Research & Administration building",
+    "Locate Lab 1 on the upper floor above the reception",
+    "Search for any traces of the agricultural research project"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "advanced_mechanical_components",
+      "quantity": 3
+    },
+    {
+      "itemId": "medium_gun_parts",
+      "quantity": 3
+    },
+    {
+      "itemId": "steel_spring",
+      "quantity": 10
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10s"
+  ],
+  "nextQuestIds": [
+    "ss10x2"
+  ],
+  "traderId": "celeste"
+}

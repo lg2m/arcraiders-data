@@ -1,0 +1,41 @@
+{
+  "id": "ss8a",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
+  "name": "What Goes Around",
+  "description": "We can't build ARC tech from scratch, but there's plenty I can tinker from the pieces you salvage. I'm currently trying to repurpose different ARC parts. Would you mind running some experiments for me?",
+  "objectives": [
+    "Destroy any ARC enemy using a Fireball Burner"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [
+    {
+      "itemId": "red_light_stick",
+      "quantity": 5
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "cans_cosmetic",
+      "quantity": 1
+    },
+    {
+      "itemId": "blaze_grenade",
+      "quantity": 3
+    },
+    {
+      "itemId": "noisemaker",
+      "quantity": 2
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss8"
+  ],
+  "nextQuestIds": [
+    "ss8b"
+  ],
+  "traderId": "apollo"
+}

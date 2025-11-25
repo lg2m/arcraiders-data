@@ -1,0 +1,45 @@
+{
+  "id": "ss10n",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
+  "name": "Industrial Espionage",
+  "description": "With my own stashes secured, I think it might be time to keep a closer eye on the competition so this doesn't happen again.",
+  "objectives": [
+    "Find Tian Wen's weapon cache near the Gas Station in the Outskirts",
+    "Deliver the Burletta to the rival weapon cache",
+    "Plant a bug on the weapon cache"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [
+    {
+      "itemId": "burletta_i",
+      "quantity": 1
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "burletta_blueprint",
+      "quantity": 1
+    },
+    {
+      "itemId": "mechanical_components",
+      "quantity": 3
+    },
+    {
+      "itemId": "simple_gun_parts",
+      "quantity": 3
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10m"
+  ],
+  "nextQuestIds": [
+    "ss10q"
+  ],
+  "traderId": "tian_wen"
+}

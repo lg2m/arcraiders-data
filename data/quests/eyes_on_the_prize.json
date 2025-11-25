@@ -1,0 +1,40 @@
+{
+  "id": "ss10m",
+  "updatedAt": "11/12/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
+  "name": "Eyes on the Prize",
+  "description": "Everything's been calm around my drop-offs since you helped out, but that doesn't mean it'll stay that way for long. I've set up surveillance at one of my most used spots in Buried City, to prevent future tampering. Only problem is, it needs power to go live.",
+  "objectives": [
+    "Find the secluded roof terrace south-west of the Southern Station, look for blue tarps",
+    "Rewire the solar panel using 3 Wires"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [
+    {
+      "itemId": "wire",
+      "quantity": 3
+    }
+  ],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "extended_shotgun_mag_ii",
+      "quantity": 1
+    },
+    {
+      "itemId": "extended_medium_mag_ii",
+      "quantity": 1
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10l"
+  ],
+  "nextQuestIds": [
+    "ss10n"
+  ],
+  "traderId": "tian_wen"
+}

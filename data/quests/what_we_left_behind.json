@@ -1,0 +1,42 @@
+{
+  "id": "ss10e",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city",
+    "dam_battlegrounds",
+    "the_spaceport"
+  ],
+  "name": "What We Left Behind",
+  "description": "Celeste told me you're the one who helped her hound me about pitching in more. I'll say this once: I don't appreciate the meddling, and I have my own reasons for refusing. I do, however, appreciate the scrap. Since you're apparently good at tracking it down, I may have a task for you.",
+  "objectives": [
+    "On Buried City, search 2 containers in the Raider Camp beneath the Parking Garage",
+    "On Dam Battlegrounds, search for anything significant in the South Swamp Outpost",
+    "On Spaceport, search for anything significant in Bilguun's Hideout, next to the Container Storage"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "muzzle_brake_ii",
+      "quantity": 1
+    },
+    {
+      "itemId": "vertical_grip_ii",
+      "quantity": 1
+    },
+    {
+      "itemId": "stable_stock_ii",
+      "quantity": 1
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10b"
+  ],
+  "nextQuestIds": [
+    "ss10h"
+  ],
+  "traderId": "tian_wen"
+}

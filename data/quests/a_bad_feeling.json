@@ -1,0 +1,39 @@
+{
+  "id": "ss5",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
+  "name": "A Bad Feeling",
+  "description": "Even the slightest change in ARC's behavior could spell disaster. And that signal you heard? It's like nothing we've ever picked up. If they're up to something, we need to find out whatever we can.",
+  "objectives": [
+    "Find and search any ARC Probe or ARC Courier"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "metal_parts",
+      "quantity": 10
+    },
+    {
+      "itemId": "steel_spring",
+      "quantity": 5
+    },
+    {
+      "itemId": "duct_tape",
+      "quantity": 5
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss4"
+  ],
+  "nextQuestIds": [
+    "ss5a",
+    "ss6",
+    "ss7",
+    "ss8"
+  ],
+  "traderId": "celeste"
+}

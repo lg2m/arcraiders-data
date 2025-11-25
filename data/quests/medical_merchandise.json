@@ -1,0 +1,42 @@
+{
+  "id": "ss10f",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "the_spaceport",
+    "buried_city",
+    "dam_battlegrounds"
+  ],
+  "name": "Medical Merchandise",
+  "description": "I've become quite crafty at weaving bandages from Fabric, but to my shame, I haven't quite mastered weaving an x-ray machine or a pulse oximiter.",
+  "objectives": [
+    "On Spaceport, search 2 containers in the Departure Building's exam rooms",
+    "Search 3 containers in the Hospital in Buried City",
+    "On Dam Battlegrounds, search 2 containers in the Research & Administration building's medical room"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "banana",
+      "quantity": 1
+    },
+    {
+      "itemId": "defibrillator",
+      "quantity": 3
+    },
+    {
+      "itemId": "vita_shot",
+      "quantity": 2
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10c"
+  ],
+  "nextQuestIds": [
+    "ss10g"
+  ],
+  "traderId": "lance"
+}

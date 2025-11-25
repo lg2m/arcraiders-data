@@ -1,0 +1,32 @@
+{
+  "id": "ss5a",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
+  "name": "Hatch Repairs",
+  "description": "Our scouts have reported several Raider Hatches with leaking hydraulic pipes. They still work, but not for long. Mind patching one up, next time you're out there?",
+  "objectives": [
+    "Repair the leaking hydraulic pipes near a Raider Hatch"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "raider_hatch_key",
+      "quantity": 1
+    },
+    {
+      "itemId": "binoculars",
+      "quantity": 1
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss5"
+  ],
+  "nextQuestIds": [
+    "ss6"
+  ],
+  "traderId": "shani"
+}

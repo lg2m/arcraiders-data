@@ -1,0 +1,43 @@
+{
+  "id": "ss8b",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
+  "name": "Sparks Fly",
+  "description": "Those Hornet stings can really mess you up, if you're unlucky. And even if you destroy one, you're still wasting a ton of ammo. I've been working on a more elegant way to bring them down. Care to make some sparks fly?",
+  "objectives": [
+    "Destroy a Hornet with a Trigger 'Nade or Snap Blast"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [
+    {
+      "itemId": "trigger_nade",
+      "quantity": 6
+    },
+    {
+      "itemId": "snap_blast_grenade",
+      "quantity": 2
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "trigger_nade_blueprint",
+      "quantity": 1
+    },
+    {
+      "itemId": "crude_explosives",
+      "quantity": 4
+    },
+    {
+      "itemId": "processor",
+      "quantity": 2
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss8a"
+  ],
+  "nextQuestIds": [],
+  "traderId": "apollo"
+}

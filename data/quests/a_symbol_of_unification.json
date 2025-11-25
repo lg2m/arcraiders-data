@@ -1,0 +1,42 @@
+{
+  "id": "ss10r",
+  "updatedAt": "11/06/2025",
+  "videoUrl": "https://www.youtube.com/watch?v=6Cb6aQWBt8U",
+  "mapIds": [
+    "dam_battlegrounds"
+  ],
+  "name": "A Symbol of Unification",
+  "description": "Y'know, back in the day we actually used to have a flag - well, a scrap of cloth more than anything. Still, seeing it meant you knew you had allies nearby, that you were on your own home turf. So, I was thinking...",
+  "objectives": [
+    "Reach the Formicai Outpost in Dam Battlegrounds",
+    "Locate the flag at the Formicai Outpost",
+    "Hoist the flag on the small platform overlooking the Red Lake"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "aviator",
+      "quantity": 1
+    },
+    {
+      "itemId": "mod_components",
+      "quantity": 3
+    },
+    {
+      "itemId": "duct_tape",
+      "quantity": 5
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10q"
+  ],
+  "nextQuestIds": [
+    "ss10t",
+    "ss10u",
+    "ss10v"
+  ],
+  "traderId": "celeste"
+}

@@ -1,2 +1,11 @@
+# Nix
+.direnv
+
+.env*
+!.env.example
+!.envrc
+
+node_modules
+
 images/items/.DS_Store
 .DS_Store

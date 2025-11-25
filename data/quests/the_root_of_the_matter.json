@@ -1,0 +1,36 @@
+{
+  "id": "ss10x3",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
+  "name": "The Root of the Matter",
+  "description": "We're in luck. The notes you found last time were written by the lead researcher. When the project went under, it seems she took some of the seed samples and sealed them away in a secure location.",
+  "objectives": [
+    "Go to the Research Building",
+    "Search for the seed vault in the \"room with a great view\"",
+    "Deliver the Experimental Seed Sample to Celeste"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "succulent",
+      "quantity": 1
+    },
+    {
+      "itemId": "coins",
+      "quantity": 1000
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10x2"
+  ],
+  "nextQuestIds": [
+    "ss10x4"
+  ],
+  "traderId": "celeste"
+}

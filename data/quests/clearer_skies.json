@@ -1,0 +1,42 @@
+{
+  "id": "ss2",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
+  "name": "Clearer Skies",
+  "description": "A swarm of disoriented Wasps crashed near one of our skylights. I need you to help thin ARC's ranks before any more accidents happen, and gather some extra sturdy materials to fix the damage.",
+  "objectives": [
+    "Destroy 3 ARC enemies",
+    "Get 3 ARC Alloy for Shani"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [
+    {
+      "itemId": "arc_alloy",
+      "quantity": 3
+    }
+  ],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "backpack_black_hiker_color",
+      "quantity": 1
+    },
+    {
+      "itemId": "sterilized_bandage",
+      "quantity": 3
+    },
+    {
+      "itemId": "light_shield",
+      "quantity": 1
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss1"
+  ],
+  "nextQuestIds": [
+    "ss4"
+  ],
+  "traderId": "shani"
+}

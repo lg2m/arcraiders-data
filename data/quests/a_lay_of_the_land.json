@@ -1,0 +1,41 @@
+{
+  "id": "ss10k",
+  "updatedAt": "11/06/2025",
+  "videoUrl": "https://youtu.be/pWXjplDChHc",
+  "mapIds": [
+    "the_spaceport"
+  ],
+  "name": "A Lay of the Land",
+  "description": "Those distant rumbles are getting less distant with each passing day. I have a lead on some LiDAR scanners that may help us monitor the tremors. You do want to keep a roof over your head, don't you?",
+  "objectives": [
+    "Reach the Jiangsu Warehouse",
+    "Find the shipping notes in the foreman's office",
+    "Locate the scanners on the upper floor of Control Tower A6",
+    "Deliver 1 LiDAR Scanners to Shani"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "dam_testing_annex_key",
+      "quantity": 1
+    },
+    {
+      "itemId": "zipline",
+      "quantity": 3
+    },
+    {
+      "itemId": "smoke_grenade",
+      "quantity": 2
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10g"
+  ],
+  "nextQuestIds": [
+    "ss10s"
+  ],
+  "traderId": "shani"
+}

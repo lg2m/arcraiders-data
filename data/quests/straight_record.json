@@ -1,0 +1,48 @@
+{
+  "id": "ss10j",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "dam_battlegrounds"
+  ],
+  "name": "Straight Record",
+  "description": "Back during the First Wave, my squad and I built a trap out by the Dam. Overloaded a generator, turned it into a makeshift ARC trap. Now I hear Raiders are using it to cut comms and spring ambushes on each other. I need you to end it.",
+  "objectives": [
+    "Reach Victory Ridge",
+    "Find the old EMP trap",
+    "Disable the first power switch",
+    "Disable the second power switch",
+    "Disable the third power switch",
+    "Shut down the EMP trap"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [
+    {
+      "itemId": "binoculars",
+      "quantity": 1
+    },
+    {
+      "itemId": "defibrillator",
+      "quantity": 1
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "medium_gun_parts",
+      "quantity": 5
+    },
+    {
+      "itemId": "advanced_mechanical_components",
+      "quantity": 3
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10h"
+  ],
+  "nextQuestIds": [
+    "ss10o"
+  ],
+  "traderId": "celeste"
+}

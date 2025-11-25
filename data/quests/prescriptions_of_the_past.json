@@ -1,0 +1,40 @@
+{
+  "id": "ss10x9",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "the_spaceport"
+  ],
+  "name": "Prescriptions of the Past",
+  "description": "I've been curious about the medical area in the Spaceport for a while now. Something tells me it's got just what I need to become the undeniable champion of this place.",
+  "objectives": [
+    "Visit the Departure Building in Spaceport",
+    "Find the Medical Exam Room inside the Departure Building",
+    "Search for the records"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "heavy_shield",
+      "quantity": 1
+    },
+    {
+      "itemId": "tactical_mk3_healing",
+      "quantity": 1
+    },
+    {
+      "itemId": "adrenaline_shot",
+      "quantity": 3
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10x8"
+  ],
+  "nextQuestIds": [
+    "ss10x10"
+  ],
+  "traderId": "lance"
+}

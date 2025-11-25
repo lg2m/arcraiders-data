@@ -1,0 +1,32 @@
+[
+  {
+    "id": "apollo",
+    "name": "Apollo",
+    "description": "Speranza isn't Apollo's first rodeo. A traveling mechanic, Apollo has chosen Speranza as his home for the time being, fixing up whatever Raiders need fixing. While he can at times seem cryptic about his past, Apollo can't help but try and make wherever he is a better place. Whether that's running a kids' football team, or keeping the library stocked with books, Apollo knows there's more to life than just survival.",
+    "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgS3mX7XfARM2mLEGbFgv1BxpJT8DHkwudKnis"
+  },
+  {
+    "id": "celeste",
+    "name": "Celeste",
+    "description": "Celeste lost her home multiple times to ARC attacks during her childhood. The tragedy of losing her father left her deeply scared, but she adapted quickly to survive, developing skills to create and manage what she needed. This survival instinct eventually led to the founding of Speranza, humanity's final stronghold underground. To Celeste, Speranza isn't just a settlement, it's a living entity she cultivated with her own two hands. She has dedicated herself to the city's survival, constantly preparing for the future. But with the growing ARC threat, she senses Speranza won't remain safe forever. She's preparing an evacuation plan in case of an emergency. As a Raider, can you help Celeste protect Speranza's future?",
+    "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGg0eACoyQ9ZcM4ONeKB8aGvutsnxwRi7Uh3SDY"
+  },
+  {
+    "id": "lance",
+    "name": "Lance",
+    "description": "Lance is one of the most talented medics Toledo has on offer. An eccentric, bubbly android, Lance is always trying his best to fit in amongst the humans, regularly singing off-pitch at midnight karaoke, shopping for the newest underground fashion trends, or boxing in Speranza's fight ring. While amnesia has robbed him of his memories from who he was before he arrived, those trapped memories won't stay gone forever.",
+    "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgXZoJMlLNqD7eP1pzZCOJdSyhFwQYBE845knT"
+  },
+  {
+    "id": "shani",
+    "name": "Shani",
+    "description": "The eagle-eyed head of security for Speranza, Shani has contingency plans for her contingency plans. She is Speranza's resident ARC expert, and Celeste's biggest resource when it comes to planning successful skirmishes topside. While most of Speranza's inhabitants know her to be obsessive, suspicious, and paranoid, Shani doesn't mind her reputation as long as she's able to keep her city safe.",
+    "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGg1bf1flZAhtKeH0jLvsyUcXJMGiVSCx9o8ld3"
+  },
+  {
+    "id": "tian_wen",
+    "name": "Tian Wen",
+    "description": "Most people underground haven't seen more of Tian Wen than her eyes. Speranza's resident gun craftsman, Tian Wen is a recluse who seemingly prefers the company of her tools to any human being. She wears her disdain for most Raiders on her sleeve, and only interacts with them out of her own interests. But while she would never admit it, she has a soft spot or two for things in need of repair — action figures, weapons, and sometimes even people.",
+    "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgCRQGTKqkBQlZPh573L20KFEjMepRNY8aJq9i"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "id": "ss10o",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "dam_battlegrounds"
+  ],
+  "name": "Keeping the Memory",
+  "description": "I lost my cool a bit when I sent you after that trap. I don't usually lose my temper, but the First Wave... We went through a lot, back then. Lost a lot of people. It's still a bit of a raw wound for me, but I want you to understand.",
+  "objectives": [
+    "Reach the wreckage in the Formicai Hills",
+    "Search for the missing helmet",
+    "Return the helmet to the memorial"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "simple_gun_parts",
+      "quantity": 5
+    },
+    {
+      "itemId": "duct_tape",
+      "quantity": 5
+    },
+    {
+      "itemId": "magnet",
+      "quantity": 5
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10j"
+  ],
+  "nextQuestIds": [
+    "ss10p"
+  ],
+  "traderId": "celeste"
+}

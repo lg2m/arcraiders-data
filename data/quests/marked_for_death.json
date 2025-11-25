@@ -1,0 +1,36 @@
+{
+  "id": "ss10i",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "buried_city"
+  ],
+  "name": "Marked for Death",
+  "description": "Someone has been lifting supplies from my drop-off point in Buried City. I've set up a trap, but I need someone to check it for me.",
+  "objectives": [
+    "Reach the Su Durante Warehouses in the Outskirts in Buried City",
+    "Search for Tian Wen's cache near the Warehouses",
+    "Follow the clues"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "shotgun_choke_ii",
+      "quantity": 1
+    },
+    {
+      "itemId": "angled_grip_ii",
+      "quantity": 1
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss10h"
+  ],
+  "nextQuestIds": [
+    "ss10l"
+  ],
+  "traderId": "tian_wen"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ss1",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
+  "name": "Picking Up The Pieces",
+  "description": "The storm has mostly settled, but much of our infrastructure has taken a proper beating. If you're hoping to stay with us, I'll need you to pull your weight in the repair efforts.",
+  "objectives": [
+    "Visit any area on your map with a loot category icon",
+    "Loot 3 containers"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [],
+  "rewardItemIds": [
+    {
+      "itemId": "rattler_iii",
+      "quantity": 1
+    },
+    {
+      "itemId": "medium_ammo",
+      "quantity": 80
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [],
+  "nextQuestIds": [
+    "ss2",
+    "ss3"
+  ],
+  "traderId": "shani"
+}

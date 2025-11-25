@@ -1,0 +1,46 @@
+{
+  "id": "ss11a",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [
+    "the_blue_gate"
+  ],
+  "name": "Reduced to Rubble",
+  "description": "That collapsed highway worries me; it looks to be recent. Much of Topside may be in ruins, but most of it is from ages ago.",
+  "objectives": [
+    "Take a photo of the Collapsed Highway",
+    "Go to the Broken Earth",
+    "Follow the trail of destruction through the Broken Earth",
+    "Investigate the unknown ARC machines"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [
+    {
+      "itemId": "binoculars",
+      "quantity": 1
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "zipline",
+      "quantity": 1
+    },
+    {
+      "itemId": "barricade_kit",
+      "quantity": 3
+    },
+    {
+      "itemId": "door_blocker",
+      "quantity": 3
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss11"
+  ],
+  "nextQuestIds": [
+    "ss11bx"
+  ],
+  "traderId": "shani"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "ss6",
+  "updatedAt": "11/06/2025",
+  "videoUrl": null,
+  "mapIds": [],
+  "name": "Down To Earth",
+  "description": "Raiders have long reported peculiar-looking crates dropping down from malfunctioning ARC Probes. If we can figure out a way to crack them open, we might get a better understanding of what it is they're after.",
+  "objectives": [
+    "Visit a Field Depot",
+    "Deliver a Field Crate to Supply Station",
+    "Collect the reward"
+  ],
+  "otherRequirements": [],
+  "requiredItemIds": [],
+  "grantedItemIds": [
+    {
+      "itemId": "binoculars",
+      "quantity": 1
+    }
+  ],
+  "rewardItemIds": [
+    {
+      "itemId": "combat_mk1",
+      "quantity": 1
+    },
+    {
+      "itemId": "medium_shield",
+      "quantity": 1
+    }
+  ],
+  "xp": 0,
+  "previousQuestIds": [
+    "ss5a"
+  ],
+  "nextQuestIds": [
+    "ss9"
+  ],
+  "traderId": "shani"
+}

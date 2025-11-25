@@ -1,0 +1,43 @@
+[
+  {
+    "id": "dam_battlegrounds",
+    "name": "Dam Battlegrounds",
+    "description": "The Alcantara Power Plant, or \"The Dam\", once served as a crucial Raider stronghold during the bitter closing battles of the First Wave. Even now, these toxic, waterlogged lands remain a hotspot for ARC skirmishes.",
+    "image": [
+      "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgLkhVAG9B6dNlZf7QGXVhWRI52Cyriqv3MuwJ"
+    ]
+  },
+  {
+    "id": "the_spaceport",
+    "name": "The Spaceport",
+    "description": "A majestic testament to humanity's past ambitions, Acerra Spaceport is where the Exodus shuttles, vessels of hope and desperation, once roared into the heavens, leaving a beleaguered Earth behind.",
+    "image": [
+      "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgx6jTo3fiJbfAN0WGu1LpsUijzQE72Tm6gPtV"
+    ]
+  },
+  {
+    "id": "buried_city",
+    "name": "Buried City",
+    "description": "Amidst the sand dunes in this arid wasteland, Buried City is a remnant of the old world quite unlike the cold steel spires of the Exodus age. Walk these narrow streets and empty plazas, and know that people once lived here.Amidst the sand dunes in this arid wasteland, Buried City is a remnant of the old world quite unlike the cold steel spires of the Exodus age. Walk these narrow streets and empty plazas, and know that people once lived here.",
+    "image": [
+      "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgfffhv3ohSuXrBsAjvJln9H84OaYtI2GpdbWC"
+    ]
+  },
+  {
+    "id": "the_blue_gate",
+    "name": "The Blue Gate",
+    "description": "Once a steadyfast symbol of defiant connection, the Blue Gate now serves as a daunting entryway into the perilous mountain ranges. The surrounding valley bears scars both new and old.",
+    "image": [
+      "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGggdZY2g1HU52zw1QohMDCpBsGmVc7dOxJPuk0"
+    ]
+  },
+  {
+    "id": "stella_montis",
+    "name": "Stella Montis",
+    "description": "Carved deep into the northern mountains, Stella Montis is a vast, abandoned facility, well-preserved compared to the wreckage of the lower Rust Belt. Cold and sterile, the complex hints at what humanity left behind in its push towards the stars.",
+    "image": [
+      "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgIMpXp74jhZJktRx0lGKWmyus8vYd4zMiNbHC",
+      "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGg0dV7TXQ9ZcM4ONeKB8aGvutsnxwRi7Uh3SDY"
+    ]
+  }
+]
