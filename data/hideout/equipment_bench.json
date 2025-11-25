@@ -1,25 +1,6 @@
 {
   "id": "equipment_bench",
-  "name": {
-    "en": "Gear Bench",
-    "de": "Ausrüstungsbank",
-    "fr": "Établi à matériel",
-    "es": "Banco de equipo",
-    "pt": "Bancada de equipamento",
-    "pl": "Stół ekwipunku",
-    "no": "Utstyrsbenk",
-    "da": "Udstyrsbænk",
-    "ru": "Снаряжение",
-    "ja": "装備台",
-    "it": "Banco Equipaggiamento",
-    "kr": "장비 제작대",
-    "zh-CN": "装备工作台",
-    "zh-TW": "裝備工作台",
-    "uk": "Спорядження",
-    "tr": "Ekipman Tezgahı",
-    "hr": "Stol za Opremu",
-    "sr": "Sto za Opremu"
-  },
+  "name": "Gear Bench",
   "maxLevel": 3,
   "levels": [
     {
@@ -33,7 +14,9 @@
           "itemId": "fabric",
           "quantity": 30
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 2,
@@ -50,7 +33,9 @@
           "itemId": "hornet_driver",
           "quantity": 5
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 3,
@@ -67,7 +52,9 @@
           "itemId": "bastion_cell",
           "quantity": 6
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     }
   ]
 }

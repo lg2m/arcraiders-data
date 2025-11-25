@@ -1,25 +1,6 @@
 {
   "id": "med_station",
-  "name": {
-    "en": "Medical Lab",
-    "de": "Medizinisches Labor",
-    "fr": "Laboratoire Médical",
-    "es": "Laboratorio médico",
-    "pt": "Laboratório médico",
-    "pl": "Laboratorium medyczne",
-    "no": "Medisinsk laboratorium",
-    "da": "Medicinsk laboratorium",
-    "ru": "Медицинская лаборатория",
-    "ja": "医療ラボ",
-    "it": "Laboratorio Medico",
-    "kr": "의료실",
-    "zh-CN": "医疗站",
-    "zh-TW": "醫療站",
-    "uk": "Медична лабораторія",
-    "tr": "Tıbbi Laboratuvar",
-    "hr": "Medicinski Laboratorij",
-    "sr": "Medicinska Laboratorija"
-  },
+  "name": "Medical Lab",
   "maxLevel": 3,
   "levels": [
     {
@@ -33,7 +14,9 @@
           "itemId": "arc_alloy",
           "quantity": 6
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 2,
@@ -50,7 +33,9 @@
           "itemId": "tick_pod",
           "quantity": 8
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 3,
@@ -67,7 +52,9 @@
           "itemId": "surveyor_vault",
           "quantity": 5
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     }
   ]
 }

@@ -1,25 +1,6 @@
 {
   "id": "explosives_bench",
-  "name": {
-    "en": "Explosives Station",
-    "de": "Sprengstoffstation",
-    "fr": "Station à explosifs",
-    "es": "Estación de explosivos",
-    "pt": "Estação de explosivos",
-    "pl": "Stacja materiałów wybuchowych",
-    "no": "Eksplosivstasjon",
-    "da": "Sprængstofstation",
-    "ru": "Станция взрывчатки",
-    "ja": "爆発物ステーション",
-    "it": "Stazione Esplosivi",
-    "kr": "폭발물 제작소",
-    "zh-CN": "爆炸物工作站",
-    "zh-TW": "爆裂物工作站",
-    "uk": "Станція вибухівки",
-    "tr": "Patlayıcı İstasyonu",
-    "hr": "Stanica za eksploziv",
-    "sr": "Stanica za eksploziv"
-  },
+  "name": "Explosives Station",
   "maxLevel": 3,
   "levels": [
     {
@@ -33,7 +14,9 @@
           "itemId": "arc_alloy",
           "quantity": 6
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 2,
@@ -50,7 +33,9 @@
           "itemId": "pop_trigger",
           "quantity": 5
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 3,
@@ -67,7 +52,9 @@
           "itemId": "rocketeer_driver",
           "quantity": 3
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     }
   ]
 }

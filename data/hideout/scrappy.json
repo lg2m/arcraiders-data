@@ -1,30 +1,13 @@
 {
   "id": "scrappy",
-  "name": {
-    "en": "Scrappy",
-    "de": "Scrappy",
-    "fr": "Coquillard",
-    "es": "Scrappy",
-    "pt": "Scrappy",
-    "pl": "Scrappy",
-    "no": "Scrappy",
-    "da": "Scrappy",
-    "ru": "Старьевщик",
-    "ja": "スクラップ屋",
-    "it": "Rottamaio",
-    "kr": "고물상",
-    "zh-CN": "废品回收站",
-    "zh-TW": "廢品回收站",
-    "uk": "Старганщик",
-    "tr": "Hurda Tezgahı",
-    "hr": "Otpadnik",
-    "sr": "Otpadnik"
-  },
+  "name": "Scrappy",
   "maxLevel": 5,
   "levels": [
     {
       "level": 1,
-      "requirementItemIds": []
+      "requirementItemIds": [],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 2,
@@ -33,7 +16,9 @@
           "itemId": "dog_collar",
           "quantity": 1
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 3,
@@ -46,7 +31,9 @@
           "itemId": "apricot",
           "quantity": 3
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 4,
@@ -63,7 +50,9 @@
           "itemId": "cat_bed",
           "quantity": 1
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 5,
@@ -80,7 +69,9 @@
           "itemId": "very_comfortable_pillow",
           "quantity": 3
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     }
   ]
 }

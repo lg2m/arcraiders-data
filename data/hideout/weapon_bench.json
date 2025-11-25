@@ -1,25 +1,6 @@
 {
   "id": "weapon_bench",
-  "name": {
-    "en": "Gunsmith",
-    "de": "Waffenschmied",
-    "fr": "Armurier",
-    "es": "Armero",
-    "pt": "Armeiro",
-    "pl": "Rusznikarz",
-    "no": "Våpenmaker",
-    "da": "Våbensmed",
-    "ru": "Оружейная",
-    "ja": "ガンスミス",
-    "it": "Armaiolo",
-    "kr": "총기 제작대",
-    "zh-CN": "枪械工坊",
-    "zh-TW": "槍械工坊",
-    "uk": "Зброярня",
-    "tr": "Silah Tezgahı",
-    "hr": "Oružar",
-    "sr": "Oružar"
-  },
+  "name": "Gunsmith",
   "maxLevel": 3,
   "levels": [
     {
@@ -33,7 +14,9 @@
           "itemId": "rubber_parts",
           "quantity": 30
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 2,
@@ -50,7 +33,9 @@
           "itemId": "wasp_driver",
           "quantity": 8
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     },
     {
       "level": 3,
@@ -67,7 +52,9 @@
           "itemId": "sentinel_firing_core",
           "quantity": 4
         }
-      ]
+      ],
+      "otherRequirements": [],
+      "description": null
     }
   ]
 }
