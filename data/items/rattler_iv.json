@@ -1,25 +1,6 @@
 {
   "id": "rattler_iv",
-  "name": {
-    "en": "Rattler IV",
-    "it": "Rattler IV",
-    "da": "Rattler IV",
-    "uk": "Rattler IV",
-    "zh-TW": "響尾蛇 IV",
-    "pt": "Rattler IV",
-    "ru": "Rattler IV",
-    "de": "Rattler IV",
-    "fr": "Crotale IV",
-    "zh-CN": "响尾蛇 IV",
-    "no": "Rattler IV",
-    "tr": "Rattler IV",
-    "es": "Rattler IV",
-    "sr": "Rattler IV",
-    "ja": "ラトラー IV",
-    "kr": "래틀러 IV",
-    "pl": "Rattler IV",
-    "hr": "Rattler IV"
-  },
+  "name": "Rattler IV",
   "effects": {
     "Magazine Size": {
       "en": "Magazine Size",
@@ -141,26 +122,7 @@
   "salvagesInto": {
     "metal_parts": 14
   },
-  "description": {
-    "en": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time.",
-    "it": "Fucile d'assalto completamente automatico. Un'opzione offensiva economica, ma deve essere ricaricato 2 proiettili alla volta.",
-    "da": "Fuldautomatisk assault rifle. En billig offensiv mulighed, men skal genoplades 2 kugler ad gangen.",
-    "uk": "Повністю автоматична штурмова гвинтівка. Дешевий наступальний варіант, але перезаряджається по 2 патрони за раз.",
-    "zh-TW": "全自動突擊步槍。便宜的進攻選擇，但每次只能裝填2發子彈。",
-    "pt": "Rifle de assalto totalmente automático. Uma opção ofensiva barata, mas tem que ser recarregado 2 balas de cada vez.",
-    "ru": "Полностью автоматическая штурмовая винтовка. Дешёвый наступательный вариант, но перезаряжается по 2 патрона за раз.",
-    "de": "Vollautomatisches Sturmgewehr. Eine günstige offensive Option, muss aber 2 Kugeln gleichzeitig nachgeladen werden.",
-    "fr": "Fusil d'assaut entièrement automatique. Une option offensive bon marché, mais doit être rechargé 2 balles à la fois.",
-    "zh-CN": "全自动突击步枪。廉价的进攻选择，但每次只能装填2发子弹。",
-    "no": "Helautomatisk assault rifle. Et billig offensivt alternativ, men må lades med 2 kuler om gangen.",
-    "tr": "Tam otomatik saldırı tüfeği. Ucuz bir saldırı seçeneği, ancak her seferinde 2 mermi doldurulmalıdır.",
-    "es": "Rifle de asalto totalmente automático. Una opción ofensiva económica, pero debe recargarse de 2 balas a la vez.",
-    "sr": "Potpuno automatska jurišna puška. Jeftina ofanzivna opcija, ali se mora puniti po 2 metka odjednom.",
-    "ja": "フルオート式アサルトライフル。安価な攻撃オプションだが、一度に2発ずつリロードする必要がある。",
-    "kr": "완전 자동 돌격 소총. 저렴한 공격 옵션이지만, 한 번에 2발씩 재장전해야 합니다.",
-    "pl": "W pełni automatyczny karabin szturmowy. Tania opcja ofensywna, ale musi być przeładowywany po 2 pociski na raz.",
-    "hr": "Potpuno automatska jurišna puška. Jeftina ofenzivna opcija, ali se mora puniti po 2 metka odjednom."
-  },
+  "description": "Fully automatic assault rifle. A cheap offensive option, but has to be reloaded 2 bullets at a time.",
   "type": "Assault Rifle",
   "rarity": "Common",
   "damage": 9,

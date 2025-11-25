@@ -1,25 +1,6 @@
 {
   "id": "osprey_ii",
-  "name": {
-    "en": "Osprey II",
-    "de": "Osprey II",
-    "uk": "Osprey II",
-    "ru": "Osprey II",
-    "zh-TW": "魚鷹 II",
-    "tr": "Osprey II",
-    "zh-CN": "鱼鹰 II",
-    "it": "Osprey II",
-    "kr": "오스프리 II",
-    "sr": "Osprey II",
-    "pl": "Osprey II",
-    "no": "Osprey II",
-    "ja": "オスプレイ II",
-    "fr": "Balbuzard II",
-    "es": "Osprey II",
-    "hr": "Osprey II",
-    "pt": "Osprey II",
-    "da": "Osprey II"
-  },
+  "name": "Osprey II",
   "effects": {
     "Reduced Bolt Action Time": {
       "en": "Reduced Bolt Action Time",
@@ -204,26 +185,7 @@
   "salvagesInto": {
     "medium_gun_parts": 2
   },
-  "description": {
-    "en": "A scoped bolt-action sniper rifle with reliable damage output and accuracy.",
-    "de": "Ein Repetier-Scharfschützengewehr mit Zielfernrohr, zuverlässiger Schadensleistung und Präzision.",
-    "uk": "Гвинтівка снайперська з затворним механізмом та оптичним прицілом з надійною потужністю та точністю.",
-    "ru": "Снайперская винтовка с продольно-скользящим затвором и оптическим прицелом с надёжным уроном и точностью.",
-    "zh-TW": "一把配備瞄準鏡的栓動式狙擊步槍，具有可靠的傷害輸出和精準度。",
-    "tr": "Güvenilir hasar çıktısı ve isabetliliğe sahip dürbünlü sürgülü keskin nişancı tüfeği.",
-    "zh-CN": "一把配备瞄准镜的栓动式狙击步枪，具有可靠的伤害输出和精准度。",
-    "it": "Un fucile da cecchino a otturatore girevole-scorrevole con mirino, danno affidabile e precisione.",
-    "kr": "안정적인 피해량과 정확도를 자랑하는 스코프가 장착된 볼트액션 저격 소총.",
-    "sr": "Repetirna snajperska puška sa optičkim nišanom, pouzdanom snagom i preciznošću.",
-    "pl": "Karabin snajperski z zamkiem ryglowym i lunetą o niezawodnej sile rażenia i celności.",
-    "no": "En repeterrifle med sikte, pålitelig skadeeffekt og presisjon.",
-    "ja": "信頼性の高いダメージ出力と精度を備えたスコープ付きボルトアクション・スナイパーライフル。",
-    "fr": "Un fusil de précision à verrou avec lunette offrant des dégâts fiables et une bonne précision.",
-    "es": "Un rifle de francotirador de cerrojo con mira telescópica que ofrece daño fiable y precisión.",
-    "hr": "Repetirna snajperska puška s optičkim nišanom, pouzdanom snagom i preciznošću.",
-    "pt": "Um rifle sniper de ferrolho com mira telescópica, dano confiável e precisão.",
-    "da": "En kikkertsigteret bundstykkeriffel med pålidelig skadeeffekt og præcision."
-  },
+  "description": "A scoped bolt-action sniper rifle with reliable damage output and accuracy.",
   "type": "Sniper Rifle",
   "rarity": "Rare",
   "damage": 45,
