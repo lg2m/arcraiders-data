@@ -1,5 +1,5 @@
 {
-  "id": "temptest_iv",
+  "id": "tempest_iv",
   "name": "Tempest IV",
   "description": "Fully automatic assault rifle with moderate fire rate and accuracy.",
   "type": "Assault Rifle",
@@ -165,5 +165,6 @@
     "medium_gun_parts": 3
   },
   "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
+  "isWeapon": true,
   "updatedAt": "11/11/2025"
 }

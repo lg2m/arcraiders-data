@@ -124,5 +124,6 @@
   "craftBench": "weapon_bench",
   "stationLevelRequired": 3,
   "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
+  "isWeapon": true,
   "updatedAt": "11/11/2025"
 }
