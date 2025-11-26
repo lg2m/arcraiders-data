@@ -12,6 +12,26 @@ const mapSchema = z.object({
   image: z.array(z.url()),
 });
 
+const hideoutIdEnumSchema = z.enum(["workbench", "weapon_bench", "utility_bench", "stash", "scrappy", "refiner", "med_station", "explosives_bench", "equipment_bench"])
+
+const hideoutSchema = z.object({
+  id: hideoutIdEnumSchema,
+  name: z.string(),
+  maxLevel: z.number().min(0).max(10),
+  levels: z.array(
+    z.object({
+      level: z.number().min(1).max(10),
+      requirementItemIds: z.array(
+        z.object({
+          itemId: z.string(),
+          quantity: z.number(),
+        }),
+      ),
+      description: z.string().nullable(),
+    }),
+  )
+});
+
 const botSchema = z.object({
   id: z.string(),
   name: z.string(),
@@ -49,7 +69,7 @@ const botSchema = z.object({
   drops: z.array(z.string()),
 });
 
-const traderIdEnumSchema= z.enum(["apollo", "celeste", "lance", "shani", "tian_wen"]);
+const traderIdEnumSchema = z.enum(["apollo", "celeste", "lance", "shani", "tian_wen"]);
 
 const traderSchema = z.object({
   id: traderIdEnumSchema,
@@ -237,7 +257,7 @@ async function upsertBots(baseDir: string) {
 async function upsertTraders(baseDir: string) {
   const file = path.join(baseDir, 'traders.json');
   const traders = readJsonArray(file, traderSchema);
-  
+
   console.log(`Ingesting ${traders.length} traders`);
 
   for (const trader of traders) {
@@ -250,7 +270,7 @@ async function upsertTraders(baseDir: string) {
         image_url: trader.image,
       }, { onConflict: 'id' });
 
-    
+
     if (coreErr) {
       console.error('bots upsert error', trader.id, coreErr);
       continue;
@@ -391,7 +411,7 @@ async function upsertProjects(baseDir: string) {
 }
 
 async function upsertQuests(baseDir: string) {
-  const questsDir= path.join(baseDir, "quests");
+  const questsDir = path.join(baseDir, "quests");
   if (!fs.existsSync(questsDir)) {
     console.warn(`quests directory not found at ${questsDir}`);
     return;
@@ -573,7 +593,85 @@ async function upsertQuests(baseDir: string) {
     }
   }
 
-  console.log('✅ Quest ingest complete');
+  console.log('Quest ingest complete');
+}
+
+async function upsertHideoutBenches(baseDir: string) {
+  const hideoutDir = path.join(baseDir, "hideout");
+  if (!fs.existsSync(hideoutDir)) {
+    console.warn(`hideout directory not found at ${hideoutDir}`);
+    return;
+  }
+
+  const files = fs
+    .readdirSync(hideoutDir)
+    .filter((f) => f.endsWith('.json'));
+
+  console.log(`Ingesting ${files.length} hideout JSON files`);
+
+  const benches: z.infer<typeof hideoutSchema>[] = [];
+  for (const file of files) {
+    const fullPath = path.join(hideoutDir, file);
+    const bench = readJson(fullPath, hideoutSchema);
+    if (bench) {
+      benches.push(bench);
+    }
+  }
+
+
+  for (const b of benches) {
+    await supabaseService.from("benches").upsert({
+      id: b.id,
+      name: b.name,
+      max_level: b.maxLevel,
+      source_json: b,
+    },
+      { onConflict: "id" });
+
+    const { data: existing, error: existingErr } = await supabaseService.from("bench_levels").select("id").eq("bench_id", b.id);
+    if (existingErr) {
+      console.error(existingErr);
+    }
+
+    if (existing) {
+      const ids = existing.map((l) => l.id);
+      await supabaseService.from("bench_level_items").delete().in("level_id", ids);
+      await supabaseService.from("bench_levels").delete().eq("bench_id", b.id);
+    }
+
+    for (const lvl of b.levels) {
+      const { data: insertedLevel, error: insErr } = await supabaseService
+        .from("bench_levels")
+        .insert(
+          {
+            bench_id: b.id,
+            level: lvl.level,
+            description: lvl.description,
+          }
+        )
+        .select("id")
+        .single();
+
+      if (insErr || !insertedLevel) {
+        console.error("Error inserting bench level", b.id, lvl.level, insErr);
+        continue;
+      }
+
+      // upsert items
+      const levelId = insertedLevel.id;
+
+      for (const r of lvl.requirementItemIds) {
+        // ensure item exists
+        await supabaseService.from("items").upsert({ id: r.itemId }, { onConflict: "id" });
+
+        await supabaseService.from("bench_level_items").insert({
+          level_id: levelId,
+          item_id: r.itemId,
+          quantity: r.quantity
+        });
+      }
+    }
+  }
 }
 
 async function main() {
@@ -585,6 +683,7 @@ async function main() {
   await upsertTrades(baseDir);
   await upsertProjects(baseDir);
   await upsertQuests(baseDir);
+  await upsertHideoutBenches(baseDir);
 
   console.log("Ingestion complete.");
 }

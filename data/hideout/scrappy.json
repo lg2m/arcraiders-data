@@ -6,7 +6,6 @@
     {
       "level": 1,
       "requirementItemIds": [],
-      "otherRequirements": [],
       "description": null
     },
     {
@@ -17,7 +16,6 @@
           "quantity": 1
         }
       ],
-      "otherRequirements": [],
       "description": null
     },
     {
@@ -32,7 +30,6 @@
           "quantity": 3
         }
       ],
-      "otherRequirements": [],
       "description": null
     },
     {
@@ -51,7 +48,6 @@
           "quantity": 1
         }
       ],
-      "otherRequirements": [],
       "description": null
     },
     {
@@ -70,7 +66,6 @@
           "quantity": 3
         }
       ],
-      "otherRequirements": [],
       "description": null
     }
   ]

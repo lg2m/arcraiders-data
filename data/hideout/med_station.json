@@ -15,7 +15,6 @@
           "quantity": 6
         }
       ],
-      "otherRequirements": [],
       "description": null
     },
     {
@@ -34,7 +33,6 @@
           "quantity": 8
         }
       ],
-      "otherRequirements": [],
       "description": null
     },
     {
@@ -53,7 +51,6 @@
           "quantity": 5
         }
       ],
-      "otherRequirements": [],
       "description": null
     }
   ]
