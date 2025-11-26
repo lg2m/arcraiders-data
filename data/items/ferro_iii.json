@@ -2,10 +2,18 @@
   "id": "ferro_iii",
   "name": "Ferro III",
   "description": "Packs a punch, but must be reloaded between every shot.",
-  "type": "Weapon",
+  "type": "Battle Rifle",
   "rarity": "Common",
   "value": 2000,
   "weightKg": 8,
+  "recyclesInto": {
+    "metal_parts": 6,
+    "simple_gun_parts": 1
+  },
+  "upgradeCost": {
+    "metal_parts": 9,
+    "simple_gun_parts": 1
+  },
   "effects": {
     "Durability": {
       "en": "Durability",
@@ -135,13 +143,5 @@
     }
   },
   "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
-  "updatedAt": "11/17/2025",
-  "recyclesInto": {
-    "metal_parts": 6,
-    "simple_gun_parts": 1
-  },
-  "upgradeCost": {
-    "mechanical_components": 1,
-    "simple_gun_parts": 1
-  }
+  "updatedAt": "11/24/2025"
 }

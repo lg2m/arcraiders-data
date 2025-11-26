@@ -2,14 +2,18 @@
   "id": "burletta_iii",
   "name": "Burletta III",
   "description": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger.",
-  "type": "Weapon",
+  "type": "Pistol",
   "rarity": "Uncommon",
   "value": 7000,
   "weightKg": 4,
+  "upgradeCost": {
+    "mechanical_components": 3,
+    "simple_gun_parts": 1
+  },
   "recyclesInto": {
     "mechanical_components": 3,
     "simple_gun_parts": 3
   },
   "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
-  "updatedAt": "10/30/2025"
+  "updatedAt": "11/24/2025"
 }

@@ -4,6 +4,17 @@
   "description": "Has a built-in silencer. Great for stealth, but tricky in combat.",
   "type": "Pistol",
   "rarity": "Common",
+  "recyclesInto": {
+    "metal_parts": 6,
+    "simple_gun_parts": 1
+  },
+  "upgradeCost": {
+    "metal_parts": 9,
+    "simple_gun_parts": 1
+  },
+  "salvagesInto": {
+    "simple_gun_parts": 1
+  },
   "effects": {
     "Durability": {
       "en": "Durability",
@@ -177,17 +188,6 @@
   "weightKg": 3,
   "value": 2000,
   "imageFilename": "https://cdn.arctracker.io/items/hairpin_i.png",
-  "updatedAt": "11/11/2025",
-  "recyclesInto": {
-    "metal_parts": 6,
-    "simple_gun_parts": 1
-  },
-  "salvagesInto": {
-    "simple_gun_parts": 1
-  },
   "craftBench": "weapon_bench",
-  "upgradeCost": {
-    "metal_parts": 6,
-    "simple_gun_parts": 1
-  }
+  "updatedAt": "11/24/2025"
 }
