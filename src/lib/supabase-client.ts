@@ -4,5 +4,5 @@ const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
 const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY!;
 
 export const supabaseService = createClient(supabaseUrl, supabaseKey, {
-  auth: { persistSession: false },
+	auth: { persistSession: false },
 });

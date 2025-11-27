@@ -111,7 +111,7 @@
 	},
 	{
 		"traderId": "celeste",
-		"itemId": "processors",
+		"itemId": "processor",
 		"quantity": 1,
 		"cost": {
 			"itemId": "assorted_seeds",

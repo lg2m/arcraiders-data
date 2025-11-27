@@ -1,0 +1,11 @@
+{
+	"id": "coins",
+	"name": "Coins",
+	"description": "Standard currency used for trading.",
+	"type": "Currency",
+	"rarity": "Common",
+	"updatedAt": "11/27/2025",
+	"imageFilename": "https://cdn.arctracker.io/items/coins.png",
+	"value": 1,
+	"stackSize": 999999
+}
