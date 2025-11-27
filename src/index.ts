@@ -10,37 +10,7 @@ import { upsertItems } from "./ingest/items";
 import { upsertBots } from "./ingest/bots";
 import { traderIdEnumSchema, upsertTraders } from "./ingest/traders";
 import { upsertTrades } from "./ingest/trades";
-
-const hideoutIdEnumSchema = z.enum([
-	"workbench",
-	"gunsmith",
-	"utility_station",
-	"stash",
-	"scrappy",
-	"refiner",
-	"medical_lab",
-	"explosives_station",
-	"gear_bench",
-]);
-
-const hideoutSchema = z.object({
-	id: hideoutIdEnumSchema,
-	name: z.string(),
-	image: z.url().nullable(),
-	maxLevel: z.number().min(0).max(10),
-	levels: z.array(
-		z.object({
-			level: z.number().min(1).max(10),
-			requirementItemIds: z.array(
-				z.object({
-					itemId: z.string(),
-					quantity: z.number(),
-				}),
-			),
-			description: z.string().nullable(),
-		}),
-	),
-});
+import { upsertBenches } from "./ingest/hideout";
 
 const projectSchema = z.object({
 	id: z.string(),
@@ -391,90 +361,6 @@ async function upsertQuests(baseDir: string) {
 	console.log("Quest ingest complete");
 }
 
-async function upsertHideoutBenches(baseDir: string) {
-	const hideoutDir = path.join(baseDir, "hideout");
-	if (!fs.existsSync(hideoutDir)) {
-		console.warn(`hideout directory not found at ${hideoutDir}`);
-		return;
-	}
-
-	const files = fs.readdirSync(hideoutDir).filter((f) => f.endsWith(".json"));
-
-	console.log(`Ingesting ${files.length} hideout JSON files`);
-
-	const benches: z.infer<typeof hideoutSchema>[] = [];
-	for (const file of files) {
-		const fullPath = path.join(hideoutDir, file);
-		const bench = readJson(fullPath, hideoutSchema);
-		if (bench) {
-			benches.push(bench);
-		}
-	}
-
-	for (const b of benches) {
-		await supabaseService.from("benches").upsert(
-			{
-				id: b.id,
-				name: b.name,
-				image_uri: b.image,
-				max_level: b.maxLevel,
-				source_json: b,
-			},
-			{ onConflict: "id" },
-		);
-
-		const { data: existing, error: existingErr } = await supabaseService
-			.from("bench_levels")
-			.select("id")
-			.eq("bench_id", b.id);
-		if (existingErr) {
-			console.error(existingErr);
-		}
-
-		if (existing) {
-			const ids = existing.map((l) => l.id);
-			await supabaseService
-				.from("bench_level_items")
-				.delete()
-				.in("level_id", ids);
-			await supabaseService.from("bench_levels").delete().eq("bench_id", b.id);
-		}
-
-		for (const lvl of b.levels) {
-			const { data: insertedLevel, error: insErr } = await supabaseService
-				.from("bench_levels")
-				.insert({
-					bench_id: b.id,
-					level: lvl.level,
-					description: lvl.description,
-				})
-				.select("id")
-				.single();
-
-			if (insErr || !insertedLevel) {
-				console.error("Error inserting bench level", b.id, lvl.level, insErr);
-				continue;
-			}
-
-			// upsert items
-			const levelId = insertedLevel.id;
-
-			for (const r of lvl.requirementItemIds) {
-				// ensure item exists
-				await supabaseService
-					.from("items")
-					.upsert({ id: r.itemId }, { onConflict: "id" });
-
-				await supabaseService.from("bench_level_items").insert({
-					level_id: levelId,
-					item_id: r.itemId,
-					quantity: r.quantity,
-				});
-			}
-		}
-	}
-}
-
 async function main() {
 	const baseDir = path.resolve(__dirname, "../data");
 
@@ -519,6 +405,10 @@ async function main() {
 	await upsertTrades(baseDir, { items: itemLookup, traders: traderLookup });
 	console.log();
 
+	// hideout/benches - item relations
+	const benchLookup = await upsertBenches(baseDir, { items: itemLookup });
+	console.log();
+
 	const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
 	console.log("=".repeat(60));
 	console.log(`Ingestion complete in ${elapsed}s`);
@@ -529,6 +419,7 @@ async function main() {
 	console.log(`  Items: ${itemLookup.size}`);
 	console.log(`  Bots:  ${botLookup.size}`);
 	console.log(`  Traders: ${traderLookup.size}`);
+	console.log(`  Benches: ${benchLookup.size}`);
 }
 
 main().catch(console.error);
