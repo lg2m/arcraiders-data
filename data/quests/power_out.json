@@ -16,10 +16,6 @@
 	"grantedItemIds": [],
 	"rewardItemIds": [
 		{
-			"itemId": "bag_radio_renegade",
-			"quantity": 1
-		},
-		{
 			"itemId": "wires",
 			"quantity": 5
 		},

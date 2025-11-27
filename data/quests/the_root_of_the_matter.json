@@ -15,10 +15,6 @@
 	"grantedItemIds": [],
 	"rewardItemIds": [
 		{
-			"itemId": "succulent",
-			"quantity": 1
-		},
-		{
 			"itemId": "coins",
 			"quantity": 1000
 		}

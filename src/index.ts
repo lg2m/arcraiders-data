@@ -1,16 +1,16 @@
-import fs from "node:fs";
 import path from "node:path";
 
 import { z } from "zod";
 
 import { supabaseService } from "./lib/supabase-client";
-import { readJson, readJsonArray } from "./lib/utils";
-import { mapIdEnumSchema, upsertMaps } from "./ingest/maps";
+import { readJsonArray } from "./lib/utils";
+import { upsertMaps } from "./ingest/maps";
 import { upsertItems } from "./ingest/items";
 import { upsertBots } from "./ingest/bots";
-import { traderIdEnumSchema, upsertTraders } from "./ingest/traders";
+import { upsertTraders } from "./ingest/traders";
 import { upsertTrades } from "./ingest/trades";
 import { upsertBenches } from "./ingest/hideout";
+import { upsertQuests } from "./ingest/quests";
 
 const projectSchema = z.object({
 	id: z.string(),
@@ -35,39 +35,6 @@ const projectSchema = z.object({
 			),
 		}),
 	),
-});
-
-const questSchema = z.object({
-	id: z.string(),
-	updatedAt: z.string(),
-	videoUrl: z.url().nullable(),
-	mapIds: z.array(mapIdEnumSchema),
-	name: z.string(),
-	traderId: traderIdEnumSchema,
-	description: z.string(),
-	objectives: z.array(z.string()),
-	otherRequirements: z.array(z.string()),
-	requiredItemIds: z.array(
-		z.object({
-			itemId: z.string(),
-			quantity: z.number(),
-		}),
-	),
-	grantedItemIds: z.array(
-		z.object({
-			itemId: z.string(),
-			quantity: z.number(),
-		}),
-	),
-	rewardItemIds: z.array(
-		z.object({
-			itemId: z.string(),
-			quantity: z.number(),
-		}),
-	),
-	xp: z.number(),
-	previousQuestIds: z.array(z.string()),
-	nextQuestIds: z.array(z.string()),
 });
 
 function toId(str: string) {
@@ -172,195 +139,6 @@ async function upsertProjects(baseDir: string) {
 	}
 }
 
-async function upsertQuests(baseDir: string) {
-	const questsDir = path.join(baseDir, "quests");
-	if (!fs.existsSync(questsDir)) {
-		console.warn(`quests directory not found at ${questsDir}`);
-		return;
-	}
-
-	const files = fs.readdirSync(questsDir).filter((f) => f.endsWith(".json"));
-
-	console.log(`Ingesting ${files.length} quest JSON files`);
-
-	const quests: z.infer<typeof questSchema>[] = [];
-	for (const file of files) {
-		const fullPath = path.join(questsDir, file);
-		const quest = readJson(fullPath, questSchema);
-		if (quest) {
-			quests.push(quest);
-		}
-	}
-
-	const itemIds = new Set<string>();
-	const mapIds = new Set<string>();
-
-	for (const q of quests) {
-		q.mapIds.forEach((m) => mapIds.add(m));
-		q.requiredItemIds.forEach((ri) => itemIds.add(ri.itemId));
-		q.grantedItemIds.forEach((gi) => itemIds.add(gi.itemId));
-		q.rewardItemIds.forEach((ri) => itemIds.add(ri.itemId));
-	}
-
-	if (itemIds.size > 0) {
-		await supabaseService.from("items").upsert(
-			[...itemIds].map((id) => ({ id })),
-			{ onConflict: "id" },
-		);
-	}
-
-	if (mapIds.size > 0) {
-		await supabaseService.from("maps").upsert(
-			[...mapIds].map((id) => ({ id })),
-			{ onConflict: "id" },
-		);
-	}
-
-	// Upsert quests + child tables
-	for (const q of quests) {
-		// Upsert quest core row
-		const { error: questErr } = await supabaseService.from("quests").upsert(
-			{
-				id: q.id,
-				name: q.name,
-				trader_id: q.traderId,
-				description: q.description,
-				xp: q.xp,
-				source_json: q as any,
-			},
-			{ onConflict: "id" },
-		);
-
-		if (questErr) {
-			console.error("quests upsert error", q.id, questErr);
-			continue;
-		}
-
-		// quest_maps
-		await supabaseService.from("quest_maps").delete().eq("quest_id", q.id);
-		if (q.mapIds.length > 0) {
-			const mapRows = q.mapIds.map((mapId) => ({
-				quest_id: q.id,
-				map_id: mapId,
-			}));
-			const { error } = await supabaseService
-				.from("quest_maps")
-				.insert(mapRows);
-			if (error) console.error("quest_maps insert error", q.id, error);
-		}
-
-		// quest_objectives
-		await supabaseService
-			.from("quest_objectives")
-			.delete()
-			.eq("quest_id", q.id);
-		if (q.objectives.length > 0) {
-			const objectiveRows = q.objectives.map((text, index) => ({
-				quest_id: q.id,
-				index_in_quest: index,
-				text,
-			}));
-			const { error } = await supabaseService
-				.from("quest_objectives")
-				.insert(objectiveRows);
-			if (error) console.error("quest_objectives insert error", q.id, error);
-		}
-
-		// quest_other_requirements
-		await supabaseService
-			.from("quest_other_requirements")
-			.delete()
-			.eq("quest_id", q.id);
-		if (q.otherRequirements.length > 0) {
-			const reqRows = q.otherRequirements.map((text, index) => ({
-				quest_id: q.id,
-				index_in_quest: index,
-				text,
-			}));
-			const { error } = await supabaseService
-				.from("quest_other_requirements")
-				.insert(reqRows);
-			if (error)
-				console.error("quest_other_requirements insert error", q.id, error);
-		}
-
-		// quest_items – required, granted, reward
-		await supabaseService.from("quest_items").delete().eq("quest_id", q.id);
-
-		const questItemRows: {
-			quest_id: string;
-			item_id: string;
-			quantity: number;
-			kind: "required" | "granted" | "reward";
-		}[] = [];
-
-		for (const ri of q.requiredItemIds) {
-			questItemRows.push({
-				quest_id: q.id,
-				item_id: ri.itemId,
-				quantity: ri.quantity,
-				kind: "required",
-			});
-		}
-		for (const gi of q.grantedItemIds) {
-			questItemRows.push({
-				quest_id: q.id,
-				item_id: gi.itemId,
-				quantity: gi.quantity,
-				kind: "granted",
-			});
-		}
-		for (const ri of q.rewardItemIds) {
-			questItemRows.push({
-				quest_id: q.id,
-				item_id: ri.itemId,
-				quantity: ri.quantity,
-				kind: "reward",
-			});
-		}
-
-		if (questItemRows.length > 0) {
-			const { error } = await supabaseService
-				.from("quest_items")
-				.insert(questItemRows);
-			if (error) console.error("quest_items insert error", q.id, error);
-		}
-
-		// quest_relations – previous & next
-		await supabaseService.from("quest_relations").delete().eq("quest_id", q.id);
-
-		const relationRows: {
-			quest_id: string;
-			related_quest_id: string;
-			kind: "previous" | "next";
-		}[] = [];
-
-		for (const prevId of q.previousQuestIds) {
-			relationRows.push({
-				quest_id: q.id,
-				related_quest_id: prevId,
-				kind: "previous",
-			});
-		}
-		for (const nextId of q.nextQuestIds) {
-			relationRows.push({
-				quest_id: q.id,
-				related_quest_id: nextId,
-				kind: "next",
-			});
-		}
-
-		if (relationRows.length > 0) {
-			const { error } = await supabaseService
-				.from("quest_relations")
-				.insert(relationRows);
-			if (error) console.error("quest_relations insert error", q.id, error);
-		}
-	}
-
-	console.log("Quest ingest complete");
-}
-
 async function main() {
 	const baseDir = path.resolve(__dirname, "../data");
 
@@ -405,7 +183,14 @@ async function main() {
 	await upsertTrades(baseDir, { items: itemLookup, traders: traderLookup });
 	console.log();
 
-	// hideout/benches - item relations
+	// quests - depends on traders, maps, and items
+	const questLookup = await upsertQuests(baseDir, { items: itemLookup, maps: mapLookup, traders: traderLookup });
+	console.log();
+
+	// projects - depends on items
+	//
+
+	// hideout/benches - depends on items
 	const benchLookup = await upsertBenches(baseDir, { items: itemLookup });
 	console.log();
 
@@ -420,6 +205,7 @@ async function main() {
 	console.log(`  Bots:  ${botLookup.size}`);
 	console.log(`  Traders: ${traderLookup.size}`);
 	console.log(`  Benches: ${benchLookup.size}`);
+	console.log(`  Quests:  ${questLookup.size}`);
 }
 
 main().catch(console.error);

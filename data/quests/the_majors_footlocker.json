@@ -10,12 +10,7 @@
 		"Deliver Major Aiva's Mementos to Tian Wen"
 	],
 	"otherRequirements": [],
-	"requiredItemIds": [
-		{
-			"itemId": "major_aiva_mementos",
-			"quantity": 1
-		}
-	],
+	"requiredItemIds": [],
 	"grantedItemIds": [],
 	"rewardItemIds": [
 		{

@@ -15,10 +15,6 @@
 	"grantedItemIds": [],
 	"rewardItemIds": [
 		{
-			"itemId": "aviator",
-			"quantity": 1
-		},
-		{
 			"itemId": "mod_components",
 			"quantity": 3
 		},

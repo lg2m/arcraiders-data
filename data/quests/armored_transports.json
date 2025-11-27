@@ -16,10 +16,6 @@
 	"grantedItemIds": [],
 	"rewardItemIds": [
 		{
-			"itemId": "blue_yellow_aviator",
-			"quantity": 1
-		},
-		{
 			"itemId": "smoke_grenade",
 			"quantity": 3
 		},

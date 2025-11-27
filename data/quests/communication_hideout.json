@@ -17,10 +17,6 @@
 	"grantedItemIds": [],
 	"rewardItemIds": [
 		{
-			"itemId": "crimson_racer_aviator",
-			"quantity": 1
-		},
-		{
 			"itemId": "anvil_iii",
 			"quantity": 1
 		},

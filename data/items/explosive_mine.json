@@ -1,0 +1,20 @@
+{
+	"id": "explosive_mine",
+	"name": "Explosive Mine",
+	"description": "A proximity triggered mine that pops up and explodes, dealing damage to anything within its radius.",
+	"type": "Quick Use",
+	"rarity": "Rare",
+	"value": 1500,
+	"weightKg": 0.4,
+	"stackSize": 3,
+	"damage": 40,
+	"radius": 7.5,
+	"foundIn": "Industrial, Security",
+	"imageFilename": "https://cdn.arctracker.io/items/explosive_mine.png",
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"explosive_compound": 1,
+		"sensors": 2
+	},
+	"craftBench": "explosives_station"
+}
