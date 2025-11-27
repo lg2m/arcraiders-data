@@ -1,20 +1,20 @@
 {
-  "id": "water_pump",
-  "name": "Water Pump",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "stackSize": 3,
-  "weightKg": 2,
-  "value": 1000,
-  "recyclesInto": {
-    "metal_parts": 4,
-    "oil": 2
-  },
-  "salvagesInto": {
-    "oil": 2
-  },
-  "foundIn": "Mechanical, Industrial",
-  "imageFilename": "https://cdn.arctracker.io/items/water_pump.png",
-  "updatedAt": "11/03/2025"
+	"id": "water_pump",
+	"name": "Water Pump",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"stackSize": 3,
+	"weightKg": 2,
+	"value": 1000,
+	"recyclesInto": {
+		"metal_parts": 4,
+		"oil": 2
+	},
+	"salvagesInto": {
+		"oil": 2
+	},
+	"foundIn": "Mechanical, Industrial",
+	"imageFilename": "https://cdn.arctracker.io/items/water_pump.png",
+	"updatedAt": "11/03/2025"
 }

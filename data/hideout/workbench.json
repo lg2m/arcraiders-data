@@ -1,7 +1,7 @@
 {
-  "id": "workbench",
-  "name": "Workbench",
-  "image": null,
-  "maxLevel": 0,
-  "levels": []
+	"id": "workbench",
+	"name": "Workbench",
+	"image": null,
+	"maxLevel": 0,
+	"levels": []
 }

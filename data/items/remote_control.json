@@ -1,20 +1,20 @@
 {
-  "id": "remote_control",
-  "name": "Remote Control",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "recyclesInto": {
-    "plastic_parts": 7,
-    "sensors": 1
-  },
-  "salvagesInto": {
-    "sensors": 1
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 0.8,
-  "stackSize": 3,
-  "foundIn": "Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/remote_control.png",
-  "updatedAt": "11/03/2025"
+	"id": "remote_control",
+	"name": "Remote Control",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"recyclesInto": {
+		"plastic_parts": 7,
+		"sensors": 1
+	},
+	"salvagesInto": {
+		"sensors": 1
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 0.8,
+	"stackSize": 3,
+	"foundIn": "Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/remote_control.png",
+	"updatedAt": "11/03/2025"
 }

@@ -1,17 +1,17 @@
 {
-  "id": "rusted_gear",
-  "name": "Rusted Gear",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "value": 2000,
-  "recyclesInto": {
-    "metal_parts": 4,
-    "mechanical_components": 2
-  },
-  "foundIn": "Industrial",
-  "updatedAt": "11/04/2025",
-  "weightKg": 3,
-  "stackSize": 3,
-  "imageFilename": "https://cdn.arctracker.io/items/rusted_gear.png"
+	"id": "rusted_gear",
+	"name": "Rusted Gear",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"value": 2000,
+	"recyclesInto": {
+		"metal_parts": 4,
+		"mechanical_components": 2
+	},
+	"foundIn": "Industrial",
+	"updatedAt": "11/04/2025",
+	"weightKg": 3,
+	"stackSize": 3,
+	"imageFilename": "https://cdn.arctracker.io/items/rusted_gear.png"
 }

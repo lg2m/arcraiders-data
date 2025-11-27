@@ -1,13 +1,13 @@
 {
-  "id": "rosary",
-  "name": "Rosary",
-  "description": "May be worth a few coins.",
-  "type": "Trinket",
-  "value": 2000,
-  "rarity": "Rare",
-  "weightKg": 0.3,
-  "stackSize": 3,
-  "foundIn": "Old World, Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/rosary.png",
-  "updatedAt": "11/11/2025"
+	"id": "rosary",
+	"name": "Rosary",
+	"description": "May be worth a few coins.",
+	"type": "Trinket",
+	"value": 2000,
+	"rarity": "Rare",
+	"weightKg": 0.3,
+	"stackSize": 3,
+	"foundIn": "Old World, Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/rosary.png",
+	"updatedAt": "11/11/2025"
 }

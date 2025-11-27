@@ -1,12 +1,12 @@
 {
-  "id": "buried_city_town_hall_key",
-  "name": "Buried City Town Hall Key",
-  "description": "Unlocks the door to the Town Hall in Buried City",
-  "type": "Key",
-  "rarity": "Epic",
-  "value": 100,
-  "recyclesInto": {},
-  "weightKg": 0.25,
-  "imageFilename": "https://cdn.arctracker.io/items/buried_city_town_hall_key.png",
-  "updatedAt": "10/31/2025"
+	"id": "buried_city_town_hall_key",
+	"name": "Buried City Town Hall Key",
+	"description": "Unlocks the door to the Town Hall in Buried City",
+	"type": "Key",
+	"rarity": "Epic",
+	"value": 100,
+	"recyclesInto": {},
+	"weightKg": 0.25,
+	"imageFilename": "https://cdn.arctracker.io/items/buried_city_town_hall_key.png",
+	"updatedAt": "10/31/2025"
 }

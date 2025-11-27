@@ -1,11 +1,11 @@
 {
-  "id": "complex_gun_parts_blueprint",
-  "name": "Complex Gun Parts Blueprint",
-  "description": "Used to craft advanced weapons.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/complex_gun_parts_blueprint.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/12/2025"
+	"id": "complex_gun_parts_blueprint",
+	"name": "Complex Gun Parts Blueprint",
+	"description": "Used to craft advanced weapons.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/complex_gun_parts_blueprint.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/12/2025"
 }

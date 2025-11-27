@@ -1,19 +1,19 @@
 {
-  "id": "camera_lens",
-  "name": "Camera Lens",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "rarity": "Uncommon",
-  "value": 640,
-  "recyclesInto": {
-    "plastic_parts": 8
-  },
-  "salvagesInto": {
-    "plastic_parts": 4
-  },
-  "weightKg": 0.8,
-  "stackSize": 5,
-  "foundIn": "Security",
-  "imageFilename": "https://cdn.arctracker.io/items/camera_lens.png",
-  "updatedAt": "11/03/2025"
+	"id": "camera_lens",
+	"name": "Camera Lens",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"rarity": "Uncommon",
+	"value": 640,
+	"recyclesInto": {
+		"plastic_parts": 8
+	},
+	"salvagesInto": {
+		"plastic_parts": 4
+	},
+	"weightKg": 0.8,
+	"stackSize": 5,
+	"foundIn": "Security",
+	"imageFilename": "https://cdn.arctracker.io/items/camera_lens.png",
+	"updatedAt": "11/03/2025"
 }

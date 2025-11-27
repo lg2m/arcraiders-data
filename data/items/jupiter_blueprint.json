@@ -1,11 +1,11 @@
 {
-  "id": "jupiter_blueprint",
-  "name": "Jupiter Blueprint",
-  "description": "A bolt-action sniper rifle with exceptional damage output and accuracy, but slow handling.",
-  "type": "Blueprint",
-  "rarity": "Legendary",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
-  "updatedAt": "11/12/2025"
+	"id": "jupiter_blueprint",
+	"name": "Jupiter Blueprint",
+	"description": "A bolt-action sniper rifle with exceptional damage output and accuracy, but slow handling.",
+	"type": "Blueprint",
+	"rarity": "Legendary",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
+	"updatedAt": "11/12/2025"
 }

@@ -1,19 +1,19 @@
 {
-  "id": "arc_thermo_lining",
-  "name": "ARC Thermo Lining",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "recyclesInto": {
-    "fabric": 16
-  },
-  "salvagesInto": {
-    "fabric": 9
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 1,
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "imageFilename": "https://cdn.arctracker.io/items/arc_thermo_lining.png",
-  "updatedAt": "11/03/2025"
+	"id": "arc_thermo_lining",
+	"name": "ARC Thermo Lining",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"recyclesInto": {
+		"fabric": 16
+	},
+	"salvagesInto": {
+		"fabric": 9
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 1,
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"imageFilename": "https://cdn.arctracker.io/items/arc_thermo_lining.png",
+	"updatedAt": "11/03/2025"
 }

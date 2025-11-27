@@ -1,11 +1,11 @@
 {
-  "id": "tactical_mk3_healing_blueprint",
-  "name": "Tactical Mk. 3 (Healing) Blueprint",
-  "description": "A healing-focused augment which adds extra slots for healing items.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing_blueprint.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/11/2025"
+	"id": "tactical_mk3_healing_blueprint",
+	"name": "Tactical Mk. 3 (Healing) Blueprint",
+	"description": "A healing-focused augment which adds extra slots for healing items.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing_blueprint.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/11/2025"
 }

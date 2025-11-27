@@ -1,65 +1,65 @@
 {
-  "id": "defibrillator",
-  "name": "Defibrillator",
-  "description": "An injection that quickly revives downed raiders and restores some health.",
-  "type": "Quick Use",
-  "rarity": "Rare",
-  "value": 1000,
-  "recyclesInto": {
-    "plastic_parts": 1,
-    "moss": 1
-  },
-  "recipe": {
-    "plastic_parts": 9,
-    "moss": 1
-  },
-  "craftBench": "medical_lab",
-  "weightKg": 0.75,
-  "stackSize": 3,
-  "effects": {
-    "Healing": {
-      "en": "Healing",
-      "de": "Heilung",
-      "fr": "Soins",
-      "es": "Curación",
-      "pt": "Cura",
-      "pl": "Leczenie",
-      "no": "Helbredelse",
-      "da": "Helbredelse",
-      "it": "Guarigione",
-      "ru": "Исцеление",
-      "ja": "回復",
-      "zh-TW": "治療",
-      "uk": "Зцілення",
-      "zh-CN": "治疗",
-      "kr": "치유",
-      "tr": "İyileştirme",
-      "hr": "Liječenje",
-      "sr": "Lečenje",
-      "value": 50
-    },
-    "Use Time": {
-      "en": "Use Time",
-      "de": "Anwendungszeit",
-      "fr": "Temps d'utilisation",
-      "es": "Tiempo de uso",
-      "pt": "Tempo de uso",
-      "pl": "Czas użycia",
-      "no": "Brukstid",
-      "da": "Brugstid",
-      "it": "Tempo d'uso",
-      "ru": "Время использования",
-      "ja": "使用時間",
-      "zh-TW": "使用時間",
-      "uk": "Час використання",
-      "zh-CN": "使用时间",
-      "kr": "사용 시간",
-      "tr": "Kullanım Süresi",
-      "hr": "Vrijeme Korištenja",
-      "sr": "Vreme Korišćenja",
-      "value": "1.5s"
-    }
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
-  "updatedAt": "11/03/2025"
+	"id": "defibrillator",
+	"name": "Defibrillator",
+	"description": "An injection that quickly revives downed raiders and restores some health.",
+	"type": "Quick Use",
+	"rarity": "Rare",
+	"value": 1000,
+	"recyclesInto": {
+		"plastic_parts": 1,
+		"moss": 1
+	},
+	"recipe": {
+		"plastic_parts": 9,
+		"moss": 1
+	},
+	"craftBench": "medical_lab",
+	"weightKg": 0.75,
+	"stackSize": 3,
+	"effects": {
+		"Healing": {
+			"en": "Healing",
+			"de": "Heilung",
+			"fr": "Soins",
+			"es": "Curación",
+			"pt": "Cura",
+			"pl": "Leczenie",
+			"no": "Helbredelse",
+			"da": "Helbredelse",
+			"it": "Guarigione",
+			"ru": "Исцеление",
+			"ja": "回復",
+			"zh-TW": "治療",
+			"uk": "Зцілення",
+			"zh-CN": "治疗",
+			"kr": "치유",
+			"tr": "İyileştirme",
+			"hr": "Liječenje",
+			"sr": "Lečenje",
+			"value": 50
+		},
+		"Use Time": {
+			"en": "Use Time",
+			"de": "Anwendungszeit",
+			"fr": "Temps d'utilisation",
+			"es": "Tiempo de uso",
+			"pt": "Tempo de uso",
+			"pl": "Czas użycia",
+			"no": "Brukstid",
+			"da": "Brugstid",
+			"it": "Tempo d'uso",
+			"ru": "Время использования",
+			"ja": "使用時間",
+			"zh-TW": "使用時間",
+			"uk": "Час використання",
+			"zh-CN": "使用时间",
+			"kr": "사용 시간",
+			"tr": "Kullanım Süresi",
+			"hr": "Vrijeme Korištenja",
+			"sr": "Vreme Korišćenja",
+			"value": "1.5s"
+		}
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
+	"updatedAt": "11/03/2025"
 }

@@ -1,14 +1,14 @@
 {
-  "id": "vase",
-  "name": "Vase",
-  "description": "Worth a small fortune.",
-  "type": "Trinket",
-  "value": 3000,
-  "recyclesInto": {},
-  "updatedAt": "11/04/2025",
-  "rarity": "Rare",
-  "weightKg": 0.3,
-  "stackSize": 3,
-  "foundIn": "Old World, Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/vase.png"
+	"id": "vase",
+	"name": "Vase",
+	"description": "Worth a small fortune.",
+	"type": "Trinket",
+	"value": 3000,
+	"recyclesInto": {},
+	"updatedAt": "11/04/2025",
+	"rarity": "Rare",
+	"weightKg": 0.3,
+	"stackSize": 3,
+	"foundIn": "Old World, Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/vase.png"
 }

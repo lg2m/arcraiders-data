@@ -1,49 +1,39 @@
 {
-  "id": "ss10s",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "dam_battlegrounds",
-    "buried_city",
-    "the_spaceport"
-  ],
-  "name": "Eyes in the Sky",
-  "description": "Requires a zipline to get on top of the tower. Those LiDAR scanners you found work best when put in high locations. I've identified a few good spots around the Rust Belt; hope you're surefooted.",
-  "objectives": [
-    "On Dam Battlegrounds, install a LiDAR Scanner at the top of the Control Tower",
-    "On Spaceport, install a LiDAR Scanner at the Communications Tower",
-    "On Buried City, install a LiDAR Scanner on top of the Galleria sign"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [
-    {
-      "itemId": "zipline",
-      "quantity": 1
-    }
-  ],
-  "rewardItemIds": [
-    {
-      "itemId": "tagging_grenade",
-      "quantity": 3
-    },
-    {
-      "itemId": "vita_spray",
-      "quantity": 1
-    },
-    {
-      "itemId": "yellow_light_stick",
-      "quantity": 5
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10k"
-  ],
-  "nextQuestIds": [
-    "ss10x",
-    "ss10y",
-    "ss10w"
-  ],
-  "traderId": "shani"
+	"id": "ss10s",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": ["dam_battlegrounds", "buried_city", "the_spaceport"],
+	"name": "Eyes in the Sky",
+	"description": "Requires a zipline to get on top of the tower. Those LiDAR scanners you found work best when put in high locations. I've identified a few good spots around the Rust Belt; hope you're surefooted.",
+	"objectives": [
+		"On Dam Battlegrounds, install a LiDAR Scanner at the top of the Control Tower",
+		"On Spaceport, install a LiDAR Scanner at the Communications Tower",
+		"On Buried City, install a LiDAR Scanner on top of the Galleria sign"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [
+		{
+			"itemId": "zipline",
+			"quantity": 1
+		}
+	],
+	"rewardItemIds": [
+		{
+			"itemId": "tagging_grenade",
+			"quantity": 3
+		},
+		{
+			"itemId": "vita_spray",
+			"quantity": 1
+		},
+		{
+			"itemId": "yellow_light_stick",
+			"quantity": 5
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10k"],
+	"nextQuestIds": ["ss10x", "ss10y", "ss10w"],
+	"traderId": "shani"
 }

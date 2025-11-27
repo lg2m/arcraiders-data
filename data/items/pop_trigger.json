@@ -1,17 +1,17 @@
 {
-  "id": "pop_trigger",
-  "name": "Pop Trigger",
-  "rarity": "Common",
-  "type": "Recyclable",
-  "value": 640,
-  "recyclesInto": {
-    "crude_explosives": 1,
-    "arc_alloy": 1
-  },
-  "updatedAt": "11/01/2025",
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 0.5,
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "imageFilename": "https://cdn.arctracker.io/items/pop_trigger.png"
+	"id": "pop_trigger",
+	"name": "Pop Trigger",
+	"rarity": "Common",
+	"type": "Recyclable",
+	"value": 640,
+	"recyclesInto": {
+		"crude_explosives": 1,
+		"arc_alloy": 1
+	},
+	"updatedAt": "11/01/2025",
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 0.5,
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"imageFilename": "https://cdn.arctracker.io/items/pop_trigger.png"
 }

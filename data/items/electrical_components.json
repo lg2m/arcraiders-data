@@ -1,25 +1,25 @@
 {
-  "id": "electrical_components",
-  "name": "Electrical Components",
-  "description": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Grenade",
-  "type": "Refined Material",
-  "value": 640,
-  "recyclesInto": {
-    "plastic_parts": 3,
-    "rubber_parts": 3
-  },
-  "salvagesInto": {
-    "plastic_parts": 3
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/electrical_components.png",
-  "rarity": "Uncommon",
-  "weightKg": 0.5,
-  "stackSize": 10,
-  "foundIn": "Electrical",
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "plastic_parts": 8,
-    "rubber_parts": 4
-  },
-  "craftBench": "refiner"
+	"id": "electrical_components",
+	"name": "Electrical Components",
+	"description": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 2, Combat Mk. 2, Looting Mk. 2, Surge Shield Recharger, Lure Grenade",
+	"type": "Refined Material",
+	"value": 640,
+	"recyclesInto": {
+		"plastic_parts": 3,
+		"rubber_parts": 3
+	},
+	"salvagesInto": {
+		"plastic_parts": 3
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/electrical_components.png",
+	"rarity": "Uncommon",
+	"weightKg": 0.5,
+	"stackSize": 10,
+	"foundIn": "Electrical",
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"plastic_parts": 8,
+		"rubber_parts": 4
+	},
+	"craftBench": "refiner"
 }

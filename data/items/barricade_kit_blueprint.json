@@ -1,11 +1,11 @@
 {
-  "id": "barricade_kit_blueprint",
-  "name": "Barricade Kit Blueprint",
-  "description": "A deployable cover that can block incoming damage until it breaks.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/barricade_kit.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/13/2025"
+	"id": "barricade_kit_blueprint",
+	"name": "Barricade Kit Blueprint",
+	"description": "A deployable cover that can block incoming damage until it breaks.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/barricade_kit.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/13/2025"
 }

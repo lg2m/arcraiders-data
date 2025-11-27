@@ -1,11 +1,11 @@
 {
-  "id": "snap_hook_blueprint",
-  "name": "Snap Hook Blueprint",
-  "description": "A gadget that allows the user to scale structures and cover large distances.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "rarity": "Legendary",
-  "imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
-  "updatedAt": "11/14/2025"
+	"id": "snap_hook_blueprint",
+	"name": "Snap Hook Blueprint",
+	"description": "A gadget that allows the user to scale structures and cover large distances.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"rarity": "Legendary",
+	"imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
+	"updatedAt": "11/14/2025"
 }

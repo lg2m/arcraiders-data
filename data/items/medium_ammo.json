@@ -1,24 +1,18 @@
 {
-  "id": "medium_ammo",
-  "name": "Medium Ammo",
-  "description": "Compatible with: Rattler, Tempest, Arpeggio, Renegade, Torrente",
-  "type": "Ammunition",
-  "compatibleWith": [
-    "Arpeggio",
-    "Rattler",
-    "Tempest",
-    "Renegade",
-    "Torrente"
-  ],
-  "imageFilename": "https://cdn.arctracker.io/items/medium_ammo.png",
-  "value": 6,
-  "weightKg": 0.025,
-  "stackSize": 80,
-  "rarity": "Common",
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "metal_parts": 3,
-    "chemicals": 2
-  },
-  "craftBench": "workbench"
+	"id": "medium_ammo",
+	"name": "Medium Ammo",
+	"description": "Compatible with: Rattler, Tempest, Arpeggio, Renegade, Torrente",
+	"type": "Ammunition",
+	"compatibleWith": ["Arpeggio", "Rattler", "Tempest", "Renegade", "Torrente"],
+	"imageFilename": "https://cdn.arctracker.io/items/medium_ammo.png",
+	"value": 6,
+	"weightKg": 0.025,
+	"stackSize": 80,
+	"rarity": "Common",
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"metal_parts": 3,
+		"chemicals": 2
+	},
+	"craftBench": "workbench"
 }

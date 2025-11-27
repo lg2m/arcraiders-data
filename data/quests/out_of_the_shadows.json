@@ -1,45 +1,40 @@
 {
-  "id": "ss10v",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [],
-  "name": "Out of the Shadows",
-  "description": "Did you see the flags? The time for cowering is over. You've been more than battle-tested, from what I hear; think you can take on a Rocketeer?",
-  "objectives": [
-    "Destroy a Rocketeer",
-    "Obtain a Rocketeer Driver"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [
-    {
-      "itemId": "rocketeer_driver",
-      "quantity": 1
-    }
-  ],
-  "grantedItemIds": [
-    {
-      "itemId": "medium_shield",
-      "quantity": 1
-    },
-    {
-      "itemId": "combat_mk2",
-      "quantity": 1
-    }
-  ],
-  "rewardItemIds": [
-    {
-      "itemId": "surge_shield_recharger",
-      "quantity": 3
-    },
-    {
-      "itemId": "wolfpack",
-      "quantity": 2
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10r"
-  ],
-  "nextQuestIds": [],
-  "traderId": "shani"
+	"id": "ss10v",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": [],
+	"name": "Out of the Shadows",
+	"description": "Did you see the flags? The time for cowering is over. You've been more than battle-tested, from what I hear; think you can take on a Rocketeer?",
+	"objectives": ["Destroy a Rocketeer", "Obtain a Rocketeer Driver"],
+	"otherRequirements": [],
+	"requiredItemIds": [
+		{
+			"itemId": "rocketeer_driver",
+			"quantity": 1
+		}
+	],
+	"grantedItemIds": [
+		{
+			"itemId": "medium_shield",
+			"quantity": 1
+		},
+		{
+			"itemId": "combat_mk2",
+			"quantity": 1
+		}
+	],
+	"rewardItemIds": [
+		{
+			"itemId": "surge_shield_recharger",
+			"quantity": 3
+		},
+		{
+			"itemId": "wolfpack",
+			"quantity": 2
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10r"],
+	"nextQuestIds": [],
+	"traderId": "shani"
 }

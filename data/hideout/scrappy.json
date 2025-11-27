@@ -1,73 +1,73 @@
 {
-  "id": "scrappy",
-  "name": "Scrappy",
-  "image": null,
-  "maxLevel": 5,
-  "levels": [
-    {
-      "level": 1,
-      "requirementItemIds": [],
-      "description": null
-    },
-    {
-      "level": 2,
-      "requirementItemIds": [
-        {
-          "itemId": "dog_collar",
-          "quantity": 1
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 3,
-      "requirementItemIds": [
-        {
-          "itemId": "lemon",
-          "quantity": 3
-        },
-        {
-          "itemId": "apricot",
-          "quantity": 3
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 4,
-      "requirementItemIds": [
-        {
-          "itemId": "prickly_pear",
-          "quantity": 6
-        },
-        {
-          "itemId": "olives",
-          "quantity": 6
-        },
-        {
-          "itemId": "cat_bed",
-          "quantity": 1
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 5,
-      "requirementItemIds": [
-        {
-          "itemId": "mushroom",
-          "quantity": 12
-        },
-        {
-          "itemId": "apricot",
-          "quantity": 12
-        },
-        {
-          "itemId": "very_comfortable_pillow",
-          "quantity": 3
-        }
-      ],
-      "description": null
-    }
-  ]
+	"id": "scrappy",
+	"name": "Scrappy",
+	"image": null,
+	"maxLevel": 5,
+	"levels": [
+		{
+			"level": 1,
+			"requirementItemIds": [],
+			"description": null
+		},
+		{
+			"level": 2,
+			"requirementItemIds": [
+				{
+					"itemId": "dog_collar",
+					"quantity": 1
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 3,
+			"requirementItemIds": [
+				{
+					"itemId": "lemon",
+					"quantity": 3
+				},
+				{
+					"itemId": "apricot",
+					"quantity": 3
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 4,
+			"requirementItemIds": [
+				{
+					"itemId": "prickly_pear",
+					"quantity": 6
+				},
+				{
+					"itemId": "olives",
+					"quantity": 6
+				},
+				{
+					"itemId": "cat_bed",
+					"quantity": 1
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 5,
+			"requirementItemIds": [
+				{
+					"itemId": "mushroom",
+					"quantity": 12
+				},
+				{
+					"itemId": "apricot",
+					"quantity": 12
+				},
+				{
+					"itemId": "very_comfortable_pillow",
+					"quantity": 3
+				}
+			],
+			"description": null
+		}
+	]
 }

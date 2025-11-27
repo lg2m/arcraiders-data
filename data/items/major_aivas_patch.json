@@ -1,33 +1,33 @@
 {
-  "name": "Major Aiva's Patch",
-  "description": "A torn patch, found amidst rubble and ruin.",
-  "id": "major_aivas_patch",
-  "type": "Trinket",
-  "weightKg": 0.25,
-  "effects": {
-    "Tracked for quest": {
-      "en": "Tracked for quest",
-      "de": "Für Quest verfolgt",
-      "fr": "Suivi pour quête",
-      "es": "Rastreado para misión",
-      "pt": "Rastreado para missão",
-      "pl": "Śledzone dla zadania",
-      "no": "Sporet for oppdrag",
-      "da": "Sporet til opgave",
-      "it": "Tracciato per missione",
-      "ja": "クエスト追跡中",
-      "kr": "퀘스트 추적 중",
-      "zh-CN": "任务追踪",
-      "zh-TW": "任務追蹤",
-      "ru": "Отслеживается для задания",
-      "tr": "Görev için izleniyor",
-      "uk": "Відстежується для завдання",
-      "sr": "Praćeno za zadatak",
-      "hr": "Praćeno za zadatak",
-      "value": ""
-    }
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/major_aivas_patch.png",
-  "rarity": "Common",
-  "updatedAt": "11/17/2025"
+	"name": "Major Aiva's Patch",
+	"description": "A torn patch, found amidst rubble and ruin.",
+	"id": "major_aivas_patch",
+	"type": "Trinket",
+	"weightKg": 0.25,
+	"effects": {
+		"Tracked for quest": {
+			"en": "Tracked for quest",
+			"de": "Für Quest verfolgt",
+			"fr": "Suivi pour quête",
+			"es": "Rastreado para misión",
+			"pt": "Rastreado para missão",
+			"pl": "Śledzone dla zadania",
+			"no": "Sporet for oppdrag",
+			"da": "Sporet til opgave",
+			"it": "Tracciato per missione",
+			"ja": "クエスト追跡中",
+			"kr": "퀘스트 추적 중",
+			"zh-CN": "任务追踪",
+			"zh-TW": "任務追蹤",
+			"ru": "Отслеживается для задания",
+			"tr": "Görev için izleniyor",
+			"uk": "Відстежується для завдання",
+			"sr": "Praćeno za zadatak",
+			"hr": "Praćeno za zadatak",
+			"value": ""
+		}
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/major_aivas_patch.png",
+	"rarity": "Common",
+	"updatedAt": "11/17/2025"
 }

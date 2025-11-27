@@ -1,18 +1,18 @@
 {
-  "id": "damaged_arc_motion_core",
-  "name": "Damaged ARC Motion Core",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "rarity": "Uncommon",
-  "weightKg": 0.25,
-  "value": 640,
-  "foundIn": "ARC",
-  "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_motion_core.png",
-  "updatedAt": "11/07/2025",
-  "recyclesInto": {
-    "arc_alloy": 2
-  },
-  "salvagesInto": {
-    "arc_alloy": 1
-  }
+	"id": "damaged_arc_motion_core",
+	"name": "Damaged ARC Motion Core",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"rarity": "Uncommon",
+	"weightKg": 0.25,
+	"value": 640,
+	"foundIn": "ARC",
+	"imageFilename": "https://cdn.arctracker.io/items/damaged_arc_motion_core.png",
+	"updatedAt": "11/07/2025",
+	"recyclesInto": {
+		"arc_alloy": 2
+	},
+	"salvagesInto": {
+		"arc_alloy": 1
+	}
 }

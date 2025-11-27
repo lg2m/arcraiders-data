@@ -1,73 +1,67 @@
 {
-  "id": "stable_stock_i",
-  "name": "Stable Stock I",
-  "description": "Slightly improves dispersion & recoil recovery time.",
-  "type": "Modification",
-  "rarity": "Common",
-  "value": 640,
-  "imageFilename": "https://cdn.arctracker.io/items/stable_stock_i.png",
-  "compatibleWith": [
-    "Rattler",
-    "Ferro",
-    "Stitcher",
-    "Arpeggio",
-    "Bettina"
-  ],
-  "recipe": {
-    "rubber_parts": 6,
-    "duct_tape": 1
-  },
-  "recyclesInto": {
-    "rubber_parts": 6
-  },
-  "salvagesInto": {
-    "rubber_parts": 3
-  },
-  "weightKg": 0.25,
-  "effects": {
-    "Reduced Recoil Recovery Time": {
-      "en": "Reduced Recoil Recovery Time",
-      "de": "Reduzierte Rückstoßerholungszeit",
-      "fr": "Temps de récupération du recul réduit",
-      "es": "Tiempo de recuperación del retroceso reducido",
-      "pt": "Tempo de recuperação do recuo reduzido",
-      "pl": "Zmniejszony czas powrotu z odrzutu",
-      "no": "Redusert rekylgjenopprettingstid",
-      "da": "Reduceret rekylgendannelsestid",
-      "it": "Tempo di recupero del rinculo ridotto",
-      "ru": "Снижение времени восстановления отдачи",
-      "ja": "反動回復時間短縮",
-      "zh-TW": "降低後座力恢復時間",
-      "uk": "Зменшення часу відновлення віддачі",
-      "zh-CN": "降低后坐力恢复时间",
-      "kr": "반동 회복 시간 감소",
-      "tr": "Geri Tepme Toparlanma Süresi Azaltma",
-      "hr": "Smanjeno Vrijeme Oporavka Trzaja",
-      "sr": "Smanjeno Vreme Oporavka Trzaja",
-      "value": "20%"
-    },
-    "Reduced Dispersion Recovery Time": {
-      "en": "Reduced Dispersion Recovery Time",
-      "de": "Reduzierte Streuungserholungszeit",
-      "fr": "Temps de récupération de la dispersion réduit",
-      "es": "Tiempo de recuperación de la dispersión reducido",
-      "pt": "Tempo de recuperação da dispersão reduzido",
-      "pl": "Zmniejszony czas powrotu rozrzutu",
-      "no": "Redusert spredningsgjenopprettingstid",
-      "da": "Reduceret spredningsgendannelsestid",
-      "it": "Tempo di recupero della dispersione ridotto",
-      "ru": "Снижение времени восстановления разброса",
-      "ja": "拡散回復時間短縮",
-      "zh-TW": "降低擴散度恢復時間",
-      "uk": "Зменшення часу відновлення розкиду",
-      "zh-CN": "降低扩散度恢复时间",
-      "kr": "분산도 회복 시간 감소",
-      "tr": "Dağılım Toparlanma Süresi Azaltma",
-      "hr": "Smanjeno Vrijeme Oporavka Raspršenja",
-      "sr": "Smanjeno Vreme Oporavka Rasipanja",
-      "value": "20%"
-    }
-  },
-  "updatedAt": "11/03/2025",
-  "craftBench": "gunsmith"
+	"id": "stable_stock_i",
+	"name": "Stable Stock I",
+	"description": "Slightly improves dispersion & recoil recovery time.",
+	"type": "Modification",
+	"rarity": "Common",
+	"value": 640,
+	"imageFilename": "https://cdn.arctracker.io/items/stable_stock_i.png",
+	"compatibleWith": ["Rattler", "Ferro", "Stitcher", "Arpeggio", "Bettina"],
+	"recipe": {
+		"rubber_parts": 6,
+		"duct_tape": 1
+	},
+	"recyclesInto": {
+		"rubber_parts": 6
+	},
+	"salvagesInto": {
+		"rubber_parts": 3
+	},
+	"weightKg": 0.25,
+	"effects": {
+		"Reduced Recoil Recovery Time": {
+			"en": "Reduced Recoil Recovery Time",
+			"de": "Reduzierte Rückstoßerholungszeit",
+			"fr": "Temps de récupération du recul réduit",
+			"es": "Tiempo de recuperación del retroceso reducido",
+			"pt": "Tempo de recuperação do recuo reduzido",
+			"pl": "Zmniejszony czas powrotu z odrzutu",
+			"no": "Redusert rekylgjenopprettingstid",
+			"da": "Reduceret rekylgendannelsestid",
+			"it": "Tempo di recupero del rinculo ridotto",
+			"ru": "Снижение времени восстановления отдачи",
+			"ja": "反動回復時間短縮",
+			"zh-TW": "降低後座力恢復時間",
+			"uk": "Зменшення часу відновлення віддачі",
+			"zh-CN": "降低后坐力恢复时间",
+			"kr": "반동 회복 시간 감소",
+			"tr": "Geri Tepme Toparlanma Süresi Azaltma",
+			"hr": "Smanjeno Vrijeme Oporavka Trzaja",
+			"sr": "Smanjeno Vreme Oporavka Trzaja",
+			"value": "20%"
+		},
+		"Reduced Dispersion Recovery Time": {
+			"en": "Reduced Dispersion Recovery Time",
+			"de": "Reduzierte Streuungserholungszeit",
+			"fr": "Temps de récupération de la dispersion réduit",
+			"es": "Tiempo de recuperación de la dispersión reducido",
+			"pt": "Tempo de recuperação da dispersão reduzido",
+			"pl": "Zmniejszony czas powrotu rozrzutu",
+			"no": "Redusert spredningsgjenopprettingstid",
+			"da": "Reduceret spredningsgendannelsestid",
+			"it": "Tempo di recupero della dispersione ridotto",
+			"ru": "Снижение времени восстановления разброса",
+			"ja": "拡散回復時間短縮",
+			"zh-TW": "降低擴散度恢復時間",
+			"uk": "Зменшення часу відновлення розкиду",
+			"zh-CN": "降低扩散度恢复时间",
+			"kr": "분산도 회복 시간 감소",
+			"tr": "Dağılım Toparlanma Süresi Azaltma",
+			"hr": "Smanjeno Vrijeme Oporavka Raspršenja",
+			"sr": "Smanjeno Vreme Oporavka Rasipanja",
+			"value": "20%"
+		}
+	},
+	"updatedAt": "11/03/2025",
+	"craftBench": "gunsmith"
 }

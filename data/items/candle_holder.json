@@ -1,19 +1,19 @@
 {
-  "id": "candle_holder",
-  "name": "Candle Holder",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "rarity": "Uncommon",
-  "weightKg": 2,
-  "foundIn": "Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/candle_holder.png",
-  "value": 640,
-  "stackSize": 3,
-  "updatedAt": "11/04/2025",
-  "recyclesInto": {
-    "metal_parts": 8
-  },
-  "salvagesInto": {
-    "metal_parts": 4
-  }
+	"id": "candle_holder",
+	"name": "Candle Holder",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"rarity": "Uncommon",
+	"weightKg": 2,
+	"foundIn": "Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/candle_holder.png",
+	"value": 640,
+	"stackSize": 3,
+	"updatedAt": "11/04/2025",
+	"recyclesInto": {
+		"metal_parts": 8
+	},
+	"salvagesInto": {
+		"metal_parts": 4
+	}
 }

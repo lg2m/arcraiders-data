@@ -1,38 +1,31 @@
 {
-  "id": "12_in_my_image",
-  "updatedAt": "11/14/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "stella_montis"
-  ],
-  "name": "In My Image",
-  "description": "I just treated one of the first Raiders who visited Stella Montis, and she said that she saw... others. Androids, very much like me.",
-  "objectives": [
-    "Deploy into Stella Montis",
-    "Find and search 3 Androids"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [
-    {
-      "itemId": "defibrillator",
-      "quantity": 3
-    }
-  ],
-  "rewardItemIds": [
-    {
-      "itemId": "looting_mk2",
-      "quantity": 1
-    },
-    {
-      "itemId": "green_light_stick",
-      "quantity": 5
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [],
-  "nextQuestIds": [
-    "12_cold_storage"
-  ],
-  "traderId": "lance"
+	"id": "12_in_my_image",
+	"updatedAt": "11/14/2025",
+	"videoUrl": null,
+	"mapIds": ["stella_montis"],
+	"name": "In My Image",
+	"description": "I just treated one of the first Raiders who visited Stella Montis, and she said that she saw... others. Androids, very much like me.",
+	"objectives": ["Deploy into Stella Montis", "Find and search 3 Androids"],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [
+		{
+			"itemId": "defibrillator",
+			"quantity": 3
+		}
+	],
+	"rewardItemIds": [
+		{
+			"itemId": "looting_mk2",
+			"quantity": 1
+		},
+		{
+			"itemId": "green_light_stick",
+			"quantity": 5
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": [],
+	"nextQuestIds": ["12_cold_storage"],
+	"traderId": "lance"
 }

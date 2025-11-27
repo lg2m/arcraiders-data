@@ -1,20 +1,20 @@
 {
-  "id": "alarm_clock",
-  "name": "Alarm Clock",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "value": 1000,
-  "recyclesInto": {
-    "plastic_parts": 6,
-    "processor": 1
-  },
-  "salvagesInto": {
-    "processor": 1
-  },
-  "foundIn": "Residential",
-  "stackSize": 3,
-  "weightKg": 2,
-  "imageFilename": "https://cdn.arctracker.io/items/alarm_clock.png",
-  "updatedAt": "11/03/2025"
+	"id": "alarm_clock",
+	"name": "Alarm Clock",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"value": 1000,
+	"recyclesInto": {
+		"plastic_parts": 6,
+		"processor": 1
+	},
+	"salvagesInto": {
+		"processor": 1
+	},
+	"foundIn": "Residential",
+	"stackSize": 3,
+	"weightKg": 2,
+	"imageFilename": "https://cdn.arctracker.io/items/alarm_clock.png",
+	"updatedAt": "11/03/2025"
 }

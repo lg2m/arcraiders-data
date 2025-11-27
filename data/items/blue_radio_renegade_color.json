@@ -1,9 +1,9 @@
 {
-  "id": "blue_radio_renegade_color",
-  "name": "Blue (Radio Renegade Color)",
-  "description": "A new cosmetic variant will be added to your collection.",
-  "type": "Cosmetic",
-  "imageFilename": "https://cdn.arctracker.io/items/blue_radio_renegade_color.png",
-  "rarity": "Common",
-  "updatedAt": "11/10/2025"
+	"id": "blue_radio_renegade_color",
+	"name": "Blue (Radio Renegade Color)",
+	"description": "A new cosmetic variant will be added to your collection.",
+	"type": "Cosmetic",
+	"imageFilename": "https://cdn.arctracker.io/items/blue_radio_renegade_color.png",
+	"rarity": "Common",
+	"updatedAt": "11/10/2025"
 }

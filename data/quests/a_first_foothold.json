@@ -1,46 +1,40 @@
 {
-  "id": "ss11",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "the_blue_gate"
-  ],
-  "name": "A First Foothold",
-  "description": "We've only just finished expanding the Tube network towards the Blue Gate, and we're still laboring away at the rest. My crew's been building new infrastructure around the valley to safeguard our Raiders, but the constant ARC threat has made it difficult to get anything done.",
-  "objectives": [
-    "Stabilize the observation deck near the Ridgeline",
-    "Enable the comms terminal near the Olive Grove",
-    "Rotate the satellite dishes on the church roof, north of the Data Vault",
-    "Nail down the roof plates on the Raider structure near Trapper's Glade"
-  ],
-  "otherRequirements": [
-    "18x Raids"
-  ],
-  "requiredItemIds": [],
-  "grantedItemIds": [
-    {
-      "itemId": "noisemaker",
-      "quantity": 2
-    }
-  ],
-  "rewardItemIds": [
-    {
-      "itemId": "shrapnel_grenade",
-      "quantity": 3
-    },
-    {
-      "itemId": "snap_blast_grenade",
-      "quantity": 3
-    },
-    {
-      "itemId": "heavy_fuze_grenade",
-      "quantity": 3
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [],
-  "nextQuestIds": [
-    "ss11a"
-  ],
-  "traderId": "apollo"
+	"id": "ss11",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": ["the_blue_gate"],
+	"name": "A First Foothold",
+	"description": "We've only just finished expanding the Tube network towards the Blue Gate, and we're still laboring away at the rest. My crew's been building new infrastructure around the valley to safeguard our Raiders, but the constant ARC threat has made it difficult to get anything done.",
+	"objectives": [
+		"Stabilize the observation deck near the Ridgeline",
+		"Enable the comms terminal near the Olive Grove",
+		"Rotate the satellite dishes on the church roof, north of the Data Vault",
+		"Nail down the roof plates on the Raider structure near Trapper's Glade"
+	],
+	"otherRequirements": ["18x Raids"],
+	"requiredItemIds": [],
+	"grantedItemIds": [
+		{
+			"itemId": "noisemaker",
+			"quantity": 2
+		}
+	],
+	"rewardItemIds": [
+		{
+			"itemId": "shrapnel_grenade",
+			"quantity": 3
+		},
+		{
+			"itemId": "snap_blast_grenade",
+			"quantity": 3
+		},
+		{
+			"itemId": "heavy_fuze_grenade",
+			"quantity": 3
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": [],
+	"nextQuestIds": ["ss11a"],
+	"traderId": "apollo"
 }

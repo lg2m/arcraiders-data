@@ -1,11 +1,11 @@
 {
-  "id": "vita_shot_blueprint",
-  "name": "Vita Shot Blueprint",
-  "description": "A medical item that restores a large amount of health.",
-  "type": "Blueprint",
-  "rarity": "Legendary",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
-  "updatedAt": "11/17/2025"
+	"id": "vita_shot_blueprint",
+	"name": "Vita Shot Blueprint",
+	"description": "A medical item that restores a large amount of health.",
+	"type": "Blueprint",
+	"rarity": "Legendary",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
+	"updatedAt": "11/17/2025"
 }

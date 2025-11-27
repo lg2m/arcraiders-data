@@ -1,19 +1,19 @@
 {
-  "id": "arc_synthetic_resin",
-  "name": "ARC Synthetic Resin",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "weightKg": 1,
-  "stackSize": 3,
-  "recyclesInto": {
-    "plastic_parts": 14
-  },
-  "salvagesInto": {
-    "plastic_parts": 8
-  },
-  "description": "Can be recycled into crafting materials.",
-  "foundIn": "ARC",
-  "imageFilename": "https://cdn.arctracker.io/items/arc_synthetic_resin.png",
-  "updatedAt": "10/30/2025"
+	"id": "arc_synthetic_resin",
+	"name": "ARC Synthetic Resin",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"weightKg": 1,
+	"stackSize": 3,
+	"recyclesInto": {
+		"plastic_parts": 14
+	},
+	"salvagesInto": {
+		"plastic_parts": 8
+	},
+	"description": "Can be recycled into crafting materials.",
+	"foundIn": "ARC",
+	"imageFilename": "https://cdn.arctracker.io/items/arc_synthetic_resin.png",
+	"updatedAt": "10/30/2025"
 }

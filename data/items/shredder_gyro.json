@@ -1,17 +1,17 @@
 {
-  "name": "Shredder Gyro",
-  "description": "Can be recycled into crafting materials.",
-  "id": "shredder_gyro",
-  "type": "Recyclable",
-  "value": 3000,
-  "rarity": "Uncommon",
-  "weightKg": 1,
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "imageFilename": "https://cdn.arctracker.io/items/shredder_gyro.png",
-  "updatedAt": "11/14/2025",
-  "recyclesInto": {
-    "mechanical_components": 3,
-    "arc_alloy": 3
-  }
+	"name": "Shredder Gyro",
+	"description": "Can be recycled into crafting materials.",
+	"id": "shredder_gyro",
+	"type": "Recyclable",
+	"value": 3000,
+	"rarity": "Uncommon",
+	"weightKg": 1,
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"imageFilename": "https://cdn.arctracker.io/items/shredder_gyro.png",
+	"updatedAt": "11/14/2025",
+	"recyclesInto": {
+		"mechanical_components": 3,
+		"arc_alloy": 3
+	}
 }

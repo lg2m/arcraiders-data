@@ -1,17 +1,17 @@
 {
-  "id": "speaker_component",
-  "name": "Speaker Component",
-  "description": "Used in crafting. Used to craft: Lure Grenade, Photoelectric Cloak",
-  "type": "Topside Material",
-  "rarity": "Rare",
-  "value": 500,
-  "recyclesInto": {
-    "plastic_parts": 2,
-    "rubber_parts": 3
-  },
-  "weightKg": 0.3,
-  "stackSize": 5,
-  "foundIn": "Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/speaker_component.png",
-  "updatedAt": "11/03/2025"
+	"id": "speaker_component",
+	"name": "Speaker Component",
+	"description": "Used in crafting. Used to craft: Lure Grenade, Photoelectric Cloak",
+	"type": "Topside Material",
+	"rarity": "Rare",
+	"value": 500,
+	"recyclesInto": {
+		"plastic_parts": 2,
+		"rubber_parts": 3
+	},
+	"weightKg": 0.3,
+	"stackSize": 5,
+	"foundIn": "Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/speaker_component.png",
+	"updatedAt": "11/03/2025"
 }

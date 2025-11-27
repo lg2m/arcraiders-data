@@ -1,16 +1,16 @@
 {
-  "id": "tattered_clothes",
-  "name": "Tattered Clothes",
-  "description": "Can be recycled into fabric.",
-  "rarity": "Uncommon",
-  "type": "Recyclable",
-  "value": 270,
-  "recyclesInto": {
-    "fabric": 11
-  },
-  "salvagesInto": {
-    "fabric": 5
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/tattered_clothes.png",
-  "updatedAt": "11/10/2025"
+	"id": "tattered_clothes",
+	"name": "Tattered Clothes",
+	"description": "Can be recycled into fabric.",
+	"rarity": "Uncommon",
+	"type": "Recyclable",
+	"value": 270,
+	"recyclesInto": {
+		"fabric": 11
+	},
+	"salvagesInto": {
+		"fabric": 5
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/tattered_clothes.png",
+	"updatedAt": "11/10/2025"
 }

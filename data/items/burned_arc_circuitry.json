@@ -1,19 +1,19 @@
 {
-  "id": "burned_arc_circuitry",
-  "name": "Burned Arc Circuitry",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "rarity": "Uncommon",
-  "value": 640,
-  "recyclesInto": {
-    "arc_alloy": 2
-  },
-  "salvagesInto": {
-    "arc_alloy": 1
-  },
-  "weightKg": 1,
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "imageFilename": "https://cdn.arctracker.io/items/burned_arc_circuitry.png",
-  "updatedAt": "11/04/2025"
+	"id": "burned_arc_circuitry",
+	"name": "Burned Arc Circuitry",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"rarity": "Uncommon",
+	"value": 640,
+	"recyclesInto": {
+		"arc_alloy": 2
+	},
+	"salvagesInto": {
+		"arc_alloy": 1
+	},
+	"weightKg": 1,
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"imageFilename": "https://cdn.arctracker.io/items/burned_arc_circuitry.png",
+	"updatedAt": "11/04/2025"
 }

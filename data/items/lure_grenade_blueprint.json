@@ -1,11 +1,11 @@
 {
-  "id": "lure_grenade_blueprint",
-  "name": "Lure Grenade Blueprint",
-  "description": "A noisy device that sticks to surfaces, distracting nearby ARC machines and drawing their fire.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "rarity": "Legendary",
-  "imageFilename": "https://cdn.arctracker.io/items/lure_grenade.png",
-  "updatedAt": "11/12/2025"
+	"id": "lure_grenade_blueprint",
+	"name": "Lure Grenade Blueprint",
+	"description": "A noisy device that sticks to surfaces, distracting nearby ARC machines and drawing their fire.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"rarity": "Legendary",
+	"imageFilename": "https://cdn.arctracker.io/items/lure_grenade.png",
+	"updatedAt": "11/12/2025"
 }

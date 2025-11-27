@@ -1,12 +1,12 @@
 {
-  "id": "buried_city_residential_master_key",
-  "name": "Buried City Residential Master Key",
-  "description": "A master key for residential areas in Buried City.",
-  "type": "Key",
-  "value": 100,
-  "weightKg": 0.25,
-  "rarity": "Uncommon",
-  "stackSize": 1,
-  "updatedAt": "11/13/2025",
-  "imageFilename": "https://cdn.arctracker.io/items/buried_city_residential_master_key.png"
+	"id": "buried_city_residential_master_key",
+	"name": "Buried City Residential Master Key",
+	"description": "A master key for residential areas in Buried City.",
+	"type": "Key",
+	"value": 100,
+	"weightKg": 0.25,
+	"rarity": "Uncommon",
+	"stackSize": 1,
+	"updatedAt": "11/13/2025",
+	"imageFilename": "https://cdn.arctracker.io/items/buried_city_residential_master_key.png"
 }

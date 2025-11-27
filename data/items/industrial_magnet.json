@@ -1,20 +1,20 @@
 {
-  "id": "industrial_magnet",
-  "name": "Industrial Magnet",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "recyclesInto": {
-    "magnet": 2,
-    "metal_parts": 4
-  },
-  "salvagesInto": {
-    "magnet": 2
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 2,
-  "foundIn": "Industrial",
-  "imageFilename": "https://cdn.arctracker.io/items/industrial_magnet.png",
-  "stackSize": 3,
-  "updatedAt": "10/30/2025"
+	"id": "industrial_magnet",
+	"name": "Industrial Magnet",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"recyclesInto": {
+		"magnet": 2,
+		"metal_parts": 4
+	},
+	"salvagesInto": {
+		"magnet": 2
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 2,
+	"foundIn": "Industrial",
+	"imageFilename": "https://cdn.arctracker.io/items/industrial_magnet.png",
+	"stackSize": 3,
+	"updatedAt": "10/30/2025"
 }

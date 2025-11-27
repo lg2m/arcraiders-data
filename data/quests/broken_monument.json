@@ -1,58 +1,51 @@
 {
-  "id": "ss10h",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "dam_battlegrounds"
-  ],
-  "name": "Broken Monument",
-  "description": "I have another special site I need you to search for me. An old battlegrounds, from the First Wave. Raiders nowadays usually pick places like that clean, despite the significance they once held. People forget quickly. Quicker than they should.",
-  "objectives": [
-    "Reach the hallowed grounds by the Scrap Yard",
-    "Search for a compass near the broken-down vehicles",
-    "Search for the video tape near the cylindrical containers",
-    "Search for the old field rations in the Raider camp",
-    "Deliver the First Wave Tape to Tian Wen",
-    "Deliver First Wave Compass to Tian Wen",
-    "Deliver First Wave Rations to Tian Wen"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [
-    {
-      "itemId": "first_wave_tape",
-      "quantity": 1
-    },
-    {
-      "itemId": "first_wave_compass",
-      "quantity": 1
-    },
-    {
-      "itemId": "first_wave_rations",
-      "quantity": 1
-    }
-  ],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "arpeggio_i",
-      "quantity": 1
-    },
-    {
-      "itemId": "compensator_ii",
-      "quantity": 1
-    },
-    {
-      "itemId": "medium_ammo",
-      "quantity": 80
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10e"
-  ],
-  "nextQuestIds": [
-    "ss10i",
-    "ss10j"
-  ],
-  "traderId": "tian_wen"
+	"id": "ss10h",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": ["dam_battlegrounds"],
+	"name": "Broken Monument",
+	"description": "I have another special site I need you to search for me. An old battlegrounds, from the First Wave. Raiders nowadays usually pick places like that clean, despite the significance they once held. People forget quickly. Quicker than they should.",
+	"objectives": [
+		"Reach the hallowed grounds by the Scrap Yard",
+		"Search for a compass near the broken-down vehicles",
+		"Search for the video tape near the cylindrical containers",
+		"Search for the old field rations in the Raider camp",
+		"Deliver the First Wave Tape to Tian Wen",
+		"Deliver First Wave Compass to Tian Wen",
+		"Deliver First Wave Rations to Tian Wen"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [
+		{
+			"itemId": "first_wave_tape",
+			"quantity": 1
+		},
+		{
+			"itemId": "first_wave_compass",
+			"quantity": 1
+		},
+		{
+			"itemId": "first_wave_rations",
+			"quantity": 1
+		}
+	],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "arpeggio_i",
+			"quantity": 1
+		},
+		{
+			"itemId": "compensator_ii",
+			"quantity": 1
+		},
+		{
+			"itemId": "medium_ammo",
+			"quantity": 80
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10e"],
+	"nextQuestIds": ["ss10i", "ss10j"],
+	"traderId": "tian_wen"
 }

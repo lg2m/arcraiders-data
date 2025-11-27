@@ -1,20 +1,20 @@
 {
-  "id": "wires",
-  "name": "Wires",
-  "tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials.",
-  "description": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Blaze Grenade Trap, Smoke Grenade Trap, Lure Grenade Trap, Gas Grenade Trap, Muzzle Brake I",
-  "type": "Topside Material",
-  "rarity": "Uncommon",
-  "value": 200,
-  "recyclesInto": {
-    "rubber_parts": 2
-  },
-  "salvagesInto": {
-    "rubber_parts": 1
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/wires.png",
-  "weightKg": 0.25,
-  "stackSize": 15,
-  "foundIn": "Electrical, Technological",
-  "updatedAt": "11/03/2025"
+	"id": "wires",
+	"name": "Wires",
+	"tip": "Wires are an uncommon item used to craft weapon mods that can be recycled into crafting materials.",
+	"description": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Blaze Grenade Trap, Smoke Grenade Trap, Lure Grenade Trap, Gas Grenade Trap, Muzzle Brake I",
+	"type": "Topside Material",
+	"rarity": "Uncommon",
+	"value": 200,
+	"recyclesInto": {
+		"rubber_parts": 2
+	},
+	"salvagesInto": {
+		"rubber_parts": 1
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/wires.png",
+	"weightKg": 0.25,
+	"stackSize": 15,
+	"foundIn": "Electrical, Technological",
+	"updatedAt": "11/03/2025"
 }

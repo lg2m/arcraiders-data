@@ -1,40 +1,35 @@
 {
-  "id": "ss10x20",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "the_blue_gate"
-  ],
-  "name": "Armored Transports",
-  "description": "Ever since we expanded the tunnels to the Blue Gate, some rare pieces have started appearing on the black market.\n\nMeanwhile, I'm stuck here peddling battered old Rattlers. If I don't find new supply lines, I'll be left in the dust.",
-  "objectives": [
-    "Reach the Checkpoint",
-    "Search the Guard huts for a Armored Patrol Key Card",
-    "Reach the Traffic Tunnel near the Blue Gate Checkpoint",
-    "Find and unlock the rear door of an armored patrol car"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "blue_yellow_aviator",
-      "quantity": 1
-    },
-    {
-      "itemId": "smoke_grenade",
-      "quantity": 3
-    },
-    {
-      "itemId": "defibrillator",
-      "quantity": 3
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10x19",
-    "ss11bx"
-  ],
-  "nextQuestIds": [],
-  "traderId": "tian_wen"
+	"id": "ss10x20",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": ["the_blue_gate"],
+	"name": "Armored Transports",
+	"description": "Ever since we expanded the tunnels to the Blue Gate, some rare pieces have started appearing on the black market.\n\nMeanwhile, I'm stuck here peddling battered old Rattlers. If I don't find new supply lines, I'll be left in the dust.",
+	"objectives": [
+		"Reach the Checkpoint",
+		"Search the Guard huts for a Armored Patrol Key Card",
+		"Reach the Traffic Tunnel near the Blue Gate Checkpoint",
+		"Find and unlock the rear door of an armored patrol car"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "blue_yellow_aviator",
+			"quantity": 1
+		},
+		{
+			"itemId": "smoke_grenade",
+			"quantity": 3
+		},
+		{
+			"itemId": "defibrillator",
+			"quantity": 3
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10x19", "ss11bx"],
+	"nextQuestIds": [],
+	"traderId": "tian_wen"
 }

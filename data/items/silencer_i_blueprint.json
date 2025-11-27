@@ -1,11 +1,11 @@
 {
-  "id": "silencer_i_blueprint",
-  "name": "Silencer I Blueprint",
-  "description": "A blueprint to craft the Silencer I.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "rarity": "Legendary",
-  "imageFilename": "https://cdn.arctracker.io/items/silencer_i.png",
-  "updatedAt": "11/12/2025"
+	"id": "silencer_i_blueprint",
+	"name": "Silencer I Blueprint",
+	"description": "A blueprint to craft the Silencer I.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"rarity": "Legendary",
+	"imageFilename": "https://cdn.arctracker.io/items/silencer_i.png",
+	"updatedAt": "11/12/2025"
 }

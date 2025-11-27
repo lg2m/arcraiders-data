@@ -1,34 +1,34 @@
 {
-  "id": "stella_montis_archives_key",
-  "name": "Stella Montis Archives Key",
-  "description": "Unlocks a door in Medical Research in Stella Montis",
-  "type": "Key",
-  "rarity": "Uncommon",
-  "weightKg": 0.25,
-  "stackSize": 1,
-  "value": 100,
-  "effects": {
-    "Opens a door": {
-      "en": "Opens a door somewhere on",
-      "pl": "Otwiera drzwi gdzieś na",
-      "it": "Apre una porta da qualche parte su",
-      "zh-CN": "在某处打开一扇门",
-      "kr": "어딘가의 문을 엽니다",
-      "hr": "Otvara vrata negdje na",
-      "de": "Öffnet eine Tür irgendwo auf",
-      "ru": "Открывает дверь где-то на",
-      "es": "Abre una puerta en algún lugar de",
-      "zh-TW": "在某處打開一扇門",
-      "pt": "Abre uma porta em algum lugar em",
-      "sr": "Отвара врата негде на",
-      "ja": "どこかの扉を開ける",
-      "da": "Åbner en dør et sted på",
-      "tr": "Bir yerde bir kapı açar",
-      "uk": "Відчиняє двері десь на",
-      "no": "Åpner en dør et sted på",
-      "fr": "Ouvre une porte quelque part sur",
-      "value": "Stella Montis"
-    }
-  },
-  "updatedAt": "11/13/2025"
+	"id": "stella_montis_archives_key",
+	"name": "Stella Montis Archives Key",
+	"description": "Unlocks a door in Medical Research in Stella Montis",
+	"type": "Key",
+	"rarity": "Uncommon",
+	"weightKg": 0.25,
+	"stackSize": 1,
+	"value": 100,
+	"effects": {
+		"Opens a door": {
+			"en": "Opens a door somewhere on",
+			"pl": "Otwiera drzwi gdzieś na",
+			"it": "Apre una porta da qualche parte su",
+			"zh-CN": "在某处打开一扇门",
+			"kr": "어딘가의 문을 엽니다",
+			"hr": "Otvara vrata negdje na",
+			"de": "Öffnet eine Tür irgendwo auf",
+			"ru": "Открывает дверь где-то на",
+			"es": "Abre una puerta en algún lugar de",
+			"zh-TW": "在某處打開一扇門",
+			"pt": "Abre uma porta em algum lugar em",
+			"sr": "Отвара врата негде на",
+			"ja": "どこかの扉を開ける",
+			"da": "Åbner en dør et sted på",
+			"tr": "Bir yerde bir kapı açar",
+			"uk": "Відчиняє двері десь на",
+			"no": "Åpner en dør et sted på",
+			"fr": "Ouvre une porte quelque part sur",
+			"value": "Stella Montis"
+		}
+	},
+	"updatedAt": "11/13/2025"
 }

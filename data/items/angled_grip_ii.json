@@ -1,50 +1,44 @@
 {
-  "id": "angled_grip_ii",
-  "name": "Angled Grip II",
-  "description": "Moderately reduces horizontal recoil. Compatible with: Arpeggio, Ferro, Il Toro, Stitcher",
-  "type": "Modification",
-  "value": 2000,
-  "rarity": "Uncommon",
-  "weightKg": 0.5,
-  "recyclesInto": {
-    "mechanical_components": 1,
-    "duct_tape": 1
-  },
-  "recipe": {
-    "mechanical_components": 2,
-    "duct_tape": 3
-  },
-  "craftBench": "gunsmith",
-  "effects": {
-    "Reduced Horizontal Recoil": {
-      "en": "Reduced Horizontal Recoil",
-      "de": "Reduzierter horizontaler Rückstoß",
-      "fr": "Recul horizontal réduit",
-      "es": "Retroceso horizontal reducido",
-      "pt": "Recuo horizontal reduzido",
-      "pl": "Zredukowany odrzut poziomy",
-      "no": "Redusert horisontalt rekyl",
-      "da": "Reduceret horisontalt rekyl",
-      "it": "Rinculo orizzontale ridotto",
-      "ru": "Уменьшенная горизонтальная отдача",
-      "ja": "水平反動減少",
-      "zh-TW": "降低水平後座力",
-      "uk": "Зменшена горизонтальна віддача",
-      "zh-CN": "降低水平后坐力",
-      "kr": "수평 반동 감소",
-      "tr": "Azaltılmış Yatay Geri Tepme",
-      "hr": "Smanjen horizontalni trzaj",
-      "sr": "Smanjen horizontalni trzaj",
-      "value": "30%"
-    }
-  },
-  "compatibleWith": [
-    "Arpeggio",
-    "Rattler",
-    "Kettle",
-    "Il Toro",
-    "Stitcher"
-  ],
-  "imageFilename": "https://cdn.arctracker.io/items/angled_grip_ii.png",
-  "updatedAt": "11/05/2025"
+	"id": "angled_grip_ii",
+	"name": "Angled Grip II",
+	"description": "Moderately reduces horizontal recoil. Compatible with: Arpeggio, Ferro, Il Toro, Stitcher",
+	"type": "Modification",
+	"value": 2000,
+	"rarity": "Uncommon",
+	"weightKg": 0.5,
+	"recyclesInto": {
+		"mechanical_components": 1,
+		"duct_tape": 1
+	},
+	"recipe": {
+		"mechanical_components": 2,
+		"duct_tape": 3
+	},
+	"craftBench": "gunsmith",
+	"effects": {
+		"Reduced Horizontal Recoil": {
+			"en": "Reduced Horizontal Recoil",
+			"de": "Reduzierter horizontaler Rückstoß",
+			"fr": "Recul horizontal réduit",
+			"es": "Retroceso horizontal reducido",
+			"pt": "Recuo horizontal reduzido",
+			"pl": "Zredukowany odrzut poziomy",
+			"no": "Redusert horisontalt rekyl",
+			"da": "Reduceret horisontalt rekyl",
+			"it": "Rinculo orizzontale ridotto",
+			"ru": "Уменьшенная горизонтальная отдача",
+			"ja": "水平反動減少",
+			"zh-TW": "降低水平後座力",
+			"uk": "Зменшена горизонтальна віддача",
+			"zh-CN": "降低水平后坐力",
+			"kr": "수평 반동 감소",
+			"tr": "Azaltılmış Yatay Geri Tepme",
+			"hr": "Smanjen horizontalni trzaj",
+			"sr": "Smanjen horizontalni trzaj",
+			"value": "30%"
+		}
+	},
+	"compatibleWith": ["Arpeggio", "Rattler", "Kettle", "Il Toro", "Stitcher"],
+	"imageFilename": "https://cdn.arctracker.io/items/angled_grip_ii.png",
+	"updatedAt": "11/05/2025"
 }

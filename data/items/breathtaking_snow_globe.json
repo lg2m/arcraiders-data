@@ -1,13 +1,13 @@
 {
-  "id": "breathtaking_snow_globe",
-  "name": "Breathtaking Snow Globe",
-  "description": "The envy of every Speranzan. Proof that this world was once thriving and magical.",
-  "type": "Trinket",
-  "value": 7000,
-  "foundIn": "Residential, Old World, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/breathtaking_snow_globe.png",
-  "rarity": "Epic",
-  "weightKg": 0.2,
-  "stackSize": 1,
-  "updatedAt": "11/03/2025"
+	"id": "breathtaking_snow_globe",
+	"name": "Breathtaking Snow Globe",
+	"description": "The envy of every Speranzan. Proof that this world was once thriving and magical.",
+	"type": "Trinket",
+	"value": 7000,
+	"foundIn": "Residential, Old World, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/breathtaking_snow_globe.png",
+	"rarity": "Epic",
+	"weightKg": 0.2,
+	"stackSize": 1,
+	"updatedAt": "11/03/2025"
 }

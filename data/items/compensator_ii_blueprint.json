@@ -1,11 +1,11 @@
 {
-  "id": "compensator_ii_blueprint",
-  "name": "Compensator II Blueprint",
-  "description": "Moderately reduces per-shot dispersion.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "rarity": "Legendary",
-  "imageFilename": "https://cdn.arctracker.io/items/compensator_ii_blueprint.png",
-  "updatedAt": "11/01/2025"
+	"id": "compensator_ii_blueprint",
+	"name": "Compensator II Blueprint",
+	"description": "Moderately reduces per-shot dispersion.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"rarity": "Legendary",
+	"imageFilename": "https://cdn.arctracker.io/items/compensator_ii_blueprint.png",
+	"updatedAt": "11/01/2025"
 }

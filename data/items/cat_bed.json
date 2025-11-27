@@ -1,13 +1,13 @@
 {
-  "id": "cat_bed",
-  "name": "Cat Bed",
-  "description": "At least a tiny bit more comfortable than your face.",
-  "type": "Trinket",
-  "value": 1000,
-  "weightKg": 0.5,
-  "stackSize": 3,
-  "foundIn": "Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/cat_bed.png",
-  "rarity": "Uncommon",
-  "updatedAt": "10/30/2025"
+	"id": "cat_bed",
+	"name": "Cat Bed",
+	"description": "At least a tiny bit more comfortable than your face.",
+	"type": "Trinket",
+	"value": 1000,
+	"weightKg": 0.5,
+	"stackSize": 3,
+	"foundIn": "Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/cat_bed.png",
+	"rarity": "Uncommon",
+	"updatedAt": "10/30/2025"
 }

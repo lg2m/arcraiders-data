@@ -1,13 +1,13 @@
 {
-  "id": "empty_wine_bottle",
-  "name": "Empty Wine Bottle",
-  "description": "Yes, it really is empty.",
-  "type": "Trinket",
-  "value": 1000,
-  "weightKg": 0.2,
-  "stackSize": 5,
-  "foundIn": "Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/empty_wine_bottle.png",
-  "rarity": "Common",
-  "updatedAt": "11/04/2025"
+	"id": "empty_wine_bottle",
+	"name": "Empty Wine Bottle",
+	"description": "Yes, it really is empty.",
+	"type": "Trinket",
+	"value": 1000,
+	"weightKg": 0.2,
+	"stackSize": 5,
+	"foundIn": "Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/empty_wine_bottle.png",
+	"rarity": "Common",
+	"updatedAt": "11/04/2025"
 }

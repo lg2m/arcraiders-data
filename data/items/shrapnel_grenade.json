@@ -1,65 +1,65 @@
 {
-  "id": "shrapnel_grenade",
-  "name": "Shrapnel Grenade",
-  "description": "A makeshift fuze grenade that bursts into razor-sharp fragments upon detonation. Weak against ARC armor plating",
-  "type": "Quick Use",
-  "rarity": "Uncommon",
-  "value": 800,
-  "recyclesInto": {
-    "crude_explosives": 1,
-    "metal_parts": 1
-  },
-  "effects": {
-    "Damage": {
-      "en": "Damage",
-      "de": "Schaden",
-      "fr": "Dégâts",
-      "es": "Daño",
-      "pt": "Dano",
-      "pl": "Obrażenia",
-      "no": "Skade",
-      "da": "Skade",
-      "it": "Danno",
-      "ru": "Урон",
-      "ja": "ダメージ",
-      "zh-TW": "傷害",
-      "uk": "Шкода",
-      "zh-CN": "伤害",
-      "kr": "피해",
-      "tr": "Hasar",
-      "hr": "Šteta",
-      "sr": "Šteta",
-      "value": 60
-    },
-    "Radius": {
-      "en": "Radius",
-      "de": "Radius",
-      "fr": "Rayon",
-      "es": "Radio",
-      "pt": "Raio",
-      "pl": "Promień",
-      "no": "Radius",
-      "da": "Radius",
-      "it": "Raggio",
-      "ru": "Радиус",
-      "ja": "範囲",
-      "zh-TW": "半徑",
-      "uk": "Радіус",
-      "zh-CN": "半径",
-      "kr": "반경",
-      "tr": "Yarıçap",
-      "hr": "Radijus",
-      "sr": "Radijus",
-      "value": "6m"
-    }
-  },
-  "weightKg": 0.15,
-  "stackSize": 5,
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "crude_explosives": 1,
-    "steel_spring": 2
-  },
-  "craftBench": "explosives_station",
-  "imageFilename": "https://cdn.arctracker.io/items/shrapnel_grenade.png"
+	"id": "shrapnel_grenade",
+	"name": "Shrapnel Grenade",
+	"description": "A makeshift fuze grenade that bursts into razor-sharp fragments upon detonation. Weak against ARC armor plating",
+	"type": "Quick Use",
+	"rarity": "Uncommon",
+	"value": 800,
+	"recyclesInto": {
+		"crude_explosives": 1,
+		"metal_parts": 1
+	},
+	"effects": {
+		"Damage": {
+			"en": "Damage",
+			"de": "Schaden",
+			"fr": "Dégâts",
+			"es": "Daño",
+			"pt": "Dano",
+			"pl": "Obrażenia",
+			"no": "Skade",
+			"da": "Skade",
+			"it": "Danno",
+			"ru": "Урон",
+			"ja": "ダメージ",
+			"zh-TW": "傷害",
+			"uk": "Шкода",
+			"zh-CN": "伤害",
+			"kr": "피해",
+			"tr": "Hasar",
+			"hr": "Šteta",
+			"sr": "Šteta",
+			"value": 60
+		},
+		"Radius": {
+			"en": "Radius",
+			"de": "Radius",
+			"fr": "Rayon",
+			"es": "Radio",
+			"pt": "Raio",
+			"pl": "Promień",
+			"no": "Radius",
+			"da": "Radius",
+			"it": "Raggio",
+			"ru": "Радиус",
+			"ja": "範囲",
+			"zh-TW": "半徑",
+			"uk": "Радіус",
+			"zh-CN": "半径",
+			"kr": "반경",
+			"tr": "Yarıçap",
+			"hr": "Radijus",
+			"sr": "Radijus",
+			"value": "6m"
+		}
+	},
+	"weightKg": 0.15,
+	"stackSize": 5,
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"crude_explosives": 1,
+		"steel_spring": 2
+	},
+	"craftBench": "explosives_station",
+	"imageFilename": "https://cdn.arctracker.io/items/shrapnel_grenade.png"
 }

@@ -1,16 +1,16 @@
 {
-  "id": "duct_tape",
-  "name": "Duct Tape",
-  "imageFilename": "https://cdn.arctracker.io/items/duct_tape.png",
-  "value": 300,
-  "recyclesInto": {
-    "fabric": 3
-  },
-  "description": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Stable Stock I, Vertical Grip I, Angled Grip I, Vertical Grip II, Angled Grip II",
-  "type": "Topside Material",
-  "rarity": "Uncommon",
-  "weightKg": 0.25,
-  "stackSize": 15,
-  "foundIn": "Residential, Commercial",
-  "updatedAt": "11/03/2025"
+	"id": "duct_tape",
+	"name": "Duct Tape",
+	"imageFilename": "https://cdn.arctracker.io/items/duct_tape.png",
+	"value": 300,
+	"recyclesInto": {
+		"fabric": 3
+	},
+	"description": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Stable Stock I, Vertical Grip I, Angled Grip I, Vertical Grip II, Angled Grip II",
+	"type": "Topside Material",
+	"rarity": "Uncommon",
+	"weightKg": 0.25,
+	"stackSize": 15,
+	"foundIn": "Residential, Commercial",
+	"updatedAt": "11/03/2025"
 }

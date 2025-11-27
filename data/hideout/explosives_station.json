@@ -1,58 +1,58 @@
 {
-  "id": "explosives_station",
-  "name": "Explosives Station",
-  "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgwK8NbIJbNj68PHJDsldV2BgX0qGihzm5FfvK",
-  "maxLevel": 3,
-  "levels": [
-    {
-      "level": 1,
-      "requirementItemIds": [
-        {
-          "itemId": "rubber_parts",
-          "quantity": 50
-        },
-        {
-          "itemId": "arc_alloy",
-          "quantity": 6
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 2,
-      "requirementItemIds": [
-        {
-          "itemId": "synthesized_fuel",
-          "quantity": 3
-        },
-        {
-          "itemId": "crude_explosives",
-          "quantity": 5
-        },
-        {
-          "itemId": "pop_trigger",
-          "quantity": 5
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 3,
-      "requirementItemIds": [
-        {
-          "itemId": "laboratory_reagents",
-          "quantity": 3
-        },
-        {
-          "itemId": "explosive_compound",
-          "quantity": 5
-        },
-        {
-          "itemId": "rocketeer_driver",
-          "quantity": 3
-        }
-      ],
-      "description": null
-    }
-  ]
+	"id": "explosives_station",
+	"name": "Explosives Station",
+	"image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgwK8NbIJbNj68PHJDsldV2BgX0qGihzm5FfvK",
+	"maxLevel": 3,
+	"levels": [
+		{
+			"level": 1,
+			"requirementItemIds": [
+				{
+					"itemId": "rubber_parts",
+					"quantity": 50
+				},
+				{
+					"itemId": "arc_alloy",
+					"quantity": 6
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 2,
+			"requirementItemIds": [
+				{
+					"itemId": "synthesized_fuel",
+					"quantity": 3
+				},
+				{
+					"itemId": "crude_explosives",
+					"quantity": 5
+				},
+				{
+					"itemId": "pop_trigger",
+					"quantity": 5
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 3,
+			"requirementItemIds": [
+				{
+					"itemId": "laboratory_reagents",
+					"quantity": 3
+				},
+				{
+					"itemId": "explosive_compound",
+					"quantity": 5
+				},
+				{
+					"itemId": "rocketeer_driver",
+					"quantity": 3
+				}
+			],
+			"description": null
+		}
+	]
 }

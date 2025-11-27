@@ -1,12 +1,12 @@
 {
-  "id": "defibrillator_blueprint",
-  "name": "Defibrillator Blueprint",
-  "description": "An injection that quickly revives downed raiders and restores some health.",
-  "type": "Blueprint",
-  "rarity": "Legendary",
-  "value": 5000,
-  "weightKg": 0,
-  "stackSize": 1,
-  "imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
-  "updatedAt": "11/12/2025"
+	"id": "defibrillator_blueprint",
+	"name": "Defibrillator Blueprint",
+	"description": "An injection that quickly revives downed raiders and restores some health.",
+	"type": "Blueprint",
+	"rarity": "Legendary",
+	"value": 5000,
+	"weightKg": 0,
+	"stackSize": 1,
+	"imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
+	"updatedAt": "11/12/2025"
 }

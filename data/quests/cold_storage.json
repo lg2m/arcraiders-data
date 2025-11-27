@@ -1,35 +1,29 @@
 {
-  "id": "12_cold_storage",
-  "updatedAt": "11/14/2025",
-  "videoUrl": "https://youtu.be/tc7nK7AmixQ",
-  "mapIds": [
-    "stella_montis"
-  ],
-  "name": "Cold Storage",
-  "description": "Reports about Stella Montis keep coming in, and it's unlike anything we've seen before. There may be records or relics from the past in there, and if so, I want them.",
-  "objectives": [
-    "In one round, search any J Kozma Ventures container",
-    "In one round, deliver the Rare Books to Shani"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "gas_mine",
-      "quantity": 3
-    },
-    {
-      "itemId": "raider_hatch_key",
-      "quantity": 1
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "12_in_my_image"
-  ],
-  "nextQuestIds": [
-    "12_snap_and_salvage"
-  ],
-  "traderId": "shani"
+	"id": "12_cold_storage",
+	"updatedAt": "11/14/2025",
+	"videoUrl": "https://youtu.be/tc7nK7AmixQ",
+	"mapIds": ["stella_montis"],
+	"name": "Cold Storage",
+	"description": "Reports about Stella Montis keep coming in, and it's unlike anything we've seen before. There may be records or relics from the past in there, and if so, I want them.",
+	"objectives": [
+		"In one round, search any J Kozma Ventures container",
+		"In one round, deliver the Rare Books to Shani"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "gas_mine",
+			"quantity": 3
+		},
+		{
+			"itemId": "raider_hatch_key",
+			"quantity": 1
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["12_in_my_image"],
+	"nextQuestIds": ["12_snap_and_salvage"],
+	"traderId": "shani"
 }

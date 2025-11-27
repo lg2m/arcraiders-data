@@ -1,16 +1,16 @@
 {
-  "id": "cracked_bioscanner",
-  "name": "Cracked Bioscanner",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "weightKg": 2,
-  "recyclesInto": {
-    "rubber_parts": 3,
-    "battery": 3
-  },
-  "description": "Can be recycled into crafting materials.",
-  "foundIn": "Medical",
-  "imageFilename": "https://cdn.arctracker.io/items/cracked_bioscanner.png",
-  "updatedAt": "11/14/2025"
+	"id": "cracked_bioscanner",
+	"name": "Cracked Bioscanner",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"weightKg": 2,
+	"recyclesInto": {
+		"rubber_parts": 3,
+		"battery": 3
+	},
+	"description": "Can be recycled into crafting materials.",
+	"foundIn": "Medical",
+	"imageFilename": "https://cdn.arctracker.io/items/cracked_bioscanner.png",
+	"updatedAt": "11/14/2025"
 }

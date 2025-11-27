@@ -1,13 +1,13 @@
 {
-  "id": "fine_wristwatch",
-  "name": "Fine Wristwatch",
-  "description": "Perfect for telling the time, and showcasing that you're an exceedingly dignified person.",
-  "type": "Trinket",
-  "weightKg": 0.2,
-  "stackSize": 3,
-  "foundIn": "Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/fine_wristwatch.png",
-  "rarity": "Rare",
-  "updatedAt": "11/01/2025",
-  "value": 3000
+	"id": "fine_wristwatch",
+	"name": "Fine Wristwatch",
+	"description": "Perfect for telling the time, and showcasing that you're an exceedingly dignified person.",
+	"type": "Trinket",
+	"weightKg": 0.2,
+	"stackSize": 3,
+	"foundIn": "Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/fine_wristwatch.png",
+	"rarity": "Rare",
+	"updatedAt": "11/01/2025",
+	"value": 3000
 }

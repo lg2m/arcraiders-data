@@ -1,19 +1,19 @@
 {
-  "id": "rusted_bolts",
-  "name": "Rusted Bolts",
-  "rarity": "Uncommon",
-  "type": "Recyclable",
-  "value": 640,
-  "recyclesInto": {
-    "metal_parts": 8
-  },
-  "salvagesInto": {
-    "metal_parts": 4
-  },
-  "updatedAt": "11/01/2025",
-  "description": "Can be recycled into metal parts.",
-  "weightKg": 0.8,
-  "stackSize": 3,
-  "foundIn": "Industrial, Mechanical",
-  "imageFilename": "https://cdn.arctracker.io/items/rusted_bolts.png"
+	"id": "rusted_bolts",
+	"name": "Rusted Bolts",
+	"rarity": "Uncommon",
+	"type": "Recyclable",
+	"value": 640,
+	"recyclesInto": {
+		"metal_parts": 8
+	},
+	"salvagesInto": {
+		"metal_parts": 4
+	},
+	"updatedAt": "11/01/2025",
+	"description": "Can be recycled into metal parts.",
+	"weightKg": 0.8,
+	"stackSize": 3,
+	"foundIn": "Industrial, Mechanical",
+	"imageFilename": "https://cdn.arctracker.io/items/rusted_bolts.png"
 }

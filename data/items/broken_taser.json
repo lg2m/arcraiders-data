@@ -1,17 +1,17 @@
 {
-  "id": "broken_taser",
-  "name": "Broken Taser",
-  "description": "Can be recycled into crafting materials.",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "recyclesInto": {
-    "battery": 2,
-    "wires": 2
-  },
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Security",
-  "updatedAt": "11/11/2025",
-  "imageFilename": "https://cdn.arctracker.io/items/broken_taser.png"
+	"id": "broken_taser",
+	"name": "Broken Taser",
+	"description": "Can be recycled into crafting materials.",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"recyclesInto": {
+		"battery": 2,
+		"wires": 2
+	},
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Security",
+	"updatedAt": "11/11/2025",
+	"imageFilename": "https://cdn.arctracker.io/items/broken_taser.png"
 }

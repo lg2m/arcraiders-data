@@ -1,40 +1,34 @@
 {
-  "id": "ss10x6",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "dam_battlegrounds"
-  ],
-  "name": "Source of the Contamination",
-  "description": "I'm not saying our water's been tampered with, but based on your samples, I can't rule out the possibility either. Would you return to the Dam and see what's wrong?",
-  "objectives": [
-    "Reach the Water Treatment Building in The Dam",
-    "Search for the Flood Spill Intake near the Swamp",
-    "Investigate any suspicious objects"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "steel_spring",
-      "quantity": 5
-    },
-    {
-      "itemId": "duct_tape",
-      "quantity": 5
-    },
-    {
-      "itemId": "mod_components",
-      "quantity": 1
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10x4"
-  ],
-  "nextQuestIds": [
-    "ss10x7"
-  ],
-  "traderId": "celeste"
+	"id": "ss10x6",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": ["dam_battlegrounds"],
+	"name": "Source of the Contamination",
+	"description": "I'm not saying our water's been tampered with, but based on your samples, I can't rule out the possibility either. Would you return to the Dam and see what's wrong?",
+	"objectives": [
+		"Reach the Water Treatment Building in The Dam",
+		"Search for the Flood Spill Intake near the Swamp",
+		"Investigate any suspicious objects"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "steel_spring",
+			"quantity": 5
+		},
+		{
+			"itemId": "duct_tape",
+			"quantity": 5
+		},
+		{
+			"itemId": "mod_components",
+			"quantity": 1
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10x4"],
+	"nextQuestIds": ["ss10x7"],
+	"traderId": "celeste"
 }

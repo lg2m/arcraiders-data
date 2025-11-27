@@ -1,65 +1,65 @@
 {
-  "id": "heavy_fuze_grenade",
-  "name": "Heavy Fuze Grenade",
-  "description": "A grenade that detonates after a delay, dealing explosive damage in its radius.",
-  "type": "Quick Use",
-  "value": 1600,
-  "rarity": "Rare",
-  "weightKg": 0.2,
-  "stackSize": 3,
-  "effects": {
-    "Damage": {
-      "en": "Damage",
-      "de": "Schaden",
-      "fr": "Dégâts",
-      "es": "Daño",
-      "pt": "Dano",
-      "pl": "Obrażenia",
-      "no": "Skade",
-      "da": "Skade",
-      "it": "Danno",
-      "ru": "Урон",
-      "ja": "ダメージ",
-      "zh-TW": "傷害",
-      "uk": "Шкода",
-      "zh-CN": "伤害",
-      "kr": "피해",
-      "tr": "Hasar",
-      "hr": "Šteta",
-      "sr": "Šteta",
-      "value": 80
-    },
-    "Radius": {
-      "en": "Radius",
-      "de": "Radius",
-      "fr": "Rayon",
-      "es": "Radio",
-      "pt": "Raio",
-      "pl": "Zasięg",
-      "no": "Radius",
-      "da": "Radius",
-      "it": "Raggio",
-      "ru": "Радиус",
-      "ja": "範囲",
-      "zh-TW": "範圍",
-      "uk": "Радіус",
-      "zh-CN": "范围",
-      "kr": "범위",
-      "tr": "Yarıçap",
-      "hr": "Radijus",
-      "sr": "Radijus",
-      "value": "7.5m"
-    }
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/heavy_fuze_grenade.png",
-  "updatedAt": "11/03/2025",
-  "recyclesInto": {
-    "oil": 1,
-    "rubber_parts": 2
-  },
-  "recipe": {
-    "explosive_compound": 1,
-    "canister": 2
-  },
-  "craftBench": "explosives_station"
+	"id": "heavy_fuze_grenade",
+	"name": "Heavy Fuze Grenade",
+	"description": "A grenade that detonates after a delay, dealing explosive damage in its radius.",
+	"type": "Quick Use",
+	"value": 1600,
+	"rarity": "Rare",
+	"weightKg": 0.2,
+	"stackSize": 3,
+	"effects": {
+		"Damage": {
+			"en": "Damage",
+			"de": "Schaden",
+			"fr": "Dégâts",
+			"es": "Daño",
+			"pt": "Dano",
+			"pl": "Obrażenia",
+			"no": "Skade",
+			"da": "Skade",
+			"it": "Danno",
+			"ru": "Урон",
+			"ja": "ダメージ",
+			"zh-TW": "傷害",
+			"uk": "Шкода",
+			"zh-CN": "伤害",
+			"kr": "피해",
+			"tr": "Hasar",
+			"hr": "Šteta",
+			"sr": "Šteta",
+			"value": 80
+		},
+		"Radius": {
+			"en": "Radius",
+			"de": "Radius",
+			"fr": "Rayon",
+			"es": "Radio",
+			"pt": "Raio",
+			"pl": "Zasięg",
+			"no": "Radius",
+			"da": "Radius",
+			"it": "Raggio",
+			"ru": "Радиус",
+			"ja": "範囲",
+			"zh-TW": "範圍",
+			"uk": "Радіус",
+			"zh-CN": "范围",
+			"kr": "범위",
+			"tr": "Yarıçap",
+			"hr": "Radijus",
+			"sr": "Radijus",
+			"value": "7.5m"
+		}
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/heavy_fuze_grenade.png",
+	"updatedAt": "11/03/2025",
+	"recyclesInto": {
+		"oil": 1,
+		"rubber_parts": 2
+	},
+	"recipe": {
+		"explosive_compound": 1,
+		"canister": 2
+	},
+	"craftBench": "explosives_station"
 }

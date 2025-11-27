@@ -1,11 +1,11 @@
 {
-  "id": "osprey_blueprint",
-  "name": "Osprey Blueprint",
-  "description": "Has reliable damage output and accuracy.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "rarity": "Legendary",
-  "imageFilename": "https://cdn.arctracker.io/items/osprey_blueprint.png",
-  "updatedAt": "11/12/2025"
+	"id": "osprey_blueprint",
+	"name": "Osprey Blueprint",
+	"description": "Has reliable damage output and accuracy.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"rarity": "Legendary",
+	"imageFilename": "https://cdn.arctracker.io/items/osprey_blueprint.png",
+	"updatedAt": "11/12/2025"
 }

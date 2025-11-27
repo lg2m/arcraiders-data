@@ -1,20 +1,20 @@
 {
-  "id": "toaster",
-  "name": "Toaster",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "value": 1000,
-  "recyclesInto": {
-    "plastic_parts": 5,
-    "wires": 3
-  },
-  "salvagesInto": {
-    "wires": 3
-  },
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/toaster.png",
-  "updatedAt": "11/03/2025"
+	"id": "toaster",
+	"name": "Toaster",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"value": 1000,
+	"recyclesInto": {
+		"plastic_parts": 5,
+		"wires": 3
+	},
+	"salvagesInto": {
+		"wires": 3
+	},
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/toaster.png",
+	"updatedAt": "11/03/2025"
 }

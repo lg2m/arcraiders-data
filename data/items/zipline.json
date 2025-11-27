@@ -1,20 +1,20 @@
 {
-  "id": "zipline",
-  "name": "Zipline",
-  "type": "Quick Use",
-  "rarity": "Rare",
-  "description": "A deployable zipline that allows you to quickly move between two locations.",
-  "weightKg": 0.4,
-  "value": 1000,
-  "imageFilename": "https://cdn.arctracker.io/items/zipline.png",
-  "updatedAt": "11/05/2025",
-  "recyclesInto": {
-    "rope": 1,
-    "metal_parts": 1
-  },
-  "craftBench": "utility_station",
-  "recipe": {
-    "rope": 1,
-    "mechanical_components": 1
-  }
+	"id": "zipline",
+	"name": "Zipline",
+	"type": "Quick Use",
+	"rarity": "Rare",
+	"description": "A deployable zipline that allows you to quickly move between two locations.",
+	"weightKg": 0.4,
+	"value": 1000,
+	"imageFilename": "https://cdn.arctracker.io/items/zipline.png",
+	"updatedAt": "11/05/2025",
+	"recyclesInto": {
+		"rope": 1,
+		"metal_parts": 1
+	},
+	"craftBench": "utility_station",
+	"recipe": {
+		"rope": 1,
+		"mechanical_components": 1
+	}
 }

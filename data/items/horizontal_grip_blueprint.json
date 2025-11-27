@@ -1,11 +1,11 @@
 {
-  "id": "horizontal_grip_blueprint",
-  "name": "Horizontal Grip Blueprint",
-  "description": "Moderately reduces per-shot dispersion.",
-  "type": "Blueprint",
-  "rarity": "Legendary",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/horizontal_grip.png",
-  "updatedAt": "11/12/2025"
+	"id": "horizontal_grip_blueprint",
+	"name": "Horizontal Grip Blueprint",
+	"description": "Moderately reduces per-shot dispersion.",
+	"type": "Blueprint",
+	"rarity": "Legendary",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/horizontal_grip.png",
+	"updatedAt": "11/12/2025"
 }

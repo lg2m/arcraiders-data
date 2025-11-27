@@ -1,14 +1,14 @@
 {
-  "id": "red_coral_jewelry",
-  "name": "Red Coral Jewelry",
-  "description": "Valued for its fine craftsmanship, and effortless ability to make your eyes pop.",
-  "type": "Trinket",
-  "value": 5000,
-  "recyclesInto": {},
-  "updatedAt": "11/04/2025",
-  "rarity": "Rare",
-  "weightKg": 0.3,
-  "stackSize": 3,
-  "foundIn": "Residential, Old World, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/red_coral_jewelry.png"
+	"id": "red_coral_jewelry",
+	"name": "Red Coral Jewelry",
+	"description": "Valued for its fine craftsmanship, and effortless ability to make your eyes pop.",
+	"type": "Trinket",
+	"value": 5000,
+	"recyclesInto": {},
+	"updatedAt": "11/04/2025",
+	"rarity": "Rare",
+	"weightKg": 0.3,
+	"stackSize": 3,
+	"foundIn": "Residential, Old World, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/red_coral_jewelry.png"
 }

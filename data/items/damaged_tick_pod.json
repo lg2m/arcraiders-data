@@ -1,13 +1,13 @@
 {
-  "id": "damaged_tick_pod",
-  "name": "Damaged Tick Pod",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "rarity": "Common",
-  "value": 90,
-  "weightKg": 0.083,
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "imageFilename": "https://cdn.arctracker.io/items/damaged_tick_pod.png",
-  "updatedAt": "10/30/2025"
+	"id": "damaged_tick_pod",
+	"name": "Damaged Tick Pod",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"rarity": "Common",
+	"value": 90,
+	"weightKg": 0.083,
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"imageFilename": "https://cdn.arctracker.io/items/damaged_tick_pod.png",
+	"updatedAt": "10/30/2025"
 }

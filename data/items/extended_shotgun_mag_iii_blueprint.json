@@ -1,12 +1,12 @@
 {
-  "id": "extended_shotgun_mag_iii_blueprint",
-  "name": "Extended Shotgun Mag III Blueprint",
-  "description": "Significantly extends the ammo capacity of shotguns.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "stackSize": 1,
-  "rarity": "Legendary",
-  "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_iii.png",
-  "updatedAt": "11/12/2025"
+	"id": "extended_shotgun_mag_iii_blueprint",
+	"name": "Extended Shotgun Mag III Blueprint",
+	"description": "Significantly extends the ammo capacity of shotguns.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"stackSize": 1,
+	"rarity": "Legendary",
+	"imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_iii.png",
+	"updatedAt": "11/12/2025"
 }

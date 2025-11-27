@@ -1,20 +1,20 @@
 {
-  "id": "exodus_modules",
-  "name": "Exodus Modules",
-  "description": "Used to craft a wide range of items. Used to craft: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
-  "type": "Topside Material",
-  "rarity": "Epic",
-  "weightKg": 1,
-  "stackSize": 3,
-  "foundIn": "Exodus",
-  "recyclesInto": {
-    "magnet": 2,
-    "processor": 2
-  },
-  "salvagesInto": {
-    "processor": 2
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/exodus_modules.png",
-  "value": 2750,
-  "updatedAt": "11/05/2025"
+	"id": "exodus_modules",
+	"name": "Exodus Modules",
+	"description": "Used to craft a wide range of items. Used to craft: Tempest, Vulcano, Hullcracker, Bobcat, Snap Hook",
+	"type": "Topside Material",
+	"rarity": "Epic",
+	"weightKg": 1,
+	"stackSize": 3,
+	"foundIn": "Exodus",
+	"recyclesInto": {
+		"magnet": 2,
+		"processor": 2
+	},
+	"salvagesInto": {
+		"processor": 2
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/exodus_modules.png",
+	"value": 2750,
+	"updatedAt": "11/05/2025"
 }

@@ -1,10 +1,10 @@
 {
-  "id": "esr_analyzer",
-  "name": "ESR Analyzer",
-  "description": "A portable analyzer from the world before, complete with several spare tubes.",
-  "type": "Trinket",
-  "updatedAt": "11/17/2025",
-  "rarity": "Common",
-  "weightKg": 0.25,
-  "imageFilename": "https://cdn.arctracker.io/items/esr_analyzer.png"
+	"id": "esr_analyzer",
+	"name": "ESR Analyzer",
+	"description": "A portable analyzer from the world before, complete with several spare tubes.",
+	"type": "Trinket",
+	"updatedAt": "11/17/2025",
+	"rarity": "Common",
+	"weightKg": 0.25,
+	"imageFilename": "https://cdn.arctracker.io/items/esr_analyzer.png"
 }

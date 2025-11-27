@@ -1,16 +1,16 @@
 {
-  "id": "tattered_arc_lining",
-  "name": "Tattered Arc Lining",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "value": 640,
-  "rarity": "Uncommon",
-  "recyclesInto": {
-    "fabric": 12
-  },
-  "weightKg": 1,
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "imageFilename": "https://cdn.arctracker.io/items/tattered_arc_lining.png",
-  "updatedAt": "11/06/2025"
+	"id": "tattered_arc_lining",
+	"name": "Tattered Arc Lining",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"value": 640,
+	"rarity": "Uncommon",
+	"recyclesInto": {
+		"fabric": 12
+	},
+	"weightKg": 1,
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"imageFilename": "https://cdn.arctracker.io/items/tattered_arc_lining.png",
+	"updatedAt": "11/06/2025"
 }

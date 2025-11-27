@@ -1,16 +1,16 @@
 {
-  "id": "power_cable",
-  "name": "Power Cable",
-  "description": "A heavy-duty cable used for transmitting electrical power.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "value": 1000,
-  "recyclesInto": {
-    "wires": 4
-  },
-  "stackSize": 3,
-  "weightKg": 2,
-  "foundIn": "Electrical, Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/power_cable.png",
-  "updatedAt": "11/03/2025"
+	"id": "power_cable",
+	"name": "Power Cable",
+	"description": "A heavy-duty cable used for transmitting electrical power.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"value": 1000,
+	"recyclesInto": {
+		"wires": 4
+	},
+	"stackSize": 3,
+	"weightKg": 2,
+	"foundIn": "Electrical, Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/power_cable.png",
+	"updatedAt": "11/03/2025"
 }

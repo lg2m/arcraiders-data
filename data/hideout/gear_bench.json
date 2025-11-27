@@ -1,58 +1,58 @@
 {
-  "id": "gear_bench",
-  "name": "Gear Bench",
-  "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgPWLKFGMKGmVzYtNf6C23Dq9BRheSxy7s5Pcg",
-  "maxLevel": 3,
-  "levels": [
-    {
-      "level": 1,
-      "requirementItemIds": [
-        {
-          "itemId": "plastic_parts",
-          "quantity": 25
-        },
-        {
-          "itemId": "fabric",
-          "quantity": 30
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 2,
-      "requirementItemIds": [
-        {
-          "itemId": "power_cable",
-          "quantity": 3
-        },
-        {
-          "itemId": "electrical_components",
-          "quantity": 5
-        },
-        {
-          "itemId": "hornet_driver",
-          "quantity": 5
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 3,
-      "requirementItemIds": [
-        {
-          "itemId": "industrial_battery",
-          "quantity": 3
-        },
-        {
-          "itemId": "advanced_electrical_components",
-          "quantity": 5
-        },
-        {
-          "itemId": "bastion_cell",
-          "quantity": 6
-        }
-      ],
-      "description": null
-    }
-  ]
+	"id": "gear_bench",
+	"name": "Gear Bench",
+	"image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgPWLKFGMKGmVzYtNf6C23Dq9BRheSxy7s5Pcg",
+	"maxLevel": 3,
+	"levels": [
+		{
+			"level": 1,
+			"requirementItemIds": [
+				{
+					"itemId": "plastic_parts",
+					"quantity": 25
+				},
+				{
+					"itemId": "fabric",
+					"quantity": 30
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 2,
+			"requirementItemIds": [
+				{
+					"itemId": "power_cable",
+					"quantity": 3
+				},
+				{
+					"itemId": "electrical_components",
+					"quantity": 5
+				},
+				{
+					"itemId": "hornet_driver",
+					"quantity": 5
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 3,
+			"requirementItemIds": [
+				{
+					"itemId": "industrial_battery",
+					"quantity": 3
+				},
+				{
+					"itemId": "advanced_electrical_components",
+					"quantity": 5
+				},
+				{
+					"itemId": "bastion_cell",
+					"quantity": 6
+				}
+			],
+			"description": null
+		}
+	]
 }

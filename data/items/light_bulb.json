@@ -1,13 +1,13 @@
 {
-  "id": "light_bulb",
-  "name": "Light Bulb",
-  "description": "Without light, life underground would be impossible.",
-  "type": "Trinket",
-  "value": 2000,
-  "updatedAt": "11/01/2025",
-  "rarity": "Uncommon",
-  "weightKg": 0.2,
-  "stackSize": 3,
-  "foundIn": "Electrical",
-  "imageFilename": "https://cdn.arctracker.io/items/light_bulb.png"
+	"id": "light_bulb",
+	"name": "Light Bulb",
+	"description": "Without light, life underground would be impossible.",
+	"type": "Trinket",
+	"value": 2000,
+	"updatedAt": "11/01/2025",
+	"rarity": "Uncommon",
+	"weightKg": 0.2,
+	"stackSize": 3,
+	"foundIn": "Electrical",
+	"imageFilename": "https://cdn.arctracker.io/items/light_bulb.png"
 }

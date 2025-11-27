@@ -1,20 +1,20 @@
 {
-  "id": "spring_cushion",
-  "name": "Spring Cushion",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 2000,
-  "recyclesInto": {
-    "durable_cloth": 2,
-    "steel_spring": 2
-  },
-  "salvagesInto": {
-    "steel_spring": 2
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/spring_cushion.png",
-  "updatedAt": "11/04/2025"
+	"id": "spring_cushion",
+	"name": "Spring Cushion",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 2000,
+	"recyclesInto": {
+		"durable_cloth": 2,
+		"steel_spring": 2
+	},
+	"salvagesInto": {
+		"steel_spring": 2
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/spring_cushion.png",
+	"updatedAt": "11/04/2025"
 }

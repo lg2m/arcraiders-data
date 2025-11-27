@@ -1,45 +1,39 @@
 {
-  "id": "ss10x10",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "the_spaceport"
-  ],
-  "name": "Power Out",
-  "description": "This goes beyond bad luck. Something—or someone—has knocked out some of our electrical substations. The engineer I sent out to fix it hasn't returned, so I need all available Raiders to look into it. That includes you.",
-  "objectives": [
-    "Find the Electrical Substation south of the Spaceport, next to the Checkpoint",
-    "Find any sign of the missing engineer",
-    "Carry the fuse/battery back to the Electrical Substation",
-    "Enable the power switch on the Fuse Box"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "bag_radio_renegade",
-      "quantity": 1
-    },
-    {
-      "itemId": "wires",
-      "quantity": 5
-    },
-    {
-      "itemId": "explosive_compound",
-      "quantity": 5
-    },
-    {
-      "itemId": "oil",
-      "quantity": 5
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10x9"
-  ],
-  "nextQuestIds": [
-    "ss10x11"
-  ],
-  "traderId": "celeste"
+	"id": "ss10x10",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": ["the_spaceport"],
+	"name": "Power Out",
+	"description": "This goes beyond bad luck. Something—or someone—has knocked out some of our electrical substations. The engineer I sent out to fix it hasn't returned, so I need all available Raiders to look into it. That includes you.",
+	"objectives": [
+		"Find the Electrical Substation south of the Spaceport, next to the Checkpoint",
+		"Find any sign of the missing engineer",
+		"Carry the fuse/battery back to the Electrical Substation",
+		"Enable the power switch on the Fuse Box"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "bag_radio_renegade",
+			"quantity": 1
+		},
+		{
+			"itemId": "wires",
+			"quantity": 5
+		},
+		{
+			"itemId": "explosive_compound",
+			"quantity": 5
+		},
+		{
+			"itemId": "oil",
+			"quantity": 5
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10x9"],
+	"nextQuestIds": ["ss10x11"],
+	"traderId": "celeste"
 }

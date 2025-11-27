@@ -1,37 +1,31 @@
 {
-  "id": "ss11b",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "the_spaceport"
-  ],
-  "name": "Lost in Transmission",
-  "description": "I have equipment set up at the Spaceport, to monitor ARC's movements. My connection broke down just now — I need you to head to the Control Towers and help me retrieve my logs.",
-  "objectives": [
-    "Visit Control Tower A6",
-    "Reach the top of Control Tower A6",
-    "Establish a connection from the terminal"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [
-    {
-      "itemId": "spaceport_control_tower_key",
-      "quantity": 1
-    }
-  ],
-  "rewardItemIds": [
-    {
-      "itemId": "snap_hook",
-      "quantity": 1
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10z"
-  ],
-  "nextQuestIds": [
-    "ss11b2"
-  ],
-  "traderId": "shani"
+	"id": "ss11b",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": ["the_spaceport"],
+	"name": "Lost in Transmission",
+	"description": "I have equipment set up at the Spaceport, to monitor ARC's movements. My connection broke down just now — I need you to head to the Control Towers and help me retrieve my logs.",
+	"objectives": [
+		"Visit Control Tower A6",
+		"Reach the top of Control Tower A6",
+		"Establish a connection from the terminal"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [
+		{
+			"itemId": "spaceport_control_tower_key",
+			"quantity": 1
+		}
+	],
+	"rewardItemIds": [
+		{
+			"itemId": "snap_hook",
+			"quantity": 1
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10z"],
+	"nextQuestIds": ["ss11b2"],
+	"traderId": "shani"
 }

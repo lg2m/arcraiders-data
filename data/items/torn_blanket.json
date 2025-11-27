@@ -1,16 +1,16 @@
 {
-  "id": "torn_blanket",
-  "name": "Torn Blanket",
-  "description": "Can be recycled into fabric.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "value": 640,
-  "recyclesInto": {
-    "fabric": 12
-  },
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Residential, Medical",
-  "imageFilename": "https://cdn.arctracker.io/items/torn_blanket.png",
-  "updatedAt": "11/01/2025"
+	"id": "torn_blanket",
+	"name": "Torn Blanket",
+	"description": "Can be recycled into fabric.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"value": 640,
+	"recyclesInto": {
+		"fabric": 12
+	},
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Residential, Medical",
+	"imageFilename": "https://cdn.arctracker.io/items/torn_blanket.png",
+	"updatedAt": "11/01/2025"
 }

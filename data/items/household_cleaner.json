@@ -1,16 +1,16 @@
 {
-  "id": "household_cleaner",
-  "name": "Household Cleaner",
-  "rarity": "Uncommon",
-  "type": "Recyclable",
-  "value": 640,
-  "recyclesInto": {
-    "chemicals": 11
-  },
-  "description": "Can be recycled into chemicals.",
-  "weightKg": 0.8,
-  "stackSize": 3,
-  "foundIn": "Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/household_cleaner.png",
-  "updatedAt": "11/03/2025"
+	"id": "household_cleaner",
+	"name": "Household Cleaner",
+	"rarity": "Uncommon",
+	"type": "Recyclable",
+	"value": 640,
+	"recyclesInto": {
+		"chemicals": 11
+	},
+	"description": "Can be recycled into chemicals.",
+	"weightKg": 0.8,
+	"stackSize": 3,
+	"foundIn": "Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/household_cleaner.png",
+	"updatedAt": "11/03/2025"
 }

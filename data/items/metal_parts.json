@@ -1,14 +1,14 @@
 {
-  "id": "metal_parts",
-  "name": "Metal Parts",
-  "description": "Used to craft a wide range of items.",
-  "type": "Basic Material",
-  "rarity": "Common",
-  "value": 75,
-  "recyclesInto": {},
-  "weightKg": 0.1,
-  "stackSize": 50,
-  "foundIn": "Mechanical, Industrial, Electrical, Technological",
-  "imageFilename": "https://cdn.arctracker.io/items/metal_parts.png",
-  "updatedAt": "11/03/2025"
+	"id": "metal_parts",
+	"name": "Metal Parts",
+	"description": "Used to craft a wide range of items.",
+	"type": "Basic Material",
+	"rarity": "Common",
+	"value": 75,
+	"recyclesInto": {},
+	"weightKg": 0.1,
+	"stackSize": 50,
+	"foundIn": "Mechanical, Industrial, Electrical, Technological",
+	"imageFilename": "https://cdn.arctracker.io/items/metal_parts.png",
+	"updatedAt": "11/03/2025"
 }

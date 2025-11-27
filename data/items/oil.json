@@ -1,16 +1,16 @@
 {
-  "id": "oil",
-  "name": "Oil",
-  "description": "Used to craft weapons and explosives. Can be recycled into chemicals. Used to craft: Renegade, Explosive Compound, Blaze Grenade",
-  "imageFilename": "https://cdn.arctracker.io/items/oil.png",
-  "type": "Topside Material",
-  "rarity": "Uncommon",
-  "value": 300,
-  "recyclesInto": {
-    "chemicals": 3
-  },
-  "updatedAt": "11/03/2025",
-  "weightKg": 0.25,
-  "stackSize": 15,
-  "foundIn": "Mechanical"
+	"id": "oil",
+	"name": "Oil",
+	"description": "Used to craft weapons and explosives. Can be recycled into chemicals. Used to craft: Renegade, Explosive Compound, Blaze Grenade",
+	"imageFilename": "https://cdn.arctracker.io/items/oil.png",
+	"type": "Topside Material",
+	"rarity": "Uncommon",
+	"value": 300,
+	"recyclesInto": {
+		"chemicals": 3
+	},
+	"updatedAt": "11/03/2025",
+	"weightKg": 0.25,
+	"stackSize": 15,
+	"foundIn": "Mechanical"
 }

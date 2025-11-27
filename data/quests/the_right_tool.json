@@ -1,47 +1,39 @@
 {
-  "id": "ss7",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [],
-  "name": "The Right Tool",
-  "description": "You're one of the new arrivals, right? I need a volunteer to test out this upgraded Ferro; should cut through ARC plating like butter. Go put holes in some machines, and report back to me.",
-  "objectives": [
-    "Destroy a Fireball",
-    "Destroy a Hornet",
-    "Destroy a Turret"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [
-    {
-      "itemId": "ferro_iv",
-      "quantity": 1
-    },
-    {
-      "itemId": "heavy_ammo",
-      "quantity": 20
-    }
-  ],
-  "rewardItemIds": [
-    {
-      "itemId": "stitcher_ii",
-      "quantity": 1
-    },
-    {
-      "itemId": "extended_light_mag_i",
-      "quantity": 1
-    },
-    {
-      "itemId": "cheer_emote",
-      "quantity": 1
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss5"
-  ],
-  "nextQuestIds": [
-    "ss10"
-  ],
-  "traderId": "tian_wen"
+	"id": "ss7",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": [],
+	"name": "The Right Tool",
+	"description": "You're one of the new arrivals, right? I need a volunteer to test out this upgraded Ferro; should cut through ARC plating like butter. Go put holes in some machines, and report back to me.",
+	"objectives": ["Destroy a Fireball", "Destroy a Hornet", "Destroy a Turret"],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [
+		{
+			"itemId": "ferro_iv",
+			"quantity": 1
+		},
+		{
+			"itemId": "heavy_ammo",
+			"quantity": 20
+		}
+	],
+	"rewardItemIds": [
+		{
+			"itemId": "stitcher_ii",
+			"quantity": 1
+		},
+		{
+			"itemId": "extended_light_mag_i",
+			"quantity": 1
+		},
+		{
+			"itemId": "cheer_emote",
+			"quantity": 1
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss5"],
+	"nextQuestIds": ["ss10"],
+	"traderId": "tian_wen"
 }

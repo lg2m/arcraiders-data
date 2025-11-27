@@ -1,63 +1,63 @@
 {
-  "id": "wolfpack",
-  "name": "Wolfpack",
-  "description": "A grenade that scatters into multiple homing missiles, each one targeting ARC and dealing explosive damage on impact.",
-  "type": "Quick Use",
-  "rarity": "Epic",
-  "weightKg": 1,
-  "effects": {
-    "Damage": {
-      "en": "Damage",
-      "de": "Schaden",
-      "fr": "Dégâts",
-      "es": "Daño",
-      "pt": "Dano",
-      "pl": "Obrażenia",
-      "no": "Skade",
-      "da": "Skade",
-      "it": "Danno",
-      "ru": "Урон",
-      "ja": "ダメージ",
-      "zh-TW": "傷害",
-      "uk": "Шкода",
-      "zh-CN": "伤害",
-      "kr": "피해",
-      "tr": "Hasar",
-      "hr": "Šteta",
-      "sr": "Šteta",
-      "value": "166 x12"
-    },
-    "Homing Range": {
-      "en": "Homing Range",
-      "de": "Zielsuchreichweite",
-      "fr": "Portée de guidage",
-      "es": "Alcance de rastreo",
-      "pt": "Alcance de rastreamento",
-      "pl": "Zasięg naprowadzania",
-      "no": "Målsøkingsrekkevidde",
-      "da": "Målsøgningsrækkevidde",
-      "it": "Portata di ricerca",
-      "ru": "Дальность наведения",
-      "ja": "追尾範囲",
-      "zh-TW": "追蹤範圍",
-      "uk": "Дальність наведення",
-      "zh-CN": "追踪范围",
-      "kr": "유도 범위",
-      "tr": "Güdüm Menzili",
-      "hr": "Domet Navođenja",
-      "sr": "Domet Navođenja",
-      "value": "100m"
-    }
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/wolfpack.png",
-  "updatedAt": "10/30/2025",
-  "recyclesInto": {
-    "crude_explosives": 2,
-    "synthesized_fuel": 2
-  },
-  "recipe": {
-    "explosive_compound": 3,
-    "arc_motion_core": 2
-  },
-  "craftBench": "explosives_station"
+	"id": "wolfpack",
+	"name": "Wolfpack",
+	"description": "A grenade that scatters into multiple homing missiles, each one targeting ARC and dealing explosive damage on impact.",
+	"type": "Quick Use",
+	"rarity": "Epic",
+	"weightKg": 1,
+	"effects": {
+		"Damage": {
+			"en": "Damage",
+			"de": "Schaden",
+			"fr": "Dégâts",
+			"es": "Daño",
+			"pt": "Dano",
+			"pl": "Obrażenia",
+			"no": "Skade",
+			"da": "Skade",
+			"it": "Danno",
+			"ru": "Урон",
+			"ja": "ダメージ",
+			"zh-TW": "傷害",
+			"uk": "Шкода",
+			"zh-CN": "伤害",
+			"kr": "피해",
+			"tr": "Hasar",
+			"hr": "Šteta",
+			"sr": "Šteta",
+			"value": "166 x12"
+		},
+		"Homing Range": {
+			"en": "Homing Range",
+			"de": "Zielsuchreichweite",
+			"fr": "Portée de guidage",
+			"es": "Alcance de rastreo",
+			"pt": "Alcance de rastreamento",
+			"pl": "Zasięg naprowadzania",
+			"no": "Målsøkingsrekkevidde",
+			"da": "Målsøgningsrækkevidde",
+			"it": "Portata di ricerca",
+			"ru": "Дальность наведения",
+			"ja": "追尾範囲",
+			"zh-TW": "追蹤範圍",
+			"uk": "Дальність наведення",
+			"zh-CN": "追踪范围",
+			"kr": "유도 범위",
+			"tr": "Güdüm Menzili",
+			"hr": "Domet Navođenja",
+			"sr": "Domet Navođenja",
+			"value": "100m"
+		}
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/wolfpack.png",
+	"updatedAt": "10/30/2025",
+	"recyclesInto": {
+		"crude_explosives": 2,
+		"synthesized_fuel": 2
+	},
+	"recipe": {
+		"explosive_compound": 3,
+		"arc_motion_core": 2
+	},
+	"craftBench": "explosives_station"
 }

@@ -1,20 +1,20 @@
 {
-  "id": "water_filter",
-  "name": "Water Filter",
-  "description": "A portable filtration device for purifying water.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "value": 1000,
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Industrial",
-  "recyclesInto": {
-    "rubber_parts": 2,
-    "canister": 3
-  },
-  "salvagesInto": {
-    "canister": 2
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/water_filter.png",
-  "updatedAt": "11/1/2025"
+	"id": "water_filter",
+	"name": "Water Filter",
+	"description": "A portable filtration device for purifying water.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"value": 1000,
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Industrial",
+	"recyclesInto": {
+		"rubber_parts": 2,
+		"canister": 3
+	},
+	"salvagesInto": {
+		"canister": 2
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/water_filter.png",
+	"updatedAt": "11/1/2025"
 }

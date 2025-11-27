@@ -1,17 +1,17 @@
 {
-  "id": "broken_handheld_radio",
-  "name": "Broken Handheld Radio",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 2000,
-  "recyclesInto": {
-    "sensors": 3,
-    "wires": 2
-  },
-  "updatedAt": "11/02/2025",
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 3,
-  "stackSize": 3,
-  "foundIn": "Security",
-  "imageFilename": "https://cdn.arctracker.io/items/broken_handheld_radio.png"
+	"id": "broken_handheld_radio",
+	"name": "Broken Handheld Radio",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 2000,
+	"recyclesInto": {
+		"sensors": 3,
+		"wires": 2
+	},
+	"updatedAt": "11/02/2025",
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 3,
+	"stackSize": 3,
+	"foundIn": "Security",
+	"imageFilename": "https://cdn.arctracker.io/items/broken_handheld_radio.png"
 }

@@ -1,11 +1,11 @@
 {
-  "id": "light_gun_parts_blueprint",
-  "name": "Light Gun Parts Blueprint",
-  "description": "Assorted spare parts used for pistols and SMGs.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/light_gun_parts_blueprint.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/12/2025"
+	"id": "light_gun_parts_blueprint",
+	"name": "Light Gun Parts Blueprint",
+	"description": "Assorted spare parts used for pistols and SMGs.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/light_gun_parts_blueprint.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/12/2025"
 }

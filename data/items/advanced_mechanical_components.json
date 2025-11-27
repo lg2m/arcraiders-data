@@ -1,22 +1,22 @@
 {
-  "id": "advanced_mechanical_components",
-  "name": "Advanced Mechanical Components",
-  "description": "Used to craft advanced weapons. Can be recycled into crafting materials. Used to craft: Torrente, Venator, Osprey, Renegade, Bettina",
-  "type": "Refined Material",
-  "rarity": "Rare",
-  "value": 1750,
-  "recyclesInto": {
-    "mechanical_components": 1,
-    "wires": 1
-  },
-  "weightKg": 1,
-  "imageFilename": "https://cdn.arctracker.io/items/advanced_mechanical_components.png",
-  "foundIn": "Mechanical",
-  "updatedAt": "11/03/2025",
-  "stackSize": 5,
-  "recipe": {
-    "steel_spring": 2,
-    "mechanical_components": 2
-  },
-  "craftBench": "refiner"
+	"id": "advanced_mechanical_components",
+	"name": "Advanced Mechanical Components",
+	"description": "Used to craft advanced weapons. Can be recycled into crafting materials. Used to craft: Torrente, Venator, Osprey, Renegade, Bettina",
+	"type": "Refined Material",
+	"rarity": "Rare",
+	"value": 1750,
+	"recyclesInto": {
+		"mechanical_components": 1,
+		"wires": 1
+	},
+	"weightKg": 1,
+	"imageFilename": "https://cdn.arctracker.io/items/advanced_mechanical_components.png",
+	"foundIn": "Mechanical",
+	"updatedAt": "11/03/2025",
+	"stackSize": 5,
+	"recipe": {
+		"steel_spring": 2,
+		"mechanical_components": 2
+	},
+	"craftBench": "refiner"
 }

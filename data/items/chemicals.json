@@ -1,13 +1,13 @@
 {
-  "id": "chemicals",
-  "name": "Chemicals",
-  "description": "Used to craft medical supplies, explosives, and utility items. Used to craft: Heavy Ammo, Medium Ammo, Shotgun Ammo, Light Ammo, Light Impact Grenade",
-  "type": "Basic Material",
-  "rarity": "Common",
-  "value": 50,
-  "weightKg": 0.15,
-  "stackSize": 50,
-  "foundIn": "Medical, Residential, Mechanical",
-  "imageFilename": "https://cdn.arctracker.io/items/chemicals.png",
-  "updatedAt": "11/03/2025"
+	"id": "chemicals",
+	"name": "Chemicals",
+	"description": "Used to craft medical supplies, explosives, and utility items. Used to craft: Heavy Ammo, Medium Ammo, Shotgun Ammo, Light Ammo, Light Impact Grenade",
+	"type": "Basic Material",
+	"rarity": "Common",
+	"value": 50,
+	"weightKg": 0.15,
+	"stackSize": 50,
+	"foundIn": "Medical, Residential, Mechanical",
+	"imageFilename": "https://cdn.arctracker.io/items/chemicals.png",
+	"updatedAt": "11/03/2025"
 }

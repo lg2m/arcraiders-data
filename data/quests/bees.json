@@ -1,40 +1,34 @@
 {
-  "id": "ss10x12",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "the_blue_gate"
-  ],
-  "name": "Bees!",
-  "description": "Bees! There are bees still around! While I'm no expert, our greenhouse crew desperately wants some.",
-  "objectives": [
-    "Reach the Olive Grove in Blue Gate",
-    "Search for bee hives around the Olive Grove"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [
-    {
-      "itemId": "yellow_light_stick",
-      "quantity": 5
-    }
-  ],
-  "rewardItemIds": [
-    {
-      "itemId": "advanced_electrical_components",
-      "quantity": 1
-    },
-    {
-      "itemId": "sensors",
-      "quantity": 3
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10x11"
-  ],
-  "nextQuestIds": [
-    "ss10x13"
-  ],
-  "traderId": "celeste"
+	"id": "ss10x12",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": ["the_blue_gate"],
+	"name": "Bees!",
+	"description": "Bees! There are bees still around! While I'm no expert, our greenhouse crew desperately wants some.",
+	"objectives": [
+		"Reach the Olive Grove in Blue Gate",
+		"Search for bee hives around the Olive Grove"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [
+		{
+			"itemId": "yellow_light_stick",
+			"quantity": 5
+		}
+	],
+	"rewardItemIds": [
+		{
+			"itemId": "advanced_electrical_components",
+			"quantity": 1
+		},
+		{
+			"itemId": "sensors",
+			"quantity": 3
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10x11"],
+	"nextQuestIds": ["ss10x13"],
+	"traderId": "celeste"
 }

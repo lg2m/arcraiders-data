@@ -1,19 +1,19 @@
 {
-  "id": "lure_grenade",
-  "name": "Lure Grenade",
-  "description": "A noise device that sticks to surfaces, distracting nearby ARC machines and drawing their fire.",
-  "type": "Quick Use",
-  "rarity": "Uncommon",
-  "value": 1000,
-  "weightKg": 0.4,
-  "imageFilename": "https://cdn.arctracker.io/items/lure_grenade.png",
-  "updatedAt": "10/30/2025",
-  "recipe": {
-    "speaker_component": 1,
-    "electrical_components": 1
-  },
-  "craftBench": "utility_station",
-  "recyclesInto": {
-    "speaker_component": 1
-  }
+	"id": "lure_grenade",
+	"name": "Lure Grenade",
+	"description": "A noise device that sticks to surfaces, distracting nearby ARC machines and drawing their fire.",
+	"type": "Quick Use",
+	"rarity": "Uncommon",
+	"value": 1000,
+	"weightKg": 0.4,
+	"imageFilename": "https://cdn.arctracker.io/items/lure_grenade.png",
+	"updatedAt": "10/30/2025",
+	"recipe": {
+		"speaker_component": 1,
+		"electrical_components": 1
+	},
+	"craftBench": "utility_station",
+	"recyclesInto": {
+		"speaker_component": 1
+	}
 }

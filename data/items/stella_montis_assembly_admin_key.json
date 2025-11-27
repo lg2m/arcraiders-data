@@ -1,11 +1,11 @@
 {
-  "name": "Stella Montis Assembly Admin Key",
-  "description": "Unlocks a door in Assembly in Stella Montis",
-  "id": "stella_montis_assembly_admin_key",
-  "type": "Key",
-  "rarity": "Uncommon",
-  "weightKg": 0.25,
-  "value": 100,
-  "imageFilename": "https://cdn.arctracker.io/items/stella_montis_assembly_admin_key.png",
-  "updatedAt": "11/13/2025"
+	"name": "Stella Montis Assembly Admin Key",
+	"description": "Unlocks a door in Assembly in Stella Montis",
+	"id": "stella_montis_assembly_admin_key",
+	"type": "Key",
+	"rarity": "Uncommon",
+	"weightKg": 0.25,
+	"value": 100,
+	"imageFilename": "https://cdn.arctracker.io/items/stella_montis_assembly_admin_key.png",
+	"updatedAt": "11/13/2025"
 }

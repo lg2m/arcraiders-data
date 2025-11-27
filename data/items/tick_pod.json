@@ -1,17 +1,17 @@
 {
-  "id": "tick_pod",
-  "name": "Tick Pod",
-  "description": "Can be recycled into crafting materials.",
-  "value": 640,
-  "type": "Recyclable",
-  "rarity": "Uncommon",
-  "imageFilename": "https://cdn.arctracker.io/items/tick_pod.png",
-  "recyclesInto": {
-    "arc_alloy": 1,
-    "metal_parts": 1
-  },
-  "weightKg": 0.5,
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "updatedAt": "11/03/2025"
+	"id": "tick_pod",
+	"name": "Tick Pod",
+	"description": "Can be recycled into crafting materials.",
+	"value": 640,
+	"type": "Recyclable",
+	"rarity": "Uncommon",
+	"imageFilename": "https://cdn.arctracker.io/items/tick_pod.png",
+	"recyclesInto": {
+		"arc_alloy": 1,
+		"metal_parts": 1
+	},
+	"weightKg": 0.5,
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"updatedAt": "11/03/2025"
 }

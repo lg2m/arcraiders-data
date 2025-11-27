@@ -1,20 +1,20 @@
 {
-  "id": "projector",
-  "name": "Projector",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "recyclesInto": {
-    "wires": 2,
-    "processor": 1
-  },
-  "salvagesInto": {
-    "processor": 1
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/projector.png",
-  "updatedAt": "11/04/2025"
+	"id": "projector",
+	"name": "Projector",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"recyclesInto": {
+		"wires": 2,
+		"processor": 1
+	},
+	"salvagesInto": {
+		"processor": 1
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/projector.png",
+	"updatedAt": "11/04/2025"
 }

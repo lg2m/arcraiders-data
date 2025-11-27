@@ -1,14 +1,14 @@
 {
-  "id": "silver_teaspoon_set",
-  "name": "Silver Teaspoon Set",
-  "description": "A shining, shimmering set of refinement and elegance.",
-  "type": "Trinket",
-  "value": 3000,
-  "recyclesInto": {},
-  "updatedAt": "11/03/2025",
-  "rarity": "Rare",
-  "weightKg": 0.3,
-  "stackSize": 3,
-  "foundIn": "Residential, Old World, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/silver_teaspoon_set.png"
+	"id": "silver_teaspoon_set",
+	"name": "Silver Teaspoon Set",
+	"description": "A shining, shimmering set of refinement and elegance.",
+	"type": "Trinket",
+	"value": 3000,
+	"recyclesInto": {},
+	"updatedAt": "11/03/2025",
+	"rarity": "Rare",
+	"weightKg": 0.3,
+	"stackSize": 3,
+	"foundIn": "Residential, Old World, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/silver_teaspoon_set.png"
 }

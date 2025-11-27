@@ -1,13 +1,13 @@
 {
-  "id": "poster_of_natural_wonders",
-  "name": "Poster of Natural Wonders",
-  "description": "If you stand close and squint your eyes, it's like the world never came crumbling down.",
-  "type": "Trinket",
-  "rarity": "Uncommon",
-  "value": 2000,
-  "weightKg": 0.3,
-  "stackSize": 3,
-  "foundIn": "Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/poster_of_natural_wonders.png",
-  "updatedAt": "11/01/2025"
+	"id": "poster_of_natural_wonders",
+	"name": "Poster of Natural Wonders",
+	"description": "If you stand close and squint your eyes, it's like the world never came crumbling down.",
+	"type": "Trinket",
+	"rarity": "Uncommon",
+	"value": 2000,
+	"weightKg": 0.3,
+	"stackSize": 3,
+	"foundIn": "Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/poster_of_natural_wonders.png",
+	"updatedAt": "11/01/2025"
 }

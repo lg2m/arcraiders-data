@@ -1,11 +1,11 @@
 {
-  "id": "extended_medium_mag_ii_blueprint",
-  "name": "Extended Medium Mag II Blueprint",
-  "description": "Moderately extends the ammo capacity of compatible weapons that use medium ammo.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_ii_blueprint.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/12/2025"
+	"id": "extended_medium_mag_ii_blueprint",
+	"name": "Extended Medium Mag II Blueprint",
+	"description": "Moderately extends the ammo capacity of compatible weapons that use medium ammo.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_ii_blueprint.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/12/2025"
 }

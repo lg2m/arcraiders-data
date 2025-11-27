@@ -1,14 +1,14 @@
 {
-  "id": "rubber_parts",
-  "name": "Rubber Parts",
-  "description": "Scrap rubber pieces for crafting. Used to craft: Ferro, Kettle, Looting Mk. 1, Shield Recharger, Stitcher",
-  "type": "Basic Material",
-  "rarity": "Common",
-  "value": 50,
-  "recyclesInto": {},
-  "weightKg": 0.1,
-  "stackSize": 50,
-  "foundIn": "Mechanical, Industrial, Electrical",
-  "imageFilename": "https://cdn.arctracker.io/items/rubber_parts.png",
-  "updatedAt": "11/03/2025"
+	"id": "rubber_parts",
+	"name": "Rubber Parts",
+	"description": "Scrap rubber pieces for crafting. Used to craft: Ferro, Kettle, Looting Mk. 1, Shield Recharger, Stitcher",
+	"type": "Basic Material",
+	"rarity": "Common",
+	"value": 50,
+	"recyclesInto": {},
+	"weightKg": 0.1,
+	"stackSize": 50,
+	"foundIn": "Mechanical, Industrial, Electrical",
+	"imageFilename": "https://cdn.arctracker.io/items/rubber_parts.png",
+	"updatedAt": "11/03/2025"
 }

@@ -1,21 +1,21 @@
 {
-  "id": "explosive_compound",
-  "name": "Explosive Compound",
-  "description": "Used to craft explosives. Used to craft: Wolfpack, Explosive Mine, Blaze Grenade, Heavy Fuze Grenade",
-  "type": "Refined Material",
-  "rarity": "Rare",
-  "value": 1000,
-  "weightKg": 0.3,
-  "stackSize": 5,
-  "foundIn": "Industrial, Security",
-  "imageFilename": "https://cdn.arctracker.io/items/explosive_compound.png",
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "crude_explosives": 2,
-    "oil": 2
-  },
-  "recyclesInto": {
-    "chemicals": 2
-  },
-  "craftBench": "refiner"
+	"id": "explosive_compound",
+	"name": "Explosive Compound",
+	"description": "Used to craft explosives. Used to craft: Wolfpack, Explosive Mine, Blaze Grenade, Heavy Fuze Grenade",
+	"type": "Refined Material",
+	"rarity": "Rare",
+	"value": 1000,
+	"weightKg": 0.3,
+	"stackSize": 5,
+	"foundIn": "Industrial, Security",
+	"imageFilename": "https://cdn.arctracker.io/items/explosive_compound.png",
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"crude_explosives": 2,
+		"oil": 2
+	},
+	"recyclesInto": {
+		"chemicals": 2
+	},
+	"craftBench": "refiner"
 }

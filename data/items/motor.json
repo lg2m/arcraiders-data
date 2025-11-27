@@ -1,15 +1,15 @@
 {
-  "id": "motor",
-  "name": "Motor",
-  "description": "A small electric motor, useful for various devices.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "value": 1000,
-  "weightKg": 3,
-  "recyclesInto": {
-    "oil": 2,
-    "mechanical_components": 1
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/motor.png",
-  "updatedAt": "10/30/2025"
+	"id": "motor",
+	"name": "Motor",
+	"description": "A small electric motor, useful for various devices.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"value": 1000,
+	"weightKg": 3,
+	"recyclesInto": {
+		"oil": 2,
+		"mechanical_components": 1
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/motor.png",
+	"updatedAt": "10/30/2025"
 }

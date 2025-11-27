@@ -1,9 +1,9 @@
 {
-  "id": "banana",
-  "name": "Banana",
-  "description": "A new cosmetic will be added to your collection.",
-  "type": "Backpack Charm",
-  "imageFilename": "https://cdn.arctracker.io/items/banana.png",
-  "rarity": "Common",
-  "updatedAt": "10/30/2025"
+	"id": "banana",
+	"name": "Banana",
+	"description": "A new cosmetic will be added to your collection.",
+	"type": "Backpack Charm",
+	"imageFilename": "https://cdn.arctracker.io/items/banana.png",
+	"rarity": "Common",
+	"updatedAt": "10/30/2025"
 }

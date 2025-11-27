@@ -1,20 +1,20 @@
 {
-  "id": "expired_respirator",
-  "name": "Expired Respirator",
-  "description": "The filters are clogged with sand and noxious fumes. Long past its lifespan.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "value": 640,
-  "recyclesInto": {
-    "rubber_parts": 8,
-    "fabric": 4
-  },
-  "salvagesInto": {
-    "rubber_parts": 5
-  },
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Medical",
-  "imageFilename": "https://cdn.arctracker.io/items/expired_respirator.png",
-  "updatedAt": "11/03/2025"
+	"id": "expired_respirator",
+	"name": "Expired Respirator",
+	"description": "The filters are clogged with sand and noxious fumes. Long past its lifespan.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"value": 640,
+	"recyclesInto": {
+		"rubber_parts": 8,
+		"fabric": 4
+	},
+	"salvagesInto": {
+		"rubber_parts": 5
+	},
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Medical",
+	"imageFilename": "https://cdn.arctracker.io/items/expired_respirator.png",
+	"updatedAt": "11/03/2025"
 }

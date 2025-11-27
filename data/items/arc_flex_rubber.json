@@ -1,19 +1,19 @@
 {
-  "id": "arc_flex_rubber",
-  "name": "ARC Flex Rubber",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 1,
-  "value": 1000,
-  "recyclesInto": {
-    "rubber_parts": 16
-  },
-  "salvagesInto": {
-    "rubber_parts": 9
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/arc_flex_rubber.png",
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "updatedAt": "11/01/2025"
+	"id": "arc_flex_rubber",
+	"name": "ARC Flex Rubber",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 1,
+	"value": 1000,
+	"recyclesInto": {
+		"rubber_parts": 16
+	},
+	"salvagesInto": {
+		"rubber_parts": 9
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/arc_flex_rubber.png",
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"updatedAt": "11/01/2025"
 }

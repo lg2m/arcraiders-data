@@ -1,58 +1,58 @@
 {
-  "id": "utility_station",
-  "name": "Utility Station",
-  "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgeIVZde7ZMQ4mhpexuraUCynI1d2VGDHXSPcA",
-  "maxLevel": 3,
-  "levels": [
-    {
-      "level": 1,
-      "requirementItemIds": [
-        {
-          "itemId": "plastic_parts",
-          "quantity": 50
-        },
-        {
-          "itemId": "arc_alloy",
-          "quantity": 6
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 2,
-      "requirementItemIds": [
-        {
-          "itemId": "damaged_heat_sink",
-          "quantity": 2
-        },
-        {
-          "itemId": "electrical_components",
-          "quantity": 5
-        },
-        {
-          "itemId": "snitch_scanner",
-          "quantity": 6
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 3,
-      "requirementItemIds": [
-        {
-          "itemId": "fried_motherboard",
-          "quantity": 3
-        },
-        {
-          "itemId": "advanced_electrical_components",
-          "quantity": 5
-        },
-        {
-          "itemId": "leaper_pulse_unit",
-          "quantity": 4
-        }
-      ],
-      "description": null
-    }
-  ]
+	"id": "utility_station",
+	"name": "Utility Station",
+	"image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgeIVZde7ZMQ4mhpexuraUCynI1d2VGDHXSPcA",
+	"maxLevel": 3,
+	"levels": [
+		{
+			"level": 1,
+			"requirementItemIds": [
+				{
+					"itemId": "plastic_parts",
+					"quantity": 50
+				},
+				{
+					"itemId": "arc_alloy",
+					"quantity": 6
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 2,
+			"requirementItemIds": [
+				{
+					"itemId": "damaged_heat_sink",
+					"quantity": 2
+				},
+				{
+					"itemId": "electrical_components",
+					"quantity": 5
+				},
+				{
+					"itemId": "snitch_scanner",
+					"quantity": 6
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 3,
+			"requirementItemIds": [
+				{
+					"itemId": "fried_motherboard",
+					"quantity": 3
+				},
+				{
+					"itemId": "advanced_electrical_components",
+					"quantity": 5
+				},
+				{
+					"itemId": "leaper_pulse_unit",
+					"quantity": 4
+				}
+			],
+			"description": null
+		}
+	]
 }

@@ -1,45 +1,40 @@
 {
-  "id": "ss10w",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "buried_city",
-    "the_spaceport",
-    "dam_battlegrounds",
-    "the_blue_gate"
-  ],
-  "name": "Back on Top",
-  "description": "Guess what? Shani asked me to help out with something, and for once, I'm actually glad she did. We're setting up new outposts topside! Or, planning to, at least. Can you believe it?",
-  "objectives": [
-    "On Dam Battlegrounds, mark the Pattern House",
-    "On The Blue Gate, mark the white lookout tower south of the Warehouse Complex",
-    "On Spaceport, mark the South Trench Tower",
-    "On Buried City, mark the building with the mural in the Buried Properties"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "renegade_i",
-      "quantity": 1
-    },
-    {
-      "itemId": "stable_stock_iii",
-      "quantity": 1
-    },
-    {
-      "itemId": "medium_ammo",
-      "quantity": 80
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10t",
-    "ss10s"
-  ],
-  "nextQuestIds": [
-    "ss10z"
-  ],
-  "traderId": "tian_wen"
+	"id": "ss10w",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": [
+		"buried_city",
+		"the_spaceport",
+		"dam_battlegrounds",
+		"the_blue_gate"
+	],
+	"name": "Back on Top",
+	"description": "Guess what? Shani asked me to help out with something, and for once, I'm actually glad she did. We're setting up new outposts topside! Or, planning to, at least. Can you believe it?",
+	"objectives": [
+		"On Dam Battlegrounds, mark the Pattern House",
+		"On The Blue Gate, mark the white lookout tower south of the Warehouse Complex",
+		"On Spaceport, mark the South Trench Tower",
+		"On Buried City, mark the building with the mural in the Buried Properties"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "renegade_i",
+			"quantity": 1
+		},
+		{
+			"itemId": "stable_stock_iii",
+			"quantity": 1
+		},
+		{
+			"itemId": "medium_ammo",
+			"quantity": 80
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10t", "ss10s"],
+	"nextQuestIds": ["ss10z"],
+	"traderId": "tian_wen"
 }

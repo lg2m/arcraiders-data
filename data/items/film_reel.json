@@ -1,14 +1,14 @@
 {
-  "id": "film_reel",
-  "name": "Film Reel",
-  "description": "May be worth a few coins.",
-  "type": "Trinket",
-  "value": 2000,
-  "recyclesInto": {},
-  "rarity": "Rare",
-  "weightKg": 0.2,
-  "stackSize": 3,
-  "foundIn": "Old World, Residential",
-  "updatedAt": "11/03/2025",
-  "imageFilename": "https://cdn.arctracker.io/items/film_reel.png"
+	"id": "film_reel",
+	"name": "Film Reel",
+	"description": "May be worth a few coins.",
+	"type": "Trinket",
+	"value": 2000,
+	"recyclesInto": {},
+	"rarity": "Rare",
+	"weightKg": 0.2,
+	"stackSize": 3,
+	"foundIn": "Old World, Residential",
+	"updatedAt": "11/03/2025",
+	"imageFilename": "https://cdn.arctracker.io/items/film_reel.png"
 }

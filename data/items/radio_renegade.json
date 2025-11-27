@@ -1,9 +1,9 @@
 {
-  "id": "radio_renegade",
-  "name": "Radio Renegade",
-  "description": "A new cosmetic will be added to your collection.",
-  "type": "Outfit",
-  "imageFilename": "https://cdn.arctracker.io/items/radio_renegade.png",
-  "rarity": "Common",
-  "updatedAt": "11/01/2025"
+	"id": "radio_renegade",
+	"name": "Radio Renegade",
+	"description": "A new cosmetic will be added to your collection.",
+	"type": "Outfit",
+	"imageFilename": "https://cdn.arctracker.io/items/radio_renegade.png",
+	"rarity": "Common",
+	"updatedAt": "11/01/2025"
 }

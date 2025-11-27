@@ -1,41 +1,41 @@
 {
-  "name": "Pulse Mine",
-  "description": "A proximity-triggered mine that pops up and knocks back anything within its radius.",
-  "id": "pulse_mine",
-  "type": "Quick Use",
-  "value": 470,
-  "rarity": "Uncommon",
-  "weightKg": 0.25,
-  "stackSize": 3,
-  "effects": {
-    "Radius": {
-      "en": "Radius",
-      "de": "Radius",
-      "fr": "Rayon",
-      "es": "Radio",
-      "pt": "Raio",
-      "pl": "Promień",
-      "no": "Radius",
-      "da": "Radius",
-      "it": "Raggio",
-      "ja": "範囲",
-      "kr": "반경",
-      "zh-CN": "半径",
-      "zh-TW": "半徑",
-      "ru": "Радиус",
-      "tr": "Yarıçap",
-      "uk": "Радіус",
-      "sr": "Radijus",
-      "hr": "Radijus",
-      "value": "7.5m"
-    }
-  },
-  "recyclesInto": {
-    "chemicals": 6
-  },
-  "salvagesInto": {
-    "chemicals": 3
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
-  "updatedAt": "11/17/2025"
+	"name": "Pulse Mine",
+	"description": "A proximity-triggered mine that pops up and knocks back anything within its radius.",
+	"id": "pulse_mine",
+	"type": "Quick Use",
+	"value": 470,
+	"rarity": "Uncommon",
+	"weightKg": 0.25,
+	"stackSize": 3,
+	"effects": {
+		"Radius": {
+			"en": "Radius",
+			"de": "Radius",
+			"fr": "Rayon",
+			"es": "Radio",
+			"pt": "Raio",
+			"pl": "Promień",
+			"no": "Radius",
+			"da": "Radius",
+			"it": "Raggio",
+			"ja": "範囲",
+			"kr": "반경",
+			"zh-CN": "半径",
+			"zh-TW": "半徑",
+			"ru": "Радиус",
+			"tr": "Yarıçap",
+			"uk": "Радіус",
+			"sr": "Radijus",
+			"hr": "Radijus",
+			"value": "7.5m"
+		}
+	},
+	"recyclesInto": {
+		"chemicals": 6
+	},
+	"salvagesInto": {
+		"chemicals": 3
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
+	"updatedAt": "11/17/2025"
 }

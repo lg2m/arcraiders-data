@@ -1,22 +1,21 @@
-import { z } from "zod";
 import fs from "node:fs";
 import path from "node:path";
+
+import { z } from "zod";
+
 import { supabaseService } from "./lib/supabase-client";
+import { contentHash, readJson, readJsonArray } from "./lib/utils";
+import { mapIdEnumSchema, upsertMaps } from "./ingest/maps";
+import { upsertItems } from "./ingest/items";
+import { upsertBots } from "./ingest/bots";
+import { traderIdEnumSchema, upsertTraders } from "./ingest/traders";
 
-const mapIdEnumSchema = z.enum(["dam_battlegrounds", "buried_city", "the_spaceport", "the_blue_gate", "stella_montis"]);
-
-const mapSchema = z.object({
-  id: mapIdEnumSchema,
-  name: z.string(),
-  description: z.string(),
-  image: z.array(z.url()),
-});
-
-const hideoutIdEnumSchema = z.enum(["workbench", "weapon_bench", "utility_bench", "stash", "scrappy", "refiner", "med_station", "explosives_bench", "equipment_bench"])
+const hideoutIdEnumSchema = z.enum(["workbench", "gunsmith", "utility_station", "stash", "scrappy", "refiner", "medical_lab", "explosives_station", "gear_bench"]);
 
 const hideoutSchema = z.object({
   id: hideoutIdEnumSchema,
   name: z.string(),
+  image: z.url().nullable(),
   maxLevel: z.number().min(0).max(10),
   levels: z.array(
     z.object({
@@ -30,52 +29,6 @@ const hideoutSchema = z.object({
       description: z.string().nullable(),
     }),
   )
-});
-
-const botSchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  description: z.string(),
-  image: z.url(),
-  type: z.enum([
-    "Reconnaissance",
-    "Heavy Assault",
-    "Heavy Artillery",
-    "Area Denial",
-    "Medium Drone",
-    "Siege Engine",
-    "Explosive",
-    "Flying Artillery",
-    "Sniper Turret",
-    "Scout Drone",
-    "Boss",
-    "Ambush Predator",
-    "Defense System",
-    "Flying Drone",
-    "Queen of Queens",
-    "Close quaters predator",
-  ]),
-  threat: z.enum([
-    "Low",
-    "Moderate",
-    "High",
-    "Critical",
-    "Extreme",
-  ]),
-  weakness: z.string(),
-  maps: z.array(mapIdEnumSchema),
-  destroyXp: z.number(),
-  lootXp: z.number(),
-  drops: z.array(z.string()),
-});
-
-const traderIdEnumSchema = z.enum(["apollo", "celeste", "lance", "shani", "tian_wen"]);
-
-const traderSchema = z.object({
-  id: traderIdEnumSchema,
-  name: z.enum(["Apollo", "Celeste", "Lance", "Shani", "Tian Wen"]),
-  description: z.string(),
-  image: z.url(),
 });
 
 const tradeSchema = z.object({
@@ -147,135 +100,11 @@ const questSchema = z.object({
   nextQuestIds: z.array(z.string()),
 });
 
-function readJson<T>(filePath: string, schema: z.ZodType<T>): T {
-  const raw = fs.readFileSync(filePath, "utf-8");
-  const parsed = JSON.parse(raw);
-  const result = schema.safeParse(parsed);
-  if (!result.success) {
-    console.error(`[Error] Failed parsing ${filePath}`, result.error.issues);
-    throw new Error("Schema parse error");
-  }
-  return result.data;
-}
-
-function readJsonArray<T>(filePath: string, schema: z.ZodType<T>): T[] {
-  const raw = fs.readFileSync(filePath, "utf-8");
-  const parsed = JSON.parse(raw);
-  const result = schema.array().safeParse(parsed);
-  if (!result.success) {
-    console.error(`[Error] Failed parsing ${filePath}`, result.error.issues);
-    throw new Error('Schema parse error');
-  }
-  return result.data;
-}
-
 function toId(str: string) {
   return str
     .trim()
     .toLowerCase()
     .replace(/\s+/g, "_");
-}
-
-async function upsertMaps(baseDir: string) {
-  const file = path.join(baseDir, "maps.json");
-  const maps = readJsonArray(file, mapSchema);
-
-  console.log(`Ingesting ${maps.length} maps`);
-
-  for (const m of maps) {
-    const { error: coreErr } = await supabaseService.from('maps').upsert(
-      {
-        id: m.id,
-        name: m.name,
-        description: m.description,
-        image_url: m.image,
-        source_json: m as any,
-      },
-      { onConflict: 'id' }
-    );
-
-    if (coreErr) {
-      console.error("Maps upsert error", m.id, coreErr);
-      continue;
-    }
-  }
-}
-
-async function upsertBots(baseDir: string) {
-  const file = path.join(baseDir, 'bots.json');
-  const bots = readJsonArray(file, botSchema);
-
-  console.log(`Ingesting ${bots.length} bots`);
-
-  for (const b of bots) {
-    const { error: coreErr } = await supabaseService
-      .from('bots')
-      .upsert(
-        {
-          id: b.id,
-          name: b.name,
-          description: b.description,
-          image_url: b.image,
-          type: b.type,
-          threat: b.threat,
-          weakness: b.weakness,
-          destroy_xp: b.destroyXp,
-          loot_xp: b.lootXp,
-          source_json: b as any
-        },
-        { onConflict: 'id' }
-      );
-    if (coreErr) {
-      console.error('bots upsert error', b.id, coreErr);
-      continue;
-    }
-
-    // Bot maps
-    await supabaseService.from('bot_maps').delete().eq('bot_id', b.id);
-    if (b.maps.length > 0) {
-      const { error: mapErr } = await supabaseService
-        .from('bot_maps')
-        .insert(b.maps.map((m) => ({ bot_id: b.id, map_id: m })));
-      if (mapErr) console.error('bot_maps error', b.id, mapErr);
-    }
-
-    // Bot drops -> also ensure items exist
-    await supabaseService.from('bot_drops').delete().eq('bot_id', b.id);
-    if (b.drops.length > 0) {
-      // Upsert items as bare IDs for now
-      const itemRows = b.drops.map((id) => ({ id }));
-      await supabaseService.from('items').upsert(itemRows, { onConflict: 'id' });
-
-      const { error: dropErr } = await supabaseService
-        .from('bot_drops')
-        .insert(b.drops.map((itemId) => ({ bot_id: b.id, item_id: itemId })));
-      if (dropErr) console.error('bot_drops error', b.id, dropErr);
-    }
-  }
-}
-
-async function upsertTraders(baseDir: string) {
-  const file = path.join(baseDir, 'traders.json');
-  const traders = readJsonArray(file, traderSchema);
-
-  console.log(`Ingesting ${traders.length} traders`);
-
-  for (const trader of traders) {
-    const { error: coreErr } = await supabaseService
-      .from('traders')
-      .upsert({
-        id: trader.id,
-        name: trader.name,
-        description: trader.description,
-        image_url: trader.image,
-      }, { onConflict: 'id' });
-
-
-    if (coreErr) {
-      console.error('bots upsert error', trader.id, coreErr);
-      continue;
-    }
-  }
 }
 
 async function upsertTrades(baseDir: string) {
@@ -623,6 +452,7 @@ async function upsertHideoutBenches(baseDir: string) {
     await supabaseService.from("benches").upsert({
       id: b.id,
       name: b.name,
+      image_uri: b.image,
       max_level: b.maxLevel,
       source_json: b,
     },
@@ -677,18 +507,51 @@ async function upsertHideoutBenches(baseDir: string) {
 async function main() {
   const baseDir = path.resolve(__dirname, "../data");
 
-  await upsertMaps(baseDir);
-  await upsertBots(baseDir);
-  await upsertTraders(baseDir);
-  await upsertTrades(baseDir);
-  await upsertProjects(baseDir);
-  await upsertQuests(baseDir);
-  await upsertHideoutBenches(baseDir);
+  console.log(`Starting ingestion from ${baseDir}\n`);
 
-  console.log("Ingestion complete.");
+  const startTime = Date.now();
+
+  console.log("=".repeat(60));
+  console.log("Foundation entities");
+  console.log("=".repeat(60));
+
+  // maps - no deps
+  const mapLookup = await upsertMaps(baseDir);
+  console.log();
+
+  // items - self-referential
+  const itemLookup = await upsertItems(baseDir);
+  console.log();
+
+  console.log("=".repeat(60));
+  console.log("Dependent entities");
+  console.log("=".repeat(60));
+
+  const lookups = {
+    items: itemLookup,
+    maps: mapLookup,
+  };
+
+  // bots - combined lookup obj
+  const botLookup = await upsertBots(baseDir, lookups);
+  console.log();
+
+  // traders - no deps
+  const traderLookup = await upsertTraders(baseDir);
+  console.log();
+
+  // rest have multi deps
+
+  const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
+  console.log("=".repeat(60));
+  console.log(`Ingestion complete in ${elapsed}s`);
+  console.log("=".repeat(60));
+
+  console.log("\nLookup sizes:");
+  console.log(`  Maps:  ${mapLookup.size}`);
+  console.log(`  Items: ${itemLookup.size}`);
+  console.log(`  Bots:  ${botLookup.size}`);
+  console.log(`  Traders: ${traderLookup.size}`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+main().catch(console.error);

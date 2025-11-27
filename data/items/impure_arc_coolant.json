@@ -1,16 +1,16 @@
 {
-  "id": "impure_arc_coolant",
-  "name": "Impure ARC Coolant",
-  "rarity": "Uncommon",
-  "type": "Recyclable",
-  "value": 640,
-  "recyclesInto": {
-    "chemicals": 13
-  },
-  "description": "Can be recycled into crafting materials.",
-  "foundIn": "ARC",
-  "weightKg": 0.33,
-  "stackSize": 3,
-  "imageFilename": "https://cdn.arctracker.io/items/impure_arc_coolant.png",
-  "updatedAt": "10/30/2025"
+	"id": "impure_arc_coolant",
+	"name": "Impure ARC Coolant",
+	"rarity": "Uncommon",
+	"type": "Recyclable",
+	"value": 640,
+	"recyclesInto": {
+		"chemicals": 13
+	},
+	"description": "Can be recycled into crafting materials.",
+	"foundIn": "ARC",
+	"weightKg": 0.33,
+	"stackSize": 3,
+	"imageFilename": "https://cdn.arctracker.io/items/impure_arc_coolant.png",
+	"updatedAt": "10/30/2025"
 }

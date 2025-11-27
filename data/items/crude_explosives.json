@@ -1,67 +1,67 @@
 {
-  "id": "crude_explosives",
-  "name": "Crude Explosives",
-  "description": "Used to craft explosives. Can be recycled into crafting materials. Used to craft: Launcher Ammo, Explosive Compound, Snap Blast Grenade, Shrapnel Grenade, Trigger 'Nade",
-  "rarity": "Uncommon",
-  "type": "Refined Material",
-  "value": 270,
-  "recyclesInto": {
-    "chemicals": 3
-  },
-  "salvagesInto": {
-    "chemicals": 2
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/crude_explosives.png",
-  "effects": {
-    "Damage": {
-      "en": "Damage",
-      "de": "Schaden",
-      "fr": "Dégâts",
-      "es": "Daño",
-      "pt": "Dano",
-      "pl": "Obrażenia",
-      "no": "Skade",
-      "da": "Skade",
-      "it": "Danno",
-      "ru": "Урон",
-      "ja": "ダメージ",
-      "zh-TW": "傷害",
-      "uk": "Шкода",
-      "zh-CN": "伤害",
-      "kr": "피해",
-      "tr": "Hasar",
-      "hr": "Šteta",
-      "sr": "Šteta",
-      "value": 15
-    },
-    "Radius": {
-      "en": "Radius",
-      "de": "Radius",
-      "fr": "Rayon",
-      "es": "Radio",
-      "pt": "Raio",
-      "pl": "Promień",
-      "no": "Radius",
-      "da": "Radius",
-      "it": "Raggio",
-      "ru": "Радиус",
-      "ja": "範囲",
-      "zh-TW": "範圍",
-      "uk": "Радіус",
-      "zh-CN": "范围",
-      "kr": "반경",
-      "tr": "Yarıçap",
-      "hr": "Radijus",
-      "sr": "Radijus",
-      "value": "1.5m"
-    }
-  },
-  "foundIn": "Industrial, Security",
-  "weightKg": 0.5,
-  "updatedAt": "11/03/2025",
-  "stackSize": 10,
-  "recipe": {
-    "chemicals": 6
-  },
-  "craftBench": "refiner"
+	"id": "crude_explosives",
+	"name": "Crude Explosives",
+	"description": "Used to craft explosives. Can be recycled into crafting materials. Used to craft: Launcher Ammo, Explosive Compound, Snap Blast Grenade, Shrapnel Grenade, Trigger 'Nade",
+	"rarity": "Uncommon",
+	"type": "Refined Material",
+	"value": 270,
+	"recyclesInto": {
+		"chemicals": 3
+	},
+	"salvagesInto": {
+		"chemicals": 2
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/crude_explosives.png",
+	"effects": {
+		"Damage": {
+			"en": "Damage",
+			"de": "Schaden",
+			"fr": "Dégâts",
+			"es": "Daño",
+			"pt": "Dano",
+			"pl": "Obrażenia",
+			"no": "Skade",
+			"da": "Skade",
+			"it": "Danno",
+			"ru": "Урон",
+			"ja": "ダメージ",
+			"zh-TW": "傷害",
+			"uk": "Шкода",
+			"zh-CN": "伤害",
+			"kr": "피해",
+			"tr": "Hasar",
+			"hr": "Šteta",
+			"sr": "Šteta",
+			"value": 15
+		},
+		"Radius": {
+			"en": "Radius",
+			"de": "Radius",
+			"fr": "Rayon",
+			"es": "Radio",
+			"pt": "Raio",
+			"pl": "Promień",
+			"no": "Radius",
+			"da": "Radius",
+			"it": "Raggio",
+			"ru": "Радиус",
+			"ja": "範囲",
+			"zh-TW": "範圍",
+			"uk": "Радіус",
+			"zh-CN": "范围",
+			"kr": "반경",
+			"tr": "Yarıçap",
+			"hr": "Radijus",
+			"sr": "Radijus",
+			"value": "1.5m"
+		}
+	},
+	"foundIn": "Industrial, Security",
+	"weightKg": 0.5,
+	"updatedAt": "11/03/2025",
+	"stackSize": 10,
+	"recipe": {
+		"chemicals": 6
+	},
+	"craftBench": "refiner"
 }

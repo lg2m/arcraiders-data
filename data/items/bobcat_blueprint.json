@@ -1,11 +1,11 @@
 {
-  "id": "bobcat_blueprint",
-  "name": "Bobcat Blueprint",
-  "description": "Fully automatic SMG with high fire rate but low accuracy.",
-  "type": "Blueprint",
-  "value": 15000,
-  "weightKg": 0,
-  "rarity": "Epic",
-  "imageFilename": "https://cdn.arctracker.io/items/bobcat_blueprint.png",
-  "updatedAt": "11/25/2025"
+	"id": "bobcat_blueprint",
+	"name": "Bobcat Blueprint",
+	"description": "Fully automatic SMG with high fire rate but low accuracy.",
+	"type": "Blueprint",
+	"value": 15000,
+	"weightKg": 0,
+	"rarity": "Epic",
+	"imageFilename": "https://cdn.arctracker.io/items/bobcat_blueprint.png",
+	"updatedAt": "11/25/2025"
 }

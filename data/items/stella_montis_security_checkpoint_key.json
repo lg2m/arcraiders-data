@@ -1,11 +1,11 @@
 {
-  "name": "Stella Montis Security Checkpoint Key",
-  "description": "Unlocks a door in the Security Checkpoint in Stella Montis",
-  "id": "stella_montis_security_checkpoint_key",
-  "type": "Key",
-  "rarity": "Rare",
-  "value": 100,
-  "weightKg": 0.25,
-  "imageFilename": "https://cdn.arctracker.io/items/stella_montis_security_checkpoint_key.png",
-  "updatedAt": "11/13/2025"
+	"name": "Stella Montis Security Checkpoint Key",
+	"description": "Unlocks a door in the Security Checkpoint in Stella Montis",
+	"id": "stella_montis_security_checkpoint_key",
+	"type": "Key",
+	"rarity": "Rare",
+	"value": 100,
+	"weightKg": 0.25,
+	"imageFilename": "https://cdn.arctracker.io/items/stella_montis_security_checkpoint_key.png",
+	"updatedAt": "11/13/2025"
 }

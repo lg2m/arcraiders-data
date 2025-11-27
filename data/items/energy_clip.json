@@ -1,21 +1,18 @@
 {
-  "id": "energy_clip",
-  "name": "Energy Clip",
-  "description": "Compatible with: Equalizer, Jupiter",
-  "type": "Ammunition",
-  "compatibleWith": [
-    "Equalizer",
-    "Jupiter"
-  ],
-  "imageFilename": "https://cdn.arctracker.io/items/energy_clip.png",
-  "value": 5,
-  "weightKg": 0.3,
-  "stackSize": 5,
-  "rarity": "Rare",
-  "updatedAt": "11/11/2025",
-  "recipe": {
-    "advanced_arc_powercell": 1,
-    "battery": 2
-  },
-  "craftBench": "workbench"
+	"id": "energy_clip",
+	"name": "Energy Clip",
+	"description": "Compatible with: Equalizer, Jupiter",
+	"type": "Ammunition",
+	"compatibleWith": ["Equalizer", "Jupiter"],
+	"imageFilename": "https://cdn.arctracker.io/items/energy_clip.png",
+	"value": 5,
+	"weightKg": 0.3,
+	"stackSize": 5,
+	"rarity": "Rare",
+	"updatedAt": "11/11/2025",
+	"recipe": {
+		"advanced_arc_powercell": 1,
+		"battery": 2
+	},
+	"craftBench": "workbench"
 }

@@ -1,9 +1,9 @@
 {
-  "id": "burletta_blueprint",
-  "name": "Burletta Blueprint",
-  "description": "A blueprint to craft the Burletta weapon.",
-  "type": "Blueprint",
-  "updatedAt": "11/12/2025",
-  "rarity": "Legendary",
-  "imageFilename": "https://cdn.arctracker.io/items/burletta.png"
+	"id": "burletta_blueprint",
+	"name": "Burletta Blueprint",
+	"description": "A blueprint to craft the Burletta weapon.",
+	"type": "Blueprint",
+	"updatedAt": "11/12/2025",
+	"rarity": "Legendary",
+	"imageFilename": "https://cdn.arctracker.io/items/burletta.png"
 }

@@ -1,17 +1,17 @@
 {
-  "name": "Sample Cleaner",
-  "description": "Can be recycled into crafting materials.",
-  "id": "sample_cleaner",
-  "type": "Recyclable",
-  "value": 3000,
-  "rarity": "Rare",
-  "weightKg": 1.5,
-  "stackSize": 3,
-  "foundIn": "Exodus",
-  "imageFilename": "https://cdn.arctracker.io/items/sample_cleaner.png",
-  "updatedAt": "11/14/2025",
-  "recyclesInto": {
-    "electrical_components": 2,
-    "assorted_seeds": 14
-  }
+	"name": "Sample Cleaner",
+	"description": "Can be recycled into crafting materials.",
+	"id": "sample_cleaner",
+	"type": "Recyclable",
+	"value": 3000,
+	"rarity": "Rare",
+	"weightKg": 1.5,
+	"stackSize": 3,
+	"foundIn": "Exodus",
+	"imageFilename": "https://cdn.arctracker.io/items/sample_cleaner.png",
+	"updatedAt": "11/14/2025",
+	"recyclesInto": {
+		"electrical_components": 2,
+		"assorted_seeds": 14
+	}
 }

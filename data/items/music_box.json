@@ -1,13 +1,13 @@
 {
-  "id": "music_box",
-  "name": "Music Box",
-  "description": "Worth a small fortune.",
-  "type": "Trinket",
-  "rarity": "Rare",
-  "value": 5000,
-  "recyclesInto": {},
-  "weightKg": 0.4,
-  "stackSize": 3,
-  "foundIn": "Old World, Residential, Commercial",
-  "updatedAt": "11/03/2025"
+	"id": "music_box",
+	"name": "Music Box",
+	"description": "Worth a small fortune.",
+	"type": "Trinket",
+	"rarity": "Rare",
+	"value": 5000,
+	"recyclesInto": {},
+	"weightKg": 0.4,
+	"stackSize": 3,
+	"foundIn": "Old World, Residential, Commercial",
+	"updatedAt": "11/03/2025"
 }

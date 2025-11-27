@@ -1,44 +1,39 @@
 {
-  "id": "ss10x5",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [],
-  "name": "Into the Fray",
-  "description": "It used to be their world, up there. Nobody to challenge their claim. Yet here we are. More outposts. More intel. More firepower. If I didn't know better, I'd say we've got quite a bit of fight left in us.",
-  "objectives": [
-    "Destroy a Leaper",
-    "Obtain a Leaper Pulse Unit"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [
-    {
-      "itemId": "leaper_pulse_unit",
-      "quantity": 1
-    }
-  ],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "radio_renegade",
-      "quantity": 1
-    },
-    {
-      "itemId": "burgerboy",
-      "quantity": 1
-    },
-    {
-      "itemId": "vulcano_iii",
-      "quantity": 1
-    },
-    {
-      "itemId": "shotgun_ammo",
-      "quantity": 40
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss11b2"
-  ],
-  "nextQuestIds": [],
-  "traderId": "shani"
+	"id": "ss10x5",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": [],
+	"name": "Into the Fray",
+	"description": "It used to be their world, up there. Nobody to challenge their claim. Yet here we are. More outposts. More intel. More firepower. If I didn't know better, I'd say we've got quite a bit of fight left in us.",
+	"objectives": ["Destroy a Leaper", "Obtain a Leaper Pulse Unit"],
+	"otherRequirements": [],
+	"requiredItemIds": [
+		{
+			"itemId": "leaper_pulse_unit",
+			"quantity": 1
+		}
+	],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "radio_renegade",
+			"quantity": 1
+		},
+		{
+			"itemId": "burgerboy",
+			"quantity": 1
+		},
+		{
+			"itemId": "vulcano_iii",
+			"quantity": 1
+		},
+		{
+			"itemId": "shotgun_ammo",
+			"quantity": 40
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss11b2"],
+	"nextQuestIds": [],
+	"traderId": "shani"
 }

@@ -1,37 +1,31 @@
 {
-  "id": "ss11bx",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "the_blue_gate"
-  ],
-  "name": "With a Trace",
-  "description": "That downed machine... We weren't the ones who did that. We know that there are stray survivors out there, but this? This goes far beyond a single person.",
-  "objectives": [
-    "Reach the Barren Clearing",
-    "Find signs of who brought down the ARC machines",
-    "Inspect the Adorned Wreckage",
-    "Inspect the communications device"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "looting_mk2",
-      "quantity": 1
-    },
-    {
-      "itemId": "medium_shield",
-      "quantity": 1
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss11a"
-  ],
-  "nextQuestIds": [
-    "ss10x20"
-  ],
-  "traderId": "shani"
+	"id": "ss11bx",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": ["the_blue_gate"],
+	"name": "With a Trace",
+	"description": "That downed machine... We weren't the ones who did that. We know that there are stray survivors out there, but this? This goes far beyond a single person.",
+	"objectives": [
+		"Reach the Barren Clearing",
+		"Find signs of who brought down the ARC machines",
+		"Inspect the Adorned Wreckage",
+		"Inspect the communications device"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "looting_mk2",
+			"quantity": 1
+		},
+		{
+			"itemId": "medium_shield",
+			"quantity": 1
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss11a"],
+	"nextQuestIds": ["ss10x20"],
+	"traderId": "shani"
 }

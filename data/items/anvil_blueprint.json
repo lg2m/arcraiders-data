@@ -1,11 +1,11 @@
 {
-  "id": "anvil_blueprint",
-  "name": "Anvil Blueprint",
-  "description": "Has high damage output and headshot damage, but slow handling.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "rarity": "Legendary",
-  "imageFilename": "https://cdn.arctracker.io/items/anvil_blueprint.png",
-  "updatedAt": "11/03/2025"
+	"id": "anvil_blueprint",
+	"name": "Anvil Blueprint",
+	"description": "Has high damage output and headshot damage, but slow handling.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"rarity": "Legendary",
+	"imageFilename": "https://cdn.arctracker.io/items/anvil_blueprint.png",
+	"updatedAt": "11/03/2025"
 }

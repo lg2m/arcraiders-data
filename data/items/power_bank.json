@@ -1,20 +1,20 @@
 {
-  "id": "power_bank",
-  "name": "Power Bank",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "recyclesInto": {
-    "battery": 2,
-    "wires": 2
-  },
-  "salvagesInto": {
-    "battery": 2
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Electrical, Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/power_bank.png",
-  "updatedAt": "11/02/2025"
+	"id": "power_bank",
+	"name": "Power Bank",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"recyclesInto": {
+		"battery": 2,
+		"wires": 2
+	},
+	"salvagesInto": {
+		"battery": 2
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Electrical, Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/power_bank.png",
+	"updatedAt": "11/02/2025"
 }

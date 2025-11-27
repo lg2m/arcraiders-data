@@ -1,17 +1,17 @@
 {
-  "name": "Microscope",
-  "description": "Can be recycled into crafting materials.",
-  "id": "microscope",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "weightKg": 1.5,
-  "stackSize": 3,
-  "foundIn": "Exodus",
-  "imageFilename": "https://cdn.arctracker.io/items/microscope.png",
-  "updatedAt": "11/14/2025",
-  "value": 3000,
-  "recyclesInto": {
-    "advanced_mechanical_components": 1,
-    "magnet": 3
-  }
+	"name": "Microscope",
+	"description": "Can be recycled into crafting materials.",
+	"id": "microscope",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"weightKg": 1.5,
+	"stackSize": 3,
+	"foundIn": "Exodus",
+	"imageFilename": "https://cdn.arctracker.io/items/microscope.png",
+	"updatedAt": "11/14/2025",
+	"value": 3000,
+	"recyclesInto": {
+		"advanced_mechanical_components": 1,
+		"magnet": 3
+	}
 }

@@ -1,20 +1,20 @@
 {
-  "id": "sensors",
-  "name": "Sensors",
-  "description": "Used in crafting. Used to craft: Wolfpack, Explosive Mine, Raider Hatch Key, Tagging Grenade",
-  "type": "Topside Material",
-  "rarity": "Rare",
-  "value": 500,
-  "recyclesInto": {
-    "wires": 1,
-    "metal_parts": 1
-  },
-  "salvagesInto": {
-    "wires": 1
-  },
-  "weightKg": 0.3,
-  "stackSize": 5,
-  "foundIn": "Security, Technological",
-  "imageFilename": "https://cdn.arctracker.io/items/sensors.png",
-  "updatedAt": "11/03/2025"
+	"id": "sensors",
+	"name": "Sensors",
+	"description": "Used in crafting. Used to craft: Wolfpack, Explosive Mine, Raider Hatch Key, Tagging Grenade",
+	"type": "Topside Material",
+	"rarity": "Rare",
+	"value": 500,
+	"recyclesInto": {
+		"wires": 1,
+		"metal_parts": 1
+	},
+	"salvagesInto": {
+		"wires": 1
+	},
+	"weightKg": 0.3,
+	"stackSize": 5,
+	"foundIn": "Security, Technological",
+	"imageFilename": "https://cdn.arctracker.io/items/sensors.png",
+	"updatedAt": "11/03/2025"
 }

@@ -1,11 +1,11 @@
 {
-  "id": "torrente_blueprint",
-  "name": "Torrente Blueprint",
-  "description": "Has a large ammo capacity, but is only accurate while crouched.",
-  "type": "Blueprint",
-  "weightKg": 0,
-  "rarity": "Legendary",
-  "imageFilename": "https://cdn.arctracker.io/items/torrente_blueprint.png",
-  "updatedAt": "11/12/2025",
-  "value": 5000
+	"id": "torrente_blueprint",
+	"name": "Torrente Blueprint",
+	"description": "Has a large ammo capacity, but is only accurate while crouched.",
+	"type": "Blueprint",
+	"weightKg": 0,
+	"rarity": "Legendary",
+	"imageFilename": "https://cdn.arctracker.io/items/torrente_blueprint.png",
+	"updatedAt": "11/12/2025",
+	"value": 5000
 }

@@ -1,10 +1,10 @@
 {
-  "id": "venator_blueprint",
-  "name": "Venator Blueprint",
-  "description": "Fires two shots at a time.",
-  "type": "Blueprint",
-  "value": 5000,
-  "imageFilename": "https://cdn.arctracker.io/items/venator.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/12/2025"
+	"id": "venator_blueprint",
+	"name": "Venator Blueprint",
+	"description": "Fires two shots at a time.",
+	"type": "Blueprint",
+	"value": 5000,
+	"imageFilename": "https://cdn.arctracker.io/items/venator.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/12/2025"
 }

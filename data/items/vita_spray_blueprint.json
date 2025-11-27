@@ -1,10 +1,10 @@
 {
-  "id": "vita_spray_blueprint",
-  "name": "Vita Spray Blueprint",
-  "description": "A medical item that continuously restores health during use. Can be used on yourself or your allies.",
-  "type": "Blueprint",
-  "value": 5000,
-  "imageFilename": "https://cdn.arctracker.io/items/vita_spray.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/12/2025"
+	"id": "vita_spray_blueprint",
+	"name": "Vita Spray Blueprint",
+	"description": "A medical item that continuously restores health during use. Can be used on yourself or your allies.",
+	"type": "Blueprint",
+	"value": 5000,
+	"imageFilename": "https://cdn.arctracker.io/items/vita_spray.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/12/2025"
 }

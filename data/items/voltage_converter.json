@@ -1,17 +1,17 @@
 {
-  "id": "voltage_converter",
-  "name": "Voltage Converter",
-  "description": "Used in crafting. Used to craft: Heavy Shield, Showstopper",
-  "type": "Topside Material",
-  "rarity": "Rare",
-  "value": 500,
-  "imageFilename": "https://cdn.arctracker.io/items/voltage_converter.png",
-  "updatedAt": "11/01/2025",
-  "weightKg": 0.3,
-  "stackSize": 5,
-  "foundIn": "Electrical",
-  "recyclesInto": {
-    "wires": 1,
-    "rubber_parts": 1
-  }
+	"id": "voltage_converter",
+	"name": "Voltage Converter",
+	"description": "Used in crafting. Used to craft: Heavy Shield, Showstopper",
+	"type": "Topside Material",
+	"rarity": "Rare",
+	"value": 500,
+	"imageFilename": "https://cdn.arctracker.io/items/voltage_converter.png",
+	"updatedAt": "11/01/2025",
+	"weightKg": 0.3,
+	"stackSize": 5,
+	"foundIn": "Electrical",
+	"recyclesInto": {
+		"wires": 1,
+		"rubber_parts": 1
+	}
 }

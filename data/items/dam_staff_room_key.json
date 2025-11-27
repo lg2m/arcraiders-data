@@ -1,12 +1,12 @@
 {
-  "id": "dam_staff_room_key",
-  "name": "Dam Staff Room Key",
-  "description": "A key to the staff room in The Dam.",
-  "type": "Key",
-  "updatedAt": "11/10/2025",
-  "imageFilename": "https://cdn.arctracker.io/items/dam_staff_room_key.png",
-  "value": 100,
-  "weightKg": 0.25,
-  "stackSize": 1,
-  "rarity": "Uncommon"
+	"id": "dam_staff_room_key",
+	"name": "Dam Staff Room Key",
+	"description": "A key to the staff room in The Dam.",
+	"type": "Key",
+	"updatedAt": "11/10/2025",
+	"imageFilename": "https://cdn.arctracker.io/items/dam_staff_room_key.png",
+	"value": 100,
+	"weightKg": 0.25,
+	"stackSize": 1,
+	"rarity": "Uncommon"
 }

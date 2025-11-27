@@ -1,16 +1,16 @@
 {
-  "id": "portable_tv",
-  "name": "Portable TV",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 2000,
-  "recyclesInto": {
-    "battery": 2,
-    "wires": 6
-  },
-  "description": "Can be recycled into crafting materials.",
-  "foundIn": "Residential",
-  "weightKg": 3,
-  "imageFilename": "https://cdn.arctracker.io/items/portable_tv.png",
-  "updatedAt": "11/03/2025"
+	"id": "portable_tv",
+	"name": "Portable TV",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 2000,
+	"recyclesInto": {
+		"battery": 2,
+		"wires": 6
+	},
+	"description": "Can be recycled into crafting materials.",
+	"foundIn": "Residential",
+	"weightKg": 3,
+	"imageFilename": "https://cdn.arctracker.io/items/portable_tv.png",
+	"updatedAt": "11/03/2025"
 }

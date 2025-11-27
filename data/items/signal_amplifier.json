@@ -1,17 +1,17 @@
 {
-  "name": "Signal Amplifier",
-  "description": "Can be recycled into crafting materials.",
-  "id": "signal_amplifier",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "weightKg": 1.5,
-  "foundIn": "Exodus",
-  "imageFilename": "https://cdn.arctracker.io/items/signal_amplifier.png",
-  "updatedAt": "11/14/2025",
-  "value": 3000,
-  "stackSize": 3,
-  "recyclesInto": {
-    "electrical_components": 2,
-    "voltage_converter": 2
-  }
+	"name": "Signal Amplifier",
+	"description": "Can be recycled into crafting materials.",
+	"id": "signal_amplifier",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"weightKg": 1.5,
+	"foundIn": "Exodus",
+	"imageFilename": "https://cdn.arctracker.io/items/signal_amplifier.png",
+	"updatedAt": "11/14/2025",
+	"value": 3000,
+	"stackSize": 3,
+	"recyclesInto": {
+		"electrical_components": 2,
+		"voltage_converter": 2
+	}
 }

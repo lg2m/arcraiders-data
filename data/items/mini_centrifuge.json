@@ -1,17 +1,17 @@
 {
-  "name": "Mini Centrifuge",
-  "description": "Can be recycled into crafting materials.",
-  "id": "mini_centrifuge",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "weightKg": 1.5,
-  "foundIn": "Exodus",
-  "imageFilename": "https://cdn.arctracker.io/items/mini_centrifuge.png",
-  "updatedAt": "11/14/2025",
-  "value": 3000,
-  "stackSize": 3,
-  "recyclesInto": {
-    "advanced_mechanical_components": 1,
-    "canister": 2
-  }
+	"name": "Mini Centrifuge",
+	"description": "Can be recycled into crafting materials.",
+	"id": "mini_centrifuge",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"weightKg": 1.5,
+	"foundIn": "Exodus",
+	"imageFilename": "https://cdn.arctracker.io/items/mini_centrifuge.png",
+	"updatedAt": "11/14/2025",
+	"value": 3000,
+	"stackSize": 3,
+	"recyclesInto": {
+		"advanced_mechanical_components": 1,
+		"canister": 2
+	}
 }

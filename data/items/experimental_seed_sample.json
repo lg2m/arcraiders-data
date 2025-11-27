@@ -1,10 +1,10 @@
 {
-  "name": "Experimental Seed Sample",
-  "description": "A cryogenically frozen research sample of an experimental crop.",
-  "id": "experimental_seed_sample",
-  "type": "Trinket",
-  "weightKg": 0.25,
-  "imageFilename": "https://cdn.arctracker.io/items/experimental_seed_sample.png",
-  "rarity": "Common",
-  "updatedAt": "11/17/2025"
+	"name": "Experimental Seed Sample",
+	"description": "A cryogenically frozen research sample of an experimental crop.",
+	"id": "experimental_seed_sample",
+	"type": "Trinket",
+	"weightKg": 0.25,
+	"imageFilename": "https://cdn.arctracker.io/items/experimental_seed_sample.png",
+	"rarity": "Common",
+	"updatedAt": "11/17/2025"
 }

@@ -1,57 +1,55 @@
 {
-  "id": "ss9",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [],
-  "name": "The Trifecta",
-  "description": "Intel's all well and good, but it only gets us so far. If ARC's truly closing in, I need every Raider to prove they can handle their drones in a fight.",
-  "objectives": [
-    "Destroy 2 Wasps",
-    "Destroy 2 Hornets",
-    "Destroy 2 Snitches",
-    "Get 2 Snitch Scanner for Shani",
-    "Get 2 Wasp Driver for Shani",
-    "Get 2 Hornet Driver for Shani"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [
-    {
-      "itemId": "snitch_scanner",
-      "quantity": 1
-    },
-    {
-      "itemId": "wasp_driver",
-      "quantity": 1
-    },
-    {
-      "itemId": "hornet_driver",
-      "quantity": 1
-    }
-  ],
-  "grantedItemIds": [
-    {
-      "itemId": "remote_raider_flare",
-      "quantity": 3
-    }
-  ],
-  "rewardItemIds": [
-    {
-      "itemId": "raider_hatch_key",
-      "quantity": 1
-    },
-    {
-      "itemId": "defibrillator",
-      "quantity": 2
-    },
-    {
-      "itemId": "dam_control_tower_key",
-      "quantity": 1
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss6"
-  ],
-  "nextQuestIds": [],
-  "traderId": "shani"
+	"id": "ss9",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": [],
+	"name": "The Trifecta",
+	"description": "Intel's all well and good, but it only gets us so far. If ARC's truly closing in, I need every Raider to prove they can handle their drones in a fight.",
+	"objectives": [
+		"Destroy 2 Wasps",
+		"Destroy 2 Hornets",
+		"Destroy 2 Snitches",
+		"Get 2 Snitch Scanner for Shani",
+		"Get 2 Wasp Driver for Shani",
+		"Get 2 Hornet Driver for Shani"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [
+		{
+			"itemId": "snitch_scanner",
+			"quantity": 1
+		},
+		{
+			"itemId": "wasp_driver",
+			"quantity": 1
+		},
+		{
+			"itemId": "hornet_driver",
+			"quantity": 1
+		}
+	],
+	"grantedItemIds": [
+		{
+			"itemId": "remote_raider_flare",
+			"quantity": 3
+		}
+	],
+	"rewardItemIds": [
+		{
+			"itemId": "raider_hatch_key",
+			"quantity": 1
+		},
+		{
+			"itemId": "defibrillator",
+			"quantity": 2
+		},
+		{
+			"itemId": "dam_control_tower_key",
+			"quantity": 1
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss6"],
+	"nextQuestIds": [],
+	"traderId": "shani"
 }

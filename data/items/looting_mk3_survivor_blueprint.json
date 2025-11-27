@@ -1,11 +1,11 @@
 {
-  "id": "looting_mk3_survivor_blueprint",
-  "name": "Looting Mk. 3 (Survivor) Blueprint",
-  "description": "A heavy-duty pack mule augment. Large weight capacity and large backpack space.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor_blueprint.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/12/2025"
+	"id": "looting_mk3_survivor_blueprint",
+	"name": "Looting Mk. 3 (Survivor) Blueprint",
+	"description": "A heavy-duty pack mule augment. Large weight capacity and large backpack space.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor_blueprint.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/12/2025"
 }

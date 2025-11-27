@@ -1,20 +1,20 @@
 {
-  "id": "medium_gun_parts",
-  "name": "Medium Gun Parts",
-  "description": "Assorted spare parts used for rifles. Used to craft: Torrente, Venator, Osprey, Renegade, Tempest",
-  "type": "Topside Material",
-  "rarity": "Rare",
-  "value": 700,
-  "recyclesInto": {
-    "simple_gun_parts": 2
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts.png",
-  "foundIn": "Raider, Security",
-  "stackSize": 5,
-  "weightKg": 0.4,
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "simple_gun_parts": 4
-  },
-  "craftBench": "refiner"
+	"id": "medium_gun_parts",
+	"name": "Medium Gun Parts",
+	"description": "Assorted spare parts used for rifles. Used to craft: Torrente, Venator, Osprey, Renegade, Tempest",
+	"type": "Topside Material",
+	"rarity": "Rare",
+	"value": 700,
+	"recyclesInto": {
+		"simple_gun_parts": 2
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts.png",
+	"foundIn": "Raider, Security",
+	"stackSize": 5,
+	"weightKg": 0.4,
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"simple_gun_parts": 4
+	},
+	"craftBench": "refiner"
 }

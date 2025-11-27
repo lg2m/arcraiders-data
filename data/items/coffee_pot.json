@@ -1,14 +1,14 @@
 {
-  "id": "coffee_pot",
-  "name": "Coffee Pot",
-  "description": "The power to face a new day, one cup at a time.",
-  "type": "Trinket",
-  "value": 1000,
-  "recyclesInto": {},
-  "weightKg": 0.3,
-  "stackSize": 3,
-  "foundIn": "Residential",
-  "rarity": "Common",
-  "imageFilename": "https://cdn.arctracker.io/items/coffee_pot.png",
-  "updatedAt": "11/04/2025"
+	"id": "coffee_pot",
+	"name": "Coffee Pot",
+	"description": "The power to face a new day, one cup at a time.",
+	"type": "Trinket",
+	"value": 1000,
+	"recyclesInto": {},
+	"weightKg": 0.3,
+	"stackSize": 3,
+	"foundIn": "Residential",
+	"rarity": "Common",
+	"imageFilename": "https://cdn.arctracker.io/items/coffee_pot.png",
+	"updatedAt": "11/04/2025"
 }

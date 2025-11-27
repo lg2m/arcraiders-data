@@ -1,13 +1,13 @@
 {
-  "id": "dart_board",
-  "name": "Dart Board",
-  "description": "Some Raiders use it to practice dexterity. Others just like throwing things at other things.",
-  "type": "Trinket",
-  "rarity": "Uncommon",
-  "weightKg": 1,
-  "stackSize": 3,
-  "foundIn": "Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/dart_board.png",
-  "value": 2000,
-  "updatedAt": "11/06/2025"
+	"id": "dart_board",
+	"name": "Dart Board",
+	"description": "Some Raiders use it to practice dexterity. Others just like throwing things at other things.",
+	"type": "Trinket",
+	"rarity": "Uncommon",
+	"weightKg": 1,
+	"stackSize": 3,
+	"foundIn": "Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/dart_board.png",
+	"value": 2000,
+	"updatedAt": "11/06/2025"
 }

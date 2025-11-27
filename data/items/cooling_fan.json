@@ -1,16 +1,16 @@
 {
-  "id": "cooling_fan",
-  "name": "Cooling Fan",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 2000,
-  "recyclesInto": {
-    "plastic_parts": 14,
-    "battery": 4
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 1,
-  "foundIn": "Technological",
-  "imageFilename": "https://cdn.arctracker.io/items/cooling_fan.png",
-  "updatedAt": "10/30/2025"
+	"id": "cooling_fan",
+	"name": "Cooling Fan",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 2000,
+	"recyclesInto": {
+		"plastic_parts": 14,
+		"battery": 4
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 1,
+	"foundIn": "Technological",
+	"imageFilename": "https://cdn.arctracker.io/items/cooling_fan.png",
+	"updatedAt": "10/30/2025"
 }

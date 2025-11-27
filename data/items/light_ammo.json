@@ -1,24 +1,18 @@
 {
-  "id": "light_ammo",
-  "name": "Light Ammo",
-  "description": "Light bullets used mainly with SMGs and light handguns. Compatible with: Burletta, Stitcher, Kettle, Hairpin, Bobcat",
-  "type": "Ammunition",
-  "rarity": "Common",
-  "imageFilename": "https://cdn.arctracker.io/items/light_ammo.png",
-  "compatibleWith": [
-    "Kettle",
-    "Burletta",
-    "Hairpin",
-    "Bobcat",
-    "Stitcher"
-  ],
-  "value": 0.76,
-  "weightKg": 0.00323,
-  "stackSize": 100,
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "metal_parts": 3,
-    "chemicals": 2
-  },
-  "craftBench": "workbench"
+	"id": "light_ammo",
+	"name": "Light Ammo",
+	"description": "Light bullets used mainly with SMGs and light handguns. Compatible with: Burletta, Stitcher, Kettle, Hairpin, Bobcat",
+	"type": "Ammunition",
+	"rarity": "Common",
+	"imageFilename": "https://cdn.arctracker.io/items/light_ammo.png",
+	"compatibleWith": ["Kettle", "Burletta", "Hairpin", "Bobcat", "Stitcher"],
+	"value": 0.76,
+	"weightKg": 0.00323,
+	"stackSize": 100,
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"metal_parts": 3,
+		"chemicals": 2
+	},
+	"craftBench": "workbench"
 }

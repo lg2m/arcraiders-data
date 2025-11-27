@@ -1,17 +1,17 @@
 {
-  "id": "processor",
-  "name": "Processor",
-  "description": "Used in crafting. Used to craft: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
-  "type": "Topside Material",
-  "rarity": "Rare",
-  "value": 500,
-  "recyclesInto": {
-    "wires": 1,
-    "plastic_parts": 1
-  },
-  "weightKg": 0.2,
-  "stackSize": 5,
-  "foundIn": "Technological",
-  "imageFilename": "https://cdn.arctracker.io/items/processor.png",
-  "updatedAt": "10/30/2025"
+	"id": "processor",
+	"name": "Processor",
+	"description": "Used in crafting. Used to craft: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
+	"type": "Topside Material",
+	"rarity": "Rare",
+	"value": 500,
+	"recyclesInto": {
+		"wires": 1,
+		"plastic_parts": 1
+	},
+	"weightKg": 0.2,
+	"stackSize": 5,
+	"foundIn": "Technological",
+	"imageFilename": "https://cdn.arctracker.io/items/processor.png",
+	"updatedAt": "10/30/2025"
 }

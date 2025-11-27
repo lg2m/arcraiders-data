@@ -1,10 +1,10 @@
 {
-  "name": "First Wave Tape",
-  "description": "An old tape found inside a battered old camcorder.",
-  "id": "first_wave_tape",
-  "type": "Trinket",
-  "weightKg": 0.25,
-  "imageFilename": "https://cdn.arctracker.io/items/first_wave_tape.png",
-  "rarity": "Common",
-  "updatedAt": "11/17/2025"
+	"name": "First Wave Tape",
+	"description": "An old tape found inside a battered old camcorder.",
+	"id": "first_wave_tape",
+	"type": "Trinket",
+	"weightKg": 0.25,
+	"imageFilename": "https://cdn.arctracker.io/items/first_wave_tape.png",
+	"rarity": "Common",
+	"updatedAt": "11/17/2025"
 }

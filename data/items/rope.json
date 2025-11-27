@@ -1,16 +1,16 @@
 {
-  "id": "rope",
-  "name": "Rope",
-  "rarity": "Rare",
-  "type": "Topside Material",
-  "value": 500,
-  "recyclesInto": {
-    "fabric": 5
-  },
-  "updatedAt": "10/31/2025",
-  "description": "Used in crafting. Used to craft: Zipline, Snap Hook",
-  "foundIn": "Residential, Commercial",
-  "weightKg": 0.3,
-  "stackSize": 5,
-  "imageFilename": "https://cdn.arctracker.io/items/rope.png"
+	"id": "rope",
+	"name": "Rope",
+	"rarity": "Rare",
+	"type": "Topside Material",
+	"value": 500,
+	"recyclesInto": {
+		"fabric": 5
+	},
+	"updatedAt": "10/31/2025",
+	"description": "Used in crafting. Used to craft: Zipline, Snap Hook",
+	"foundIn": "Residential, Commercial",
+	"weightKg": 0.3,
+	"stackSize": 5,
+	"imageFilename": "https://cdn.arctracker.io/items/rope.png"
 }

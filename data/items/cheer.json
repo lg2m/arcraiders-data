@@ -1,9 +1,9 @@
 {
-  "id": "cheer",
-  "name": "Cheer",
-  "description": "A new cosmetic will be added to your collection.",
-  "type": "Cosmetic",
-  "imageFilename": "https://cdn.arctracker.io/items/cheer.png",
-  "rarity": "Common",
-  "updatedAt": "11/16/2025"
+	"id": "cheer",
+	"name": "Cheer",
+	"description": "A new cosmetic will be added to your collection.",
+	"type": "Cosmetic",
+	"imageFilename": "https://cdn.arctracker.io/items/cheer.png",
+	"rarity": "Common",
+	"updatedAt": "11/16/2025"
 }

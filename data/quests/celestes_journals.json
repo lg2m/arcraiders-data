@@ -1,45 +1,39 @@
 {
-  "id": "ss10t",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "dam_battlegrounds"
-  ],
-  "name": "Celeste's Journals",
-  "description": "Okay, so this is awkward... I lost two of my journals during some outpost inspections last time I went topside. Could you head out there and try to find them back before someone else stumbles on them?",
-  "objectives": [
-    "Retrieve Celeste's Journals from the South Swamp Outpost",
-    "Retrieve Celeste's Journals from the northern outpost overlooking the Red Lakes",
-    "Deliver 2 Journals to Celeste"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [
-    {
-      "itemId": "celeste_journal",
-      "quantity": 2
-    }
-  ],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "magnetic_accelerator",
-      "quantity": 1
-    },
-    {
-      "itemId": "heavy_gun_parts",
-      "quantity": 3
-    },
-    {
-      "itemId": "exodus_modules",
-      "quantity": 1
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10r"
-  ],
-  "nextQuestIds": [
-    "ss10w"
-  ],
-  "traderId": "celeste"
+	"id": "ss10t",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": ["dam_battlegrounds"],
+	"name": "Celeste's Journals",
+	"description": "Okay, so this is awkward... I lost two of my journals during some outpost inspections last time I went topside. Could you head out there and try to find them back before someone else stumbles on them?",
+	"objectives": [
+		"Retrieve Celeste's Journals from the South Swamp Outpost",
+		"Retrieve Celeste's Journals from the northern outpost overlooking the Red Lakes",
+		"Deliver 2 Journals to Celeste"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [
+		{
+			"itemId": "celeste_journal",
+			"quantity": 2
+		}
+	],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "magnetic_accelerator",
+			"quantity": 1
+		},
+		{
+			"itemId": "heavy_gun_parts",
+			"quantity": 3
+		},
+		{
+			"itemId": "exodus_modules",
+			"quantity": 1
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10r"],
+	"nextQuestIds": ["ss10w"],
+	"traderId": "celeste"
 }

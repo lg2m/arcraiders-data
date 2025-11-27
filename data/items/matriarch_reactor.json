@@ -1,19 +1,19 @@
 {
-  "id": "matriarch_reactor",
-  "name": "Matriarch Reactor",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Material",
-  "rarity": "Legendary",
-  "weightKg": 10,
-  "stackSize": 1,
-  "value": 13000,
-  "recyclesInto": {
-    "power_rod": 1,
-    "magnetic_accelerator": 1
-  },
-  "salvagesInto": {
-    "power_rod": 1
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/matriarch_reactor.png",
-  "updatedAt": "11/13/2025"
+	"id": "matriarch_reactor",
+	"name": "Matriarch Reactor",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Material",
+	"rarity": "Legendary",
+	"weightKg": 10,
+	"stackSize": 1,
+	"value": 13000,
+	"recyclesInto": {
+		"power_rod": 1,
+		"magnetic_accelerator": 1
+	},
+	"salvagesInto": {
+		"power_rod": 1
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/matriarch_reactor.png",
+	"updatedAt": "11/13/2025"
 }

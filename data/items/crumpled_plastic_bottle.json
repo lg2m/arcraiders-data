@@ -1,19 +1,19 @@
 {
-  "id": "crumpled_plastic_bottle",
-  "name": "Crumpled Plastic Bottle",
-  "rarity": "Uncommon",
-  "weightKg": 0.8,
-  "stackSize": 3,
-  "foundIn": "Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/crumpled_plastic_bottle.png",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "value": 270,
-  "recyclesInto": {
-    "plastic_parts": 4
-  },
-  "salvagesInto": {
-    "plastic_parts": 1
-  },
-  "updatedAt": "11/04/2025"
+	"id": "crumpled_plastic_bottle",
+	"name": "Crumpled Plastic Bottle",
+	"rarity": "Uncommon",
+	"weightKg": 0.8,
+	"stackSize": 3,
+	"foundIn": "Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/crumpled_plastic_bottle.png",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"value": 270,
+	"recyclesInto": {
+		"plastic_parts": 4
+	},
+	"salvagesInto": {
+		"plastic_parts": 1
+	},
+	"updatedAt": "11/04/2025"
 }

@@ -1,17 +1,17 @@
 {
-  "id": "headphones",
-  "name": "Headphones",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "recyclesInto": {
-    "rubber_parts": 7,
-    "speaker_component": 1
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/headphones.png",
-  "updatedAt": "11/03/2025"
+	"id": "headphones",
+	"name": "Headphones",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"recyclesInto": {
+		"rubber_parts": 7,
+		"speaker_component": 1
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/headphones.png",
+	"updatedAt": "11/03/2025"
 }

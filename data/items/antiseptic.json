@@ -1,21 +1,21 @@
 {
-  "id": "antiseptic",
-  "name": "Antiseptic",
-  "description": "Used to craft medical supplies. Can be recycled into chemicals. Used to craft: Sterilized Bandage, Vita Spray, Vita Shot",
-  "type": "Refined Material",
-  "rarity": "Rare",
-  "recyclesInto": {
-    "chemicals": 10
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/antiseptic.png",
-  "foundIn": "Medical",
-  "weightKg": 1,
-  "stackSize": 5,
-  "value": 1000,
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "chemicals": 10,
-    "great_mullein": 2
-  },
-  "craftBench": "refiner"
+	"id": "antiseptic",
+	"name": "Antiseptic",
+	"description": "Used to craft medical supplies. Can be recycled into chemicals. Used to craft: Sterilized Bandage, Vita Spray, Vita Shot",
+	"type": "Refined Material",
+	"rarity": "Rare",
+	"recyclesInto": {
+		"chemicals": 10
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/antiseptic.png",
+	"foundIn": "Medical",
+	"weightKg": 1,
+	"stackSize": 5,
+	"value": 1000,
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"chemicals": 10,
+		"great_mullein": 2
+	},
+	"craftBench": "refiner"
 }

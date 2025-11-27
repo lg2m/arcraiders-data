@@ -1,41 +1,35 @@
 {
-  "id": "ss10z",
-  "updatedAt": "11/06/2025",
-  "videoUrl": "https://youtu.be/FNe2C3gde68",
-  "mapIds": [
-    "dam_battlegrounds"
-  ],
-  "name": "Our Presence Up There",
-  "description": "ARC may be changing, but we're finally changing with it. Let's finish up those outposts and revolutionize the way we track them, flank them, and smash them to bits.",
-  "objectives": [
-    "Visit the Pattern House in The Dam",
-    "Find and interact with the Power Switch",
-    "Complete the antenna installation on the roof"
-  ],
-  "tips": [],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "buried_city_town_hall_key",
-      "quantity": 1
-    },
-    {
-      "itemId": "raider_hatch_key",
-      "quantity": 1
-    },
-    {
-      "itemId": "jolt_mine",
-      "quantity": 3
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10w"
-  ],
-  "nextQuestIds": [
-    "ss11b"
-  ],
-  "traderId": "shani"
+	"id": "ss10z",
+	"updatedAt": "11/06/2025",
+	"videoUrl": "https://youtu.be/FNe2C3gde68",
+	"mapIds": ["dam_battlegrounds"],
+	"name": "Our Presence Up There",
+	"description": "ARC may be changing, but we're finally changing with it. Let's finish up those outposts and revolutionize the way we track them, flank them, and smash them to bits.",
+	"objectives": [
+		"Visit the Pattern House in The Dam",
+		"Find and interact with the Power Switch",
+		"Complete the antenna installation on the roof"
+	],
+	"tips": [],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "buried_city_town_hall_key",
+			"quantity": 1
+		},
+		{
+			"itemId": "raider_hatch_key",
+			"quantity": 1
+		},
+		{
+			"itemId": "jolt_mine",
+			"quantity": 3
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10w"],
+	"nextQuestIds": ["ss11b"],
+	"traderId": "shani"
 }

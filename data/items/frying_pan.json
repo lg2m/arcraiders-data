@@ -1,19 +1,19 @@
 {
-  "id": "frying_pan",
-  "name": "Frying Pan",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 640,
-  "recyclesInto": {
-    "metal_parts": 8
-  },
-  "salvagesInto": {
-    "metal_parts": 4
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 2,
-  "foundIn": "Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/frying_pan.png",
-  "stackSize": 3,
-  "updatedAt": "11/04/2025"
+	"id": "frying_pan",
+	"name": "Frying Pan",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 640,
+	"recyclesInto": {
+		"metal_parts": 8
+	},
+	"salvagesInto": {
+		"metal_parts": 4
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 2,
+	"foundIn": "Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/frying_pan.png",
+	"stackSize": 3,
+	"updatedAt": "11/04/2025"
 }

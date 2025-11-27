@@ -1,22 +1,22 @@
 {
-  "id": "mechanical_components",
-  "name": "Mechanical Components",
-  "description": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
-  "type": "Refined Material",
-  "rarity": "Uncommon",
-  "value": 640,
-  "recyclesInto": {
-    "metal_parts": 8,
-    "steel_spring": 2
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
-  "updatedAt": "11/03/2025",
-  "weightKg": 0.5,
-  "stackSize": 10,
-  "foundIn": "Mechanical",
-  "recipe": {
-    "metal_parts": 7,
-    "rubber_parts": 3
-  },
-  "craftBench": "refiner"
+	"id": "mechanical_components",
+	"name": "Mechanical Components",
+	"description": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Il Toro, Burletta, Anvil, Muzzle Brake II, Extended Medium Mag II",
+	"type": "Refined Material",
+	"rarity": "Uncommon",
+	"value": 640,
+	"recyclesInto": {
+		"metal_parts": 8,
+		"steel_spring": 2
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/mechanical_components.png",
+	"updatedAt": "11/03/2025",
+	"weightKg": 0.5,
+	"stackSize": 10,
+	"foundIn": "Mechanical",
+	"recipe": {
+		"metal_parts": 7,
+		"rubber_parts": 3
+	},
+	"craftBench": "refiner"
 }

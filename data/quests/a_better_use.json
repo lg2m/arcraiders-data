@@ -1,37 +1,33 @@
 {
-  "id": "ss10",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [],
-  "name": "A Better Use",
-  "description": "We're short on everything but mouths to feed, yet Celeste's launching precious supplies into the air for Raiders to claw over. I'm done letting the good stuff go to waste.",
-  "objectives": [
-    "Request in a Supply Drop from a Call Station",
-    "Loot a Supply Drop"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "extended_light_mag_i",
-      "quantity": 1
-    },
-    {
-      "itemId": "muzzle_brake_ii",
-      "quantity": 1
-    },
-    {
-      "itemId": "stable_stock_i",
-      "quantity": 1
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss7"
-  ],
-  "nextQuestIds": [
-    "ss10a"
-  ],
-  "traderId": "tian_wen"
+	"id": "ss10",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": [],
+	"name": "A Better Use",
+	"description": "We're short on everything but mouths to feed, yet Celeste's launching precious supplies into the air for Raiders to claw over. I'm done letting the good stuff go to waste.",
+	"objectives": [
+		"Request in a Supply Drop from a Call Station",
+		"Loot a Supply Drop"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "extended_light_mag_i",
+			"quantity": 1
+		},
+		{
+			"itemId": "muzzle_brake_ii",
+			"quantity": 1
+		},
+		{
+			"itemId": "stable_stock_i",
+			"quantity": 1
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss7"],
+	"nextQuestIds": ["ss10a"],
+	"traderId": "tian_wen"
 }

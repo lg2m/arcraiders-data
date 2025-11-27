@@ -1,17 +1,17 @@
 {
-  "name": "Ion Sputter",
-  "description": "Can be recycled into crafting materials.",
-  "id": "ion_sputter",
-  "type": "Recyclable",
-  "rarity": "Epic",
-  "weightKg": 3,
-  "stackSize": 3,
-  "foundIn": "Exodus",
-  "imageFilename": "https://cdn.arctracker.io/items/ion_sputter.png",
-  "updatedAt": "11/14/2025",
-  "value": 6000,
-  "recyclesInto": {
-    "voltage_converter": 4,
-    "exodus_modules": 1
-  }
+	"name": "Ion Sputter",
+	"description": "Can be recycled into crafting materials.",
+	"id": "ion_sputter",
+	"type": "Recyclable",
+	"rarity": "Epic",
+	"weightKg": 3,
+	"stackSize": 3,
+	"foundIn": "Exodus",
+	"imageFilename": "https://cdn.arctracker.io/items/ion_sputter.png",
+	"updatedAt": "11/14/2025",
+	"value": 6000,
+	"recyclesInto": {
+		"voltage_converter": 4,
+		"exodus_modules": 1
+	}
 }

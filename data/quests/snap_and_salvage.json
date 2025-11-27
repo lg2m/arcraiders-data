@@ -1,52 +1,48 @@
 {
-  "id": "12_snap_and_salvage",
-  "updatedAt": "11/14/2025",
-  "videoUrl": null,
-  "mapIds": [
-    "stella_montis"
-  ],
-  "name": "Snap and Salvage",
-  "description": "All of Speranza is buzzing about Stella Montis right now, and I admit it's caught my attention. Let the others sort out the whats and hows; I'm interested in the tech inside.",
-  "objectives": [
-    "Take a photo of any of the Rovers in the Sandbox",
-    "Search the papers in the Security Checkpoint room by the Lobby",
-    "Deliver a Magnetron to Tian Wen",
-    "Deliver a Flow Controller to Tian Wen"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [
-    {
-      "itemId": "flow_controller",
-      "quantity": 1
-    },
-    {
-      "itemId": "magnetron",
-      "quantity": 1
-    }
-  ],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "burletta_iii",
-      "quantity": 1
-    },
-    {
-      "itemId": "silencer_ii",
-      "quantity": 1
-    },
-    {
-      "itemId": "extended_light_mag_ii",
-      "quantity": 1
-    },
-    {
-      "itemId": "light_ammo",
-      "quantity": 100
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "12_cold_storage"
-  ],
-  "nextQuestIds": [],
-  "traderId": "tian_wen"
+	"id": "12_snap_and_salvage",
+	"updatedAt": "11/14/2025",
+	"videoUrl": null,
+	"mapIds": ["stella_montis"],
+	"name": "Snap and Salvage",
+	"description": "All of Speranza is buzzing about Stella Montis right now, and I admit it's caught my attention. Let the others sort out the whats and hows; I'm interested in the tech inside.",
+	"objectives": [
+		"Take a photo of any of the Rovers in the Sandbox",
+		"Search the papers in the Security Checkpoint room by the Lobby",
+		"Deliver a Magnetron to Tian Wen",
+		"Deliver a Flow Controller to Tian Wen"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [
+		{
+			"itemId": "flow_controller",
+			"quantity": 1
+		},
+		{
+			"itemId": "magnetron",
+			"quantity": 1
+		}
+	],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "burletta_iii",
+			"quantity": 1
+		},
+		{
+			"itemId": "silencer_ii",
+			"quantity": 1
+		},
+		{
+			"itemId": "extended_light_mag_ii",
+			"quantity": 1
+		},
+		{
+			"itemId": "light_ammo",
+			"quantity": 100
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["12_cold_storage"],
+	"nextQuestIds": [],
+	"traderId": "tian_wen"
 }

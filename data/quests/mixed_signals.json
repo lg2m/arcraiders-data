@@ -1,45 +1,40 @@
 {
-  "id": "ss10d",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [],
-  "name": "Mixed Signals",
-  "description": "Have you spotted any Surveyors; the big round ones? They seem to be transmitting data back into orbit, and I can't help but think it's tied to that signal we picked up. Will you break one open, so we can try to decipher the data?",
-  "objectives": [
-    "Destroy an ARC Surveyor",
-    "Obtain 1 Surveyor Vault"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [
-    {
-      "itemId": "surveyor_vault",
-      "quantity": 1
-    }
-  ],
-  "grantedItemIds": [
-    {
-      "itemId": "jolt_mine",
-      "quantity": 3
-    },
-    {
-      "itemId": "showstopper",
-      "quantity": 2
-    }
-  ],
-  "rewardItemIds": [
-    {
-      "itemId": "photoelectric_cloak",
-      "quantity": 1
-    },
-    {
-      "itemId": "raider_hatch_key",
-      "quantity": 1
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10b"
-  ],
-  "nextQuestIds": [],
-  "traderId": "shani"
+	"id": "ss10d",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": [],
+	"name": "Mixed Signals",
+	"description": "Have you spotted any Surveyors; the big round ones? They seem to be transmitting data back into orbit, and I can't help but think it's tied to that signal we picked up. Will you break one open, so we can try to decipher the data?",
+	"objectives": ["Destroy an ARC Surveyor", "Obtain 1 Surveyor Vault"],
+	"otherRequirements": [],
+	"requiredItemIds": [
+		{
+			"itemId": "surveyor_vault",
+			"quantity": 1
+		}
+	],
+	"grantedItemIds": [
+		{
+			"itemId": "jolt_mine",
+			"quantity": 3
+		},
+		{
+			"itemId": "showstopper",
+			"quantity": 2
+		}
+	],
+	"rewardItemIds": [
+		{
+			"itemId": "photoelectric_cloak",
+			"quantity": 1
+		},
+		{
+			"itemId": "raider_hatch_key",
+			"quantity": 1
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10b"],
+	"nextQuestIds": [],
+	"traderId": "shani"
 }

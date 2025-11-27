@@ -1,22 +1,22 @@
 {
-  "id": "magnetic_accelerator",
-  "name": "Magnetic Accelerator",
-  "rarity": "Epic",
-  "type": "Refined Material",
-  "value": 5500,
-  "recyclesInto": {
-    "advanced_mechanical_components": 1,
-    "arc_motion_core": 1
-  },
-  "description": "Used to craft advanced weapons. Used to craft: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
-  "weightKg": 1,
-  "stackSize": 3,
-  "foundIn": "Exodus",
-  "imageFilename": "https://cdn.arctracker.io/items/magnetic_accelerator.png",
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "advanced_mechanical_components": 2,
-    "arc_motion_core": 2
-  },
-  "craftBench": "refiner"
+	"id": "magnetic_accelerator",
+	"name": "Magnetic Accelerator",
+	"rarity": "Epic",
+	"type": "Refined Material",
+	"value": 5500,
+	"recyclesInto": {
+		"advanced_mechanical_components": 1,
+		"arc_motion_core": 1
+	},
+	"description": "Used to craft advanced weapons. Used to craft: Tempest, Equalizer, Vulcano, Jupiter, Hullcracker",
+	"weightKg": 1,
+	"stackSize": 3,
+	"foundIn": "Exodus",
+	"imageFilename": "https://cdn.arctracker.io/items/magnetic_accelerator.png",
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"advanced_mechanical_components": 2,
+		"arc_motion_core": 2
+	},
+	"craftBench": "refiner"
 }

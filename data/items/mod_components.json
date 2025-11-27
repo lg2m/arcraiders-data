@@ -1,22 +1,22 @@
 {
-  "id": "mod_components",
-  "name": "Mod Components",
-  "description": "Used to craft weapon mods. Can be recycled into crafting materials. Used to craft: Lightweight Stock, Shotgun Choke III, Extended Shotgun Mag III, Padded Stock, Compensator III",
-  "type": "Refined Material",
-  "rarity": "Rare",
-  "value": 1750,
-  "weightKg": 1,
-  "stackSize": 5,
-  "foundIn": "Security",
-  "imageFilename": "https://cdn.arctracker.io/items/mod_components.png",
-  "updatedAt": "11/03/2025",
-  "recyclesInto": {
-    "mechanical_components": 1,
-    "steel_spring": 1
-  },
-  "recipe": {
-    "steel_spring": 2,
-    "mechanical_components": 2
-  },
-  "craftBench": "refiner"
+	"id": "mod_components",
+	"name": "Mod Components",
+	"description": "Used to craft weapon mods. Can be recycled into crafting materials. Used to craft: Lightweight Stock, Shotgun Choke III, Extended Shotgun Mag III, Padded Stock, Compensator III",
+	"type": "Refined Material",
+	"rarity": "Rare",
+	"value": 1750,
+	"weightKg": 1,
+	"stackSize": 5,
+	"foundIn": "Security",
+	"imageFilename": "https://cdn.arctracker.io/items/mod_components.png",
+	"updatedAt": "11/03/2025",
+	"recyclesInto": {
+		"mechanical_components": 1,
+		"steel_spring": 1
+	},
+	"recipe": {
+		"steel_spring": 2,
+		"mechanical_components": 2
+	},
+	"craftBench": "refiner"
 }

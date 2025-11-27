@@ -1,34 +1,34 @@
 {
-  "id": "shotgun_silencer",
-  "name": "Shotgun Silencer",
-  "description": "Moderately reduces the amount of noise produced when firing.",
-  "type": "Modification",
-  "value": 5000,
-  "rarity": "Epic",
-  "weightKg": 0.5,
-  "effects": {
-    "Reduced Noise": {
-      "en": "Reduced Noise",
-      "de": "Reduzierte Lautstärke",
-      "fr": "Bruit réduit",
-      "es": "Ruido reducido",
-      "pt": "Ruído reduzido",
-      "pl": "Zredukowany hałas",
-      "no": "Redusert støy",
-      "da": "Reduceret støj",
-      "it": "Rumore ridotto",
-      "ru": "Снижение шума",
-      "ja": "騒音軽減",
-      "zh-TW": "降低噪音",
-      "uk": "Зменшення шуму",
-      "zh-CN": "降低噪音",
-      "kr": "소음 감소",
-      "tr": "Azaltılmış Gürültü",
-      "hr": "Smanjena buka",
-      "sr": "Smanjena buka",
-      "value": "50%"
-    }
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/shotgun_silencer.png",
-  "updatedAt": "11/02/2025"
+	"id": "shotgun_silencer",
+	"name": "Shotgun Silencer",
+	"description": "Moderately reduces the amount of noise produced when firing.",
+	"type": "Modification",
+	"value": 5000,
+	"rarity": "Epic",
+	"weightKg": 0.5,
+	"effects": {
+		"Reduced Noise": {
+			"en": "Reduced Noise",
+			"de": "Reduzierte Lautstärke",
+			"fr": "Bruit réduit",
+			"es": "Ruido reducido",
+			"pt": "Ruído reduzido",
+			"pl": "Zredukowany hałas",
+			"no": "Redusert støy",
+			"da": "Reduceret støj",
+			"it": "Rumore ridotto",
+			"ru": "Снижение шума",
+			"ja": "騒音軽減",
+			"zh-TW": "降低噪音",
+			"uk": "Зменшення шуму",
+			"zh-CN": "降低噪音",
+			"kr": "소음 감소",
+			"tr": "Azaltılmış Gürültü",
+			"hr": "Smanjena buka",
+			"sr": "Smanjena buka",
+			"value": "50%"
+		}
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/shotgun_silencer.png",
+	"updatedAt": "11/02/2025"
 }

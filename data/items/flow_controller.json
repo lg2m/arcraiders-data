@@ -1,17 +1,17 @@
 {
-  "name": "Flow Controller",
-  "description": "Can be recycled into crafting materials.",
-  "id": "flow_controller",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "value": 3000,
-  "weightKg": 1.5,
-  "stackSize": 3,
-  "foundIn": "Exodus",
-  "imageFilename": "https://cdn.arctracker.io/items/flow_controller.png",
-  "updatedAt": "11/14/2025",
-  "recyclesInto": {
-    "advanced_mechanical_components": 1,
-    "sensors": 1
-  }
+	"name": "Flow Controller",
+	"description": "Can be recycled into crafting materials.",
+	"id": "flow_controller",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"value": 3000,
+	"weightKg": 1.5,
+	"stackSize": 3,
+	"foundIn": "Exodus",
+	"imageFilename": "https://cdn.arctracker.io/items/flow_controller.png",
+	"updatedAt": "11/14/2025",
+	"recyclesInto": {
+		"advanced_mechanical_components": 1,
+		"sensors": 1
+	}
 }

@@ -1,25 +1,25 @@
 {
-  "id": "advanced_electrical_components",
-  "name": "Advanced Electrical Components",
-  "description": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
-  "type": "Refined Material",
-  "rarity": "Rare",
-  "value": 1750,
-  "recyclesInto": {
-    "electrical_components": 1,
-    "wires": 1
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/advanced_electrical_components.png",
-  "salvagesInto": {
-    "electrical_components": 1
-  },
-  "foundIn": "Electrical",
-  "weightKg": 1,
-  "stackSize": 5,
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "wires": 3,
-    "electrical_components": 2
-  },
-  "craftBench": "refiner"
+	"id": "advanced_electrical_components",
+	"name": "Advanced Electrical Components",
+	"description": "Used to craft a wide range of items. Can be recycled into crafting materials. Used to craft: Tactical Mk. 3 (Defensive), Combat Mk. 3 (Flanking), Combat Mk. 3 (Aggressive), Looting Mk. 3 (Cautious), Tactical Mk. 3 (Healing)",
+	"type": "Refined Material",
+	"rarity": "Rare",
+	"value": 1750,
+	"recyclesInto": {
+		"electrical_components": 1,
+		"wires": 1
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/advanced_electrical_components.png",
+	"salvagesInto": {
+		"electrical_components": 1
+	},
+	"foundIn": "Electrical",
+	"weightKg": 1,
+	"stackSize": 5,
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"wires": 3,
+		"electrical_components": 2
+	},
+	"craftBench": "refiner"
 }

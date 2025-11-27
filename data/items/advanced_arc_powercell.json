@@ -1,16 +1,16 @@
 {
-  "id": "advanced_arc_powercell",
-  "name": "Advanced ARC Powercell",
-  "description": "Very valuable resource that drops from certain ARC enemies.",
-  "type": "Topside Material",
-  "rarity": "Rare",
-  "recyclesInto": {
-    "arc_powercell": 2
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/advanced_arc_powercell.png",
-  "value": 640,
-  "weightKg": 0.5,
-  "stackSize": 5,
-  "foundIn": "ARC",
-  "updatedAt": "11/05/2025"
+	"id": "advanced_arc_powercell",
+	"name": "Advanced ARC Powercell",
+	"description": "Very valuable resource that drops from certain ARC enemies.",
+	"type": "Topside Material",
+	"rarity": "Rare",
+	"recyclesInto": {
+		"arc_powercell": 2
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/advanced_arc_powercell.png",
+	"value": 640,
+	"weightKg": 0.5,
+	"stackSize": 5,
+	"foundIn": "ARC",
+	"updatedAt": "11/05/2025"
 }

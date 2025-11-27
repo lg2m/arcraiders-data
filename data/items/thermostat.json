@@ -1,17 +1,17 @@
 {
-  "id": "thermostat",
-  "name": "Thermostat",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "recyclesInto": {
-    "rubber_parts": 6,
-    "sensors": 2
-  },
-  "updatedAt": "11/05/2025",
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/thermostat.png"
+	"id": "thermostat",
+	"name": "Thermostat",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"recyclesInto": {
+		"rubber_parts": 6,
+		"sensors": 2
+	},
+	"updatedAt": "11/05/2025",
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/thermostat.png"
 }

@@ -1,11 +1,11 @@
 {
-  "id": "spaceport_warehouse_key",
-  "name": "Spaceport Warehouse Key",
-  "description": "A key to a warehouse in the Spaceport.",
-  "type": "Key",
-  "rarity": "Uncommon",
-  "value": 100,
-  "weightKg": 0.25,
-  "updatedAt": "11/16/2025",
-  "imageFilename": "https://cdn.arctracker.io/items/spaceport_trench_tower_key.png"
+	"id": "spaceport_warehouse_key",
+	"name": "Spaceport Warehouse Key",
+	"description": "A key to a warehouse in the Spaceport.",
+	"type": "Key",
+	"rarity": "Uncommon",
+	"value": 100,
+	"weightKg": 0.25,
+	"updatedAt": "11/16/2025",
+	"imageFilename": "https://cdn.arctracker.io/items/spaceport_trench_tower_key.png"
 }

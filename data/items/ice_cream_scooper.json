@@ -1,19 +1,19 @@
 {
-  "id": "ice_cream_scooper",
-  "name": "Ice Cream Scooper",
-  "rarity": "Uncommon",
-  "type": "Recyclable",
-  "value": 640,
-  "recyclesInto": {
-    "metal_parts": 7
-  },
-  "salvagesInto": {
-    "metal_parts": 3
-  },
-  "description": "It is theorized that scooping things was a favorite pastime in the world before.",
-  "weightKg": 0.8,
-  "stackSize": 3,
-  "foundIn": "Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/ice_cream_scooper.png",
-  "updatedAt": "11/04/2025"
+	"id": "ice_cream_scooper",
+	"name": "Ice Cream Scooper",
+	"rarity": "Uncommon",
+	"type": "Recyclable",
+	"value": 640,
+	"recyclesInto": {
+		"metal_parts": 7
+	},
+	"salvagesInto": {
+		"metal_parts": 3
+	},
+	"description": "It is theorized that scooping things was a favorite pastime in the world before.",
+	"weightKg": 0.8,
+	"stackSize": 3,
+	"foundIn": "Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/ice_cream_scooper.png",
+	"updatedAt": "11/04/2025"
 }

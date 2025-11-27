@@ -1,71 +1,68 @@
 {
-  "id": "light_impact_grenade",
-  "name": "Light Impact Grenade",
-  "description": "A grenade that detonates on impact, dealing explosive damage in a small radius.",
-  "type": "Quick Use",
-  "rarity": "Common",
-  "value": 270,
-  "imageFilename": "https://cdn.arctracker.io/items/light_impact_grenade.png",
-  "recyclesInto": {
-    "chemicals": 1,
-    "plastic_parts": 1
-  },
-  "salvagesInto": {
-    "chemicals": 1
-  },
-  "weightKg": 0.1,
-  "stackSize": 5,
-  "effects": {
-    "Damage": {
-      "en": "Damage",
-      "de": "Schaden",
-      "fr": "Dégâts",
-      "es": "Daño",
-      "pt": "Dano",
-      "pl": "Obrażenia",
-      "no": "Skade",
-      "da": "Skade",
-      "it": "Danno",
-      "ru": "Урон",
-      "ja": "ダメージ",
-      "zh-TW": "傷害",
-      "uk": "Шкода",
-      "zh-CN": "伤害",
-      "kr": "피해",
-      "tr": "Hasar",
-      "hr": "Šteta",
-      "sr": "Šteta",
-      "value": 30
-    },
-    "Radius": {
-      "en": "Radius",
-      "de": "Radius",
-      "fr": "Rayon",
-      "es": "Radio",
-      "pt": "Raio",
-      "pl": "Promień",
-      "no": "Radius",
-      "da": "Radius",
-      "it": "Raggio",
-      "ru": "Радиус",
-      "ja": "範囲",
-      "zh-TW": "半徑",
-      "uk": "Радіус",
-      "zh-CN": "半径",
-      "kr": "반경",
-      "tr": "Yarıçap",
-      "hr": "Radijus",
-      "sr": "Radijus",
-      "value": "2.5m"
-    }
-  },
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "chemicals": 3,
-    "plastic_parts": 2
-  },
-  "craftBench": [
-    "workbench",
-    "explosives_station"
-  ]
+	"id": "light_impact_grenade",
+	"name": "Light Impact Grenade",
+	"description": "A grenade that detonates on impact, dealing explosive damage in a small radius.",
+	"type": "Quick Use",
+	"rarity": "Common",
+	"value": 270,
+	"imageFilename": "https://cdn.arctracker.io/items/light_impact_grenade.png",
+	"recyclesInto": {
+		"chemicals": 1,
+		"plastic_parts": 1
+	},
+	"salvagesInto": {
+		"chemicals": 1
+	},
+	"weightKg": 0.1,
+	"stackSize": 5,
+	"effects": {
+		"Damage": {
+			"en": "Damage",
+			"de": "Schaden",
+			"fr": "Dégâts",
+			"es": "Daño",
+			"pt": "Dano",
+			"pl": "Obrażenia",
+			"no": "Skade",
+			"da": "Skade",
+			"it": "Danno",
+			"ru": "Урон",
+			"ja": "ダメージ",
+			"zh-TW": "傷害",
+			"uk": "Шкода",
+			"zh-CN": "伤害",
+			"kr": "피해",
+			"tr": "Hasar",
+			"hr": "Šteta",
+			"sr": "Šteta",
+			"value": 30
+		},
+		"Radius": {
+			"en": "Radius",
+			"de": "Radius",
+			"fr": "Rayon",
+			"es": "Radio",
+			"pt": "Raio",
+			"pl": "Promień",
+			"no": "Radius",
+			"da": "Radius",
+			"it": "Raggio",
+			"ru": "Радиус",
+			"ja": "範囲",
+			"zh-TW": "半徑",
+			"uk": "Радіус",
+			"zh-CN": "半径",
+			"kr": "반경",
+			"tr": "Yarıçap",
+			"hr": "Radijus",
+			"sr": "Radijus",
+			"value": "2.5m"
+		}
+	},
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"chemicals": 3,
+		"plastic_parts": 2
+	},
+	"craftBench": ["workbench", "explosives_station"]
 }

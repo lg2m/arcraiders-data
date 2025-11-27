@@ -1,34 +1,29 @@
 {
-  "id": "ss4",
-  "updatedAt": "11/06/2025",
-  "videoUrl": null,
-  "mapIds": [],
-  "name": "Off The Radar",
-  "description": "The damage down here was pretty bad, but our Topside infrastructure was hit even harder. I still have several antennas that stopped working after the storm.",
-  "objectives": [
-    "Visit a Field Depot",
-    "Repair the antenna on the roof of the Field Depot"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [],
-  "grantedItemIds": [],
-  "rewardItemIds": [
-    {
-      "itemId": "remote_raider_flare",
-      "quantity": 2
-    },
-    {
-      "itemId": "defibrillator",
-      "quantity": 2
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss2",
-    "ss3"
-  ],
-  "nextQuestIds": [
-    "ss5"
-  ],
-  "traderId": "shani"
+	"id": "ss4",
+	"updatedAt": "11/06/2025",
+	"videoUrl": null,
+	"mapIds": [],
+	"name": "Off The Radar",
+	"description": "The damage down here was pretty bad, but our Topside infrastructure was hit even harder. I still have several antennas that stopped working after the storm.",
+	"objectives": [
+		"Visit a Field Depot",
+		"Repair the antenna on the roof of the Field Depot"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [],
+	"grantedItemIds": [],
+	"rewardItemIds": [
+		{
+			"itemId": "remote_raider_flare",
+			"quantity": 2
+		},
+		{
+			"itemId": "defibrillator",
+			"quantity": 2
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss2", "ss3"],
+	"nextQuestIds": ["ss5"],
+	"traderId": "shani"
 }

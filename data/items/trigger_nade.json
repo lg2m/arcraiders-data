@@ -1,65 +1,65 @@
 {
-  "id": "trigger_nade",
-  "name": "Trigger 'Nade",
-  "description": "A remote-detonated grenade that can stick to surfaces and ARC, dealing explosive damage when triggered.",
-  "type": "Quick Use",
-  "rarity": "Rare",
-  "value": 1000,
-  "weightKg": 0.4,
-  "stackSize": 3,
-  "effects": {
-    "Damage": {
-      "en": "Damage",
-      "de": "Schaden",
-      "fr": "Dégâts",
-      "es": "Daño",
-      "pt": "Dano",
-      "pl": "Obrażenia",
-      "no": "Skade",
-      "da": "Skade",
-      "it": "Danno",
-      "ru": "Урон",
-      "ja": "ダメージ",
-      "zh-TW": "傷害",
-      "uk": "Шкода",
-      "zh-CN": "伤害",
-      "kr": "피해",
-      "tr": "Hasar",
-      "hr": "Šteta",
-      "sr": "Šteta",
-      "value": 90
-    },
-    "Radius": {
-      "en": "Radius",
-      "de": "Radius",
-      "fr": "Rayon",
-      "es": "Radio",
-      "pt": "Raio",
-      "pl": "Promień",
-      "no": "Radius",
-      "da": "Radius",
-      "it": "Raggio",
-      "ru": "Радиус",
-      "ja": "範囲",
-      "zh-TW": "範圍",
-      "uk": "Радіус",
-      "zh-CN": "范围",
-      "kr": "반경",
-      "tr": "Yarıçap",
-      "hr": "Radijus",
-      "sr": "Radijus",
-      "value": "7.5m"
-    }
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/trigger_nade.png",
-  "updatedAt": "11/03/2025",
-  "recyclesInto": {
-    "chemicals": 1,
-    "processor": 1
-  },
-  "recipe": {
-    "crude_explosives": 2,
-    "processor": 1
-  },
-  "craftBench": "explosives_station"
+	"id": "trigger_nade",
+	"name": "Trigger 'Nade",
+	"description": "A remote-detonated grenade that can stick to surfaces and ARC, dealing explosive damage when triggered.",
+	"type": "Quick Use",
+	"rarity": "Rare",
+	"value": 1000,
+	"weightKg": 0.4,
+	"stackSize": 3,
+	"effects": {
+		"Damage": {
+			"en": "Damage",
+			"de": "Schaden",
+			"fr": "Dégâts",
+			"es": "Daño",
+			"pt": "Dano",
+			"pl": "Obrażenia",
+			"no": "Skade",
+			"da": "Skade",
+			"it": "Danno",
+			"ru": "Урон",
+			"ja": "ダメージ",
+			"zh-TW": "傷害",
+			"uk": "Шкода",
+			"zh-CN": "伤害",
+			"kr": "피해",
+			"tr": "Hasar",
+			"hr": "Šteta",
+			"sr": "Šteta",
+			"value": 90
+		},
+		"Radius": {
+			"en": "Radius",
+			"de": "Radius",
+			"fr": "Rayon",
+			"es": "Radio",
+			"pt": "Raio",
+			"pl": "Promień",
+			"no": "Radius",
+			"da": "Radius",
+			"it": "Raggio",
+			"ru": "Радиус",
+			"ja": "範囲",
+			"zh-TW": "範圍",
+			"uk": "Радіус",
+			"zh-CN": "范围",
+			"kr": "반경",
+			"tr": "Yarıçap",
+			"hr": "Radijus",
+			"sr": "Radijus",
+			"value": "7.5m"
+		}
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/trigger_nade.png",
+	"updatedAt": "11/03/2025",
+	"recyclesInto": {
+		"chemicals": 1,
+		"processor": 1
+	},
+	"recipe": {
+		"crude_explosives": 2,
+		"processor": 1
+	},
+	"craftBench": "explosives_station"
 }

@@ -1,65 +1,65 @@
 {
-  "id": "wasp_driver",
-  "name": "Wasp Driver",
-  "tip": "The Wasp Driver is a rare item is dropped by Wasps that can be recycled into crafting materials.",
-  "description": "Can be recycled into ARC Alloy. Can be thrown, and will explode if shot.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "value": 1000,
-  "recyclesInto": {
-    "arc_alloy": 1,
-    "electrical_components": 1
-  },
-  "salvagesInto": {
-    "electrical_components": 1
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/wasp_driver.png",
-  "weightKg": 0.6,
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "effects": {
-    "Damage": {
-      "en": "Damage",
-      "de": "Schaden",
-      "fr": "Dégâts",
-      "es": "Daño",
-      "pt": "Dano",
-      "pl": "Obrażenia",
-      "no": "Skade",
-      "da": "Skade",
-      "it": "Danno",
-      "ru": "Урон",
-      "ja": "ダメージ",
-      "zh-TW": "傷害",
-      "uk": "Шкода",
-      "zh-CN": "伤害",
-      "kr": "피해",
-      "tr": "Hasar",
-      "hr": "Šteta",
-      "sr": "Šteta",
-      "value": 80
-    },
-    "Radius": {
-      "en": "Radius",
-      "de": "Radius",
-      "fr": "Rayon",
-      "es": "Radio",
-      "pt": "Raio",
-      "pl": "Promień",
-      "no": "Radius",
-      "da": "Radius",
-      "it": "Raggio",
-      "ru": "Радиус",
-      "ja": "範囲",
-      "zh-TW": "範圍",
-      "uk": "Радіус",
-      "zh-CN": "范围",
-      "kr": "반경",
-      "tr": "Yarıçap",
-      "hr": "Radijus",
-      "sr": "Radijus",
-      "value": "5m"
-    }
-  },
-  "updatedAt": "11/03/2025"
+	"id": "wasp_driver",
+	"name": "Wasp Driver",
+	"tip": "The Wasp Driver is a rare item is dropped by Wasps that can be recycled into crafting materials.",
+	"description": "Can be recycled into ARC Alloy. Can be thrown, and will explode if shot.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"value": 1000,
+	"recyclesInto": {
+		"arc_alloy": 1,
+		"electrical_components": 1
+	},
+	"salvagesInto": {
+		"electrical_components": 1
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/wasp_driver.png",
+	"weightKg": 0.6,
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"effects": {
+		"Damage": {
+			"en": "Damage",
+			"de": "Schaden",
+			"fr": "Dégâts",
+			"es": "Daño",
+			"pt": "Dano",
+			"pl": "Obrażenia",
+			"no": "Skade",
+			"da": "Skade",
+			"it": "Danno",
+			"ru": "Урон",
+			"ja": "ダメージ",
+			"zh-TW": "傷害",
+			"uk": "Шкода",
+			"zh-CN": "伤害",
+			"kr": "피해",
+			"tr": "Hasar",
+			"hr": "Šteta",
+			"sr": "Šteta",
+			"value": 80
+		},
+		"Radius": {
+			"en": "Radius",
+			"de": "Radius",
+			"fr": "Rayon",
+			"es": "Radio",
+			"pt": "Raio",
+			"pl": "Promień",
+			"no": "Radius",
+			"da": "Radius",
+			"it": "Raggio",
+			"ru": "Радиус",
+			"ja": "範囲",
+			"zh-TW": "範圍",
+			"uk": "Радіус",
+			"zh-CN": "范围",
+			"kr": "반경",
+			"tr": "Yarıçap",
+			"hr": "Radijus",
+			"sr": "Radijus",
+			"value": "5m"
+		}
+	},
+	"updatedAt": "11/03/2025"
 }

@@ -1,11 +1,11 @@
 {
-  "id": "blaze_grenade_blueprint",
-  "name": "Blaze Grenade Blueprint",
-  "description": "A grenade that detonates on impact, covering an area in fire that deals damage over time.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/blaze_grenade.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/13/2025"
+	"id": "blaze_grenade_blueprint",
+	"name": "Blaze Grenade Blueprint",
+	"description": "A grenade that detonates on impact, covering an area in fire that deals damage over time.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/blaze_grenade.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/13/2025"
 }

@@ -1,9 +1,9 @@
 {
-  "id": "burgerboy",
-  "name": "Burgerboy",
-  "description": "A new cosmetic will be added to your collection.",
-  "type": "Backpack Charm",
-  "imageFilename": "https://cdn.arctracker.io/items/burgerboy.png",
-  "rarity": "Common",
-  "updatedAt": "11/01/2025"
+	"id": "burgerboy",
+	"name": "Burgerboy",
+	"description": "A new cosmetic will be added to your collection.",
+	"type": "Backpack Charm",
+	"imageFilename": "https://cdn.arctracker.io/items/burgerboy.png",
+	"rarity": "Common",
+	"updatedAt": "11/01/2025"
 }

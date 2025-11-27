@@ -1,71 +1,65 @@
 {
-  "id": "compensator_ii",
-  "name": "Compensator II",
-  "description": "Moderately reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
-  "type": "Modification",
-  "value": 2000,
-  "rarity": "Uncommon",
-  "weightKg": 0.5,
-  "effects": {
-    "Reduced Per-Shot Dispersion": {
-      "en": "Reduced Per-Shot Dispersion",
-      "de": "Reduzierte Streuung pro Schuss",
-      "fr": "Dispersion par tir réduite",
-      "es": "Dispersión por disparo reducida",
-      "pt": "Dispersão por disparo reduzida",
-      "pl": "Zmniejszony rozrzut na strzał",
-      "no": "Redusert spredning per skudd",
-      "da": "Reduceret spredning per skud",
-      "it": "Dispersione per colpo ridotta",
-      "ru": "Уменьшенный разброс за выстрел",
-      "ja": "射撃ごとの拡散減少",
-      "zh-TW": "每次射擊擴散度降低",
-      "uk": "Зменшений розкид за постріл",
-      "zh-CN": "每次射击扩散度降低",
-      "kr": "발사당 분산도 감소",
-      "tr": "Azaltılmış Atış Başına Dağılma",
-      "hr": "Smanjeno Raspršenje po Pucnju",
-      "sr": "Smanjeno Raspršenje po Pucnju",
-      "value": "40%"
-    },
-    "Reduced Max Shot Dispersion": {
-      "en": "Reduced Max Shot Dispersion",
-      "de": "Reduzierte maximale Schussstreuung",
-      "fr": "Dispersion maximale de tir réduite",
-      "es": "Dispersión máxima de disparo reducida",
-      "pt": "Dispersão máxima de disparo reduzida",
-      "pl": "Zmniejszony maksymalny rozrzut strzału",
-      "no": "Redusert maksimal skuddspredning",
-      "da": "Reduceret maksimal skudspredning",
-      "it": "Dispersione massima del colpo ridotta",
-      "ru": "Уменьшенный максимальный разброс выстрела",
-      "ja": "最大射撃拡散減少",
-      "zh-TW": "最大射擊擴散度降低",
-      "uk": "Зменшений максимальний розкид пострілу",
-      "zh-CN": "最大射击扩散度降低",
-      "kr": "최대 발사 분산도 감소",
-      "tr": "Azaltılmış Maksimum Atış Dağılması",
-      "hr": "Smanjeno Maksimalno Raspršenje Pucnja",
-      "sr": "Smanjeno Maksimalno Raspršenje Pucnja",
-      "value": "20%"
-    }
-  },
-  "recyclesInto": {
-    "mechanical_components": 1,
-    "wires": 1
-  },
-  "compatibleWith": [
-    "Arpeggio",
-    "Rattler",
-    "Kettle",
-    "Burletta",
-    "Stitcher"
-  ],
-  "imageFilename": "https://cdn.arctracker.io/items/compensator_ii.png",
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "mechanical_components": 2,
-    "wires": 4
-  },
-  "craftBench": "gunsmith"
+	"id": "compensator_ii",
+	"name": "Compensator II",
+	"description": "Moderately reduces per-shot dispersion. Compatible with: Arpeggio, Ferro, Renegade, Anvil, Stitcher",
+	"type": "Modification",
+	"value": 2000,
+	"rarity": "Uncommon",
+	"weightKg": 0.5,
+	"effects": {
+		"Reduced Per-Shot Dispersion": {
+			"en": "Reduced Per-Shot Dispersion",
+			"de": "Reduzierte Streuung pro Schuss",
+			"fr": "Dispersion par tir réduite",
+			"es": "Dispersión por disparo reducida",
+			"pt": "Dispersão por disparo reduzida",
+			"pl": "Zmniejszony rozrzut na strzał",
+			"no": "Redusert spredning per skudd",
+			"da": "Reduceret spredning per skud",
+			"it": "Dispersione per colpo ridotta",
+			"ru": "Уменьшенный разброс за выстрел",
+			"ja": "射撃ごとの拡散減少",
+			"zh-TW": "每次射擊擴散度降低",
+			"uk": "Зменшений розкид за постріл",
+			"zh-CN": "每次射击扩散度降低",
+			"kr": "발사당 분산도 감소",
+			"tr": "Azaltılmış Atış Başına Dağılma",
+			"hr": "Smanjeno Raspršenje po Pucnju",
+			"sr": "Smanjeno Raspršenje po Pucnju",
+			"value": "40%"
+		},
+		"Reduced Max Shot Dispersion": {
+			"en": "Reduced Max Shot Dispersion",
+			"de": "Reduzierte maximale Schussstreuung",
+			"fr": "Dispersion maximale de tir réduite",
+			"es": "Dispersión máxima de disparo reducida",
+			"pt": "Dispersão máxima de disparo reduzida",
+			"pl": "Zmniejszony maksymalny rozrzut strzału",
+			"no": "Redusert maksimal skuddspredning",
+			"da": "Reduceret maksimal skudspredning",
+			"it": "Dispersione massima del colpo ridotta",
+			"ru": "Уменьшенный максимальный разброс выстрела",
+			"ja": "最大射撃拡散減少",
+			"zh-TW": "最大射擊擴散度降低",
+			"uk": "Зменшений максимальний розкид пострілу",
+			"zh-CN": "最大射击扩散度降低",
+			"kr": "최대 발사 분산도 감소",
+			"tr": "Azaltılmış Maksimum Atış Dağılması",
+			"hr": "Smanjeno Maksimalno Raspršenje Pucnja",
+			"sr": "Smanjeno Maksimalno Raspršenje Pucnja",
+			"value": "20%"
+		}
+	},
+	"recyclesInto": {
+		"mechanical_components": 1,
+		"wires": 1
+	},
+	"compatibleWith": ["Arpeggio", "Rattler", "Kettle", "Burletta", "Stitcher"],
+	"imageFilename": "https://cdn.arctracker.io/items/compensator_ii.png",
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"mechanical_components": 2,
+		"wires": 4
+	},
+	"craftBench": "gunsmith"
 }

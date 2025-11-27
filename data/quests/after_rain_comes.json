@@ -1,53 +1,47 @@
 {
-  "id": "ss10y",
-  "updatedAt": "11/06/2025",
-  "videoUrl": "https://youtu.be/jP__SkIV-9E",
-  "mapIds": [
-    "buried_city"
-  ],
-  "name": "After Rain Comes",
-  "description": "I know, I know! The power's down in sector— Oh, hey. A flash flood took out some of our solar panels in Buried City, and the generators only hold on for so long. Do us all a solid when you're up there, OK?",
-  "objectives": [
-    "Find the flooded solar panels nearby the Grandioso Apartments",
-    "Repair the solar panels using 5 Wires and 2 Batteries"
-  ],
-  "otherRequirements": [],
-  "requiredItemIds": [
-    {
-      "itemId": "wires",
-      "quantity": 5
-    },
-    {
-      "itemId": "battery",
-      "quantity": 2
-    }
-  ],
-  "grantedItemIds": [
-    {
-      "itemId": "zipline",
-      "quantity": 1
-    }
-  ],
-  "rewardItemIds": [
-    {
-      "itemId": "blue_light_stick",
-      "quantity": 5
-    },
-    {
-      "itemId": "antiseptic",
-      "quantity": 3
-    },
-    {
-      "itemId": "durable_cloth",
-      "quantity": 5
-    }
-  ],
-  "xp": 0,
-  "previousQuestIds": [
-    "ss10s"
-  ],
-  "nextQuestIds": [
-    "ss10x4"
-  ],
-  "traderId": "celeste"
+	"id": "ss10y",
+	"updatedAt": "11/06/2025",
+	"videoUrl": "https://youtu.be/jP__SkIV-9E",
+	"mapIds": ["buried_city"],
+	"name": "After Rain Comes",
+	"description": "I know, I know! The power's down in sector— Oh, hey. A flash flood took out some of our solar panels in Buried City, and the generators only hold on for so long. Do us all a solid when you're up there, OK?",
+	"objectives": [
+		"Find the flooded solar panels nearby the Grandioso Apartments",
+		"Repair the solar panels using 5 Wires and 2 Batteries"
+	],
+	"otherRequirements": [],
+	"requiredItemIds": [
+		{
+			"itemId": "wires",
+			"quantity": 5
+		},
+		{
+			"itemId": "battery",
+			"quantity": 2
+		}
+	],
+	"grantedItemIds": [
+		{
+			"itemId": "zipline",
+			"quantity": 1
+		}
+	],
+	"rewardItemIds": [
+		{
+			"itemId": "blue_light_stick",
+			"quantity": 5
+		},
+		{
+			"itemId": "antiseptic",
+			"quantity": 3
+		},
+		{
+			"itemId": "durable_cloth",
+			"quantity": 5
+		}
+	],
+	"xp": 0,
+	"previousQuestIds": ["ss10s"],
+	"nextQuestIds": ["ss10x4"],
+	"traderId": "celeste"
 }

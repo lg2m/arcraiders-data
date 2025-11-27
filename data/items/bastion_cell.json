@@ -1,20 +1,20 @@
 {
-  "id": "bastion_cell",
-  "name": "Bastion Cell",
-  "rarity": "Epic",
-  "type": "Recyclable",
-  "value": 5000,
-  "recyclesInto": {
-    "arc_alloy": 2,
-    "advanced_mechanical_components": 2
-  },
-  "salvagesInto": {
-    "advanced_mechanical_components": 2
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 1,
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "imageFilename": "https://cdn.arctracker.io/items/bastion_cell.png",
-  "updatedAt": "11/01/2025"
+	"id": "bastion_cell",
+	"name": "Bastion Cell",
+	"rarity": "Epic",
+	"type": "Recyclable",
+	"value": 5000,
+	"recyclesInto": {
+		"arc_alloy": 2,
+		"advanced_mechanical_components": 2
+	},
+	"salvagesInto": {
+		"advanced_mechanical_components": 2
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 1,
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"imageFilename": "https://cdn.arctracker.io/items/bastion_cell.png",
+	"updatedAt": "11/01/2025"
 }

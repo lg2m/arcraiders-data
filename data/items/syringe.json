@@ -1,17 +1,17 @@
 {
-  "id": "syringe",
-  "name": "Syringe",
-  "description": "Used to craft medical supplies. Can be recycled into plastic. Used to craft: Vita Shot",
-  "type": "Topside Material",
-  "rarity": "Rare",
-  "value": 500,
-  "recyclesInto": {
-    "plastic_parts": 3,
-    "chemicals": 2
-  },
-  "weightKg": 0.3,
-  "stackSize": 5,
-  "foundIn": "Medical",
-  "imageFilename": "https://cdn.arctracker.io/items/syringe.png",
-  "updatedAt": "11/03/2025"
+	"id": "syringe",
+	"name": "Syringe",
+	"description": "Used to craft medical supplies. Can be recycled into plastic. Used to craft: Vita Shot",
+	"type": "Topside Material",
+	"rarity": "Rare",
+	"value": 500,
+	"recyclesInto": {
+		"plastic_parts": 3,
+		"chemicals": 2
+	},
+	"weightKg": 0.3,
+	"stackSize": 5,
+	"foundIn": "Medical",
+	"imageFilename": "https://cdn.arctracker.io/items/syringe.png",
+	"updatedAt": "11/03/2025"
 }

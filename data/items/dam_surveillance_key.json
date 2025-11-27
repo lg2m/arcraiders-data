@@ -1,11 +1,11 @@
 {
-  "id": "dam_surveillance_key",
-  "name": "Dam Surveillance Key",
-  "description": "Unlocks a door in the Water Treatment Control building on Dam Battlegrounds.",
-  "type": "Key",
-  "value": 100,
-  "rarity": "Uncommon",
-  "weightKg": 0.25,
-  "imageFilename": "https://cdn.arctracker.io/items/dam_surveillance_key.png",
-  "updatedAt": "11/03/2025"
+	"id": "dam_surveillance_key",
+	"name": "Dam Surveillance Key",
+	"description": "Unlocks a door in the Water Treatment Control building on Dam Battlegrounds.",
+	"type": "Key",
+	"value": 100,
+	"rarity": "Uncommon",
+	"weightKg": 0.25,
+	"imageFilename": "https://cdn.arctracker.io/items/dam_surveillance_key.png",
+	"updatedAt": "11/03/2025"
 }

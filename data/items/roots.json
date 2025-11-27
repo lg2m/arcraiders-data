@@ -1,16 +1,16 @@
 {
-  "id": "roots",
-  "name": "Roots",
-  "rarity": "Uncommon",
-  "description": "May be worth a few coins.",
-  "imageFilename": "https://cdn.arctracker.io/items/roots.png",
-  "type": "Nature",
-  "value": 640,
-  "recyclesInto": {
-    "assorted_seeds": 1
-  },
-  "updatedAt": "10/31/2025",
-  "weightKg": 0.2,
-  "stackSize": 10,
-  "foundIn": "Nature"
+	"id": "roots",
+	"name": "Roots",
+	"rarity": "Uncommon",
+	"description": "May be worth a few coins.",
+	"imageFilename": "https://cdn.arctracker.io/items/roots.png",
+	"type": "Nature",
+	"value": 640,
+	"recyclesInto": {
+		"assorted_seeds": 1
+	},
+	"updatedAt": "10/31/2025",
+	"weightKg": 0.2,
+	"stackSize": 10,
+	"foundIn": "Nature"
 }

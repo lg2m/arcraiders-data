@@ -1,19 +1,19 @@
 {
-  "id": "arc_coolant",
-  "name": "ARC Coolant",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "recyclesInto": {
-    "chemicals": 16
-  },
-  "salvagesInto": {
-    "chemicals": 9
-  },
-  "description": "Obtained from ARC enemies or activities. Can be recycled into chemicals.",
-  "weightKg": 1,
-  "stackSize": 3,
-  "foundIn": "ARC",
-  "imageFilename": "https://cdn.arctracker.io/items/arc_coolant.png",
-  "updatedAt": "10/30/2025"
+	"id": "arc_coolant",
+	"name": "ARC Coolant",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"recyclesInto": {
+		"chemicals": 16
+	},
+	"salvagesInto": {
+		"chemicals": 9
+	},
+	"description": "Obtained from ARC enemies or activities. Can be recycled into chemicals.",
+	"weightKg": 1,
+	"stackSize": 3,
+	"foundIn": "ARC",
+	"imageFilename": "https://cdn.arctracker.io/items/arc_coolant.png",
+	"updatedAt": "10/30/2025"
 }

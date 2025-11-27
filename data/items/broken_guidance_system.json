@@ -1,19 +1,19 @@
 {
-  "id": "broken_guidance_system",
-  "name": "Broken Guidance System",
-  "description": "Can be recycled into crafting materials.",
-  "type": "Recyclable",
-  "rarity": "Rare",
-  "foundIn": "Exodus",
-  "value": 2000,
-  "recyclesInto": {
-    "processor": 4
-  },
-  "salvagesInto": {
-    "processor": 2
-  },
-  "weightKg": 3,
-  "stackSize": 3,
-  "imageFilename": "https://cdn.arctracker.io/items/broken_guidance_system.png",
-  "updatedAt": "11/14/2025"
+	"id": "broken_guidance_system",
+	"name": "Broken Guidance System",
+	"description": "Can be recycled into crafting materials.",
+	"type": "Recyclable",
+	"rarity": "Rare",
+	"foundIn": "Exodus",
+	"value": 2000,
+	"recyclesInto": {
+		"processor": 4
+	},
+	"salvagesInto": {
+		"processor": 2
+	},
+	"weightKg": 3,
+	"stackSize": 3,
+	"imageFilename": "https://cdn.arctracker.io/items/broken_guidance_system.png",
+	"updatedAt": "11/14/2025"
 }

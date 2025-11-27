@@ -1,22 +1,22 @@
 {
-  "id": "complex_gun_parts",
-  "name": "Complex Gun Parts",
-  "description": "Used to craft advanced weapons. Used to craft: Equalizer, Jupiter",
-  "type": "Topside Material",
-  "rarity": "Epic",
-  "weightKg": 1,
-  "stackSize": 3,
-  "foundIn": "Security",
-  "imageFilename": "https://cdn.arctracker.io/items/complex_gun_parts.png",
-  "value": 2000,
-  "recyclesInto": {
-    "simple_gun_parts": 3
-  },
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "light_gun_parts": 2,
-    "medium_gun_parts": 2,
-    "heavy_gun_parts": 2
-  },
-  "craftBench": "refiner"
+	"id": "complex_gun_parts",
+	"name": "Complex Gun Parts",
+	"description": "Used to craft advanced weapons. Used to craft: Equalizer, Jupiter",
+	"type": "Topside Material",
+	"rarity": "Epic",
+	"weightKg": 1,
+	"stackSize": 3,
+	"foundIn": "Security",
+	"imageFilename": "https://cdn.arctracker.io/items/complex_gun_parts.png",
+	"value": 2000,
+	"recyclesInto": {
+		"simple_gun_parts": 3
+	},
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"light_gun_parts": 2,
+		"medium_gun_parts": 2,
+		"heavy_gun_parts": 2
+	},
+	"craftBench": "refiner"
 }

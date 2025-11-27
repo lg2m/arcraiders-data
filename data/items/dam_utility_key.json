@@ -1,12 +1,12 @@
 {
-  "id": "dam_utility_key",
-  "name": "Dam Utility Key",
-  "description": "A key for utility access in The Dam.",
-  "type": "Key",
-  "updatedAt": "11/10/2025",
-  "imageFilename": "https://cdn.arctracker.io/items/dam_utility_key.png",
-  "value": 100,
-  "weightKg": 0.25,
-  "stackSize": 1,
-  "rarity": "Uncommon"
+	"id": "dam_utility_key",
+	"name": "Dam Utility Key",
+	"description": "A key for utility access in The Dam.",
+	"type": "Key",
+	"updatedAt": "11/10/2025",
+	"imageFilename": "https://cdn.arctracker.io/items/dam_utility_key.png",
+	"value": 100,
+	"weightKg": 0.25,
+	"stackSize": 1,
+	"rarity": "Uncommon"
 }

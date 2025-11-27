@@ -1,65 +1,65 @@
 {
-  "id": "snap_blast_grenade",
-  "name": "Snap Blast Grenade",
-  "description": "A grenade that sticks to surfaces, dealing explosive damage after a short delay.",
-  "type": "Quick Use",
-  "value": 800,
-  "rarity": "Uncommon",
-  "recyclesInto": {
-    "chemicals": 1,
-    "magnet": 1
-  },
-  "weightKg": 0.2,
-  "stackSize": 3,
-  "effects": {
-    "Damage": {
-      "en": "Damage",
-      "de": "Schaden",
-      "fr": "Dégâts",
-      "es": "Daño",
-      "pt": "Dano",
-      "pl": "Obrażenia",
-      "no": "Skade",
-      "da": "Skade",
-      "it": "Danno",
-      "ru": "Урон",
-      "ja": "ダメージ",
-      "zh-TW": "傷害",
-      "uk": "Шкода",
-      "zh-CN": "伤害",
-      "kr": "피해",
-      "tr": "Hasar",
-      "hr": "Šteta",
-      "sr": "Šteta",
-      "value": 70
-    },
-    "Radius": {
-      "en": "Radius",
-      "de": "Radius",
-      "fr": "Rayon",
-      "es": "Radio",
-      "pt": "Raio",
-      "pl": "Zasięg",
-      "no": "Radius",
-      "da": "Radius",
-      "it": "Raggio",
-      "ru": "Радиус",
-      "ja": "範囲",
-      "zh-TW": "範圍",
-      "uk": "Радіус",
-      "zh-CN": "范围",
-      "kr": "반경",
-      "tr": "Yarıçap",
-      "hr": "Radijus",
-      "sr": "Radijus",
-      "value": "7.5m"
-    }
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/snap_blast_grenade.png",
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "crude_explosives": 2,
-    "magnet": 1
-  },
-  "craftBench": "explosives_station"
+	"id": "snap_blast_grenade",
+	"name": "Snap Blast Grenade",
+	"description": "A grenade that sticks to surfaces, dealing explosive damage after a short delay.",
+	"type": "Quick Use",
+	"value": 800,
+	"rarity": "Uncommon",
+	"recyclesInto": {
+		"chemicals": 1,
+		"magnet": 1
+	},
+	"weightKg": 0.2,
+	"stackSize": 3,
+	"effects": {
+		"Damage": {
+			"en": "Damage",
+			"de": "Schaden",
+			"fr": "Dégâts",
+			"es": "Daño",
+			"pt": "Dano",
+			"pl": "Obrażenia",
+			"no": "Skade",
+			"da": "Skade",
+			"it": "Danno",
+			"ru": "Урон",
+			"ja": "ダメージ",
+			"zh-TW": "傷害",
+			"uk": "Шкода",
+			"zh-CN": "伤害",
+			"kr": "피해",
+			"tr": "Hasar",
+			"hr": "Šteta",
+			"sr": "Šteta",
+			"value": 70
+		},
+		"Radius": {
+			"en": "Radius",
+			"de": "Radius",
+			"fr": "Rayon",
+			"es": "Radio",
+			"pt": "Raio",
+			"pl": "Zasięg",
+			"no": "Radius",
+			"da": "Radius",
+			"it": "Raggio",
+			"ru": "Радиус",
+			"ja": "範囲",
+			"zh-TW": "範圍",
+			"uk": "Радіус",
+			"zh-CN": "范围",
+			"kr": "반경",
+			"tr": "Yarıçap",
+			"hr": "Radijus",
+			"sr": "Radijus",
+			"value": "7.5m"
+		}
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/snap_blast_grenade.png",
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"crude_explosives": 2,
+		"magnet": 1
+	},
+	"craftBench": "explosives_station"
 }

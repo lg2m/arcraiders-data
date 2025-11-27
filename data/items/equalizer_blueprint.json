@@ -1,11 +1,11 @@
 {
-  "id": "equalizer_blueprint",
-  "name": "Equalizer Blueprint",
-  "description": "A high capacity experimental beam rifle.",
-  "type": "Blueprint",
-  "rarity": "Legendary",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/equalizer.png",
-  "updatedAt": "11/12/2025"
+	"id": "equalizer_blueprint",
+	"name": "Equalizer Blueprint",
+	"description": "A high capacity experimental beam rifle.",
+	"type": "Blueprint",
+	"rarity": "Legendary",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/equalizer.png",
+	"updatedAt": "11/12/2025"
 }

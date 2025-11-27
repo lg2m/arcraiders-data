@@ -1,11 +1,11 @@
 {
-  "id": "remote_raider_flare_blueprint",
-  "name": "Remote Raider Flare Blueprint",
-  "description": "A deployable device that, when manually triggered, launches a Raider Distress Flare.",
-  "type": "Blueprint",
-  "rarity": "Legendary",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
-  "updatedAt": "11/17/2025"
+	"id": "remote_raider_flare_blueprint",
+	"name": "Remote Raider Flare Blueprint",
+	"description": "A deployable device that, when manually triggered, launches a Raider Distress Flare.",
+	"type": "Blueprint",
+	"rarity": "Legendary",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
+	"updatedAt": "11/17/2025"
 }

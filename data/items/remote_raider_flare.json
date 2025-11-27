@@ -1,21 +1,21 @@
 {
-  "id": "remote_raider_flare",
-  "name": "Remote Raider Flare",
-  "description": "A deployable device that, when manually triggered, launches a Raider Distress Flare.",
-  "type": "Quick Use",
-  "rarity": "Common",
-  "value": 270,
-  "recyclesInto": {
-    "chemicals": 1,
-    "rubber_parts": 1
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
-  "weightKg": 0.2,
-  "stackSize": 3,
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "chemicals": 2,
-    "rubber_parts": 4
-  },
-  "craftBench": "utility_station"
+	"id": "remote_raider_flare",
+	"name": "Remote Raider Flare",
+	"description": "A deployable device that, when manually triggered, launches a Raider Distress Flare.",
+	"type": "Quick Use",
+	"rarity": "Common",
+	"value": 270,
+	"recyclesInto": {
+		"chemicals": 1,
+		"rubber_parts": 1
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
+	"weightKg": 0.2,
+	"stackSize": 3,
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"chemicals": 2,
+		"rubber_parts": 4
+	},
+	"craftBench": "utility_station"
 }

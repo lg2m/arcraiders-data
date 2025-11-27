@@ -1,15 +1,15 @@
 {
-  "id": "kettle_ii",
-  "name": "Kettle II",
-  "description": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time reload.",
-  "type": "Weapon",
-  "rarity": "Common",
-  "value": 840,
-  "weightKg": 7,
-  "recyclesInto": {
-    "plastic_parts": 6,
-    "rubber_parts": 6
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-  "updatedAt": "10/30/2025"
+	"id": "kettle_ii",
+	"name": "Kettle II",
+	"description": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time reload.",
+	"type": "Weapon",
+	"rarity": "Common",
+	"value": 840,
+	"weightKg": 7,
+	"recyclesInto": {
+		"plastic_parts": 6,
+		"rubber_parts": 6
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/kettle.png",
+	"updatedAt": "10/30/2025"
 }

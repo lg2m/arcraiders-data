@@ -1,65 +1,65 @@
 {
-  "id": "lil_smoke_grenade",
-  "name": "Li'l Smoke Grenade",
-  "description": "A grenade that pops a thick but small smoke cloud on impact, blocking visibility from ARC and other Raiders.",
-  "type": "Quick Use",
-  "value": 300,
-  "rarity": "Common",
-  "recyclesInto": {
-    "chemicals": 1,
-    "plastic_parts": 1
-  },
-  "weightKg": 0.15,
-  "stackSize": 5,
-  "effects": {
-    "Duration": {
-      "en": "Duration",
-      "de": "Dauer",
-      "fr": "Durée",
-      "es": "Duración",
-      "pt": "Duração",
-      "pl": "Czas trwania",
-      "no": "Varighet",
-      "da": "Varighed",
-      "it": "Durata",
-      "ru": "Длительность",
-      "ja": "持続時間",
-      "zh-TW": "持續時間",
-      "uk": "Тривалість",
-      "zh-CN": "持续时间",
-      "kr": "지속 시간",
-      "tr": "Süre",
-      "hr": "Trajanje",
-      "sr": "Trajanje",
-      "value": "6s"
-    },
-    "Radius": {
-      "en": "Radius",
-      "de": "Radius",
-      "fr": "Rayon",
-      "es": "Radio",
-      "pt": "Raio",
-      "pl": "Zasięg",
-      "no": "Radius",
-      "da": "Radius",
-      "it": "Raggio",
-      "ru": "Радиус",
-      "ja": "範囲",
-      "zh-TW": "範圍",
-      "uk": "Радіус",
-      "zh-CN": "范围",
-      "kr": "반경",
-      "tr": "Yarıçap",
-      "hr": "Radijus",
-      "sr": "Radijus",
-      "value": "2.5m"
-    }
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/lil_smoke_grenade.png",
-  "updatedAt": "11/03/2025",
-  "recipe": {
-    "chemicals": 5,
-    "plastic_parts": 1
-  },
-  "craftBench": "utility_station"
+	"id": "lil_smoke_grenade",
+	"name": "Li'l Smoke Grenade",
+	"description": "A grenade that pops a thick but small smoke cloud on impact, blocking visibility from ARC and other Raiders.",
+	"type": "Quick Use",
+	"value": 300,
+	"rarity": "Common",
+	"recyclesInto": {
+		"chemicals": 1,
+		"plastic_parts": 1
+	},
+	"weightKg": 0.15,
+	"stackSize": 5,
+	"effects": {
+		"Duration": {
+			"en": "Duration",
+			"de": "Dauer",
+			"fr": "Durée",
+			"es": "Duración",
+			"pt": "Duração",
+			"pl": "Czas trwania",
+			"no": "Varighet",
+			"da": "Varighed",
+			"it": "Durata",
+			"ru": "Длительность",
+			"ja": "持続時間",
+			"zh-TW": "持續時間",
+			"uk": "Тривалість",
+			"zh-CN": "持续时间",
+			"kr": "지속 시간",
+			"tr": "Süre",
+			"hr": "Trajanje",
+			"sr": "Trajanje",
+			"value": "6s"
+		},
+		"Radius": {
+			"en": "Radius",
+			"de": "Radius",
+			"fr": "Rayon",
+			"es": "Radio",
+			"pt": "Raio",
+			"pl": "Zasięg",
+			"no": "Radius",
+			"da": "Radius",
+			"it": "Raggio",
+			"ru": "Радиус",
+			"ja": "範囲",
+			"zh-TW": "範圍",
+			"uk": "Радіус",
+			"zh-CN": "范围",
+			"kr": "반경",
+			"tr": "Yarıçap",
+			"hr": "Radijus",
+			"sr": "Radijus",
+			"value": "2.5m"
+		}
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/lil_smoke_grenade.png",
+	"updatedAt": "11/03/2025",
+	"recipe": {
+		"chemicals": 5,
+		"plastic_parts": 1
+	},
+	"craftBench": "utility_station"
 }

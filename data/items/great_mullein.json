@@ -1,16 +1,16 @@
 {
-  "id": "great_mullein",
-  "name": "Great Mullein",
-  "rarity": "Uncommon",
-  "type": "Topside Material",
-  "value": 300,
-  "recyclesInto": {
-    "assorted_seeds": 2
-  },
-  "updatedAt": "10/31/2025",
-  "description": "Used to craft medical supplies. Used to craft: Herbal Bandage, Antiseptic",
-  "weightKg": 0.25,
-  "foundIn": "Nature",
-  "stackSize": 15,
-  "imageFilename": "https://cdn.arctracker.io/items/great_mullein.png"
+	"id": "great_mullein",
+	"name": "Great Mullein",
+	"rarity": "Uncommon",
+	"type": "Topside Material",
+	"value": 300,
+	"recyclesInto": {
+		"assorted_seeds": 2
+	},
+	"updatedAt": "10/31/2025",
+	"description": "Used to craft medical supplies. Used to craft: Herbal Bandage, Antiseptic",
+	"weightKg": 0.25,
+	"foundIn": "Nature",
+	"stackSize": 15,
+	"imageFilename": "https://cdn.arctracker.io/items/great_mullein.png"
 }

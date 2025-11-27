@@ -1,11 +1,11 @@
 {
-  "id": "medium_gun_parts_blueprint",
-  "name": "Medium Gun Parts Blueprint",
-  "description": "Assorted spare parts used for rifles.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts_blueprint.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/12/2025"
+	"id": "medium_gun_parts_blueprint",
+	"name": "Medium Gun Parts Blueprint",
+	"description": "Assorted spare parts used for rifles.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/medium_gun_parts_blueprint.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/12/2025"
 }

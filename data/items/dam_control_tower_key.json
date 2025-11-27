@@ -1,11 +1,11 @@
 {
-  "id": "dam_control_tower_key",
-  "name": "Dam Control Tower Key",
-  "description": "Unlocks a door to the Control Tower on Dam Battlegrounds.",
-  "type": "Key",
-  "rarity": "Epic",
-  "weightKg": 0.25,
-  "value": 100,
-  "imageFilename": "https://cdn.arctracker.io/items/dam_control_tower_key.png",
-  "updatedAt": "10/30/2025"
+	"id": "dam_control_tower_key",
+	"name": "Dam Control Tower Key",
+	"description": "Unlocks a door to the Control Tower on Dam Battlegrounds.",
+	"type": "Key",
+	"rarity": "Epic",
+	"weightKg": 0.25,
+	"value": 100,
+	"imageFilename": "https://cdn.arctracker.io/items/dam_control_tower_key.png",
+	"updatedAt": "10/30/2025"
 }

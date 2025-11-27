@@ -1,11 +1,11 @@
 {
-  "id": "buried_city_hospital_key",
-  "name": "Buried City Hospital Key",
-  "description": "A key to areas within the Buried City Hospital.",
-  "type": "Key",
-  "rarity": "Rare",
-  "value": 100,
-  "weightKg": 0.25,
-  "recyclesInto": {},
-  "updatedAt": "10/30/2025"
+	"id": "buried_city_hospital_key",
+	"name": "Buried City Hospital Key",
+	"description": "A key to areas within the Buried City Hospital.",
+	"type": "Key",
+	"rarity": "Rare",
+	"value": 100,
+	"weightKg": 0.25,
+	"recyclesInto": {},
+	"updatedAt": "10/30/2025"
 }

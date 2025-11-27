@@ -4,7 +4,10 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "ingest": "bun run src/index.ts"
+    "ingest": "bun run src/index.ts",
+    "ingest:items": "bun run src/ingest/items.ts",
+    "ingest:maps": "bun run src/ingest/maps.ts",
+    "analyze:items": "bun run src/analysis.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

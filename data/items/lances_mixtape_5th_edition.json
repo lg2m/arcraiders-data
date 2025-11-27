@@ -1,13 +1,13 @@
 {
-  "id": "lances_mixtape_5th_edition",
-  "name": "Lance's Mixtape (5th Edition)",
-  "description": "Lance has personally planted a number of these around the Rust Belt, for some reason.",
-  "type": "Trinket",
-  "value": 10000,
-  "updatedAt": "11/04/2025",
-  "rarity": "Epic",
-  "weightKg": 0.2,
-  "stackSize": 3,
-  "foundIn": "Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/lances_mixtape_5th_edition.png"
+	"id": "lances_mixtape_5th_edition",
+	"name": "Lance's Mixtape (5th Edition)",
+	"description": "Lance has personally planted a number of these around the Rust Belt, for some reason.",
+	"type": "Trinket",
+	"value": 10000,
+	"updatedAt": "11/04/2025",
+	"rarity": "Epic",
+	"weightKg": 0.2,
+	"stackSize": 3,
+	"foundIn": "Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/lances_mixtape_5th_edition.png"
 }

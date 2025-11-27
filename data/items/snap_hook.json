@@ -1,64 +1,64 @@
 {
-  "id": "snap_hook",
-  "name": "Snap Hook",
-  "description": "A gadget that allows the user to scale structures and cover large distances.",
-  "type": "Quick Use",
-  "rarity": "Legendary",
-  "value": 14000,
-  "imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
-  "weightKg": 5,
-  "effects": {
-    "Durability": {
-      "en": "Durability",
-      "de": "Haltbarkeit",
-      "fr": "Durabilité",
-      "es": "Durabilidad",
-      "pt": "Durabilidade",
-      "pl": "Wytrzymałość",
-      "no": "Holdbarhet",
-      "da": "Holdbarhed",
-      "it": "Durabilità",
-      "ru": "Прочность",
-      "ja": "耐久性",
-      "zh-TW": "耐久度",
-      "uk": "Міцність",
-      "zh-CN": "耐久度",
-      "kr": "내구도",
-      "tr": "Dayanıklılık",
-      "hr": "Izdržljivost",
-      "sr": "Izdržljivost",
-      "value": "100/100"
-    },
-    "Range": {
-      "en": "Range",
-      "de": "Reichweite",
-      "fr": "Portée",
-      "es": "Alcance",
-      "pt": "Alcance",
-      "pl": "Zasięg",
-      "no": "Rekkevidde",
-      "da": "Rækkevidde",
-      "it": "Portata",
-      "ru": "Дальность",
-      "ja": "射程",
-      "zh-TW": "範圍",
-      "uk": "Дальність",
-      "zh-CN": "范围",
-      "kr": "사거리",
-      "tr": "Menzil",
-      "hr": "Domet",
-      "sr": "Domet",
-      "value": "20m"
-    }
-  },
-  "recipe": {
-    "power_rod": 1,
-    "exodus_modules": 1
-  },
-  "recyclesInto": {
-    "power_rod": 1,
-    "rope": 3
-  },
-  "craftBench": "utility_station",
-  "updatedAt": "11/05/2025"
+	"id": "snap_hook",
+	"name": "Snap Hook",
+	"description": "A gadget that allows the user to scale structures and cover large distances.",
+	"type": "Quick Use",
+	"rarity": "Legendary",
+	"value": 14000,
+	"imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
+	"weightKg": 5,
+	"effects": {
+		"Durability": {
+			"en": "Durability",
+			"de": "Haltbarkeit",
+			"fr": "Durabilité",
+			"es": "Durabilidad",
+			"pt": "Durabilidade",
+			"pl": "Wytrzymałość",
+			"no": "Holdbarhet",
+			"da": "Holdbarhed",
+			"it": "Durabilità",
+			"ru": "Прочность",
+			"ja": "耐久性",
+			"zh-TW": "耐久度",
+			"uk": "Міцність",
+			"zh-CN": "耐久度",
+			"kr": "내구도",
+			"tr": "Dayanıklılık",
+			"hr": "Izdržljivost",
+			"sr": "Izdržljivost",
+			"value": "100/100"
+		},
+		"Range": {
+			"en": "Range",
+			"de": "Reichweite",
+			"fr": "Portée",
+			"es": "Alcance",
+			"pt": "Alcance",
+			"pl": "Zasięg",
+			"no": "Rekkevidde",
+			"da": "Rækkevidde",
+			"it": "Portata",
+			"ru": "Дальность",
+			"ja": "射程",
+			"zh-TW": "範圍",
+			"uk": "Дальність",
+			"zh-CN": "范围",
+			"kr": "사거리",
+			"tr": "Menzil",
+			"hr": "Domet",
+			"sr": "Domet",
+			"value": "20m"
+		}
+	},
+	"recipe": {
+		"power_rod": 1,
+		"exodus_modules": 1
+	},
+	"recyclesInto": {
+		"power_rod": 1,
+		"rope": 3
+	},
+	"craftBench": "utility_station",
+	"updatedAt": "11/05/2025"
 }

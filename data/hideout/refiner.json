@@ -1,58 +1,58 @@
 {
-  "id": "refiner",
-  "name": "Refiner",
-  "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGg1fnNrLZAhtKeH0jLvsyUcXJMGiVSCx9o8ld3",
-  "maxLevel": 3,
-  "levels": [
-    {
-      "level": 1,
-      "requirementItemIds": [
-        {
-          "itemId": "metal_parts",
-          "quantity": 60
-        },
-        {
-          "itemId": "arc_powercell",
-          "quantity": 5
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 2,
-      "requirementItemIds": [
-        {
-          "itemId": "toaster",
-          "quantity": 3
-        },
-        {
-          "itemId": "arc_motion_core",
-          "quantity": 5
-        },
-        {
-          "itemId": "fireball_burner",
-          "quantity": 8
-        }
-      ],
-      "description": null
-    },
-    {
-      "level": 3,
-      "requirementItemIds": [
-        {
-          "itemId": "motor",
-          "quantity": 3
-        },
-        {
-          "itemId": "arc_circuitry",
-          "quantity": 10
-        },
-        {
-          "itemId": "bombardier_cell",
-          "quantity": 6
-        }
-      ],
-      "description": null
-    }
-  ]
+	"id": "refiner",
+	"name": "Refiner",
+	"image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGg1fnNrLZAhtKeH0jLvsyUcXJMGiVSCx9o8ld3",
+	"maxLevel": 3,
+	"levels": [
+		{
+			"level": 1,
+			"requirementItemIds": [
+				{
+					"itemId": "metal_parts",
+					"quantity": 60
+				},
+				{
+					"itemId": "arc_powercell",
+					"quantity": 5
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 2,
+			"requirementItemIds": [
+				{
+					"itemId": "toaster",
+					"quantity": 3
+				},
+				{
+					"itemId": "arc_motion_core",
+					"quantity": 5
+				},
+				{
+					"itemId": "fireball_burner",
+					"quantity": 8
+				}
+			],
+			"description": null
+		},
+		{
+			"level": 3,
+			"requirementItemIds": [
+				{
+					"itemId": "motor",
+					"quantity": 3
+				},
+				{
+					"itemId": "arc_circuitry",
+					"quantity": 10
+				},
+				{
+					"itemId": "bombardier_cell",
+					"quantity": 6
+				}
+			],
+			"description": null
+		}
+	]
 }

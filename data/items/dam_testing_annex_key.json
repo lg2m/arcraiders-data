@@ -1,11 +1,11 @@
 {
-  "id": "dam_testing_annex_key",
-  "name": "Dam Testing Annex Key",
-  "description": "Unlocks a door in the Testing Annex on Dam Battlegrounds.",
-  "type": "Key",
-  "rarity": "Rare",
-  "value": 100,
-  "weightKg": 0.25,
-  "imageFilename": "https://cdn.arctracker.io/items/dam_testing_annex_key.png",
-  "updatedAt": "10/30/2025"
+	"id": "dam_testing_annex_key",
+	"name": "Dam Testing Annex Key",
+	"description": "Unlocks a door in the Testing Annex on Dam Battlegrounds.",
+	"type": "Key",
+	"rarity": "Rare",
+	"value": 100,
+	"weightKg": 0.25,
+	"imageFilename": "https://cdn.arctracker.io/items/dam_testing_annex_key.png",
+	"updatedAt": "10/30/2025"
 }

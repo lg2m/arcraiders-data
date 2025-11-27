@@ -1,19 +1,19 @@
 {
-  "id": "garlic_press",
-  "name": "Garlic Press",
-  "description": "It'll press garlic, olives, and probably many other things.",
-  "rarity": "Uncommon",
-  "type": "Recyclable",
-  "value": 1000,
-  "weightKg": 0.8,
-  "stackSize": 3,
-  "imageFilename": "https://cdn.arctracker.io/items/garlic_press.png",
-  "recyclesInto": {
-    "metal_parts": 12
-  },
-  "salvagesInto": {
-    "metal_parts": 7
-  },
-  "updatedAt": "11/04/2025",
-  "foundIn": "Residential, Commercial"
+	"id": "garlic_press",
+	"name": "Garlic Press",
+	"description": "It'll press garlic, olives, and probably many other things.",
+	"rarity": "Uncommon",
+	"type": "Recyclable",
+	"value": 1000,
+	"weightKg": 0.8,
+	"stackSize": 3,
+	"imageFilename": "https://cdn.arctracker.io/items/garlic_press.png",
+	"recyclesInto": {
+		"metal_parts": 12
+	},
+	"salvagesInto": {
+		"metal_parts": 7
+	},
+	"updatedAt": "11/04/2025",
+	"foundIn": "Residential, Commercial"
 }

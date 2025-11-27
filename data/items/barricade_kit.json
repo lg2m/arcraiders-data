@@ -1,64 +1,64 @@
 {
-  "id": "barricade_kit",
-  "name": "Barricade Kit",
-  "description": "A deployable cover that can block incoming damage until it breaks.",
-  "type": "Quick Use",
-  "rarity": "Uncommon",
-  "value": 640,
-  "recyclesInto": {
-    "metal_parts": 4
-  },
-  "weightKg": 0.4,
-  "stackSize": 3,
-  "effects": {
-    "Health": {
-      "en": "Health",
-      "de": "Gesundheit",
-      "fr": "Santé",
-      "es": "Salud",
-      "pt": "Saúde",
-      "pl": "Zdrowie",
-      "no": "Helse",
-      "da": "Helbred",
-      "it": "Salute",
-      "ru": "Здоровье",
-      "ja": "体力",
-      "zh-TW": "生命值",
-      "uk": "Здоров'я",
-      "zh-CN": "生命值",
-      "kr": "체력",
-      "tr": "Sağlık",
-      "hr": "Zdravlje",
-      "sr": "Zdravlje",
-      "value": 500
-    },
-    "Duration": {
-      "en": "Duration",
-      "pl": "Czas trwania",
-      "it": "Durata",
-      "zh-CN": "持续时间",
-      "kr": "지속 시간",
-      "hr": "Trajanje",
-      "de": "Dauer",
-      "ru": "Длительность",
-      "es": "Duración",
-      "zh-TW": "持續時間",
-      "pt": "Duração",
-      "sr": "Trajanje",
-      "ja": "持続時間",
-      "da": "Varighed",
-      "tr": "Süre",
-      "uk": "Тривалість",
-      "no": "Varighet",
-      "fr": "Durée",
-      "value": "500 Health"
-    }
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/barricade_kit.png",
-  "updatedAt": "11/13/2025",
-  "recipe": {
-    "mechanical_components": 1
-  },
-  "craftBench": "utility_station",
-  "stationLevelRequired": 1
+	"id": "barricade_kit",
+	"name": "Barricade Kit",
+	"description": "A deployable cover that can block incoming damage until it breaks.",
+	"type": "Quick Use",
+	"rarity": "Uncommon",
+	"value": 640,
+	"recyclesInto": {
+		"metal_parts": 4
+	},
+	"weightKg": 0.4,
+	"stackSize": 3,
+	"effects": {
+		"Health": {
+			"en": "Health",
+			"de": "Gesundheit",
+			"fr": "Santé",
+			"es": "Salud",
+			"pt": "Saúde",
+			"pl": "Zdrowie",
+			"no": "Helse",
+			"da": "Helbred",
+			"it": "Salute",
+			"ru": "Здоровье",
+			"ja": "体力",
+			"zh-TW": "生命值",
+			"uk": "Здоров'я",
+			"zh-CN": "生命值",
+			"kr": "체력",
+			"tr": "Sağlık",
+			"hr": "Zdravlje",
+			"sr": "Zdravlje",
+			"value": 500
+		},
+		"Duration": {
+			"en": "Duration",
+			"pl": "Czas trwania",
+			"it": "Durata",
+			"zh-CN": "持续时间",
+			"kr": "지속 시간",
+			"hr": "Trajanje",
+			"de": "Dauer",
+			"ru": "Длительность",
+			"es": "Duración",
+			"zh-TW": "持續時間",
+			"pt": "Duração",
+			"sr": "Trajanje",
+			"ja": "持続時間",
+			"da": "Varighed",
+			"tr": "Süre",
+			"uk": "Тривалість",
+			"no": "Varighet",
+			"fr": "Durée",
+			"value": "500 Health"
+		}
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/barricade_kit.png",
+	"updatedAt": "11/13/2025",
+	"recipe": {
+		"mechanical_components": 1
+	},
+	"craftBench": "utility_station",
+	"stationLevelRequired": 1
 }

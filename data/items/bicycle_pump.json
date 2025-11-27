@@ -1,20 +1,20 @@
 {
-  "id": "bicycle_pump",
-  "name": "Bicycle Pump",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 2000,
-  "recyclesInto": {
-    "canister": 4,
-    "metal_parts": 10
-  },
-  "salvagesInto": {
-    "canister": 3
-  },
-  "description": "Can be recycled into crafting materials.",
-  "weightKg": 3,
-  "foundIn": "Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/bicycle_pump.png",
-  "updatedAt": "11/01/2025",
-  "stackSize": 3
+	"id": "bicycle_pump",
+	"name": "Bicycle Pump",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 2000,
+	"recyclesInto": {
+		"canister": 4,
+		"metal_parts": 10
+	},
+	"salvagesInto": {
+		"canister": 3
+	},
+	"description": "Can be recycled into crafting materials.",
+	"weightKg": 3,
+	"foundIn": "Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/bicycle_pump.png",
+	"updatedAt": "11/01/2025",
+	"stackSize": 3
 }

@@ -1,20 +1,20 @@
 {
-  "id": "radio",
-  "name": "Radio",
-  "rarity": "Rare",
-  "type": "Recyclable",
-  "value": 1000,
-  "recyclesInto": {
-    "speaker_component": 1,
-    "sensors": 1
-  },
-  "salvagesInto": {
-    "speaker_component": 1
-  },
-  "updatedAt": "11/04/2025",
-  "description": "Can be recycled into crafting components.",
-  "weightKg": 2,
-  "stackSize": 3,
-  "foundIn": "Commercial, Residential",
-  "imageFilename": "https://cdn.arctracker.io/items/radio.png"
+	"id": "radio",
+	"name": "Radio",
+	"rarity": "Rare",
+	"type": "Recyclable",
+	"value": 1000,
+	"recyclesInto": {
+		"speaker_component": 1,
+		"sensors": 1
+	},
+	"salvagesInto": {
+		"speaker_component": 1
+	},
+	"updatedAt": "11/04/2025",
+	"description": "Can be recycled into crafting components.",
+	"weightKg": 2,
+	"stackSize": 3,
+	"foundIn": "Commercial, Residential",
+	"imageFilename": "https://cdn.arctracker.io/items/radio.png"
 }

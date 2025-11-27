@@ -1,64 +1,64 @@
 {
-  "id": "surge_shield_recharger",
-  "name": "Surge Shield Recharger",
-  "description": "A handheld kit that recharges a shield on use.",
-  "type": "Quick Use",
-  "value": 1200,
-  "rarity": "Rare",
-  "weightKg": 0.2,
-  "stackSize": 5,
-  "effects": {
-    "Recharge": {
-      "en": "Recharge",
-      "de": "Aufladung",
-      "fr": "Recharge",
-      "es": "Recarga",
-      "pt": "Recarga",
-      "pl": "Ładowanie",
-      "no": "Lading",
-      "da": "Opladning",
-      "it": "Ricarica",
-      "ru": "Перезарядка",
-      "ja": "充電量",
-      "zh-TW": "充能量",
-      "uk": "Перезарядка",
-      "zh-CN": "充能量",
-      "kr": "충전량",
-      "tr": "Şarj",
-      "hr": "Punjenje",
-      "sr": "Punjenje",
-      "value": 50
-    },
-    "Use Time": {
-      "en": "Use Time",
-      "de": "Nutzungszeit",
-      "fr": "Temps d'utilisation",
-      "es": "Tiempo de uso",
-      "pt": "Tempo de uso",
-      "pl": "Czas użycia",
-      "no": "Brukstid",
-      "da": "Brugstid",
-      "it": "Tempo di utilizzo",
-      "ru": "Время использования",
-      "ja": "使用時間",
-      "zh-TW": "使用時間",
-      "uk": "Час використання",
-      "zh-CN": "使用时间",
-      "kr": "사용 시간",
-      "tr": "Kullanım Süresi",
-      "hr": "Vrijeme Korištenja",
-      "sr": "Vreme Korišćenja",
-      "value": "5s"
-    }
-  },
-  "imageFilename": "https://cdn.arctracker.io/items/surge_shield_recharger.png",
-  "updatedAt": "11/03/2025",
-  "recyclesInto": {
-    "electrical_components": 1
-  },
-  "recipe": {
-    "electrical_components": 1,
-    "advanced_arc_powercell": 1
-  },
-  "craftBench": "medical_lab"
+	"id": "surge_shield_recharger",
+	"name": "Surge Shield Recharger",
+	"description": "A handheld kit that recharges a shield on use.",
+	"type": "Quick Use",
+	"value": 1200,
+	"rarity": "Rare",
+	"weightKg": 0.2,
+	"stackSize": 5,
+	"effects": {
+		"Recharge": {
+			"en": "Recharge",
+			"de": "Aufladung",
+			"fr": "Recharge",
+			"es": "Recarga",
+			"pt": "Recarga",
+			"pl": "Ładowanie",
+			"no": "Lading",
+			"da": "Opladning",
+			"it": "Ricarica",
+			"ru": "Перезарядка",
+			"ja": "充電量",
+			"zh-TW": "充能量",
+			"uk": "Перезарядка",
+			"zh-CN": "充能量",
+			"kr": "충전량",
+			"tr": "Şarj",
+			"hr": "Punjenje",
+			"sr": "Punjenje",
+			"value": 50
+		},
+		"Use Time": {
+			"en": "Use Time",
+			"de": "Nutzungszeit",
+			"fr": "Temps d'utilisation",
+			"es": "Tiempo de uso",
+			"pt": "Tempo de uso",
+			"pl": "Czas użycia",
+			"no": "Brukstid",
+			"da": "Brugstid",
+			"it": "Tempo di utilizzo",
+			"ru": "Время использования",
+			"ja": "使用時間",
+			"zh-TW": "使用時間",
+			"uk": "Час використання",
+			"zh-CN": "使用时间",
+			"kr": "사용 시간",
+			"tr": "Kullanım Süresi",
+			"hr": "Vrijeme Korištenja",
+			"sr": "Vreme Korišćenja",
+			"value": "5s"
+		}
+	},
+	"imageFilename": "https://cdn.arctracker.io/items/surge_shield_recharger.png",
+	"updatedAt": "11/03/2025",
+	"recyclesInto": {
+		"electrical_components": 1
+	},
+	"recipe": {
+		"electrical_components": 1,
+		"advanced_arc_powercell": 1
+	},
+	"craftBench": "medical_lab"
 }

@@ -1,11 +1,11 @@
 {
-  "id": "vertical_grip_iii_blueprint",
-  "name": "Vertical Grip III Blueprint",
-  "description": "Significantly reduces vertical recoil.",
-  "type": "Blueprint",
-  "value": 5000,
-  "weightKg": 0,
-  "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_iii_blueprint.png",
-  "rarity": "Legendary",
-  "updatedAt": "11/12/2025"
+	"id": "vertical_grip_iii_blueprint",
+	"name": "Vertical Grip III Blueprint",
+	"description": "Significantly reduces vertical recoil.",
+	"type": "Blueprint",
+	"value": 5000,
+	"weightKg": 0,
+	"imageFilename": "https://cdn.arctracker.io/items/vertical_grip_iii_blueprint.png",
+	"rarity": "Legendary",
+	"updatedAt": "11/12/2025"
 }

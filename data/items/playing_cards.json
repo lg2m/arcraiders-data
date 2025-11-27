@@ -1,14 +1,14 @@
 {
-  "id": "playing_cards",
-  "name": "Playing Cards",
-  "description": "Speranzans love to see who can build the tallest tower - before the tremors knock them down.",
-  "type": "Trinket",
-  "value": 5000,
-  "recyclesInto": {},
-  "updatedAt": "11/01/2025",
-  "rarity": "Rare",
-  "weightKg": 0.2,
-  "stackSize": 3,
-  "foundIn": "Residential, Commercial",
-  "imageFilename": "https://cdn.arctracker.io/items/playing_cards.png"
+	"id": "playing_cards",
+	"name": "Playing Cards",
+	"description": "Speranzans love to see who can build the tallest tower - before the tremors knock them down.",
+	"type": "Trinket",
+	"value": 5000,
+	"recyclesInto": {},
+	"updatedAt": "11/01/2025",
+	"rarity": "Rare",
+	"weightKg": 0.2,
+	"stackSize": 3,
+	"foundIn": "Residential, Commercial",
+	"imageFilename": "https://cdn.arctracker.io/items/playing_cards.png"
 }
