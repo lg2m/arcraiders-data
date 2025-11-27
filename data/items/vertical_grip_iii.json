@@ -50,7 +50,7 @@
       "value": "30%"
     }
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "recipe": {
     "mod_components": 2,
     "duct_tape": 5

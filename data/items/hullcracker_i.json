@@ -125,6 +125,6 @@
     "heavy_gun_parts": 3,
     "exodus_modules": 1
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 3
 }

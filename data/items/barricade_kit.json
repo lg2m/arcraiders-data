@@ -59,6 +59,6 @@
   "recipe": {
     "mechanical_components": 1
   },
-  "craftBench": "utility_bench",
+  "craftBench": "utility_station",
   "stationLevelRequired": 1
 }

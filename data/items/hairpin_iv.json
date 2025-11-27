@@ -185,7 +185,7 @@
   "salvagesInto": {
     "simple_gun_parts": 2
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "upgradeCost": {
     "mechanical_components": 1,
     "simple_gun_parts": 1

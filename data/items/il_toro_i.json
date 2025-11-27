@@ -123,6 +123,6 @@
     "mechanical_components": 5,
     "simple_gun_parts": 6
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 1
 }

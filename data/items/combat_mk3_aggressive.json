@@ -180,7 +180,7 @@
     "advanced_electrical_components": 2,
     "processor": 3
   },
-  "craftBench": "equipment_bench",
+  "craftBench": "gear_bench",
   "stationLevelRequired": 3,
   "blueprintLocked": true,
   "repairCost": {

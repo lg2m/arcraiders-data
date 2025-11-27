@@ -1,6 +1,7 @@
 {
-  "id": "utility_bench",
-  "name": "Utility Station",
+  "id": "gear_bench",
+  "name": "Gear Bench",
+  "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgPWLKFGMKGmVzYtNf6C23Dq9BRheSxy7s5Pcg",
   "maxLevel": 3,
   "levels": [
     {
@@ -8,11 +9,11 @@
       "requirementItemIds": [
         {
           "itemId": "plastic_parts",
-          "quantity": 50
+          "quantity": 25
         },
         {
-          "itemId": "arc_alloy",
-          "quantity": 6
+          "itemId": "fabric",
+          "quantity": 30
         }
       ],
       "description": null
@@ -21,16 +22,16 @@
       "level": 2,
       "requirementItemIds": [
         {
-          "itemId": "damaged_heat_sink",
-          "quantity": 2
+          "itemId": "power_cable",
+          "quantity": 3
         },
         {
           "itemId": "electrical_components",
           "quantity": 5
         },
         {
-          "itemId": "snitch_scanner",
-          "quantity": 6
+          "itemId": "hornet_driver",
+          "quantity": 5
         }
       ],
       "description": null
@@ -39,7 +40,7 @@
       "level": 3,
       "requirementItemIds": [
         {
-          "itemId": "fried_motherboard",
+          "itemId": "industrial_battery",
           "quantity": 3
         },
         {
@@ -47,8 +48,8 @@
           "quantity": 5
         },
         {
-          "itemId": "leaper_pulse_unit",
-          "quantity": 4
+          "itemId": "bastion_cell",
+          "quantity": 6
         }
       ],
       "description": null

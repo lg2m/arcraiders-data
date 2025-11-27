@@ -35,7 +35,7 @@
     "advanced_electrical_components": 2,
     "speaker_component": 4
   },
-  "craftBench": "utility_bench",
+  "craftBench": "utility_station",
   "recyclesInto": {
     "advanced_electrical_components": 1,
     "speaker_component": 1

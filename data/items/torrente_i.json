@@ -123,6 +123,6 @@
     "medium_gun_parts": 3,
     "steel_spring": 6
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "weightKg": 12
 }

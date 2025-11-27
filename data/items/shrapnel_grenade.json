@@ -60,6 +60,6 @@
     "crude_explosives": 1,
     "steel_spring": 2
   },
-  "craftBench": "explosives_bench",
+  "craftBench": "explosives_station",
   "imageFilename": "https://cdn.arctracker.io/items/shrapnel_grenade.png"
 }

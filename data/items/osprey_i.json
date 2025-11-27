@@ -141,6 +141,6 @@
     "medium_gun_parts": 3,
     "wires": 7
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 2
 }

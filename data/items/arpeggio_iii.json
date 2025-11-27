@@ -157,7 +157,7 @@
       "value": "25%"
     }
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "upgradeCost": {
     "mechanical_components": 5,
     "medium_gun_parts": 1

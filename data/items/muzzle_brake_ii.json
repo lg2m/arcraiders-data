@@ -13,7 +13,7 @@
     "mechanical_components": 2,
     "wires": 4
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "weightKg": 0.5,
   "effects": {
     "Reduced Vertical Recoil": {

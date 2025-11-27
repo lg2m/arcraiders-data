@@ -13,7 +13,7 @@
     "plastic_parts": 9,
     "moss": 1
   },
-  "craftBench": "med_station",
+  "craftBench": "medical_lab",
   "weightKg": 0.75,
   "stackSize": 3,
   "effects": {

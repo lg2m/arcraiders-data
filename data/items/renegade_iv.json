@@ -156,7 +156,7 @@
     "advanced_mechanical_components": 2,
     "medium_gun_parts": 2
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 1,
   "description": "Lever-action battle rifle with high damage output, accuracy, and headshot damage.",
   "type": "Battle Rifle",

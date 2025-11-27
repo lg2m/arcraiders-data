@@ -82,7 +82,7 @@
     "chemicals": 3,
     "plastic_parts": 3
   },
-  "craftBench": "med_station",
+  "craftBench": "medical_lab",
   "salvagesInto": {
     "chemicals": 1
   }

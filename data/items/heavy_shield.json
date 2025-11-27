@@ -102,5 +102,5 @@
     "power_rod": 1,
     "voltage_converter": 2
   },
-  "craftBench": "equipment_bench"
+  "craftBench": "gear_bench"
 }

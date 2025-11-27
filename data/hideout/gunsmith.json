@@ -1,6 +1,7 @@
 {
-  "id": "weapon_bench",
+  "id": "gunsmith",
   "name": "Gunsmith",
+  "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgPWLKFGMKGmVzYtNf6C23Dq9BRheSxy7s5Pcg",
   "maxLevel": 3,
   "levels": [
     {

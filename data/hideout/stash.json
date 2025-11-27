@@ -1,6 +1,7 @@
 {
   "id": "stash",
   "name": "Stash",
+  "image": null,
   "maxLevel": 10,
   "levels": [
     {

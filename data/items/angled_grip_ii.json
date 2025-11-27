@@ -14,7 +14,7 @@
     "mechanical_components": 2,
     "duct_tape": 3
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "effects": {
     "Reduced Horizontal Recoil": {
       "en": "Reduced Horizontal Recoil",

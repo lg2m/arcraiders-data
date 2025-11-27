@@ -12,7 +12,7 @@
     "rope": 1,
     "metal_parts": 1
   },
-  "craftBench": "utility_bench",
+  "craftBench": "utility_station",
   "recipe": {
     "rope": 1,
     "mechanical_components": 1

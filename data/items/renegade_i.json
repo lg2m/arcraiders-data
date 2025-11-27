@@ -124,6 +124,6 @@
     "medium_gun_parts": 3,
     "oil": 5
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 3
 }

@@ -134,7 +134,7 @@
     "mechanical_components": 4,
     "heavy_gun_parts": 1
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 1,
   "recyclesInto": {
     "mechanical_components": 5,

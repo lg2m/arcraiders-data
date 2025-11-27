@@ -82,7 +82,7 @@
   },
   "imageFilename": "https://cdn.arctracker.io/items/looting_mk1.png",
   "craftBench": [
-    "equipment_bench",
+    "gear_bench",
     "workbench"
   ]
 }

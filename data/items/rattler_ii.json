@@ -112,7 +112,7 @@
   "upgradeCost": {
     "mechanical_components": 2
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 1,
   "recyclesInto": {
     "metal_parts": 12

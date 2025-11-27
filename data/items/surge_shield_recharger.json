@@ -60,5 +60,5 @@
     "electrical_components": 1,
     "advanced_arc_powercell": 1
   },
-  "craftBench": "med_station"
+  "craftBench": "medical_lab"
 }

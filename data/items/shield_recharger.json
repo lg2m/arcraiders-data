@@ -80,7 +80,7 @@
   },
   "craftBench": [
     "workbench",
-    "med_station"
+    "medical_lab"
   ],
   "recyclesInto": {
     "rubber_parts": 4

@@ -75,7 +75,7 @@
     "mod_components": 2,
     "duct_tape": 5
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 3,
   "recyclesInto": {
     "mod_components": 1,

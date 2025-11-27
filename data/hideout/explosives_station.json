@@ -1,18 +1,19 @@
 {
-  "id": "equipment_bench",
-  "name": "Gear Bench",
+  "id": "explosives_station",
+  "name": "Explosives Station",
+  "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgwK8NbIJbNj68PHJDsldV2BgX0qGihzm5FfvK",
   "maxLevel": 3,
   "levels": [
     {
       "level": 1,
       "requirementItemIds": [
         {
-          "itemId": "plastic_parts",
-          "quantity": 25
+          "itemId": "rubber_parts",
+          "quantity": 50
         },
         {
-          "itemId": "fabric",
-          "quantity": 30
+          "itemId": "arc_alloy",
+          "quantity": 6
         }
       ],
       "description": null
@@ -21,15 +22,15 @@
       "level": 2,
       "requirementItemIds": [
         {
-          "itemId": "power_cable",
+          "itemId": "synthesized_fuel",
           "quantity": 3
         },
         {
-          "itemId": "electrical_components",
+          "itemId": "crude_explosives",
           "quantity": 5
         },
         {
-          "itemId": "hornet_driver",
+          "itemId": "pop_trigger",
           "quantity": 5
         }
       ],
@@ -39,16 +40,16 @@
       "level": 3,
       "requirementItemIds": [
         {
-          "itemId": "industrial_battery",
+          "itemId": "laboratory_reagents",
           "quantity": 3
         },
         {
-          "itemId": "advanced_electrical_components",
+          "itemId": "explosive_compound",
           "quantity": 5
         },
         {
-          "itemId": "bastion_cell",
-          "quantity": 6
+          "itemId": "rocketeer_driver",
+          "quantity": 3
         }
       ],
       "description": null

@@ -97,5 +97,5 @@
     "mechanical_components": 2,
     "wires": 8
   },
-  "craftBench": "weapon_bench"
+  "craftBench": "gunsmith"
 }

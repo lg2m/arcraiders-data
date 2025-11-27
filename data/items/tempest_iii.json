@@ -159,7 +159,7 @@
     "advanced_mechanical_components": 4,
     "medium_gun_parts": 4
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "upgradeCost": {
     "advanced_mechanical_components": 4,
     "medium_gun_parts": 4

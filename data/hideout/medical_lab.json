@@ -1,13 +1,14 @@
 {
-  "id": "explosives_bench",
-  "name": "Explosives Station",
+  "id": "medical_lab",
+  "name": "Medical Lab",
+  "image": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgkQKBiIEGT7Sfsh1cMDVx48QPybJjwlIpAWB6",
   "maxLevel": 3,
   "levels": [
     {
       "level": 1,
       "requirementItemIds": [
         {
-          "itemId": "rubber_parts",
+          "itemId": "fabric",
           "quantity": 50
         },
         {
@@ -21,16 +22,16 @@
       "level": 2,
       "requirementItemIds": [
         {
-          "itemId": "synthesized_fuel",
-          "quantity": 3
+          "itemId": "cracked_bioscanner",
+          "quantity": 2
         },
         {
-          "itemId": "crude_explosives",
+          "itemId": "durable_cloth",
           "quantity": 5
         },
         {
-          "itemId": "pop_trigger",
-          "quantity": 5
+          "itemId": "tick_pod",
+          "quantity": 8
         }
       ],
       "description": null
@@ -39,16 +40,16 @@
       "level": 3,
       "requirementItemIds": [
         {
-          "itemId": "laboratory_reagents",
+          "itemId": "rusted_shut_medical_kit",
           "quantity": 3
         },
         {
-          "itemId": "explosive_compound",
+          "itemId": "antiseptic",
+          "quantity": 8
+        },
+        {
+          "itemId": "surveyor_vault",
           "quantity": 5
-        },
-        {
-          "itemId": "rocketeer_driver",
-          "quantity": 3
         }
       ],
       "description": null

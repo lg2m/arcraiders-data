@@ -124,5 +124,5 @@
     "mechanical_components": 3,
     "simple_gun_parts": 3
   },
-  "craftBench": "weapon_bench"
+  "craftBench": "gunsmith"
 }

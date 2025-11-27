@@ -61,7 +61,7 @@
     "electrical_components": 1,
     "sensors": 1
   },
-  "craftBench": "utility_bench",
+  "craftBench": "utility_station",
   "salvagesInto": {
     "sensors": 1
   }

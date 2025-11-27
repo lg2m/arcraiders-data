@@ -76,7 +76,7 @@
     "advanced_electrical_components": 1,
     "processor": 1
   },
-  "craftBench": "equipment_bench",
+  "craftBench": "gear_bench",
   "recipe": {
     "advanced_mechanical_components": 2,
     "processor": 2

@@ -64,7 +64,7 @@
   "salvagesInto": {
     "mod_components": 1
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 3,
   "updatedAt": "11/16/2025",
   "imageFilename": "https://cdn.arctracker.io/items/silencer_iii.png"

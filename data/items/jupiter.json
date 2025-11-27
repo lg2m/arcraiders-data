@@ -124,7 +124,7 @@
     "complex_gun_parts": 3,
     "queen_reactor": 1
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 3,
   "blueprintLocked": true,
   "repairCost": {

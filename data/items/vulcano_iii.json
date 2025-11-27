@@ -203,7 +203,7 @@
   },
   "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
   "updatedAt": "11/12/2025",
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "upgradeCost": {
     "advanced_mechanical_components": 2,
     "heavy_gun_parts": 1

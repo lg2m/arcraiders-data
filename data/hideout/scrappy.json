@@ -1,6 +1,7 @@
 {
   "id": "scrappy",
   "name": "Scrappy",
+  "image": null,
   "maxLevel": 5,
   "levels": [
     {

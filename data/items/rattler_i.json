@@ -122,6 +122,6 @@
     "metal_parts": 16,
     "rubber_parts": 12
   },
-  "craftBench": "weapon_bench",
+  "craftBench": "gunsmith",
   "stationLevelRequired": 1
 }

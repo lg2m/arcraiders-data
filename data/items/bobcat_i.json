@@ -19,7 +19,7 @@
     "exodus_modules": 2
   },
   "craftBench": [
-    "weapon_bench"
+    "gunsmith"
   ],
   "stationLevelRequired": 3,
   "weightKg": 7,
