@@ -77,5 +77,9 @@
 		"electrical_components": 2,
 		"magnet": 3
 	},
+	"recyclesInto": {
+		"magnet": 1,
+		"electrical_components": 1
+	},
 	"craftBench": "gear_bench"
 }
