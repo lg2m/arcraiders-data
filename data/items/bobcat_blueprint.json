@@ -1,11 +1,11 @@
 {
 	"id": "bobcat_blueprint",
 	"name": "Bobcat Blueprint",
-	"description": "Fully automatic SMG with high fire rate but low accuracy.",
+	"description": "Lets you craft a Bobcat I",
 	"type": "Blueprint",
-	"value": 15000,
+	"value": 5000,
 	"weightKg": 0,
-	"rarity": "Epic",
-	"imageFilename": "https://cdn.arctracker.io/items/bobcat_blueprint.png",
-	"updatedAt": "11/25/2025"
+	"rarity": "Legendary",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGg2phX6vFzCmA0cvfuIZPHYkrxl5X7JUdpDGbR",
+	"updatedAt": "12/03/2025"
 }
