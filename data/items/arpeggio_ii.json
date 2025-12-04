@@ -2,10 +2,9 @@
 	"id": "arpeggio_ii",
 	"name": "Arpeggio II",
 	"description": "A 3-round burst assault rifle with decent damage output and accuracy.",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgnAr5FRxcWwMBYtPmyX0V3NDaLFgdvleRqUKG",
 	"type": "Assault Rifle",
 	"rarity": "Uncommon",
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgguZ7jdN1HU52zw1QohMDCpBsGmVc7dOxJPuk",
-	"updatedAt": "11/11/2025",
 	"value": 8000,
 	"weightKg": 6,
 	"effects": {
@@ -26,5 +25,6 @@
 		"simple_gun_parts": 3,
 		"arpeggio_i": 1
 	},
-	"isWeapon": true
+	"isWeapon": true,
+	"updatedAt": "12/03/2025"
 }
