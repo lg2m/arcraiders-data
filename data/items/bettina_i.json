@@ -20,12 +20,12 @@
 	},
 	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgbLJjztNnAF3Goy6LHJ0YZa1UetQrjiTCEcWB",
 	"updatedAt": "11/09/2025",
+	"craftBench": ["gunsmith"],
 	"recipe": {
 		"advanced_mechanical_components": 3,
 		"heavy_gun_parts": 3,
 		"canister": 3,
 		"bettina_blueprint": 1
 	},
-	"craftBench": "gunsmith",
 	"isWeapon": true
 }

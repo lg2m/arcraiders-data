@@ -3,8 +3,9 @@
 	"name": "Anvil IV",
 	"description": "Single-action hand cannon with high damage and headshot damage, but slow handling.",
 	"type": "Hand Cannon",
-	"value": 13000,
 	"rarity": "Uncommon",
+	"value": 13000,
+	"weightKg": 5,
 	"effects": {
 		"Durability": 130,
 		"Ammo Type": "heavy_ammo",
@@ -17,7 +18,6 @@
 		"Reduced Durability Burn Rate": 0,
 		"Range": 50.2
 	},
-	"weightKg": 5,
 	"upgradeCost": {
 		"mechanical_components": 4,
 		"heavy_gun_parts": 1,

@@ -20,10 +20,10 @@
 		"Reduced Reload Time": 0,
 		"Range": 55.9
 	},
+	"craftBench": ["gunsmith"],
 	"recipe": {
 		"mechanical_components": 6,
 		"simple_gun_parts": 6
 	},
-	"craftBench": ["gunsmith"],
 	"isWeapon": true
 }

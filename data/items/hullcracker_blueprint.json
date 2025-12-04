@@ -1,11 +1,11 @@
 {
 	"id": "hullcracker_blueprint",
 	"name": "Hullcracker Blueprint",
-	"description": "Anti-ARC payloads used mainly by the Hullcracker.",
+	"description": "Lets you craft an Hullcracker.",
 	"type": "Blueprint",
 	"value": 5000,
 	"weightKg": 0,
-	"imageFilename": "https://cdn.arctracker.io/items/hullcracker_blueprint.png",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgDc9U8pPNACLGbZP9qI8Kzca2p0OHfSUiruYv",
 	"rarity": "Legendary",
-	"updatedAt": "11/16/2025"
+	"updatedAt": "12/03/2025"
 }

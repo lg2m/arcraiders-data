@@ -3,7 +3,9 @@
 	"name": "Burletta Blueprint",
 	"description": "A blueprint to craft the Burletta weapon.",
 	"type": "Blueprint",
-	"updatedAt": "11/12/2025",
+	"value": 5000,
+	"weightKg": 0,
 	"rarity": "Legendary",
-	"imageFilename": "https://cdn.arctracker.io/items/burletta.png"
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgBPDL6Pgj35k0ZDyoqc7hUjmtNXWHwziKvOEl",
+	"updatedAt": "12/03/2025"
 }
