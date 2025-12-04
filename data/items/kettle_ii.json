@@ -1,15 +1,43 @@
 {
 	"id": "kettle_ii",
 	"name": "Kettle II",
-	"description": "Semi-automatic assault rifle. Quick and accurate, but has low bullet velocity and takes a long time reload.",
-	"type": "Weapon",
+	"description": "Quick and accurate, but has low bullet velocity and takes a long time reload.",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGggJ7VB41HU52zw1QohMDCpBsGmVc7dOxJPuk0",
+	"type": "Assault Rifle",
 	"rarity": "Common",
-	"value": 840,
+	"value": 2000,
 	"weightKg": 7,
+	"effects": {
+		"Durability": 110,
+		"Ammo Type": "light_ammo",
+		"Magazine Size": 20,
+		"Firing Mode": "Single",
+		"ARC Armor Penetration": "Very Weak",
+		"Increased Fire Rate": 0,
+		"Increased Bullet Velocity": 25,
+		"Reduced Dispersion Recovery Time": 0,
+		"Reduced Durability Burn Rate": 0,
+		"Reduced Horizontal Recoil": 0,
+		"Reduced Max Shot Dispersion": 0,
+		"Reduced Reload Time": 13,
+		"Range": 42.8,
+		"Damage": 10.0,
+		"Fire Rate": 28.0,
+		"Stability": 69.8,
+		"Agility": 58.5,
+		"Stealth": 26.0
+	},
+	"stationLevelRequired": 1,
+	"craftBench": ["gunsmith"],
+	"upgradeCost": {
+		"kettle_i": 1,
+		"metal_parts": 8,
+		"plastic_parts": 10
+	},
 	"recyclesInto": {
-		"plastic_parts": 6,
+		"metal_parts": 6,
 		"rubber_parts": 6
 	},
-	"imageFilename": "https://cdn.arctracker.io/items/kettle.png",
-	"updatedAt": "10/30/2025"
+	"isWeapon": true,
+	"updatedAt": "12/03/2025"
 }
