@@ -28,7 +28,7 @@
 	"upgradeCost": {
 		"metal_parts": 9,
 		"simple_gun_parts": 1,
-		"ferro_ii": true
+		"ferro_ii": 1
 	},
 	"recyclesInto": {
 		"metal_parts": 6,
