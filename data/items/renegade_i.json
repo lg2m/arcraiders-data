@@ -33,13 +33,12 @@
 	"recipe": {
 		"advanced_mechanical_components": 2,
 		"medium_gun_parts": 3,
-		"oil": 5,
-		"renegade_blueprint": 1
+		"oil": 5
 	},
 	"recyclesInto": {
 		"advanced_mechanical_components": 1,
 		"medium_gun_parts": 2
 	},
 	"isWeapon": true,
-	"updatedAt": "12/03/2025"
+	"updatedAt": "12/06/2025"
 }
