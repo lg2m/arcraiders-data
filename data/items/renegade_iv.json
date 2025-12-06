@@ -27,9 +27,7 @@
 		"Stealth": 16.0
 	},
 	"stationLevelRequired": 1,
-	"craftBench": [
-		"gunsmith"
-	],
+	"craftBench": ["gunsmith"],
 	"upgradeCost": {
 		"advanced_mechanical_components": 2,
 		"medium_gun_parts": 2,

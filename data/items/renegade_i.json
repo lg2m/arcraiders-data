@@ -2,7 +2,7 @@
 	"id": "renegade_i",
 	"name": "Renegade I",
 	"description": "Has high damage output, accuracy, and headshot damage.",
-	"imageFilename": "https://cdn.arctracker.io/items/renegade.png",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGga3c4NgHCbLgZmsPyp7ozTIrVBe4k2QdKJiDY",
 	"type": "Battle Rifle",
 	"rarity": "Rare",
 	"value": 7000,
@@ -27,9 +27,7 @@
 		"Stealth": 16.0
 	},
 	"stationLevelRequired": 3,
-	"craftBench": [
-		"gunsmith"
-	],
+	"craftBench": ["gunsmith"],
 	"recipe": {
 		"advanced_mechanical_components": 2,
 		"medium_gun_parts": 3,
