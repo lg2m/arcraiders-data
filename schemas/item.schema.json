@@ -1,0 +1,103 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ARC Raiders Item",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "type",
+    "rarity"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "format": "uri-reference",
+      "description": "Relative path to this schema for editor support."
+    },
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the item."
+    },
+    "name": {
+      "type": "string",
+      "description": "English display name of the item."
+    },
+    "description": {
+      "type": "string",
+      "description": "English description of the item."
+    },
+    "type": {
+      "type": "string",
+      "description": "Category or slot of the item."
+    },
+    "rarity": {
+      "type": "string",
+      "description": "Rarity tier of the item."
+    },
+    "value": {
+      "type": "number",
+      "description": "Sell or scrap value of the item."
+    },
+    "recyclesInto": {
+      "type": "object",
+      "description": "Materials obtained when recycling the item.",
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+    "weightKg": {
+      "type": "number",
+      "description": "Weight of the item in kilograms."
+    },
+    "stackSize": {
+      "type": "integer",
+      "description": "Maximum stack size for the item."
+    },
+    "effects": {
+      "type": "array",
+      "description": "Gameplay effects shown on the item tooltip.",
+      "items": {
+        "type": "object",
+        "required": ["label"],
+        "properties": {
+          "label": {
+            "type": "string",
+            "description": "English name of the effect."
+          },
+          "value": {
+            "type": ["string", "number"],
+            "description": "Value associated with the effect."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "imageFilename": {
+      "type": "string",
+      "description": "URL or path to the item's image asset."
+    },
+    "recipe": {
+      "type": "object",
+      "description": "Materials required to craft the item.",
+      "additionalProperties": {
+        "type": "number"
+      }
+    },
+    "craftBench": {
+      "description": "Workbench or station required to craft the item.",
+      "oneOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      ]
+    }
+  },
+  "additionalProperties": true
+}
