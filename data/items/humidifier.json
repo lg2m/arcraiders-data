@@ -1,17 +1,17 @@
 {
 	"id": "humidifier",
 	"name": "Humidifier",
+	"imageFilename": "https://cdn.arctracker.io/items/humidifier.png",
 	"rarity": "Rare",
 	"type": "Recyclable",
 	"value": 1000,
 	"recyclesInto": {
-		"canister": 3,
+		"canister": 2,
 		"wires": 2
 	},
 	"description": "Can be recycled into crafting materials.",
 	"foundIn": "Residential",
 	"weightKg": 2,
 	"stackSize": 3,
-	"imageFilename": "https://cdn.arctracker.io/items/humidifier.png",
-	"updatedAt": "11/02/2025"
+	"updatedAt": "12/06/2025"
 }
