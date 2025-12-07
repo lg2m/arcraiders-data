@@ -31,8 +31,7 @@
 	"recipe": {
 		"magnetic_accelerator": 1,
 		"heavy_gun_parts": 3,
-		"exodus_modules": 1,
-		"vulcano_blueprint": 1
+		"exodus_modules": 1
 	},
 	"recyclesInto": {
 		"advanced_mechanical_components": 2,

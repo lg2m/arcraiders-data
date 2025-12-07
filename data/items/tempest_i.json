@@ -31,8 +31,7 @@
 	"recipe": {
 		"magnetic_accelerator": 1,
 		"medium_gun_parts": 3,
-		"exodus_modules": 2,
-		"tempest_blueprint": 1
+		"exodus_modules": 2
 	},
 	"recyclesInto": {
 		"advanced_mechanical_components": 2,
