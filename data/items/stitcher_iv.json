@@ -1,15 +1,42 @@
 {
 	"id": "stitcher_iv",
 	"name": "Stitcher IV",
-	"description": "Full automatic SMG. Deals good damage, but has quite a low fire-rate and can be hard to control.",
-	"type": "Weapon",
-	"rarity": "Uncommon",
+	"description": "Deals good damage, but has quite a low fire-rate and can be hard to control.",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgQxD20CIxRzeg1DkM0hJqSw9ti2OYysPZGKmA",
+	"type": "SMG",
+	"rarity": "Common",
 	"value": 5000,
 	"weightKg": 5,
+	"effects": {
+		"Durability": 130,
+		"Ammo Type": "light_ammo",
+		"Magazine Size": 20,
+		"Firing Mode": "Fully-Automatic",
+		"ARC Armor Penetration": "Very Weak",
+		"Increased Fire Rate": 0,
+		"Reduced Dispersion Recovery Time": 0,
+		"Reduced Durability Burn Rate": 0,
+		"Reduced Horizontal Recoil": 0,
+		"Reduced Max Shot Dispersion": 0,
+		"Reduced Reload Time": 40.0,
+		"Range": 42.1,
+		"Damage": 7.0,
+		"Fire Rate": 45.3,
+		"Stability": 45.3,
+		"Agility": 73.8,
+		"Stealth": 19.0
+	},
+	"stationLevelRequired": 1,
+	"craftBench": ["gunsmith"],
+	"upgradeCost": {
+		"mechanical_components": 3,
+		"simple_gun_parts": 1,
+		"stitcher_iii": 1
+	},
 	"recyclesInto": {
 		"mechanical_components": 2,
 		"simple_gun_parts": 2
 	},
-	"imageFilename": "https://cdn.arctracker.io/items/stitcher.png",
-	"updatedAt": "10/30/2025"
+	"isWeapon": true,
+	"updatedAt": "12/06/2025"
 }

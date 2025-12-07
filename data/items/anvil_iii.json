@@ -2,22 +2,31 @@
 	"id": "anvil_iii",
 	"name": "Anvil III",
 	"description": "Single-action hand cannon with high damage and headshot damage, but slow handling.",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgXqCEvcLNqD7eP1pzZCOJdSyhFwQYBE845knT",
 	"type": "Hand Cannon",
-	"value": 10000,
 	"rarity": "Uncommon",
+	"value": 10000,
+	"weightKg": 5,
 	"effects": {
 		"Durability": 120,
 		"Ammo Type": "heavy_ammo",
 		"Magazine Size": 6,
-		"Firing Mode": "Single",
+		"Firing Mode": "Single-Action",
 		"ARC Armor Penetration": "Strong",
-		"Increased Fire Rate": 50,
+		"Increased Fire Rate": 50.0,
 		"Reduced Dispersion Recovery Time": 12.5,
-		"Reduced Reload Time": 0,
 		"Reduced Durability Burn Rate": 0,
-		"Range": 50.2
+		"Reduced Horizontal Recoil": 0,
+		"Reduced Max Shot Dispersion": 0,
+		"Reduced Reload Time": 0,
+		"Damage": 40.0,
+		"Fire Rate": 16.3,
+		"Range": 50.2,
+		"Stability": 75.2,
+		"Agility": 69.1,
+		"Stealth": 10.0
 	},
-	"weightKg": 5,
+	"stationLevelRequired": 1,
 	"craftBench": ["gunsmith"],
 	"upgradeCost": {
 		"mechanical_components": 4,
@@ -28,10 +37,13 @@
 		"mechanical_components": 4,
 		"simple_gun_parts": 4
 	},
+	"repairCost": {
+		"mechanical_components": 4,
+		"simple_gun_parts": 4
+	},
 	"salvagesInto": {
 		"simple_gun_parts": 4
 	},
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgWLDfA9THQW4B03wqgcmUVG9fuzN7njshKDSR",
-	"updatedAt": "11/06/2025",
-	"isWeapon": true
+	"isWeapon": true,
+	"updatedAt": "12/07/2025"
 }
