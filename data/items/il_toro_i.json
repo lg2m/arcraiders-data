@@ -2,7 +2,7 @@
 	"id": "il_toro_i",
 	"name": "Il Toro I",
 	"description": "Pump-action shotgun with large bullet spread, sharp falloff, and high damage output.",
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgPs5BTmMKGmVzYtNf6C23Dq9BRheSxy7s5Pcg",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGg2LjYOmzCmA0cvfuIZPHYkrxl5X7JUdpDGbRK",
 	"type": "Shotgun",
 	"rarity": "Uncommon",
 	"value": 5000,
@@ -11,7 +11,7 @@
 		"Durability": 100,
 		"Ammo Type": "shotgun_ammo",
 		"Magazine Size": 5,
-		"Firing Mode": "Single",
+		"Firing Mode": "Pump-Action",
 		"ARC Armor Penetration": "Weak",
 		"Increased Fire Rate": 0,
 		"Reduced Dispersion Recovery Time": 0,
@@ -19,9 +19,9 @@
 		"Reduced Horizontal Recoil": 0,
 		"Reduced Max Shot Dispersion": 0,
 		"Reduced Reload Time": 0,
-		"Range": 20.0,
 		"Damage": 67.5,
 		"Fire Rate": 14.3,
+		"Range": 20.0,
 		"Stability": 80.6,
 		"Agility": 61.1,
 		"Stealth": 18.0
@@ -37,6 +37,13 @@
 		"mechanical_components": 2,
 		"simple_gun_parts": 2
 	},
+	"repairCost": {
+		"mechanical_components": 2,
+		"simple_gun_parts": 2
+	},
+	"salvagesInto": {
+		"simple_gun_parts": 2
+	},
 	"isWeapon": true,
-	"updatedAt": "12/03/2025"
+	"updatedAt": "12/10/2025"
 }

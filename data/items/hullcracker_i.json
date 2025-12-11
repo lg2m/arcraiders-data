@@ -2,7 +2,7 @@
 	"id": "hullcracker_i",
 	"name": "Hullcracker I",
 	"description": "Fires explosive projectiles that only detonate when hitting ARC.",
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGguBW4XYhaNI52gqwzXp9hVekWnrutymscHQC8",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGg1YuCsKZAhtKeH0jLvsyUcXJMGiVSCx9o8ld3",
 	"type": "Special",
 	"rarity": "Epic",
 	"value": 10000,
@@ -12,7 +12,7 @@
 		"Durability": 100,
 		"Ammo Type": "launcher_ammo",
 		"Magazine Size": 5,
-		"Firing Mode": "Single",
+		"Firing Mode": "Pump-Action",
 		"ARC Armor Penetration": "Very Strong",
 		"Increased Fire Rate": 0,
 		"Reduced Dispersion Recovery Time": 0,
@@ -20,9 +20,9 @@
 		"Reduced Horizontal Recoil": 0,
 		"Reduced Max Shot Dispersion": 0,
 		"Reduced Reload Time": 0,
-		"Range": 38.9,
 		"Damage": 100.0,
 		"Fire Rate": 20.3,
+		"Range": 38.9,
 		"Stability": 97.2,
 		"Agility": 67.9,
 		"Stealth": 1.0
@@ -39,6 +39,13 @@
 		"advanced_mechanical_components": 2,
 		"heavy_gun_parts": 2
 	},
+	"repairCost": {
+		"advanced_mechanical_components": 2,
+		"heavy_gun_parts": 1
+	},
+	"salvagesInto": {
+		"heavy_gun_parts": 2
+	},
 	"isWeapon": true,
-	"updatedAt": "12/03/2025"
+	"updatedAt": "12/10/2025"
 }
