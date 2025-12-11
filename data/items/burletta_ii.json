@@ -2,7 +2,7 @@
 	"id": "burletta_ii",
 	"name": "Burletta II",
 	"description": "Semi-automatic pistol with decent damage output and accuracy. Can be fired as fast as you can pull the trigger.",
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgHge3VoU1lFcVaxNoiPmUTOkKqzEZYhy73LCn",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgDRkeRRYPNACLGbZP9qI8Kzca2p0OHfSUiruY",
 	"type": "Pistol",
 	"rarity": "Uncommon",
 	"value": 5000,
@@ -11,7 +11,7 @@
 		"Durability": 110,
 		"Ammo Type": "light_ammo",
 		"Magazine Size": 12,
-		"Firing Mode": "Single",
+		"Firing Mode": "Semi-Automatic",
 		"ARC Armor Penetration": "Very Weak",
 		"Increased Fire Rate": 0,
 		"Reduced Dispersion Recovery Time": 0,
@@ -19,13 +19,14 @@
 		"Reduced Horizontal Recoil": 0,
 		"Reduced Max Shot Dispersion": 0,
 		"Reduced Reload Time": 16.6,
-		"Range": 41.7,
 		"Damage": 10.0,
 		"Fire Rate": 28.0,
+		"Range": 41.7,
 		"Stability": 74.5,
 		"Agility": 84.4,
 		"Stealth": 24.0
 	},
+	"stationLevelRequired": 1,
 	"craftBench": ["gunsmith"],
 	"upgradeCost": {
 		"mechanical_components": 3,
@@ -36,6 +37,13 @@
 		"mechanical_components": 2,
 		"simple_gun_parts": 2
 	},
+	"repairCost": {
+		"mechanical_components": 2,
+		"simple_gun_parts": 2
+	},
+	"salvagesInto": {
+		"simple_gun_parts": 2
+	},
 	"isWeapon": true,
-	"updatedAt": "12/03/2025"
+	"updatedAt": "12/10/2025"
 }

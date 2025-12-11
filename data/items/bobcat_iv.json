@@ -2,7 +2,7 @@
 	"id": "bobcat_iv",
 	"name": "Bobcat IV",
 	"description": "Fully automatic SMG with high fire rate but low accuracy.",
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgCWcifZwqkBQlZPh573L20KFEjMepRNY8aJq9",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGg6kSpThFXTE9B32zlIq4ptUxaRGyHeQuAhVDY",
 	"type": "SMG",
 	"rarity": "Epic",
 	"value": 27000,
@@ -11,21 +11,22 @@
 		"Durability": 130,
 		"Ammo Type": "light_ammo",
 		"Magazine Size": 20,
-		"Firing Mode": "Auto",
+		"Firing Mode": "Fully-Automatic",
 		"ARC Armor Penetration": "Very Weak",
 		"Increased Fire Rate": 0,
 		"Reduced Dispersion Recovery Time": 0,
 		"Reduced Durability Burn Rate": 0,
-		"Reduced Horizontal Recoil": 45,
-		"Reduced Max Shot Dispersion": 50,
-		"Reduced Reload Time": 40,
-		"Range": 44.0,
+		"Reduced Horizontal Recoil": 45.0,
+		"Reduced Max Shot Dispersion": 50.0,
+		"Reduced Reload Time": 40.0,
 		"Damage": 6.0,
 		"Fire Rate": 66.7,
+		"Range": 44.0,
 		"Stability": 45.9,
 		"Agility": 73.1,
 		"Stealth": 21.0
 	},
+	"stationLevelRequired": 1,
 	"craftBench": ["gunsmith"],
 	"upgradeCost": {
 		"advanced_mechanical_components": 2,
@@ -36,9 +37,13 @@
 		"light_gun_parts": 4,
 		"advanced_mechanical_components": 5
 	},
+	"repairCost": {
+		"light_gun_parts": 4,
+		"advanced_mechanical_components": 5
+	},
 	"salvagesInto": {
 		"light_gun_parts": 5
 	},
 	"isWeapon": true,
-	"updatedAt": "12/03/2025"
+	"updatedAt": "12/10/2025"
 }

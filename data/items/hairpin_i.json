@@ -2,7 +2,7 @@
 	"id": "hairpin_i",
 	"name": "Hairpin I",
 	"description": "Single-action pistol with a built-in silencer. Great for stealth, but tricky in combat.",
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgJIWOFeaIQroJKB3Fz1hY62fX7THknSAwqW9d",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgLnduuhs9B6dNlZf7QGXVhWRI52Cyriqv3Muw",
 	"type": "Pistol",
 	"rarity": "Common",
 	"value": 450,
@@ -11,7 +11,7 @@
 		"Durability": 100,
 		"Ammo Type": "light_ammo",
 		"Magazine Size": 8,
-		"Firing Mode": "Single",
+		"Firing Mode": "Slide-Action",
 		"ARC Armor Penetration": "Very Weak",
 		"Increased Fire Rate": 0,
 		"Reduced Dispersion Recovery Time": 0,
@@ -19,13 +19,14 @@
 		"Reduced Horizontal Recoil": 0,
 		"Reduced Max Shot Dispersion": 0,
 		"Reduced Reload Time": 0,
-		"Range": 38.6,
 		"Damage": 20.0,
 		"Fire Rate": 9.0,
+		"Range": 38.6,
 		"Stability": 90.9,
 		"Agility": 78.3,
 		"Stealth": 70.0
 	},
+	"stationLevelRequired": 1,
 	"craftBench": ["workbench", "gunsmith"],
 	"recipe": {
 		"metal_parts": 2,
@@ -35,9 +36,13 @@
 		"metal_parts": 2,
 		"rubber_parts": 1
 	},
+	"repairCost": {
+		"metal_parts": 2,
+		"rubber_parts": 1
+	},
 	"salvagesInto": {
 		"metal_parts": 2
 	},
 	"isWeapon": true,
-	"updatedAt": "12/03/2025"
+	"updatedAt": "12/10/2025"
 }

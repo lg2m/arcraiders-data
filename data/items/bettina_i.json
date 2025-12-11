@@ -2,9 +2,10 @@
 	"id": "bettina_i",
 	"name": "Bettina I",
 	"description": "Has slow fire rate and high damage output.",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgbi0Vs6NnAF3Goy6LHJ0YZa1UetQrjiTCEcWB",
 	"type": "Assault Rifle",
-	"value": 8000,
 	"rarity": "Epic",
+	"value": 8000,
 	"weightKg": 11,
 	"effects": {
 		"Durability": 100,
@@ -15,11 +16,17 @@
 		"Increased Fire Rate": 0,
 		"Reduced Dispersion Recovery Time": 0,
 		"Reduced Durability Burn Rate": 0,
+		"Reduced Horizontal Recoil": 0,
+		"Reduced Max Shot Dispersion": 0,
 		"Reduced Reload Time": 0,
-		"Range": 51.3
+		"Damage": 14.0,
+		"Fire Rate": 32.0,
+		"Range": 51.3,
+		"Stability": 76.4,
+		"Agility": 48.2,
+		"Stealth": 14.0
 	},
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgbLJjztNnAF3Goy6LHJ0YZa1UetQrjiTCEcWB",
-	"updatedAt": "11/09/2025",
+	"stationLevelRequired": 3,
 	"craftBench": ["gunsmith"],
 	"recipe": {
 		"advanced_mechanical_components": 3,
@@ -27,5 +34,17 @@
 		"canister": 3,
 		"bettina_blueprint": 1
 	},
-	"isWeapon": true
+	"recyclesInto": {
+		"advanced_mechanical_components": 1,
+		"heavy_gun_parts": 2
+	},
+	"repairCost": {
+		"advanced_mechanical_components": 1,
+		"heavy_gun_parts": 2
+	},
+	"salvagesInto": {
+		"advanced_mechanical_components": 1
+	},
+	"isWeapon": true,
+	"updatedAt": "12/10/2025"
 }

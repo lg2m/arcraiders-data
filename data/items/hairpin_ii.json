@@ -2,7 +2,7 @@
 	"id": "hairpin_ii",
 	"name": "Hairpin II",
 	"description": "Single-action pistol with a built-in silencer. Great for stealth, but tricky in combat.",
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgJIWOFeaIQroJKB3Fz1hY62fX7THknSAwqW9d",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgLnduuhs9B6dNlZf7QGXVhWRI52Cyriqv3Muw",
 	"type": "Pistol",
 	"rarity": "Common",
 	"value": 1000,
@@ -11,21 +11,22 @@
 		"Durability": 110,
 		"Ammo Type": "light_ammo",
 		"Magazine Size": 8,
-		"Firing Mode": "Single",
+		"Firing Mode": "Slide-Action",
 		"ARC Armor Penetration": "Very Weak",
-		"Increased Fire Rate": 10,
+		"Increased Fire Rate": 10.0,
 		"Reduced Dispersion Recovery Time": 0,
 		"Reduced Durability Burn Rate": 0,
 		"Reduced Horizontal Recoil": 0,
 		"Reduced Max Shot Dispersion": 0,
-		"Reduced Reload Time": 13,
-		"Range": 38.6,
+		"Reduced Reload Time": 13.0,
 		"Damage": 20.0,
 		"Fire Rate": 9.0,
+		"Range": 38.6,
 		"Stability": 90.9,
 		"Agility": 78.3,
 		"Stealth": 70.0
 	},
+	"stationLevelRequired": 1,
 	"craftBench": ["gunsmith"],
 	"upgradeCost": {
 		"metal_parts": 8,
@@ -33,11 +34,15 @@
 	},
 	"recyclesInto": {
 		"metal_parts": 4,
-		"rubber_parts": 4
+		"rubber_parts": 3
+	},
+	"repairCost": {
+		"metal_parts": 4,
+		"rubber_parts": 3
 	},
 	"salvagesInto": {
 		"metal_parts": 4
 	},
 	"isWeapon": true,
-	"updatedAt": "12/03/2025"
+	"updatedAt": "12/10/2025"
 }

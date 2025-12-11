@@ -2,27 +2,29 @@
 	"id": "equalizer-i",
 	"name": "Equalizer",
 	"description": "A high capacity experimental beam rifle.",
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgdvBqa7z6cDSTHh49zltxLW6Oo1b0IPE3VgBv",
-	"type": "LMG",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgsD8oRjnB3ZLFwuVvjnkSf4aBy6sEdhTOGzQe",
+	"type": "Special",
 	"rarity": "Legendary",
-	"value": 34000,
+	"value": 27500,
 	"weightKg": 14,
 	"effects": {
 		"Durability": 100,
 		"Ammo Type": "energy_clip",
 		"Magazine Size": 50,
-		"Firing Mode": "Auto",
+		"Firing Mode": "Fully-Automatic",
 		"ARC Armor Penetration": "Very Strong",
 		"Increased Fire Rate": 0,
 		"Reduced Dispersion Recovery Time": 0,
-		"Reduced Reload Time": 0,
 		"Reduced Durability Burn Rate": 0,
+		"Reduced Horizontal Recoil": 0,
+		"Reduced Max Shot Dispersion": 0,
+		"Reduced Reload Time": 0,
 		"Damage": 8.0,
 		"Fire Rate": 33.33,
+		"Range": 0.0,
 		"Stability": 84.6,
 		"Agility": 44.6,
-		"Stealth": 0.0,
-		"Range": 0
+		"Stealth": 0.0
 	},
 	"stationLevelRequired": 3,
 	"craftBench": ["gunsmith"],
@@ -36,13 +38,13 @@
 		"magnetic_accelerator": 2,
 		"complex_gun_parts": 1
 	},
-	"salvagesInto": {
-		"magnetic_accelerator": 1
-	},
 	"repairCost": {
 		"magnetic_accelerator": 2,
 		"complex_gun_parts": 1
 	},
+	"salvagesInto": {
+		"magnetic_accelerator": 1
+	},
 	"isWeapon": true,
-	"updatedAt": "12/03/2025"
+	"updatedAt": "12/10/2025"
 }

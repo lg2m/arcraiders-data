@@ -2,7 +2,7 @@
 	"id": "ferro_iv",
 	"name": "Ferro IV",
 	"description": "Heavy break-action rifle. Packs a punch, but must be reloaded between every shot.",
-	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgESjyE9wiUZrgY50KI3vlXyj8BPSoTc7q9H2z",
+	"imageFilename": "https://1nxt6wamdi.ufs.sh/f/9ynI9mtyLdGgdvFsHwI6cDSTHh49zltxLW6Oo1b0IPE3VgBv",
 	"type": "Battle Rifle",
 	"rarity": "Common",
 	"value": 2900,
@@ -11,19 +11,22 @@
 		"Durability": 130,
 		"Ammo Type": "heavy_ammo",
 		"Magazine Size": 1,
-		"Firing Mode": "Single",
+		"Firing Mode": "Break-Action",
 		"ARC Armor Penetration": "Strong",
 		"Increased Fire Rate": 0,
 		"Reduced Dispersion Recovery Time": 0,
-		"Reduced Reload Time": 39,
 		"Reduced Durability Burn Rate": 0,
+		"Reduced Horizontal Recoil": 0,
+		"Reduced Max Shot Dispersion": 0,
+		"Reduced Reload Time": 39.0,
 		"Damage": 40.0,
 		"Fire Rate": 6.6,
+		"Range": 53.1,
 		"Stability": 78.1,
-		"Agility": 31.1,
-		"Stealth": 8.0,
-		"Range": 53.1
+		"Agility": 32.1,
+		"Stealth": 8.0
 	},
+	"stationLevelRequired": 1,
 	"craftBench": ["gunsmith"],
 	"upgradeCost": {
 		"mechanical_components": 1,
@@ -34,9 +37,13 @@
 		"mechanical_components": 1,
 		"simple_gun_parts": 2
 	},
+	"repairCost": {
+		"mechanical_components": 1,
+		"simple_gun_parts": 2
+	},
 	"salvagesInto": {
-		"mechanical_components": 1
+		"simple_gun_parts": 2
 	},
 	"isWeapon": true,
-	"updatedAt": "12/03/2025"
+	"updatedAt": "12/10/2025"
 }
